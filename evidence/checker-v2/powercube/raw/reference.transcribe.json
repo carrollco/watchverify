@@ -1,0 +1,80 @@
+{
+ "sessionId": "voyager/transcribe/F6F18C3F17444DC687EB5DF7C501AFF6",
+ "transcript": "While one person lifts the frame, slide the hydraulic motor under the hydraulic plate. Connect the fitting then secure the pump using two bolts. Ensuring the pivoting hydraulic output fitting is facing southwest. Connect the thick hydraulic tube to the northeast intake fitting of the pump and secure the other end of the tube to the hydraulic tank. Tighten with hose clamps to prevent leakage. Now we're ready to mount the hydraulic cooler. Place the four rubber screw mounts into the corner fittings of the hydraulic cooler and bolt them to the mesh on the west side side of the frame. Ensure the hydraulic cooler wafers are against the mesh and the fan is on the inside. Next mount mount the hydraulic tube with return line filter fitting to the top of the hydraulic tank. Fit the other end of the tube to the hydraulic cooler fluid outlet. screw these fittings tightly then screw in the hydraulic filter. Now we're ready to mount",
+ "audioDurationMs": 71040,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 1580,
+   "endMs": 7260,
+   "transcript": "While one person lifts the frame, slide the hydraulic motor under the hydraulic plate."
+  },
+  {
+   "turnId": 1,
+   "startMs": 8540,
+   "endMs": 12300,
+   "transcript": "Connect the fitting then secure the pump using two bolts."
+  },
+  {
+   "turnId": 2,
+   "startMs": 12620,
+   "endMs": 17420,
+   "transcript": "Ensuring the pivoting hydraulic output fitting is facing southwest."
+  },
+  {
+   "turnId": 3,
+   "startMs": 17900,
+   "endMs": 25340,
+   "transcript": "Connect the thick hydraulic tube to the northeast intake fitting of the pump and secure the other end of the tube to the hydraulic tank."
+  },
+  {
+   "turnId": 4,
+   "startMs": 26300,
+   "endMs": 28540,
+   "transcript": "Tighten with hose clamps to prevent leakage."
+  },
+  {
+   "turnId": 5,
+   "startMs": 30220,
+   "endMs": 32860,
+   "transcript": "Now we're ready to mount the hydraulic cooler."
+  },
+  {
+   "turnId": 6,
+   "startMs": 33740,
+   "endMs": 41420,
+   "transcript": "Place the four rubber screw mounts into the corner fittings of the hydraulic cooler and bolt them to the mesh on the west side side of the frame."
+  },
+  {
+   "turnId": 7,
+   "startMs": 41820,
+   "endMs": 46780,
+   "transcript": "Ensure the hydraulic cooler wafers are against the mesh and the fan is on the inside."
+  },
+  {
+   "turnId": 8,
+   "startMs": 47580,
+   "endMs": 53500,
+   "transcript": "Next mount mount the hydraulic tube with return line filter fitting to the top of the hydraulic tank."
+  },
+  {
+   "turnId": 9,
+   "startMs": 54380,
+   "endMs": 58060,
+   "transcript": "Fit the other end of the tube to the hydraulic cooler fluid outlet."
+  },
+  {
+   "turnId": 10,
+   "startMs": 58540,
+   "endMs": 62140,
+   "transcript": "screw these fittings tightly then screw in the hydraulic filter."
+  },
+  {
+   "turnId": 11,
+   "startMs": 69580,
+   "endMs": 70540,
+   "transcript": "Now we're ready to mount"
+  }
+ ],
+ "_http": 200
+}

@@ -1,0 +1,178 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 3000,
+ "instructions": "You are given two consecutive steps of a hands-on procedure and a strip of frames from the expert's video, in time order, each labeled with its time in seconds. Find where step A's hand work ends and step B's begins. first_ends_s: the label of the last frame in which the hands are still doing step A (holding the tool at step A's place or part, or finishing its action). second_begins_s: the label of the first frame in which the hands are at step B's place or part, or start its action. Moving between places, putting a tool down or picking one up belongs to neither step. Be strict: a frame that might still be step A counts as step A. Answer only from the frames; use -1 when no frame shows the step.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "STEP A:\n{\"action\": \"rotate left blue latch\", \"objects\": [\"left blue latch\", \"laptop battery\"], \"observable_checkpoint\": \"left blue latch turned away from battery edge\"}\n\nSTEP B:\n{\"action\": \"rotate right blue latch\", \"objects\": [\"right blue latch\", \"laptop battery\"], \"observable_checkpoint\": \"right blue latch turned away from battery edge\"}\n\nFrames, in time order:"
+    },
+    {
+     "type": "input_text",
+     "text": "t=26.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:058ea69c36ee4f70"
+    },
+    {
+     "type": "input_text",
+     "text": "t=26.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:bfdc25d8bd91e9f2"
+    },
+    {
+     "type": "input_text",
+     "text": "t=26.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:07a1c54f8ec04c69"
+    },
+    {
+     "type": "input_text",
+     "text": "t=26.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:dddb6dce9d7f93bd"
+    },
+    {
+     "type": "input_text",
+     "text": "t=27.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:663af109610e0f8c"
+    },
+    {
+     "type": "input_text",
+     "text": "t=27.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:7ded406e23c95525"
+    },
+    {
+     "type": "input_text",
+     "text": "t=27.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:6e1d9b9825e75180"
+    },
+    {
+     "type": "input_text",
+     "text": "t=27.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:db6b743e3fde5f80"
+    },
+    {
+     "type": "input_text",
+     "text": "t=28.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:4d83b096b7bc3c3e"
+    },
+    {
+     "type": "input_text",
+     "text": "t=28.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:6c4f5b489da4ee32"
+    },
+    {
+     "type": "input_text",
+     "text": "t=28.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:2e5eee8778e4d13c"
+    },
+    {
+     "type": "input_text",
+     "text": "t=28.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:c661683e76c407c8"
+    },
+    {
+     "type": "input_text",
+     "text": "t=29.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:92efea703ec46401"
+    },
+    {
+     "type": "input_text",
+     "text": "t=29.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:da570f5e925d67d6"
+    },
+    {
+     "type": "input_text",
+     "text": "t=29.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:bbb8e8ed98187e55"
+    },
+    {
+     "type": "input_text",
+     "text": "t=29.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:10184010855f4798"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "boundary",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "first_ends_s": {
+      "type": "number",
+      "description": "time label of the last frame where the hands still do step A; -1 if no frame shows it"
+     },
+     "second_begins_s": {
+      "type": "number",
+      "description": "time label of the first frame where the hands begin step B; -1 if no frame shows it"
+     },
+     "evidence": {
+      "type": "string",
+      "description": "what the hands do in the frames around both times"
+     }
+    },
+    "required": [
+     "first_ends_s",
+     "second_begins_s",
+     "evidence"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

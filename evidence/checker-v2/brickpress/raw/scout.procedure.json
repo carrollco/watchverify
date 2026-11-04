@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae2241d078d548860234620",
+ "access_programs": null,
+ "created_at": 1793205277.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae2241d078d548860234620:rs_8173da46-3887-4de4-b6c1-4e89af229f95",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_5aa71c0a-9657-4373-a3b5-d3358941fd9d",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"none - time-lapse assembly with no distinct tool or machine sounds audible\", \"objects_seen\": [\"hopper\", \"grate\", \"shaker assembly\", \"hopper seat\", \"secondary cylinder\", \"primary cylinder\", \"vertical frame member\", \"cylinder mount plate\", \"top frame plate\", \"compression chamber cover plate\", \"compression chamber spacer\", \"leg\", \"foot\", \"primary arm\", \"secondary arm\", \"drawer\", \"cam roller assembly\", \"bolts\", \"hoist chain\", \"hard hat\", \"gloves\", \"white backdrop\", \"tripod camera\", \"work lights\"], \"speech_heard\": \"The Liberator is the world's first automated open source compressed earth brick press. Using 20 tons of hydraulic pressure, this machine compresses construction grade soil blocks suitable for building homes and other structures. This enables users to make cheap building materials on site, eliminating the need to buy and transport bricks while lowering environmental impact. The Liberator is built from stock steel, hydraulic components and an optional automated control unit, with material costs under $4,000 for the fully automated machine. Steel materials require fabrication using standard tools found in any well equipped metal shop. This video will demonstrate the correct assembly of all steel parts of the Liberator CEB Press, once they have been acquired and fabricated. Hydraulic and automatic control unit assembly guides are not included in this video, but can be found on the Open Source Ecology wiki. Before continuing, please be aware that the CEB Press is a large, heavy machine. Assembly should take place on a flat, stable surface, with constant attention paid to the assembled pieces until they are secured. At least two people and a heavy duty hoist should be available to complete the assembly. If a hoist is unavailable, additional people will be required. Anyone involved in this assembly must wear a hard hat, eye protection and gloves to avoid personal injury. Please exercise caution and common sense during the entire assembly process. First, ensure you have all parts ready for the assembly. Parts for the base, hopper and grate assemblies include hopper, grate with front and side soil deflectors, shaker assembly, hopper seat, secondary cylinder, feet, legs, primary arms, secondary arms, hopper support holders, hopper supports, cam rollers, hopper support holders, hopper supports, cam rollers, sensor holder. Parts for the main frame assembly include vertical frame members, primary cylinder, cylinder mount plates, top frame plates, compression chamber cover plates, compression chamber chamber spacers. The Liberator has two ends that serve different functions. The loading side of the Liberator is the end from which soil is loaded into the hopper. Sides of the Liberator will be referred to in this fashion throughout this assembly video. Step 1 Main Frame Assembly. Lay out the main frame pieces on the ground. Bolt the compression chamber spacers to the vertical frame members. Attach one cylinder mount plate and top frame plate to the vertical frame members and stand the frame up. Bolt on the second cylinder mount and top frame plates, and insert the primary hydraulic cylinder with cylinder mount plate and secure with pin. Now attach the compression chamber cover plates. This completes the main frame assembly. Step 2 Base Assembly. Clear an open area and place the four legs in the four feet. Next, insert the legs into the outer leg holders on the secondary arms for the loading side and ejection side of the machine. Note that placement of the secondary arm with the central welded tabs dictates the loading side of the machine. Next, attach the primary arms to the secondary arms. Ensure the midway bolt holes on both primary arms align. The position of these bolt holes must be biased towards the ejection side of the base assembly. Use a hoist to lower the main frame assembly between the primary arms. Ensure the main frame assembly is placed by the midway bolt holes on the primary arms with its width parallel to the primary arms so the base assembly can be raised around it. An alternate procedure is to attach only one primary arm to the secondary arms, raise the three arms to the required height, shuffle the frame assembly into place, and attach the remaining arm around the frame. This avoids the need to use a hoist. It is important to tighten the bolts in the leg mounts firmly before proceeding. Now pivot the main frame assembly so the bolt holes align with the four midway bolt holes on the primary arms. Bolt these together securely. Next, mount the drawer into the main frame assembly such that the one inch by three inch rail arm is up. Now attach the base of the secondary cylinder to the central welded tabs on the secondary arm on the loading side of the machine. Attach the piston of the secondary cylinder to the tabs on the drawer. Now attach the four cam roller assemblies to the primary arms. Slide each of the four arms of the drawer onto a cam roller and secure the cam roller assemblies to the primary arms. This completes the base assembly. Step 3 Hopper Assembly.\", \"steps\": [{\"action\": \"lay out hopper and base parts on floor\", \"cannot_see\": \"bolt threads and exact part counts under motion blur\", \"checkpoint_visibility\": \"clear\", \"end_s\": 109.0, \"evidence_s\": 107.0, \"index\": 0, \"objects\": [\"hopper\", \"grate\", \"primary arm\", \"secondary arm\"], \"observable_checkpoint\": \"hopper, grate, arms, legs and cylinders arranged in rows on concrete floor\", \"pass_condition\": \"all base and hopper parts visible in layout\", \"start_s\": 98.0}, {\"action\": \"bolt spacers to vertical members\", \"cannot_see\": \"bolt torque and thread engagement\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 195.0, \"evidence_s\": 192.0, \"index\": 1, \"objects\": [\"wrench\", \"vertical frame member\", \"compression chamber spacer\"], \"observable_checkpoint\": \"small spacer blocks bolted to inner faces of both vertical frame members\", \"pass_condition\": \"spacers fixed to both vertical members\", \"start_s\": 187.0}, {\"action\": \"join vertical members with end plates\", \"cannot_see\": \"bolt tightness on far side\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 203.0, \"evidence_s\": 200.0, \"index\": 2, \"objects\": [\"cylinder mount plate\", \"top frame plate\", \"vertical frame member\"], \"observable_checkpoint\": \"two vertical members joined into rectangular frame lying flat on floor\", \"pass_condition\": \"frame forms closed rectangle\", \"start_s\": 195.0}, {\"action\": \"stand frame upright\", \"cannot_see\": \"whether frame is plumb\", \"checkpoint_visibility\": \"clear\", \"end_s\": 207.0, \"evidence_s\": 205.0, \"index\": 3, \"objects\": [\"rectangular frame\"], \"observable_checkpoint\": \"frame standing vertical on floor\", \"pass_condition\": \"frame upright and self-supporting\", \"start_s\": 203.0}, {\"action\": \"insert primary cylinder and pin\", \"cannot_see\": \"pin clip fully seated\", \"checkpoint_visibility\": \"clear\", \"end_s\": 213.0, \"evidence_s\": 211.0, \"index\": 4, \"objects\": [\"primary cylinder\", \"rectangular frame\"], \"observable_checkpoint\": \"rusty hydraulic cylinder centered inside frame with rod up\", \"pass_condition\": \"cylinder seated in frame and pinned\", \"start_s\": 208.0}, {\"action\": \"bolt on cover plates\", \"cannot_see\": \"bolt torque\", \"checkpoint_visibility\": \"clear\", \"end_s\": 221.0, \"evidence_s\": 219.0, \"index\": 5, \"objects\": [\"wrench\", \"compression chamber cover plate\", \"rectangular frame\"], \"observable_checkpoint\": \"flat cover plates bolted across top and middle of frame\", \"pass_condition\": \"cover plates fastened to frame\", \"start_s\": 213.0}, {\"action\": \"hoist finished frame away\", \"cannot_see\": \"hoist load rating\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 226.0, \"evidence_s\": 224.0, \"index\": 6, \"objects\": [\"hoist chain\", \"main frame assembly\"], \"observable_checkpoint\": \"frame hanging from chain and swinging clear of work area\", \"pass_condition\": \"frame lifted off floor\", \"start_s\": 222.0}, {\"action\": \"set legs into feet\", \"cannot_see\": \"leg-to-foot fit tolerance\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 236.0, \"evidence_s\": 235.0, \"index\": 7, \"objects\": [\"leg\", \"foot\"], \"observable_checkpoint\": \"four vertical posts standing in square foot plates on floor\", \"pass_condition\": \"four legs upright in feet\", \"start_s\": 232.0}, {\"action\": \"mount arms onto legs\", \"cannot_see\": \"bolt tightness in leg holders\", \"checkpoint_visibility\": \"clear\", \"end_s\": 262.0, \"evidence_s\": 260.0, \"index\": 8, \"objects\": [\"secondary arm\", \"primary arm\", \"leg\"], \"observable_checkpoint\": \"long cross beams resting on leg brackets forming base rectangle\", \"pass_condition\": \"secondary and primary arms supported on legs\", \"start_s\": 254.0}, {\"action\": \"lower frame between arms with hoist\", \"cannot_see\": \"alignment of bolt holes during lowering\", \"checkpoint_visibility\": \"clear\", \"end_s\": 279.0, \"evidence_s\": 277.0, \"index\": 9, \"objects\": [\"hoist chain\", \"main frame assembly\", \"primary arm\"], \"observable_checkpoint\": \"main frame centered between primary arms on base\", \"pass_condition\": \"frame positioned at midway holes of arms\", \"start_s\": 273.0}, {\"action\": \"slide drawer into frame\", \"cannot_see\": \"drawer orientation inside chamber\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 335.0, \"evidence_s\": 333.0, \"index\": 10, \"objects\": [\"drawer\", \"main frame assembly\"], \"observable_checkpoint\": \"metal drawer box inserted through side of main frame\", \"pass_condition\": \"drawer seated in compression chamber\", \"start_s\": 329.0}, {\"action\": \"connect secondary cylinder to drawer\", \"cannot_see\": \"hydraulic fittings sealed\", \"checkpoint_visibility\": \"clear\", \"end_s\": 348.0, \"evidence_s\": 344.0, \"index\": 11, \"objects\": [\"secondary hydraulic cylinder\", \"drawer\", \"secondary arm\"], \"observable_checkpoint\": \"black hydraulic cylinder linked between drawer tabs and arm tabs\", \"pass_condition\": \"cylinder pinned at both ends\", \"start_s\": 341.0}, {\"action\": \"fasten cam roller guides\", \"cannot_see\": \"roller preload and exact torque\", \"checkpoint_visibility\": \"clear\", \"end_s\": 368.0, \"evidence_s\": 366.0, \"index\": 12, \"objects\": [\"wrench\", \"cam roller assembly\", \"drawer\"], \"observable_checkpoint\": \"bolted roller blocks tight against drawer rails on both sides\", \"pass_condition\": \"drawer slides on four rollers and bolts secured\", \"start_s\": 354.0}], \"task\": \"Assemble Liberator CEB Press v4 main frame and base\", \"track\": [\"hoist chain\", \"primary cylinder\", \"secondary hydraulic cylinder\", \"drawer\"], \"uncertainty\": \"Time-lapse with heavy motion blur makes exact start-end times and bolt counts approximate; some narration-described details like hole bias and torque are not visually verifiable\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205277.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object",
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 83332,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5395,
+  "output_tokens_details": {
+   "reasoning_tokens": 2914
+  },
+  "total_tokens": 88727
+ },
+ "user": null,
+ "store": true
+}

@@ -1,0 +1,138 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 6000,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "Watch this clip and produce the step procedure. Also transcribe any speech you hear."
+    },
+    {
+     "type": "input_file",
+     "file_id": "file-1081213554904527"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "procedure",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "task": {
+      "type": "string"
+     },
+     "steps": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "index": {
+         "type": "integer"
+        },
+        "start_s": {
+         "type": "number"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "action": {
+         "type": "string",
+         "description": "one verb phrase, what the hands do"
+        },
+        "objects": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         },
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track"
+        },
+        "observable_checkpoint": {
+         "type": "string",
+         "description": "what a camera can see that shows the step was done"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "cannot_see": {
+         "type": "string",
+         "description": "a property of this step the camera cannot verify, or 'none'"
+        },
+        "checkpoint_visibility": {
+         "type": "string",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible"
+        },
+        "evidence_s": {
+         "type": "number",
+         "description": "the second in this video where the checkpoint is best seen"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ]
+      }
+     },
+     "objects_seen": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "speech_heard": {
+      "type": "string",
+      "description": "transcript of any speech in the audio track, or 'none'"
+     },
+     "audio_notes": {
+      "type": "string",
+      "description": "non-speech sounds that carry information, or 'none'"
+     },
+     "uncertainty": {
+      "type": "string"
+     },
+     "track": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

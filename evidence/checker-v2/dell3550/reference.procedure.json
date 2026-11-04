@@ -1,0 +1,152 @@
+{
+ "audio_notes": "faint plastic prying clicks and handling noises during cover removal",
+ "objects_seen": [
+  "laptop base cover",
+  "blue plastic pry tool",
+  "phillips screwdriver",
+  "laptop battery",
+  "laptop battery cable",
+  "motherboard",
+  "RAM module",
+  "cooling fan",
+  "black gloves"
+ ],
+ "speech_heard": "Use a lever tool to pop the back in the zones behind the hinges. Then, fully pry the rear as well as the sides and the front. This machine has the optional 54Wh battery. The base model is a 42Wh variant. To remove it, unplug the connector from the main board and undo the five Phillips head screws that secure the unit to the base. The capacity is enough for around 9 hours of video playback. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu and select the optimized power plan in the Dell Optimizer app.",
+ "steps": [
+  {
+   "action": "prying open left hinge zone",
+   "cannot_see": "whether internal clips are undamaged or fully released",
+   "checkpoint_visibility": "subtle",
+   "end_s": 5.5,
+   "evidence_s": 4.5,
+   "index": 0,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop base cover"
+   ],
+   "observable_checkpoint": "small gap opens between base cover and chassis at left rear behind hinge",
+   "pass_condition": "visible separation appears at left rear edge",
+   "start_s": 2.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "prying open right hinge zone",
+   "cannot_see": "whether internal clips are undamaged or fully released",
+   "checkpoint_visibility": "subtle",
+   "end_s": 9.5,
+   "evidence_s": 8.0,
+   "index": 1,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop base cover"
+   ],
+   "observable_checkpoint": "small gap opens between base cover and chassis at right rear behind hinge",
+   "pass_condition": "visible separation appears at right rear edge",
+   "start_s": 6.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "prying along left side edge",
+   "cannot_see": "exact number of clips released along the side",
+   "checkpoint_visibility": "subtle",
+   "end_s": 19.5,
+   "evidence_s": 18.0,
+   "index": 2,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop base cover"
+   ],
+   "observable_checkpoint": "seam widens along left side between cover and chassis",
+   "pass_condition": "side seam is visibly loosened",
+   "start_s": 13.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "prying along front edge",
+   "cannot_see": "exact number of clips released along the front",
+   "checkpoint_visibility": "subtle",
+   "end_s": 24.0,
+   "evidence_s": 22.5,
+   "index": 3,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop base cover"
+   ],
+   "observable_checkpoint": "seam widens along bottom front edge between cover and chassis",
+   "pass_condition": "front seam is visibly loosened",
+   "start_s": 20.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lifting off base cover",
+   "cannot_see": "underside clip condition",
+   "checkpoint_visibility": "clear",
+   "end_s": 29.5,
+   "evidence_s": 29.2,
+   "index": 4,
+   "objects": [
+    "laptop base cover"
+   ],
+   "observable_checkpoint": "base cover fully removed exposing motherboard, fan, RAM and battery",
+   "pass_condition": "internal components are fully exposed with cover off frame",
+   "start_s": 24.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "loosening battery screw",
+   "cannot_see": "screw torque, thread condition, and whether all five screws are removed",
+   "checkpoint_visibility": "subtle",
+   "end_s": 49.0,
+   "evidence_s": 46.5,
+   "index": 5,
+   "objects": [
+    "phillips screwdriver",
+    "laptop battery"
+   ],
+   "observable_checkpoint": "screwdriver tip engaged on top screw of battery and screw turned",
+   "pass_condition": "screwdriver visibly turns the battery retaining screw",
+   "start_s": 43.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "unplugging battery connector",
+   "cannot_see": "electrical isolation and connector pin condition",
+   "checkpoint_visibility": "subtle",
+   "end_s": 66.5,
+   "evidence_s": 60.0,
+   "index": 6,
+   "objects": [
+    "laptop battery cable",
+    "motherboard"
+   ],
+   "observable_checkpoint": "black battery cable pulled free from board connector and laid aside",
+   "pass_condition": "cable end is visibly separated from motherboard socket",
+   "start_s": 52.0,
+   "self_check": "unclear"
+  }
+ ],
+ "task": "Remove laptop bottom cover and disconnect battery",
+ "track": [
+  "blue plastic pry tool",
+  "phillips screwdriver",
+  "laptop base cover",
+  "laptop battery cable"
+ ],
+ "uncertainty": "Prying gaps are small and briefly visible; battery screw and connector work is partly occluded by gloved hands and on-screen power-menu overlays, and only one screw location is clearly seen though narration states five screws.",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-1127002700201019",
+  "usage": {
+   "input_tokens": 20518,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 0
+   },
+   "output_tokens": 3933,
+   "output_tokens_details": {
+    "reasoning_tokens": 2828
+   },
+   "total_tokens": 24451
+  }
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae2240e1b01045d74d64be7",
+ "access_programs": null,
+ "created_at": 1793205261.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae2240e1b01045d74d64be7:rs_55060057-57a4-408c-a295-8d0fd5714533",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_977bd08f-1191-4402-bb33-07d708992656",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"faint plastic prying clicks and handling sounds during disassembly, no music\", \"objects_seen\": [\"silver laptop bottom panel\", \"black nitrile gloves\", \"blue plastic pry tool\", \"phillips screwdriver\", \"black battery pack\", \"cooling fan\", \"motherboard\", \"green RAM module\", \"metal RAM shield\", \"metal SSD shield\", \"M.2 SSD\", \"touchpad backing plate\", \"speakers\"], \"speech_heard\": \"Hello, this is Nick from Laptop Media, and today we will show you how to open the HP ProBook 440 G11. To gain access to the internals of this small business machine, you have to undo just five captive Philips head screws. Use a thin plastic tool to pop the back and the top two corners. After that, pry the sides and the front. The device that we bought has a 56 watt hour battery. The base model has a 48 watt hour capacity. To remove it, pull out the connector towards the battery, rotate the two blue latches on the bottom, and lift the unit away from the chassis. The capacity is enough for around 11 hours of video playback. Our test was conducted with the battery saver preset activated in the Windows power and battery menu. You can pop the metal shield above the RAM section with a lever tool. According to HP, the two SODIMMs can handle up to 32GB of DDR5-5600MHz RAM in dual-channel mode. However, since the CPU can support up to 96GB, this laptop likely wouldn't have issues running a larger amount of memory than the official manufacturer's specified limit. Each module is additionally cooled by a thermal pad from below. The WiFi 6E card can be seen next to the cooling. The storage upgradeability is limited to just one M.2 slot compatible with 2280 Gen4 SSDs. The NVMe is covered with a metal plate that is held in place by two screws. The shield houses a thermal pad on the inside. The W1N slot for optional 4G LTE connectivity is on the left. The cooling system seems basic. It has one large fan, one heat pipe, one heat sink, and a heat spreader. The thermal system seems basic. It has one large fan, one heat pipe, one heat sink, and a heat spreader.\", \"steps\": [{\"action\": \"pry open top-left corner of bottom panel\", \"cannot_see\": \"whether captive screws were already loosened\", \"checkpoint_visibility\": \"clear\", \"end_s\": 23.0, \"evidence_s\": 21.0, \"index\": 0, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"gap opens along top-left edge of bottom panel\", \"pass_condition\": \"visible separation at top-left edge\", \"start_s\": 19.0}, {\"action\": \"pry open top-right corner of bottom panel\", \"cannot_see\": \"clip condition underneath the edge\", \"checkpoint_visibility\": \"clear\", \"end_s\": 29.0, \"evidence_s\": 26.0, \"index\": 1, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"gap opens along top-right edge of bottom panel\", \"pass_condition\": \"visible separation at top-right edge\", \"start_s\": 24.0}, {\"action\": \"pry open left side of bottom panel\", \"cannot_see\": \"clip condition underneath the edge\", \"checkpoint_visibility\": \"clear\", \"end_s\": 37.0, \"evidence_s\": 35.0, \"index\": 2, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"gap opens along left side of bottom panel\", \"pass_condition\": \"visible separation on left side\", \"start_s\": 34.0}, {\"action\": \"pry open right side of bottom panel\", \"cannot_see\": \"clip condition underneath the edge\", \"checkpoint_visibility\": \"clear\", \"end_s\": 40.0, \"evidence_s\": 39.0, \"index\": 3, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"gap opens along right side of bottom panel\", \"pass_condition\": \"visible separation on right side\", \"start_s\": 38.0}, {\"action\": \"pry open front edge of bottom panel\", \"cannot_see\": \"clip condition underneath the edge\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 42.0, \"evidence_s\": 41.0, \"index\": 4, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"front edge of bottom panel loosened from chassis\", \"pass_condition\": \"panel loose all around\", \"start_s\": 40.0}, {\"action\": \"lift bottom panel away from chassis\", \"cannot_see\": \"interior screw posts condition\", \"checkpoint_visibility\": \"clear\", \"end_s\": 44.0, \"evidence_s\": 43.0, \"index\": 5, \"objects\": [\"bottom panel\"], \"observable_checkpoint\": \"bottom panel removed exposing motherboard battery and fan\", \"pass_condition\": \"internals fully exposed\", \"start_s\": 42.0}, {\"action\": \"disconnect battery cable from motherboard\", \"cannot_see\": \"electrical isolation, residual charge\", \"checkpoint_visibility\": \"clear\", \"end_s\": 63.0, \"evidence_s\": 61.0, \"index\": 6, \"objects\": [\"battery pack\", \"motherboard\"], \"observable_checkpoint\": \"battery connector pulled away from socket toward battery\", \"pass_condition\": \"connector separated from socket\", \"start_s\": 60.0}, {\"action\": \"rotate left blue latch at battery bottom\", \"cannot_see\": \"latch lock state from below\", \"checkpoint_visibility\": \"clear\", \"end_s\": 71.0, \"evidence_s\": 70.0, \"index\": 7, \"objects\": [\"battery pack\"], \"observable_checkpoint\": \"left blue latch turned away from battery\", \"pass_condition\": \"left latch disengaged\", \"start_s\": 68.0}, {\"action\": \"rotate right blue latch at battery bottom\", \"cannot_see\": \"latch lock state from below\", \"checkpoint_visibility\": \"clear\", \"end_s\": 74.0, \"evidence_s\": 73.0, \"index\": 8, \"objects\": [\"battery pack\"], \"observable_checkpoint\": \"right blue latch turned away from battery\", \"pass_condition\": \"right latch disengaged\", \"start_s\": 71.0}, {\"action\": \"lift battery pack out of chassis\", \"cannot_see\": \"battery health or capacity\", \"checkpoint_visibility\": \"clear\", \"end_s\": 77.0, \"evidence_s\": 76.0, \"index\": 9, \"objects\": [\"battery pack\"], \"observable_checkpoint\": \"battery bay empty with touchpad plate visible\", \"pass_condition\": \"battery fully removed\", \"start_s\": 74.0}, {\"action\": \"lift metal RAM shield off motherboard\", \"cannot_see\": \"thermal pad adhesion under shield\", \"checkpoint_visibility\": \"clear\", \"end_s\": 96.0, \"evidence_s\": 94.0, \"index\": 10, \"objects\": [\"metal RAM shield\", \"blue plastic pry tool\"], \"observable_checkpoint\": \"silver RAM cover lifted exposing SODIMM slots\", \"pass_condition\": \"RAM slots uncovered\", \"start_s\": 89.0}, {\"action\": \"pull RAM module from right SODIMM slot\", \"cannot_see\": \"contact pin condition in slot\", \"checkpoint_visibility\": \"clear\", \"end_s\": 104.0, \"evidence_s\": 103.0, \"index\": 11, \"objects\": [\"green RAM module\"], \"observable_checkpoint\": \"right memory slot empty after module removal\", \"pass_condition\": \"module separated from slot\", \"start_s\": 101.0}, {\"action\": \"unscrew SSD shield screw\", \"cannot_see\": \"screw thread engagement depth\", \"checkpoint_visibility\": \"clear\", \"end_s\": 156.0, \"evidence_s\": 154.0, \"index\": 12, \"objects\": [\"phillips screwdriver\", \"metal SSD shield\"], \"observable_checkpoint\": \"screwdriver turning screw on SSD metal plate\", \"pass_condition\": \"screw loosened\", \"start_s\": 149.0}, {\"action\": \"lift SSD shield off motherboard\", \"cannot_see\": \"thermal pad underneath shield\", \"checkpoint_visibility\": \"clear\", \"end_s\": 161.0, \"evidence_s\": 160.0, \"index\": 13, \"objects\": [\"metal SSD shield\"], \"observable_checkpoint\": \"SSD shield removed exposing M.2 drive\", \"pass_condition\": \"SSD visible and uncovered\", \"start_s\": 157.0}, {\"action\": \"pull M.2 SSD from slot\", \"cannot_see\": \"data contents on drive\", \"checkpoint_visibility\": \"clear\", \"end_s\": 163.0, \"evidence_s\": 161.0, \"index\": 14, \"objects\": [\"M.2 SSD\"], \"observable_checkpoint\": \"M.2 slot empty after drive lifted out\", \"pass_condition\": \"SSD removed from connector\", \"start_s\": 160.0}], \"task\": \"Open HP ProBook 440 G11 bottom cover and remove battery, RAM and SSD for access and upgrade\", \"track\": [\"blue plastic pry tool\", \"bottom panel\", \"battery pack\", \"M.2 SSD\"], \"uncertainty\": \"Exact second marks for prying each side are approximate due to repetitive similar motions; second SSD shield screw operation is not clearly visible so only one unscrewing step was kept; RAM removal of single populated slot only is visible.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205262.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ]
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 54583,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5280,
+  "output_tokens_details": {
+   "reasoning_tokens": 3167
+  },
+  "total_tokens": 59863
+ },
+ "user": null,
+ "store": true
+}

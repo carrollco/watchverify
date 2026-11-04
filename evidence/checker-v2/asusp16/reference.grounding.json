@@ -1,0 +1,910 @@
+{
+ "video": "runs/bench-asusp16/clip.mp4",
+ "seconds": 75.0,
+ "track_fps": 5,
+ "track_frames": 375,
+ "width": 640,
+ "phrases": [
+  "phillips screwdriver",
+  "laptop battery",
+  "M.2 SSD retaining screw",
+  "M.2 SSD heat shield"
+ ],
+ "colors": {
+  "phillips screwdriver": "d62728",
+  "laptop battery": "1f77b4",
+  "M.2 SSD retaining screw": "2ca02c",
+  "M.2 SSD heat shield": "ff7f0e"
+ },
+ "tracks": {
+  "phillips screwdriver": [],
+  "laptop battery": [
+   {
+    "frame": 200,
+    "t": 40.0,
+    "object_id": "0",
+    "left": 56,
+    "top": 200,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 201,
+    "t": 40.2,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 202,
+    "t": 40.4,
+    "object_id": "0",
+    "left": 54,
+    "top": 193,
+    "right": 580,
+    "bottom": 330,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 203,
+    "t": 40.6,
+    "object_id": "0",
+    "left": 55,
+    "top": 198,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 204,
+    "t": 40.8,
+    "object_id": "0",
+    "left": 55,
+    "top": 198,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 205,
+    "t": 41.0,
+    "object_id": "0",
+    "left": 55,
+    "top": 199,
+    "right": 579,
+    "bottom": 327,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 206,
+    "t": 41.2,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 207,
+    "t": 41.4,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 208,
+    "t": 41.6,
+    "object_id": "0",
+    "left": 55,
+    "top": 194,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 209,
+    "t": 41.8,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 210,
+    "t": 42.0,
+    "object_id": "0",
+    "left": 55,
+    "top": 196,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 211,
+    "t": 42.2,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 212,
+    "t": 42.4,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 213,
+    "t": 42.6,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 214,
+    "t": 42.8,
+    "object_id": "0",
+    "left": 54,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 215,
+    "t": 43.0,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 216,
+    "t": 43.2,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 217,
+    "t": 43.4,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 218,
+    "t": 43.6,
+    "object_id": "0",
+    "left": 55,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 219,
+    "t": 43.8,
+    "object_id": "0",
+    "left": 54,
+    "top": 195,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 220,
+    "t": 44.0,
+    "object_id": "0",
+    "left": 54,
+    "top": 195,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 221,
+    "t": 44.2,
+    "object_id": "0",
+    "left": 54,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 222,
+    "t": 44.4,
+    "object_id": "0",
+    "left": 54,
+    "top": 195,
+    "right": 580,
+    "bottom": 328,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 223,
+    "t": 44.6,
+    "object_id": "0",
+    "left": 54,
+    "top": 194,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 224,
+    "t": 44.8,
+    "object_id": "0",
+    "left": 54,
+    "top": 194,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 225,
+    "t": 45.0,
+    "object_id": "0",
+    "left": 54,
+    "top": 194,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 226,
+    "t": 45.2,
+    "object_id": "0",
+    "left": 54,
+    "top": 194,
+    "right": 580,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 227,
+    "t": 45.4,
+    "object_id": "0",
+    "left": 45,
+    "top": 196,
+    "right": 578,
+    "bottom": 327,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 228,
+    "t": 45.6,
+    "object_id": "0",
+    "left": 44,
+    "top": 193,
+    "right": 578,
+    "bottom": 327,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 229,
+    "t": 45.8,
+    "object_id": "0",
+    "left": 43,
+    "top": 192,
+    "right": 578,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 230,
+    "t": 46.0,
+    "object_id": "0",
+    "left": 38,
+    "top": 189,
+    "right": 578,
+    "bottom": 329,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 231,
+    "t": 46.2,
+    "object_id": "0",
+    "left": 4,
+    "top": 182,
+    "right": 576,
+    "bottom": 326,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 232,
+    "t": 46.4,
+    "object_id": "0",
+    "left": 0,
+    "top": 151,
+    "right": 608,
+    "bottom": 314,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 233,
+    "t": 46.6,
+    "object_id": "0",
+    "left": 0,
+    "top": 0,
+    "right": 617,
+    "bottom": 119,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 242,
+    "t": 48.4,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 243,
+    "t": 48.6,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 244,
+    "t": 48.8,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 245,
+    "t": 49.0,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 246,
+    "t": 49.2,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 247,
+    "t": 49.4,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 248,
+    "t": 49.6,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 249,
+    "t": 49.8,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 250,
+    "t": 50.0,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 251,
+    "t": 50.2,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 252,
+    "t": 50.4,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 260,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 253,
+    "t": 50.6,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 259,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 254,
+    "t": 50.8,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 259,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 255,
+    "t": 51.0,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 259,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 256,
+    "t": 51.2,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 259,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 257,
+    "t": 51.4,
+    "object_id": "0",
+    "left": 6,
+    "top": 101,
+    "right": 634,
+    "bottom": 259,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 258,
+    "t": 51.6,
+    "object_id": "0",
+    "left": 6,
+    "top": 99,
+    "right": 634,
+    "bottom": 259,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 259,
+    "t": 51.8,
+    "object_id": "0",
+    "left": 6,
+    "top": 96,
+    "right": 635,
+    "bottom": 259,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 260,
+    "t": 52.0,
+    "object_id": "0",
+    "left": 6,
+    "top": 99,
+    "right": 635,
+    "bottom": 257,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 261,
+    "t": 52.2,
+    "object_id": "0",
+    "left": 7,
+    "top": 98,
+    "right": 633,
+    "bottom": 220,
+    "confidence": 0.7852349281311035
+   },
+   {
+    "frame": 264,
+    "t": 52.8,
+    "object_id": "0",
+    "left": 0,
+    "top": 206,
+    "right": 215,
+    "bottom": 360,
+    "confidence": 0.7852349281311035
+   }
+  ],
+  "M.2 SSD retaining screw": [],
+  "M.2 SSD heat shield": []
+ },
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 26460,
+   "transcript": "Phillips head screws that fix fix the unit to the base. The capacity is enough for around 12 hours of video playback. A great result considering the high res OLED display and the powerful CPU and GPU. To achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the My Asus or ProArt Creator Hub app"
+  },
+  {
+   "turnId": 1,
+   "startMs": 52460,
+   "endMs": 66700,
+   "transcript": "The Wi-Fi card is positioned close to the battery connector. For storage, there are two M.2 slots compatible with 2280 Gen 4 SSDs. The one on the left offers half of the PCIe lanes compared to the to the other one."
+  }
+ ],
+ "steps": [
+  {
+   "index": 0,
+   "evidence_s": 4.0,
+   "frame": "frames/reference-step0.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 0.0,
+     "end_s": 26.46,
+     "text": "Phillips head screws that fix fix the unit to the base. The capacity is enough for around 12 hours of video playback. A great result considering the high res OLED display and the powerful CPU and GPU. To achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the My Asus or ProArt Creator Hub app"
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "evidence_s": 14.0,
+   "frame": "frames/reference-step1.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 0.0,
+     "end_s": 26.46,
+     "text": "Phillips head screws that fix fix the unit to the base. The capacity is enough for around 12 hours of video playback. A great result considering the high res OLED display and the powerful CPU and GPU. To achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the My Asus or ProArt Creator Hub app"
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "evidence_s": 21.0,
+   "frame": "frames/reference-step2.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 10,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 10,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 10,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 10,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 0.0,
+     "end_s": 26.46,
+     "text": "Phillips head screws that fix fix the unit to the base. The capacity is enough for around 12 hours of video playback. A great result considering the high res OLED display and the powerful CPU and GPU. To achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the My Asus or ProArt Creator Hub app"
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "evidence_s": 26.0,
+   "frame": "frames/reference-step3.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 0.0,
+     "end_s": 26.46,
+     "text": "Phillips head screws that fix fix the unit to the base. The capacity is enough for around 12 hours of video playback. A great result considering the high res OLED display and the powerful CPU and GPU. To achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the My Asus or ProArt Creator Hub app"
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "evidence_s": 34.0,
+   "frame": "frames/reference-step4.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  },
+  {
+   "index": 5,
+   "evidence_s": 46.0,
+   "frame": "frames/reference-step5.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 34,
+     "window_frames": 40,
+     "first_s": 40.0,
+     "last_s": 46.6,
+     "mean_confidence": 0.785
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  },
+  {
+   "index": 6,
+   "evidence_s": 63.0,
+   "frame": "frames/reference-step6.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 40,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 52.46,
+     "end_s": 66.7,
+     "text": "The Wi-Fi card is positioned close to the battery connector. For storage, there are two M.2 slots compatible with 2280 Gen 4 SSDs. The one on the left offers half of the PCIe lanes compared to the to the other one."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "evidence_s": 73.0,
+   "frame": "frames/reference-step7.jpg",
+   "tracks": {
+    "phillips screwdriver": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD retaining screw": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "M.2 SSD heat shield": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  }
+ ]
+}

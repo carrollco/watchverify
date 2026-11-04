@@ -1,0 +1,38 @@
+{
+ "sessionId": "voyager/transcribe/B6AB9D9161024D59AEC061254BE6FE44",
+ "transcript": "easier. Use a lever lever tool to pop the back in the zones behind the hinges. then fully pry the rear as well as the sides and the front. This machine has the optional 54 watt hour battery. The base model is a 42 watt hour variant to remove it unplug the connector from the main board and and undo the five Phillips head screws that secure the unit to the base. The capacity is enough for around nine hours of video playback. To achieve that you have to apply the best power efficiency preset in the Windows Power and battery menu and select the optimized power plan in the Dell Optimizer app.",
+ "audioDurationMs": 73040,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 3740,
+   "transcript": "easier. Use a lever lever tool to pop the back in the zones behind the hinges."
+  },
+  {
+   "turnId": 1,
+   "startMs": 9900,
+   "endMs": 13340,
+   "transcript": "then fully pry the rear as well as the sides and the front."
+  },
+  {
+   "turnId": 2,
+   "startMs": 29580,
+   "endMs": 32540,
+   "transcript": "This machine has the optional 54 watt hour battery."
+  },
+  {
+   "turnId": 3,
+   "startMs": 33020,
+   "endMs": 43340,
+   "transcript": "The base model is a 42 watt hour variant to remove it unplug the connector from the main board and and undo the five Phillips head screws that secure the unit to the base."
+  },
+  {
+   "turnId": 4,
+   "startMs": 43980,
+   "endMs": 59020,
+   "transcript": "The capacity is enough for around nine hours of video playback. To achieve that you have to apply the best power efficiency preset in the Windows Power and battery menu and select the optimized power plan in the Dell Optimizer app."
+  }
+ ],
+ "_http": 200
+}

@@ -1,0 +1,195 @@
+{
+ "id": "resp_6aeab22b3564a63a49aa4915",
+ "access_programs": null,
+ "created_at": 1793765931.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeab22b3564a63a49aa4915:rs_5d0ff852-8ccc-49a4-b93d-1111f18d0636",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_b422a42b-6475-47e6-a598-ddb5ac536e06",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"torque wrench clicks when set torque is reached, metal handling clinks, room tone\", \"objects_seen\": [\"technician\", \"work table\", \"torque wrench\", \"gearbox housing\", \"brass flange bolt\", \"electric motor\", \"auger shaft\", \"evaporator cylinder\", \"evaporator base bolt\", \"threadlocker bottle\", \"extruding head bolt\", \"top cap\", \"socket\", \"paper service bulletin\"], \"speech_heard\": \"So you'll look at your spec sheet to see what your torque value is for the specific bolts. You'll want to set your torque wrench to that torque value, that's what it says on the spec sheet. Get your proper socket to fit the bolt head. And you want to tighten it, kind of hold your torque wrench out toward the end, don't choke up on it, but hold it out toward the end, give you proper leverage. When it clicks, go to the one across from it. When it clicks, go to the one across from it. Going clockwise. When it clicks, go to the one across from it. Going clockwise again, the one next to it. Clicks, one across from it. Clicks, the one across from it. Clicks, going clockwise. So now we know all these are torqued down to the torque value that we have dialed up on the torque wrench. So now we'll put our auger in. You want to put your bolts in the evaporator that holds the evaporator to the gear motor housing. Torque those. Consult the service bulletin for the proper torque spec of the unit that you have and the size of the evaporator that you have. Grab the torque wrench. Then you want to look at your spec sheet or the service bulletin for the proper amount of torque for the size of the bolts you're putting in the evaporator housing. You want to set your torque wrench to that torque. Clicks, the one on the opposite side. Clicks. And then when they're all tightened down, go over one more time. The way you started from, across from it, next to it, then the last one across from it. Very important on the extruding head, these definitely have to be torqued twice, so go back to where you started from. One more round, to the clicks. Clicks. Clicks. And clicks. Then your final. Next is gonna be the extruding head. So your extruding head uses seal bolts to hold it to the evaporator. These are a one time use seal bolt, so if you've taken them out, you'll need to get new ones and put them back in. You'll also need to use some Loctite 243, medium strength. This is not permanent Loctite, but you need to put a generous amount of Loctite on the seal bolts before you install them. When it clicks, go to the one next to it. Clicks, the one across from it. Clicks, the one across from it. So now we know all these are torqued down to the torque value that we have dialed up on the torque wrench. So now we'll put our auger in. Always check the service bulletin for the torque of each set of bolts.\", \"steps\": [{\"action\": \"tighten front brass flange bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 27.0, \"evidence_s\": 22.0, \"index\": 0, \"objects\": [\"torque wrench\", \"brass flange bolt\", \"gearbox housing\"], \"observable_checkpoint\": \"torque wrench socket seated on front brass flange bolt and handle strokes until click\", \"pass_condition\": \"wrench clicks with bolt remaining in flange\", \"start_s\": 16.0}, {\"action\": \"tighten rear opposite brass flange bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 38.0, \"evidence_s\": 34.0, \"index\": 1, \"objects\": [\"torque wrench\", \"brass flange bolt\", \"gearbox housing\"], \"observable_checkpoint\": \"torque wrench moves to rear bolt opposite front and strokes to click\", \"pass_condition\": \"rear bolt tightened to click\", \"start_s\": 28.0}, {\"action\": \"tighten side brass flange bolt clockwise with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 48.0, \"evidence_s\": 44.0, \"index\": 2, \"objects\": [\"torque wrench\", \"brass flange bolt\", \"gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on next clockwise side bolt and clicks\", \"pass_condition\": \"side bolt seated and clicked\", \"start_s\": 39.0}, {\"action\": \"tighten opposite side brass flange bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 59.0, \"evidence_s\": 55.0, \"index\": 3, \"objects\": [\"torque wrench\", \"brass flange bolt\", \"gearbox housing\"], \"observable_checkpoint\": \"torque wrench on bolt across from previous side bolt and clicks\", \"pass_condition\": \"opposite bolt tightened to click\", \"start_s\": 49.0}, {\"action\": \"tighten remaining brass flange bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 69.0, \"evidence_s\": 65.0, \"index\": 4, \"objects\": [\"torque wrench\", \"brass flange bolt\", \"gearbox housing\"], \"observable_checkpoint\": \"torque wrench on next clockwise bolt around flange and clicks\", \"pass_condition\": \"bolt tightened to click\", \"start_s\": 60.0}, {\"action\": \"retighten final brass flange bolt across with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 84.0, \"evidence_s\": 80.0, \"index\": 5, \"objects\": [\"torque wrench\", \"brass flange bolt\", \"gearbox housing\"], \"observable_checkpoint\": \"torque wrench on last cross-pattern bolt and second-pass click heard\", \"pass_condition\": \"all six flange bolts clicked twice\", \"start_s\": 70.0}, {\"action\": \"insert auger shaft into gearbox housing\", \"cannot_see\": \"full seating depth inside housing\", \"checkpoint_visibility\": \"clear\", \"end_s\": 99.0, \"evidence_s\": 97.0, \"index\": 6, \"objects\": [\"auger shaft\", \"gearbox housing\"], \"observable_checkpoint\": \"spiral auger shaft vertical and lowered into center of brass housing\", \"pass_condition\": \"auger stands upright in housing\", \"start_s\": 94.0}, {\"action\": \"lower evaporator cylinder over auger onto gearbox\", \"cannot_see\": \"alignment of internal auger inside cylinder\", \"checkpoint_visibility\": \"clear\", \"end_s\": 107.0, \"evidence_s\": 104.0, \"index\": 7, \"objects\": [\"evaporator cylinder\", \"auger shaft\", \"gearbox housing\"], \"observable_checkpoint\": \"cream cylinder slid down over auger and seated on gearbox base flange\", \"pass_condition\": \"cylinder sits flush on base with no gap\", \"start_s\": 100.0}, {\"action\": \"tighten front evaporator base bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 147.0, \"evidence_s\": 143.0, \"index\": 8, \"objects\": [\"torque wrench\", \"evaporator base bolt\", \"evaporator cylinder\"], \"observable_checkpoint\": \"torque wrench on front base bolt between cylinder and gearbox and strokes to click\", \"pass_condition\": \"front base bolt clicked\", \"start_s\": 138.0}, {\"action\": \"tighten rear opposite evaporator base bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 156.0, \"evidence_s\": 152.0, \"index\": 9, \"objects\": [\"torque wrench\", \"evaporator base bolt\", \"evaporator cylinder\"], \"observable_checkpoint\": \"torque wrench on rear bolt across from front and clicks\", \"pass_condition\": \"rear base bolt clicked\", \"start_s\": 148.0}, {\"action\": \"tighten left side evaporator base bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 164.0, \"evidence_s\": 161.0, \"index\": 10, \"objects\": [\"torque wrench\", \"evaporator base bolt\", \"evaporator cylinder\"], \"observable_checkpoint\": \"torque wrench on left-side base bolt and clicks\", \"pass_condition\": \"left base bolt clicked\", \"start_s\": 157.0}, {\"action\": \"tighten right side evaporator base bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 171.0, \"evidence_s\": 168.0, \"index\": 11, \"objects\": [\"torque wrench\", \"evaporator base bolt\", \"evaporator cylinder\"], \"observable_checkpoint\": \"torque wrench on right-side base bolt and second-pass clicks\", \"pass_condition\": \"all base bolts torqued twice\", \"start_s\": 165.0}, {\"action\": \"apply threadlocker to extruding head bolt\", \"cannot_see\": \"chemical coverage amount\", \"checkpoint_visibility\": \"clear\", \"end_s\": 210.0, \"evidence_s\": 207.0, \"index\": 12, \"objects\": [\"threadlocker bottle\", \"extruding head bolt\", \"top cap\"], \"observable_checkpoint\": \"red bottle dispenses liquid onto threads of small bolt held in hand\", \"pass_condition\": \"threads visibly wetted with sealant\", \"start_s\": 204.0}, {\"action\": \"install first extruding head bolt into top cap\", \"cannot_see\": \"thread engagement depth\", \"checkpoint_visibility\": \"clear\", \"end_s\": 222.0, \"evidence_s\": 218.0, \"index\": 13, \"objects\": [\"extruding head bolt\", \"top cap\", \"evaporator cylinder\"], \"observable_checkpoint\": \"bolt threaded by fingers into top metal collar of evaporator\", \"pass_condition\": \"bolt started and hand-tight in collar\", \"start_s\": 211.0}, {\"action\": \"tighten first top cap bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 255.0, \"evidence_s\": 249.0, \"index\": 14, \"objects\": [\"torque wrench\", \"extruding head bolt\", \"top cap\"], \"observable_checkpoint\": \"torque wrench on top collar bolt and strokes to click\", \"pass_condition\": \"top bolt clicked to torque\", \"start_s\": 243.0}, {\"action\": \"tighten second opposite top cap bolt with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 268.0, \"evidence_s\": 264.0, \"index\": 15, \"objects\": [\"torque wrench\", \"extruding head bolt\", \"top cap\"], \"observable_checkpoint\": \"torque wrench on opposite side top collar bolt and clicks\", \"pass_condition\": \"opposite top bolt clicked\", \"start_s\": 258.0}, {\"action\": \"tighten side spout bolt on top cap with torque wrench\", \"cannot_see\": \"actual torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 312.0, \"evidence_s\": 306.0, \"index\": 16, \"objects\": [\"torque wrench\", \"extruding head bolt\", \"evaporator cylinder\"], \"observable_checkpoint\": \"torque wrench on side-facing bolt of upper housing and clicks\", \"pass_condition\": \"side bolts torqued per cross-pattern\", \"start_s\": 302.0}], \"task\": \"Torque gearbox and assemble evaporator with auger to specified values\", \"track\": [\"torque wrench\", \"evaporator cylinder\", \"auger shaft\", \"gearbox housing\"], \"uncertainty\": \"Exact bolt count per flange and specified torque values are from narration not visible; some fasteners briefly occluded by hands; Loctite coverage amount cannot be verified visually.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793765931.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "type": "object",
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ]
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 82571,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5156,
+  "output_tokens_details": {
+   "reasoning_tokens": 2407
+  },
+  "total_tokens": 87727
+ },
+ "user": null,
+ "store": true
+}

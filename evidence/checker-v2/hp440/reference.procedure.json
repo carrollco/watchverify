@@ -1,0 +1,174 @@
+{
+ "audio_notes": "none",
+ "objects_seen": [
+  "laptop bottom cover",
+  "laptop chassis",
+  "laptop battery",
+  "battery connector cable",
+  "left blue latch",
+  "right blue latch",
+  "cooling fan",
+  "motherboard",
+  "metal RAM shield",
+  "blue pry tool",
+  "RAM memory module",
+  "SODIMM slot",
+  "touchpad board",
+  "speakers"
+ ],
+ "speech_heard": "The device that we bought has the optional 56 watt hour battery. The base model has a 48 watt hour capacity. To remove it, pull out the connector towards the battery, rotate the two blue latches on the bottom, and lift the unit away from the chassis. The capacity is enough for around 11 hours of video playback. Our test was conducted with the Battery Saver preset activated in the Windows power and battery menu. You can pop the metal shield above the RAM section with a lever tool. According to HP, the two SODIMMs can handle up to 32 gigabytes of DDR5-5600 RAM in dual-channel mode.",
+ "steps": [
+  {
+   "action": "lift bottom cover off chassis",
+   "cannot_see": "whether any clips were broken during removal",
+   "checkpoint_visibility": "clear",
+   "end_s": 6.0,
+   "evidence_s": 2.0,
+   "index": 0,
+   "objects": [
+    "laptop bottom cover",
+    "laptop chassis"
+   ],
+   "observable_checkpoint": "motherboard, fan and laptop battery are exposed with cover removed",
+   "pass_condition": "bottom cover fully separated and internals visible",
+   "start_s": 0.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "pull battery connector toward battery",
+   "cannot_see": "whether power is electrically isolated",
+   "checkpoint_visibility": "clear",
+   "end_s": 22.0,
+   "evidence_s": 20.0,
+   "index": 1,
+   "objects": [
+    "battery connector cable",
+    "laptop battery"
+   ],
+   "observable_checkpoint": "battery connector cable pulled back and separated from motherboard socket",
+   "pass_condition": "battery cable detached from board",
+   "start_s": 18.0,
+   "self_check": "unclear"
+  },
+  {
+   "action": "rotate left blue latch",
+   "cannot_see": "whether latch mechanism is fully unlocked internally",
+   "checkpoint_visibility": "clear",
+   "end_s": 28.0,
+   "evidence_s": 26.0,
+   "index": 2,
+   "objects": [
+    "left blue latch",
+    "laptop battery"
+   ],
+   "observable_checkpoint": "left blue latch turned away from battery edge",
+   "pass_condition": "left latch in released position",
+   "start_s": 24.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "rotate right blue latch",
+   "cannot_see": "whether latch mechanism is fully unlocked internally",
+   "checkpoint_visibility": "clear",
+   "end_s": 32.0,
+   "evidence_s": 30.0,
+   "index": 3,
+   "objects": [
+    "right blue latch",
+    "laptop battery"
+   ],
+   "observable_checkpoint": "right blue latch turned away from battery edge",
+   "pass_condition": "right latch in released position",
+   "start_s": 28.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift battery out of chassis",
+   "cannot_see": "battery charge level or health",
+   "checkpoint_visibility": "clear",
+   "end_s": 37.0,
+   "evidence_s": 35.0,
+   "index": 4,
+   "objects": [
+    "laptop battery",
+    "laptop chassis"
+   ],
+   "observable_checkpoint": "laptop battery removed leaving empty battery bay with touchpad board visible",
+   "pass_condition": "battery fully lifted away from chassis",
+   "start_s": 32.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "pry metal RAM shield with lever tool",
+   "cannot_see": "whether shield clips are undamaged",
+   "checkpoint_visibility": "clear",
+   "end_s": 53.0,
+   "evidence_s": 51.0,
+   "index": 5,
+   "objects": [
+    "blue pry tool",
+    "metal RAM shield"
+   ],
+   "observable_checkpoint": "blue pry tool inserted under edge of metal RAM shield to pop it up",
+   "pass_condition": "shield loosened from motherboard",
+   "start_s": 47.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift metal RAM shield away",
+   "cannot_see": "none",
+   "checkpoint_visibility": "clear",
+   "end_s": 56.0,
+   "evidence_s": 55.0,
+   "index": 6,
+   "objects": [
+    "metal RAM shield",
+    "motherboard"
+   ],
+   "observable_checkpoint": "metal RAM shield removed exposing green RAM modules in slots",
+   "pass_condition": "RAM section uncovered",
+   "start_s": 53.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift RAM module from slot",
+   "cannot_see": "RAM capacity or speed, only physical removal",
+   "checkpoint_visibility": "clear",
+   "end_s": 64.0,
+   "evidence_s": 62.5,
+   "index": 7,
+   "objects": [
+    "RAM memory module",
+    "SODIMM slot"
+   ],
+   "observable_checkpoint": "green RAM memory module lifted up out of SODIMM slot",
+   "pass_condition": "RAM module separated from slot",
+   "start_s": 60.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Remove laptop battery and access RAM modules",
+ "track": [
+  "blue pry tool",
+  "laptop battery",
+  "metal RAM shield",
+  "RAM memory module"
+ ],
+ "uncertainty": "Exact second timestamps are estimated from visual sequence; speech transcript combined from provided narration segments.",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-1564441675729650",
+  "usage": {
+   "input_tokens": 18065,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 497
+   },
+   "output_tokens": 3514,
+   "output_tokens_details": {
+    "reasoning_tokens": 2379
+   },
+   "total_tokens": 21579
+  }
+ }
+}

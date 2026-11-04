@@ -1,0 +1,87 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   0.0,
+   21.5
+  ],
+  "fps": 1.8604651162790697,
+  "frames": 40,
+  "evidence": "From 0.54s to 13.44s hands stay on the brass bearing housing on the silver gearbox with torque wrench coming from the left engaged on the bolt and left hand stabilizing; at 13.97s the wrench is lifted away from the housing held in front of chest and in later frames 15.59s-20.96s no torque wrench is engaged on any bolt, so no frame shows wrench on the second opposite bolt.",
+  "first_ends_s": 13.44,
+  "second_begins_s": -1,
+  "clean": false,
+  "narrow": {
+   "window": [
+    10.0,
+    14.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": 11.75,
+   "second_begins_s": -1,
+   "evidence": "Frames 10.00-11.75 close-up show right hand holding torque wrench horizontally engaged on brass housing while left hand stabilizes housing - step A position. From 12.00 camera widens, long wrench shaft is no longer visible and both gloved hands are over the housing top without clear tool engagement; no frame shows wrench engaged on a second/opposite bolt."
+  }
+ },
+ {
+  "after_step": 1,
+  "window": [
+   11.5,
+   31.5
+  ],
+  "fps": 2.0,
+  "frames": 40,
+  "evidence": "t11.5-t13.5 hands hold torque wrench engaged on top of brass bearing housing turning opposite bolt; t14.0 wrench lifted away held in both hands off housing, t14.5-t15.0 talking with wrench in hand, t16.0-t21.0 hands on housing without wrench; t22.5 wrench carried above housing not engaged; t23.0 onward wrench held horizontally engaged at side of brass housing and turned through t25.0",
+  "first_ends_s": 13.5,
+  "second_begins_s": 23.0,
+  "clean": true,
+  "narrow": {
+   "window": [
+    19.0,
+    23.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": -1,
+   "second_begins_s": -1,
+   "evidence": "Across 19.00-22.00 both gloved hands are directly on the brass bearing housing pressing/positioning it and finger-starting bolts, with no torque wrench engaged on any bolt. At 22.25-22.75 the hands pick up and hold a torque wrench horizontally above the housing, moving it but never engaging it on the opposite bolt or side bolt."
+  }
+ },
+ {
+  "after_step": 2,
+  "window": [
+   29.0,
+   33.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "29.00-30.25s right hand stays low on side of silver gearbox/brass housing area appearing to work side bolt while left hand steadies motor; 30.50s right hand lifts torque wrench up and clear of housing; 31.00s hands hold wrench over brass top, 31.25s wrench tip engaged on brass bearing housing for remaining bolt and held through 32.00s before removal.",
+  "first_ends_s": 30.25,
+  "second_begins_s": 31.25,
+  "clean": true
+ },
+ {
+  "after_step": 3,
+  "window": [
+   39.0,
+   43.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "left hand holds brass housing while right hand keeps torque wrench engaged vertically on top bolt through 40.25, right hand lifts wrench clear at 40.50 with no engagement, then wrench appears horizontally engaged on side of housing at 40.75 while left hand still holds housing, starting sequential second pass",
+  "first_ends_s": 40.25,
+  "second_begins_s": 40.75,
+  "clean": true
+ },
+ {
+  "after_step": 4,
+  "window": [
+   53.0,
+   57.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "At 53.00-53.25 right hand holds torque wrench engaged on bolt of brass bearing housing while left hand steadies silver housing; at 53.50 wrench is lifted clear; 53.75-55.25 hands are off bolts holding/gesturing with wrench in air; at 55.50 wrench is re-engaged on bolt with left hand on housing and stays engaged through 56.75",
+  "first_ends_s": 53.25,
+  "second_begins_s": 55.5,
+  "clean": true
+ }
+]

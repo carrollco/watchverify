@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae2244be964bbf84ff04940",
+ "access_programs": null,
+ "created_at": 1793205323.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae2244be964bbf84ff04940:rs_40eac8b8-1141-44c4-8684-54b3e9d3b1a4",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_fb809977-ed76-4b90-8c5a-c46172a66209",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"none\", \"objects_seen\": [\"metal frame\", \"hydraulic pump\", \"mounting plate\", \"mounting bolt\", \"washer\", \"side hydraulic fitting\", \"thick black hydraulic tube\", \"hydraulic tank\", \"hose clamps\", \"hydraulic cooler\", \"fan\", \"frame mesh\", \"screwdriver\", \"mesh cover screws\", \"return filter fitting assembly\", \"return hose\", \"hydraulic filter canister\", \"blue tarp\"], \"speech_heard\": \"While one person lifts the frame, slide the hydraulic motor under the hydraulic plate. Connect the fitting, then secure the pump using two bolts, ensuring the pivoting hydraulic output fitting is facing southwest. Connect the thick hydraulic tube to the northeast intake fitting of the pump, and secure the other end of the tube to the hydraulic tank. Tighten with hose clamps to prevent leakage. Now we're ready to mount the hydraulic cooler. Place the four rubber screw mounts into the corner fittings of the hydraulic cooler, and bolt them to the mesh on the west side of the frame, ensure the hydraulic cooler wafers are against the mesh, and the fan is on the inside. Next, mount the hydraulic tube with return line filter fitting to the top of the hydraulic tank. Fit the other end of the tube to the hydraulic cooler fluid outlet. Screw these fittings tightly, then screw in the hydraulic filter. Now we're ready to mount the hydraulic\", \"steps\": [{\"action\": \"slide pump under plate\", \"cannot_see\": \"whether another person lifted the frame\", \"checkpoint_visibility\": \"clear\", \"end_s\": 7.5, \"evidence_s\": 4.5, \"index\": 0, \"objects\": [\"hydraulic pump\", \"mounting plate\"], \"observable_checkpoint\": \"hydraulic pump centered under mounting plate with shaft aligned in cutout\", \"pass_condition\": \"pump positioned under plate\", \"start_s\": 1.5}, {\"action\": \"install mounting bolt through plate\", \"cannot_see\": \"second bolt and final torque\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 13.0, \"evidence_s\": 11.8, \"index\": 1, \"objects\": [\"mounting bolt\", \"washer\", \"mounting plate\", \"hydraulic pump\"], \"observable_checkpoint\": \"fingers placing washer and bolt through mounting plate into pump flange\", \"pass_condition\": \"bolt inserted through plate into pump\", \"start_s\": 10.5}, {\"action\": \"adjust side fitting orientation\", \"cannot_see\": \"exact southwest compass direction\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 22.0, \"evidence_s\": 20.0, \"index\": 2, \"objects\": [\"side hydraulic fitting\", \"hydraulic pump\"], \"observable_checkpoint\": \"hand turning side fitting on pump body\", \"pass_condition\": \"fitting oriented outward from pump\", \"start_s\": 18.5}, {\"action\": \"connect tube to pump end\", \"cannot_see\": \"which port is the northeast intake\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 26.5, \"evidence_s\": 24.5, \"index\": 3, \"objects\": [\"thick black hydraulic tube\", \"hydraulic pump\"], \"observable_checkpoint\": \"black tube joined to side of pump between tanks\", \"pass_condition\": \"tube attached at pump end\", \"start_s\": 22.5}, {\"action\": \"connect tube to tank end\", \"cannot_see\": \"clamp tightness and leak-proof seal\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 30.0, \"evidence_s\": 28.5, \"index\": 4, \"objects\": [\"thick black hydraulic tube\", \"hydraulic tank\"], \"observable_checkpoint\": \"tube end seated on hydraulic tank port\", \"pass_condition\": \"tube connects pump to tank\", \"start_s\": 26.5}, {\"action\": \"tighten hose clamps\", \"cannot_see\": \"clamp tightness and leak prevention\", \"checkpoint_visibility\": \"narration_only\", \"end_s\": 30.0, \"evidence_s\": 28.5, \"index\": 5, \"objects\": [\"hose clamps\", \"thick black hydraulic tube\"], \"observable_checkpoint\": \"hose clamps tightened on tube ends as described in narration\", \"pass_condition\": \"clamps secured to prevent leakage\", \"start_s\": 26.5}, {\"action\": \"position cooler at frame\", \"cannot_see\": \"hands placing four rubber screw mounts\", \"checkpoint_visibility\": \"clear\", \"end_s\": 41.5, \"evidence_s\": 40.0, \"index\": 6, \"objects\": [\"hydraulic cooler\", \"fan\"], \"observable_checkpoint\": \"cooler with fan moved from ground to west side of frame\", \"pass_condition\": \"cooler at frame for mounting\", \"start_s\": 38.5}, {\"action\": \"bolt cooler to mesh\", \"cannot_see\": \"torque on four rubber mounts\", \"checkpoint_visibility\": \"clear\", \"end_s\": 44.5, \"evidence_s\": 43.2, \"index\": 7, \"objects\": [\"hydraulic cooler\", \"frame mesh\"], \"observable_checkpoint\": \"cooler held flat against west side mesh with fan inward\", \"pass_condition\": \"cooler mounted with wafers against mesh\", \"start_s\": 42.0}, {\"action\": \"tighten mesh cover screws\", \"cannot_see\": \"final screw tightness\", \"checkpoint_visibility\": \"clear\", \"end_s\": 48.0, \"evidence_s\": 46.0, \"index\": 8, \"objects\": [\"screwdriver\", \"mesh cover screws\", \"frame mesh\"], \"observable_checkpoint\": \"screwdriver turning screws through mesh cover into frame\", \"pass_condition\": \"mesh cover secured over cooler\", \"start_s\": 44.5}, {\"action\": \"mount filter assembly on tank\", \"cannot_see\": \"thread seal and tightening torque\", \"checkpoint_visibility\": \"clear\", \"end_s\": 55.5, \"evidence_s\": 52.0, \"index\": 9, \"objects\": [\"return filter fitting assembly\", \"return hose\", \"hydraulic tank\"], \"observable_checkpoint\": \"metal filter head assembly seated on top of hydraulic tank\", \"pass_condition\": \"filter head mounted on tank\", \"start_s\": 48.5}, {\"action\": \"connect return hose to cooler\", \"cannot_see\": \"fitting tightness at cooler outlet\", \"checkpoint_visibility\": \"clear\", \"end_s\": 60.0, \"evidence_s\": 58.5, \"index\": 10, \"objects\": [\"return hose\", \"hydraulic cooler\"], \"observable_checkpoint\": \"black return hose routed up and connected to top of cooler\", \"pass_condition\": \"hose connects filter head to cooler outlet\", \"start_s\": 56.0}, {\"action\": \"screw filter canister onto head\", \"cannot_see\": \"seal compression inside\", \"checkpoint_visibility\": \"clear\", \"end_s\": 69.5, \"evidence_s\": 68.2, \"index\": 11, \"objects\": [\"hydraulic filter canister\", \"return filter fitting assembly\"], \"observable_checkpoint\": \"white Zinga canister threaded onto filter head by hand\", \"pass_condition\": \"filter canister secured on head\", \"start_s\": 65.0}], \"task\": \"Mount hydraulic pump, cooler, and return filter to engine frame\", \"track\": [\"screwdriver\", \"hydraulic pump\", \"hydraulic cooler\", \"hydraulic filter canister\"], \"uncertainty\": \"Timeline seconds are approximate. Bolt count (two bolts) and hose-clamp tightening are known from narration but not clearly visible. Exact port names, compass directions, and torque values cannot be verified visually. Some cooler positioning uses stop-motion without hands in frame.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205323.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "type": "object",
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 19973,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 497
+  },
+  "output_tokens": 5302,
+  "output_tokens_details": {
+   "reasoning_tokens": 3615
+  },
+  "total_tokens": 25275
+ },
+ "user": null,
+ "store": true
+}

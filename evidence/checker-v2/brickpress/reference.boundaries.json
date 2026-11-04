@@ -1,0 +1,165 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   2.8,
+   6.8
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "At 4.55s hands in yellow gloves are still at the corners of the bottom cross beam on the flat frame on the floor bolting it. At 4.80s hands are off the frame as people step away. At 5.05s both hands grip the side rails to lift/stand the flat frame upright.",
+  "first_ends_s": 4.55,
+  "second_begins_s": 5.05,
+  "clean": true
+ },
+ {
+  "after_step": 1,
+  "window": [
+   5.2,
+   9.2
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "Hands in yellow gloves grip the top cross-beam to lift/steady the frame upright through 5.45-6.20s, frame vertical centered by 5.95s, hands back on top beam at 6.70s; at 6.95s hands leave the top and persons drop toward floor; at 7.20s both are crouched at the base with yellow-gloved hands low at left-edge floor by bolt holes/box starting bolt work, continuing after.",
+  "first_ends_s": 6.7,
+  "second_begins_s": 7.2,
+  "clean": true
+ },
+ {
+  "after_step": 2,
+  "window": [
+   8.5,
+   12.5
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "Frames 8.5-10.25 show yellow-gloved hands engaged at the bottom/left edge bolt area on left side, with wrenches in use. At 10.5 both wrenches lie on the floor and no hands are on the bolt holes - transition/moving gap. At 10.75 motion blur moving, and at 11.0 hands with yellow gloves are again on the frame at the top/right edge bolt area beginning work on the right side.",
+  "first_ends_s": 10.25,
+  "second_begins_s": 11.0,
+  "clean": true
+ },
+ {
+  "after_step": 3,
+  "window": [
+   11.8,
+   15.8
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "Through 11.8-13.05 the green-shirt worker's hands show motion blur working on the side upright/top bolt area while the other person's yellow gloves hold the top beam; at 13.30-13.80 hands are off the bolt holes moving away and handling gloves; at 14.05 the cylinder stands vertical centered but the visible hand is only on the top beam edge; at 14.30 yellow-gloved hands are inside the frame center holding the cylinder top/plate with the other worker reaching in.",
+  "first_ends_s": 13.05,
+  "second_begins_s": 14.3,
+  "clean": true
+ },
+ {
+  "after_step": 4,
+  "window": [
+   16.5,
+   20.5
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "At 17.5 a yellow-gloved hand is pressed on the middle press plate over the cylinder rod inside the frame; at 17.75-18.25 hands withdraw and the frame sits empty with black cylinder centered with flat plate on rod; at 19.0 yellow-gloved hands reappear holding the long horizontal cross plate to the front face, spanning it at mid-height by 19.25",
+  "first_ends_s": 17.5,
+  "second_begins_s": 19.0,
+  "clean": true
+ },
+ {
+  "after_step": 5,
+  "window": [
+   21.5,
+   25.5
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "t=21.50 shows hands around the front frame with no drill engaged, finishing mount of the horizontal plate; t=21.75 shows left hand holding the red-yellow power drill against the left front plate corner while right hand works the plate, starting power-tool securing, with drill in hands then later cord on floor while hands work plate corners.",
+  "first_ends_s": 21.5,
+  "second_begins_s": 21.75,
+  "clean": true
+ },
+ {
+  "after_step": 6,
+  "window": [
+   25.5,
+   29.5
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "t25.5-26.25 both yellow-gloved hands hold the front plate corners while drill/cord/wrench lie on floor left; t26.5-27.0 hands blur around right side; t27.25 right hand presses front plate with tool still on floor; t27.5 is blurred dissolve with no clear hand action; t27.75 hands grip the side of the complete frame tilted on its side showing side faces, continuing to turn through t28+",
+  "first_ends_s": 27.25,
+  "second_begins_s": 27.75,
+  "clean": true
+ },
+ {
+  "after_step": 7,
+  "window": [
+   30.0,
+   40.5
+  ],
+  "fps": 3.8095238095238093,
+  "frames": 40,
+  "evidence": "Frames 30.00 to 31.05 show yellow-gloved hands gripping the top of the steel press frame and tilting/turning it from front to side to back faces; after 31.05 no hands are visible on the frame and it sits still before fade to white and STEP 2 title. Studio stays empty in front of white backdrop until 39.19 where blurred hands/figures appear on left handling vertical posts, with posts standing upright by 39.45.",
+  "first_ends_s": 31.05,
+  "second_begins_s": 39.19,
+  "clean": true
+ },
+ {
+  "after_step": 8,
+  "window": [
+   38.0,
+   45.0
+  ],
+  "fps": 4.0,
+  "frames": 28,
+  "evidence": "t=39.0 shows motion blur entering with no tall posts up. t=39.25 shows motion-blurred body overlapping the left-side position where two tall vertical posts first appear, indicating hands still uprighting left supports. t=39.5 shows left posts and right posts standing with empty scene and no hands on either side, so right-side hand work is never captured in a frame.",
+  "first_ends_s": 39.25,
+  "second_begins_s": -1,
+  "clean": false,
+  "narrow": {
+   "window": [
+    39.5,
+    43.5
+   ],
+   "fps": 4.0,
+   "first_ends_s": -1,
+   "second_begins_s": -1,
+   "evidence": "Frames 39.5-41.5 show two upright posts on left and two on right with no people/hands visible. From 41.75 people appear as motion blur, and by 42.5-43.25 only one post per side remains upright with the others lying on the floor while a person crouches on the left then walks away. No frame shows hands erecting/holding left posts upright nor hands at right posts starting to erect them; the visible hand work is takedown."
+  }
+ },
+ {
+  "after_step": 9,
+  "window": [
+   42.5,
+   62.0
+  ],
+  "fps": 2.051282051282051,
+  "frames": 40,
+  "evidence": "Around 46.89 a translucent blurred figure overlaps the right-side vertical posts behind the tripod, consistent with hands at the right posts for step A; frames before show kneeling/walking blurs and 47.38 onward show walking/standing away or empty, with no further contact at right posts. Around 60.05 a blurred kneeling figure is centered over a new long dark low beam spanning left to right posts, which was absent at 59.56, marking hands starting step B, confirmed by beam in place and hands at beam ends at 61.03-61.51.",
+  "first_ends_s": 46.89,
+  "second_begins_s": 60.05,
+  "clean": true
+ },
+ {
+  "after_step": 10,
+  "window": [
+   59.5,
+   69.0
+  ],
+  "fps": 4.0,
+  "frames": 38,
+  "evidence": "t=60.25 blurred person crouched between posts with hands on low beam placing it across supports for step A; t=60.5 lower dark beam in place with no hands; t=60.75 person standing between posts holding second horizontal beam; t=61.0 person bent over at low beam stacking second beam onto lower for step B",
+  "first_ends_s": 60.25,
+  "second_begins_s": 60.75,
+  "clean": true,
+  "narrow": {
+   "window": [
+    62.0,
+    66.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": 63.5,
+   "second_begins_s": -1,
+   "evidence": "At 62.5 a blurred worker is on the ground at the right support with hands at the low beam area, at 62.75 a worker kneels center-right with hands on the low dark beam spanning the posts, and at 63.5 a worker kneels at the left post with hands at the lower beam/post junction. At 63.75 onward no hands/people are visible, close-ups 64.0-65.25 show only the single lower beam, and 65.5-65.75 show arrows and a ghost overlay of the second beam stacked on top with no hands placing it."
+  }
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "source": "bench-nitrov15",
+ "planted": 10,
+ "checked": 10,
+ "graded": 10,
+ "claimed": {
+  "selfcheck": "flagged",
+  "omit0": "caught",
+  "omit1": "missed",
+  "omit2": "flagged",
+  "omit3": "flagged",
+  "omit4": "flagged",
+  "swap01": "missed",
+  "swap12": "missed",
+  "swap23": "missed",
+  "swap34": "missed",
+  "correct": "correct_pass"
+ }
+}

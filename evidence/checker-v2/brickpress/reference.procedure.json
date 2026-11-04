@@ -1,0 +1,250 @@
+{
+ "audio_notes": "metal clanking and scraping, wrench impacts, timelapse motion blur whoosh, no intelligible speech",
+ "objects_seen": [
+  "person",
+  "yellow gloves",
+  "steel press frame",
+  "cross beam",
+  "top cross beam",
+  "side rails",
+  "hydraulic cylinder",
+  "middle press plate",
+  "bolts",
+  "bolt container",
+  "wrenches",
+  "hammer",
+  "power drill",
+  "vertical posts",
+  "base beam",
+  "tripod camera",
+  "white backdrop",
+  "concrete floor"
+ ],
+ "speech_heard": "none",
+ "steps": [
+  {
+   "action": "bolt bottom cross beam to side rails on floor",
+   "cannot_see": "bolt thread engagement and tightening torque",
+   "checkpoint_visibility": "subtle",
+   "end_s": 4.8,
+   "evidence_s": 2.5,
+   "index": 0,
+   "objects": [
+    "cross beam",
+    "side rails",
+    "bolt container"
+   ],
+   "observable_checkpoint": "cross beam lying across end of flat frame on floor with hands working at corners",
+   "pass_condition": "bottom cross member attached to both side rails",
+   "start_s": 0.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "stand frame upright to vertical",
+   "cannot_see": "final stability of upright frame",
+   "checkpoint_visibility": "clear",
+   "end_s": 7.2,
+   "evidence_s": 6.5,
+   "index": 1,
+   "objects": [
+    "steel press frame",
+    "cross beam"
+   ],
+   "observable_checkpoint": "frame standing vertical centered in view after being flat on floor",
+   "pass_condition": "frame upright on its feet",
+   "start_s": 4.8,
+   "self_check": "observed"
+  },
+  {
+   "action": "tighten bolts on left side of frame",
+   "cannot_see": "bolt torque and inside thread alignment",
+   "checkpoint_visibility": "subtle",
+   "end_s": 10.5,
+   "evidence_s": 9.0,
+   "index": 2,
+   "objects": [
+    "steel press frame",
+    "bolts",
+    "wrenches"
+   ],
+   "observable_checkpoint": "hands with yellow gloves working at left edge bolt holes with wrenches on floor",
+   "pass_condition": "left side bolts installed",
+   "start_s": 7.2,
+   "self_check": "observed"
+  },
+  {
+   "action": "tighten bolts on right side of frame",
+   "cannot_see": "bolt torque and inside thread alignment",
+   "checkpoint_visibility": "subtle",
+   "end_s": 13.8,
+   "evidence_s": 11.5,
+   "index": 3,
+   "objects": [
+    "steel press frame",
+    "bolts",
+    "wrenches"
+   ],
+   "observable_checkpoint": "hands working at right edge bolt holes of frame",
+   "pass_condition": "right side bolts installed",
+   "start_s": 10.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "install hydraulic cylinder and middle press plate",
+   "cannot_see": "cylinder mounting pin seating and alignment",
+   "checkpoint_visibility": "clear",
+   "end_s": 18.5,
+   "evidence_s": 17.0,
+   "index": 4,
+   "objects": [
+    "hydraulic cylinder",
+    "middle press plate",
+    "steel press frame"
+   ],
+   "observable_checkpoint": "black cylinder centered inside frame with flat plate on its rod end",
+   "pass_condition": "cylinder and middle plate seated inside frame",
+   "start_s": 13.8,
+   "self_check": "observed"
+  },
+  {
+   "action": "mount front lower cross plate",
+   "cannot_see": "bolt tightness on back side",
+   "checkpoint_visibility": "clear",
+   "end_s": 23.5,
+   "evidence_s": 22.0,
+   "index": 5,
+   "objects": [
+    "cross beam",
+    "steel press frame",
+    "bolts"
+   ],
+   "observable_checkpoint": "horizontal plate spanning front face of frame at mid-height",
+   "pass_condition": "front lower plate attached across frame",
+   "start_s": 18.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "secure front plates with power tool",
+   "cannot_see": "final torque and thread depth",
+   "checkpoint_visibility": "subtle",
+   "end_s": 27.5,
+   "evidence_s": 25.5,
+   "index": 6,
+   "objects": [
+    "power drill",
+    "cross beam",
+    "bolts"
+   ],
+   "observable_checkpoint": "power tool and cord on floor beside frame while hands work front plate corners",
+   "pass_condition": "front plates firmly bolted",
+   "start_s": 23.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "rotate assembled press frame to inspect",
+   "cannot_see": "weight and internal weld integrity",
+   "checkpoint_visibility": "clear",
+   "end_s": 32.0,
+   "evidence_s": 30.0,
+   "index": 7,
+   "objects": [
+    "steel press frame",
+    "hydraulic cylinder"
+   ],
+   "observable_checkpoint": "complete frame tilted and turned showing side and back faces",
+   "pass_condition": "frame moved as one rigid assembly",
+   "start_s": 27.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "stand left support posts upright",
+   "cannot_see": "base plate anchor tightness",
+   "checkpoint_visibility": "subtle",
+   "end_s": 41.5,
+   "evidence_s": 40.5,
+   "index": 8,
+   "objects": [
+    "vertical posts",
+    "base beam"
+   ],
+   "observable_checkpoint": "two vertical posts standing on left side in front of white backdrop",
+   "pass_condition": "left posts vertical on floor",
+   "start_s": 38.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "stand right support posts upright",
+   "cannot_see": "base plate anchor tightness",
+   "checkpoint_visibility": "subtle",
+   "end_s": 44.5,
+   "evidence_s": 43.5,
+   "index": 9,
+   "objects": [
+    "vertical posts",
+    "base beam"
+   ],
+   "observable_checkpoint": "two vertical posts standing on right side mirroring left side",
+   "pass_condition": "right posts vertical on floor",
+   "start_s": 41.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "place lower base beam across supports",
+   "cannot_see": "seating of beam ends in brackets",
+   "checkpoint_visibility": "clear",
+   "end_s": 64.0,
+   "evidence_s": 63.0,
+   "index": 10,
+   "objects": [
+    "base beam",
+    "vertical posts",
+    "wrenches"
+   ],
+   "observable_checkpoint": "long dark beam spanning between left and right posts at low height",
+   "pass_condition": "lower beam resting on both side supports",
+   "start_s": 60.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "place upper base beam onto lower beam",
+   "cannot_see": "bolt hole alignment and fastener tightness",
+   "checkpoint_visibility": "clear",
+   "end_s": 68.5,
+   "evidence_s": 67.5,
+   "index": 11,
+   "objects": [
+    "base beam",
+    "vertical posts",
+    "bolts"
+   ],
+   "observable_checkpoint": "second beam stacked directly on top of lower beam between posts",
+   "pass_condition": "two beams stacked as base assembly",
+   "start_s": 64.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Assemble hydraulic press frame and base support beams",
+ "track": [
+  "wrenches",
+  "cross beam",
+  "hydraulic cylinder",
+  "base beam"
+ ],
+ "uncertainty": "fast timelapse with heavy motion blur makes exact hand actions and bolt counts uncertain; no intelligible speech heard so narration details unavailable",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-4573885646214408",
+  "usage": {
+   "input_tokens": 19428,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 497
+   },
+   "output_tokens": 4395,
+   "output_tokens_details": {
+    "reasoning_tokens": 2878
+   },
+   "total_tokens": 23823
+  }
+ }
+}

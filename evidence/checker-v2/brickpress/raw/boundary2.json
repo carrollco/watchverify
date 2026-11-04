@@ -1,0 +1,111 @@
+{
+ "id": "resp_6ae253801b4b278087fe4527",
+ "access_programs": null,
+ "created_at": 1793217408.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given two consecutive steps of a hands-on procedure and a strip of frames from the expert's video, in time order, each labeled with its time in seconds. Find where step A's hand work ends and step B's begins. first_ends_s: the label of the last frame in which the hands are still doing step A (holding the tool at step A's place or part, or finishing its action). second_begins_s: the label of the first frame in which the hands are at step B's place or part, or start its action. Moving between places, putting a tool down or picking one up belongs to neither step. Be strict: a frame that might still be step A counts as step A. Answer only from the frames; use -1 when no frame shows the step.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae253801b4b278087fe4527:rs_3458ce4e-7079-483d-bc0b-a7b1af6437ae",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_9078a0f7-ef12-442a-92d9-a787ed347a26",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"evidence\": \"Frames 8.5-10.25 show yellow-gloved hands engaged at the bottom/left edge bolt area on left side, with wrenches in use. At 10.5 both wrenches lie on the floor and no hands are on the bolt holes - transition/moving gap. At 10.75 motion blur moving, and at 11.0 hands with yellow gloves are again on the frame at the top/right edge bolt area beginning work on the right side.\", \"first_ends_s\": 10.25, \"second_begins_s\": 11.0}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793217408.0,
+ "conversation": null,
+ "max_output_tokens": 10000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "boundary",
+   "schema_": {
+    "required": [
+     "first_ends_s",
+     "second_begins_s",
+     "evidence"
+    ],
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+     "evidence": {
+      "description": "what the hands do in the frames around both times",
+      "type": "string"
+     },
+     "first_ends_s": {
+      "description": "time label of the last frame where the hands still do step A; -1 if no frame shows it",
+      "type": "number"
+     },
+     "second_begins_s": {
+      "description": "time label of the first frame where the hands begin step B; -1 if no frame shows it",
+      "type": "number"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 3421,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 3313
+  },
+  "output_tokens": 6366,
+  "output_tokens_details": {
+   "reasoning_tokens": 6231
+  },
+  "total_tokens": 9787
+ },
+ "user": null,
+ "store": true
+}

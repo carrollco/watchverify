@@ -1,0 +1,106 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   5.5,
+   9.5
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "Right hand holds green torque wrench seated on middle of cylinder head and sweeps handle to tighten through t=5.5 to t=7.5, wrench tip lifts clear and hovers at t=7.75-8.0 with hands in transit, then tip is reseated on head and right hand resumes tightening from t=8.25 onward",
+  "first_ends_s": 7.5,
+  "second_begins_s": 8.25,
+  "clean": true
+ },
+ {
+  "after_step": 1,
+  "window": [
+   10.5,
+   18.0
+  ],
+  "fps": 4.0,
+  "frames": 30,
+  "evidence": "From 10.5s to 12.25s both hands are on the engine middle: left hand steadies the head while right hand holds the green torque wrench seated into the head and sweeps the handle to tighten. At 12.5s the wrench is lifted up off the bolt with shaft exposed and gaze shifts away, then 12.75s-15.5s the wrench is carried away from the engine as the person steps left and returns. At 15.75s the wrench is held horizontally above the head not yet seated, and at 16.0s onward the tip is seated on the rear section with left hand on the rear bolt area and right hand on the handle to tighten.",
+  "first_ends_s": 12.25,
+  "second_begins_s": 16.0,
+  "clean": true
+ },
+ {
+  "after_step": 2,
+  "window": [
+   18.0,
+   22.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "From 18.00 to 19.25 both hands hold the green torque wrench seated on the rear head bolt with handle rotation; at 19.50-19.75 the wrench is lifted clear and moved; from 20.00 onward the wrench is seated on a different bolt with left hand at the head and right hand sweeping the handle through 21.75.",
+  "first_ends_s": 19.25,
+  "second_begins_s": 20.0,
+  "clean": true
+ },
+ {
+  "after_step": 3,
+  "window": [
+   22.5,
+   26.5
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "At 22.50 the right hand holds the green torque wrench low over the cylinder head with left hand at the tip still on the bolt; at 22.75-23.00 the wrench is lifted clear in the air with left hand off and socket hanging, moving between bolts; at 23.25 hands lower the wrench back onto the head and from 23.50 onward sweep the handle to tighten the next bolt.",
+  "first_ends_s": 22.5,
+  "second_begins_s": 23.25,
+  "clean": true
+ },
+ {
+  "after_step": 4,
+  "window": [
+   27.0,
+   31.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "At 27.00-29.00s right hand holds green torque wrench seated in engine cylinder head and sweeps handle to tighten while left hand steadies head; at 29.25s wrench is lifted clear in air above head with tip off bolt; at 29.50s onward tip is back down on head at new position with left hand guiding, and by 30.75s handle is swept horizontal to tighten again.",
+  "first_ends_s": 29.0,
+  "second_begins_s": 29.5,
+  "clean": true
+ },
+ {
+  "after_step": 5,
+  "window": [
+   33.0,
+   37.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "hands hold green torque wrench on cylinder head with right hand sweeping handle down while left steadies the shaft through 33.00-35.00; at 35.00 right hand releases handle ending the sweep; at 35.25 right hand reaches back to re-grip in transition; at 35.50 right hand grips handle end again seated on bolt and starts sweeping for the next tightening through 36.75",
+  "first_ends_s": 35.0,
+  "second_begins_s": 35.5,
+  "clean": true
+ },
+ {
+  "after_step": 6,
+  "window": [
+   39.5,
+   46.5
+  ],
+  "fps": 4.0,
+  "frames": 28,
+  "evidence": "39.5-41.5s hands hold green torque wrench seated on cylinder head bolt with handle swept to tighten. 41.75s hands still over head holding wrench at same bolt. 42.0-43.5s hands lift wrench off, step left away from engine then return with wrench in air. 43.75s hands back over engine guiding tip onto head and seating wrench to start front-section tightening, continued through 44-46s with handle swept left.",
+  "first_ends_s": 41.75,
+  "second_begins_s": 43.75,
+  "clean": true
+ },
+ {
+  "after_step": 7,
+  "window": [
+   48.0,
+   52.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "48.00-49.00s hands hold green torque wrench seated centrally on cylinder head with left hand steadying and right hand sweeping handle to tighten; 49.25s wrench still over same central area lifting; 49.50s onward wrench tip is on left-side bolt with left hand guiding on head and right hand working handle in new position",
+  "first_ends_s": 49.25,
+  "second_begins_s": 49.5,
+  "clean": true
+ }
+]

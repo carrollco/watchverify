@@ -1,0 +1,998 @@
+{
+ "source": "hp440",
+ "cuts": "refined",
+ "clip_s": 64.0,
+ "plans": [
+  {
+   "name": "selfcheck",
+   "order": null,
+   "truth": {
+    "kind": "selfcheck",
+    "steps": []
+   },
+   "checked": true,
+   "check": "reference.selfcheck",
+   "reference_view": "unmarked",
+   "pieces": [
+    [
+     0.0,
+     64.0
+    ]
+   ],
+   "duration_s": 64.0,
+   "track_frames": null,
+   "claimed": {
+    "sid": "hp440",
+    "name": "selfcheck",
+    "truth": {
+     "kind": "selfcheck",
+     "steps": []
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "flagged",
+    "graded": false,
+    "excluded_by": "code",
+    "why": "the self-check, re-scored with the marks it made, cannot fail; calibration only"
+   }
+  },
+  {
+   "name": "omit0",
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     0
+    ]
+   },
+   "pieces": [
+    [
+     18.279,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit0",
+   "duration_s": 45.66,
+   "track_frames": 228,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit0",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      0
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     1
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit0"
+  },
+  {
+   "name": "omit1",
+   "order": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     1
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     0.841
+    ],
+    [
+     24.125,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit1",
+   "duration_s": 40.73,
+   "track_frames": 204,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit1",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      1
+     ]
+    },
+    "verdict": "fail",
+    "missing": [],
+    "out_of_order": [
+     1,
+     2,
+     3
+    ],
+    "unclear": [],
+    "outcome": "untestable",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the checker did not find the planted step in the expert's own clip (self-check)"
+   },
+   "timing_from": "refined-verify-omit1"
+  },
+  {
+   "name": "omit2",
+   "order": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     21.375
+    ],
+    [
+     29.625,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit2",
+   "duration_s": 55.73,
+   "track_frames": 279,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit2",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      2
+     ]
+    },
+    "verdict": "fail",
+    "missing": [
+     2,
+     3
+    ],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "caught",
+    "extras": [
+     3
+    ],
+    "extras_review": [
+     0,
+     1
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit2"
+  },
+  {
+   "name": "omit3",
+   "order": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     29.375
+    ],
+    [
+     31.875,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit3",
+   "duration_s": 61.46,
+   "track_frames": 307,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit3",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      3
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit3"
+  },
+  {
+   "name": "omit4",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     4
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     31.875
+    ],
+    [
+     49.925,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit4",
+   "duration_s": 46.0,
+   "track_frames": 230,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit4",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      4
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     1
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit4"
+  },
+  {
+   "name": "omit5",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     5
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     35.075
+    ],
+    [
+     53.375,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit5",
+   "duration_s": 45.73,
+   "track_frames": 229,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit5",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      5
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     0,
+     3
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit5"
+  },
+  {
+   "name": "omit6",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     6
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     53.375
+    ],
+    [
+     58.625,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit6",
+   "duration_s": 58.73,
+   "track_frames": 294,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit6",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      6
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     1,
+     2,
+     3
+    ],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit6"
+  },
+  {
+   "name": "omit7",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     7
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     57.375
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit7",
+   "duration_s": 57.4,
+   "track_frames": 287,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "omit7",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      7
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     0
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit7"
+  },
+  {
+   "name": "swap01",
+   "order": [
+    1,
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     0,
+     1
+    ]
+   },
+   "pieces": [
+    [
+     18.279,
+     21.375
+    ],
+    [
+     0.0,
+     0.841
+    ],
+    [
+     24.125,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap01",
+   "duration_s": 43.8,
+   "track_frames": 219,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "swap01",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      0,
+      1
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "untestable",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the checker did not find the planted step in the expert's own clip (self-check)"
+   },
+   "timing_from": "refined-verify-swap01"
+  },
+  {
+   "name": "swap12",
+   "order": [
+    0,
+    2,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     1,
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     0.841
+    ],
+    [
+     24.125,
+     29.375
+    ],
+    [
+     18.279,
+     21.375
+    ],
+    [
+     29.625,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap12",
+   "duration_s": 43.53,
+   "track_frames": 218,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "swap12",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      1,
+      2
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "untestable",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the checker did not find the planted step in the expert's own clip (self-check)"
+   },
+   "timing_from": "refined-verify-swap12"
+  },
+  {
+   "name": "swap23",
+   "order": [
+    0,
+    1,
+    3,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     2,
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     21.375
+    ],
+    [
+     29.625,
+     31.875
+    ],
+    [
+     24.125,
+     29.375
+    ],
+    [
+     31.875,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap23",
+   "duration_s": 61.0,
+   "track_frames": 305,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "swap23",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      2,
+      3
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap23"
+  },
+  {
+   "name": "swap34",
+   "order": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     3,
+     4
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     29.375
+    ],
+    [
+     31.875,
+     35.075
+    ],
+    [
+     29.625,
+     31.875
+    ],
+    [
+     49.925,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap34",
+   "duration_s": 48.93,
+   "track_frames": 245,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "swap34",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      3,
+      4
+     ]
+    },
+    "verdict": "fail",
+    "missing": [
+     2
+    ],
+    "out_of_order": [],
+    "unclear": [
+     1,
+     3
+    ],
+    "outcome": "flagged",
+    "extras": [
+     2
+    ],
+    "extras_review": [
+     0,
+     1
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap34"
+  },
+  {
+   "name": "swap45",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    4,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     4,
+     5
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     31.875
+    ],
+    [
+     49.925,
+     53.375
+    ],
+    [
+     31.875,
+     35.075
+    ],
+    [
+     53.375,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap45",
+   "duration_s": 49.2,
+   "track_frames": 246,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "swap45",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      4,
+      5
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     1
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap45"
+  },
+  {
+   "name": "swap56",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    5,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     5,
+     6
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     35.075
+    ],
+    [
+     53.375,
+     57.375
+    ],
+    [
+     49.925,
+     53.375
+    ],
+    [
+     58.625,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap56",
+   "duration_s": 47.93,
+   "track_frames": 240,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "swap56",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      5,
+      6
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     1
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap56"
+  },
+  {
+   "name": "swap67",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    6
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     6,
+     7
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     53.375
+    ],
+    [
+     58.625,
+     64.0
+    ],
+    [
+     53.375,
+     57.375
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap67",
+   "duration_s": 62.8,
+   "track_frames": 314,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "swap67",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      6,
+      7
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     1
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap67"
+  },
+  {
+   "name": "correct",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "correct",
+    "steps": []
+   },
+   "pieces": [
+    [
+     0.0,
+     64.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-correct",
+   "duration_s": 64.0,
+   "track_frames": 320,
+   "confirm": false,
+   "claimed": {
+    "sid": "hp440",
+    "name": "correct",
+    "truth": {
+     "kind": "correct",
+     "steps": []
+    },
+    "verdict": "fail",
+    "missing": [
+     7
+    ],
+    "out_of_order": [],
+    "unclear": [
+     1
+    ],
+    "outcome": "false_alarm",
+    "graded": true
+   },
+   "timing_from": "refined-verify-correct"
+  }
+ ]
+}

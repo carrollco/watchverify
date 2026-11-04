@@ -1,0 +1,19 @@
+{
+ "source": "bench-thinkpadt14",
+ "planted": 10,
+ "checked": 10,
+ "graded": 10,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "caught",
+  "omit1": "explained_away",
+  "omit2": "flagged",
+  "omit3": "flagged",
+  "omit4": "caught",
+  "swap01": "flagged",
+  "swap12": "flagged",
+  "swap23": "flagged",
+  "swap34": "flagged",
+  "correct": "flagged"
+ }
+}

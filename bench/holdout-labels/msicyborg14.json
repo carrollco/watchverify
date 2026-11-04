@@ -1,0 +1,17 @@
+{
+ "made_by": "human:owner",
+ "confirmed_at": "2026-11-04T03:43:07-08:00",
+ "prelabeled_by": "a different AI model (not the model under test), from stills",
+ "prelabels_sha256": "7eaf0a63c27a5802f42aadd1c07140438a446e180218b64e21a485e588bd10c6",
+ "changed_from_prelabels": [],
+ "missed_steps": [],
+ "steps": [
+  {
+   "index": 0,
+   "start_s": 4.5,
+   "end_s": 13.0,
+   "visible": true,
+   "is_step": true
+  }
+ ]
+}

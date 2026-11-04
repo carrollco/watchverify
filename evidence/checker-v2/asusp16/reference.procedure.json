@@ -1,0 +1,177 @@
+{
+ "audio_notes": "none",
+ "objects_seen": [
+  "phillips screwdriver",
+  "plastic pry tool",
+  "laptop battery",
+  "battery cable connector",
+  "top-left battery screw",
+  "top-right battery screw",
+  "bottom-left battery screw",
+  "bottom-right battery screw",
+  "M.2 SSD retaining screw",
+  "M.2 SSD heat shield",
+  "motherboard",
+  "cooling fan",
+  "heat pipe",
+  "Wi-Fi module",
+  "touchpad module",
+  "laptop chassis",
+  "black work gloves"
+ ],
+ "speech_heard": "Phillips head screws that fix the unit to the base. The capacity is enough for around twelve hours of video playback. A great result considering the high-res OLED display and the powerful CPU and GPU. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu, and select the standard mode in the MyAsus or ProArt Creator Hub app. The Wi-Fi card is positioned close to the battery connector. For storage, there are two M.2 slots compatible with 2280 Gen 4 SSDs. The one on the left offers half of the PCIe lanes compared to the other one.",
+ "steps": [
+  {
+   "action": "unscrew top-left battery screw",
+   "cannot_see": "thread release inside the standoff",
+   "checkpoint_visibility": "subtle",
+   "end_s": 7.0,
+   "evidence_s": 4.0,
+   "index": 0,
+   "objects": [
+    "phillips screwdriver",
+    "top-left battery screw"
+   ],
+   "observable_checkpoint": "screwdriver tip engaged on the left screw above the laptop battery",
+   "pass_condition": "screwdriver turns on the left screw above the battery",
+   "start_s": 1.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "unscrew top-right battery screw",
+   "cannot_see": "thread release inside the standoff",
+   "checkpoint_visibility": "subtle",
+   "end_s": 18.0,
+   "evidence_s": 14.0,
+   "index": 1,
+   "objects": [
+    "phillips screwdriver",
+    "top-right battery screw"
+   ],
+   "observable_checkpoint": "hand and tool working on the right-side screw above the laptop battery",
+   "pass_condition": "tool turns on the right screw above the battery",
+   "start_s": 10.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "unscrew bottom-left battery screw",
+   "cannot_see": "thread release inside the standoff",
+   "checkpoint_visibility": "subtle",
+   "end_s": 22.0,
+   "evidence_s": 21.0,
+   "index": 2,
+   "objects": [
+    "phillips screwdriver",
+    "bottom-left battery screw"
+   ],
+   "observable_checkpoint": "screwdriver tip engaged on the bottom-left screw of the laptop battery",
+   "pass_condition": "screwdriver turns on the bottom-left battery screw",
+   "start_s": 20.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "unscrew bottom battery screw",
+   "cannot_see": "thread release inside the standoff",
+   "checkpoint_visibility": "subtle",
+   "end_s": 28.0,
+   "evidence_s": 26.0,
+   "index": 3,
+   "objects": [
+    "phillips screwdriver",
+    "bottom-right battery screw"
+   ],
+   "observable_checkpoint": "screwdriver tip engaged on the bottom screw of the laptop battery",
+   "pass_condition": "screwdriver turns on the bottom battery screw",
+   "start_s": 23.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "pry open battery cable connector",
+   "cannot_see": "electrical disconnection inside the connector",
+   "checkpoint_visibility": "subtle",
+   "end_s": 37.0,
+   "evidence_s": 34.0,
+   "index": 4,
+   "objects": [
+    "plastic pry tool",
+    "battery cable connector"
+   ],
+   "observable_checkpoint": "pry tool inserted under the battery cable at the bottom edge of the motherboard",
+   "pass_condition": "battery cable is loosened from the motherboard socket",
+   "start_s": 30.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift laptop battery out of chassis",
+   "cannot_see": "battery charge or internal cell condition",
+   "checkpoint_visibility": "clear",
+   "end_s": 47.0,
+   "evidence_s": 46.0,
+   "index": 5,
+   "objects": [
+    "laptop battery",
+    "battery cable connector"
+   ],
+   "observable_checkpoint": "entire laptop battery detached and lifted clear exposing the touchpad module underneath",
+   "pass_condition": "battery is fully removed from the laptop chassis",
+   "start_s": 39.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "unscrew M.2 SSD retaining screw",
+   "cannot_see": "thread release inside the standoff",
+   "checkpoint_visibility": "subtle",
+   "end_s": 67.0,
+   "evidence_s": 63.0,
+   "index": 6,
+   "objects": [
+    "phillips screwdriver",
+    "M.2 SSD retaining screw"
+   ],
+   "observable_checkpoint": "screwdriver tip engaged on the small screw at the right-side M.2 slot",
+   "pass_condition": "SSD retaining screw is loosened on the right slot",
+   "start_s": 59.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift off SSD heat shield",
+   "cannot_see": "SSD data contents or underside contact",
+   "checkpoint_visibility": "clear",
+   "end_s": 74.0,
+   "evidence_s": 73.0,
+   "index": 7,
+   "objects": [
+    "M.2 SSD heat shield",
+    "laptop chassis"
+   ],
+   "observable_checkpoint": "metallic heat shield lifted off the right M.2 area exposing the slot beneath",
+   "pass_condition": "heat shield is removed from the M.2 slot",
+   "start_s": 68.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Remove laptop battery and access M.2 storage",
+ "track": [
+  "phillips screwdriver",
+  "laptop battery",
+  "M.2 SSD retaining screw",
+  "M.2 SSD heat shield"
+ ],
+ "uncertainty": "Screwdriver tip and small screws are partly occluded by gloved fingers; exact screw count and torque cannot be verified visually. On-screen text overlays about battery capacity, power modes, Wi-Fi position and SSD benchmarks were excluded as non-hand steps.",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-1759534858459782",
+  "usage": {
+   "input_tokens": 21063,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 497
+   },
+   "output_tokens": 3663,
+   "output_tokens_details": {
+    "reasoning_tokens": 2368
+   },
+   "total_tokens": 24726
+  }
+ }
+}

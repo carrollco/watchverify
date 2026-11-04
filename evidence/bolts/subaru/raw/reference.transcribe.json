@@ -1,0 +1,98 @@
+{
+ "sessionId": "voyager/transcribe/94E3C7A97731484CBDA14A9AAF02991C",
+ "transcript": "two middle ones Alright, first step, 21.4 What I like to do, is get it to get all of them to 10. A, B, what was it? C D E F and now 21.4 A, B, C, was it? was it? Yeah. C, D, E",
+ "audioDurationMs": 62080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 540,
+   "transcript": "two middle ones"
+  },
+  {
+   "turnId": 1,
+   "startMs": 1260,
+   "endMs": 3420,
+   "transcript": "Alright, first step, 21.4"
+  },
+  {
+   "turnId": 2,
+   "startMs": 4060,
+   "endMs": 9580,
+   "transcript": "What I like to do, is get it to get all of them to 10."
+  },
+  {
+   "turnId": 3,
+   "startMs": 11900,
+   "endMs": 13340,
+   "transcript": "A, B, what was it?"
+  },
+  {
+   "turnId": 4,
+   "startMs": 19580,
+   "endMs": 20060,
+   "transcript": "C"
+  },
+  {
+   "turnId": 5,
+   "startMs": 22780,
+   "endMs": 23420,
+   "transcript": "D"
+  },
+  {
+   "turnId": 6,
+   "startMs": 26060,
+   "endMs": 26140,
+   "transcript": "E"
+  },
+  {
+   "turnId": 7,
+   "startMs": 28860,
+   "endMs": 29260,
+   "transcript": "F"
+  },
+  {
+   "turnId": 8,
+   "startMs": 30460,
+   "endMs": 32540,
+   "transcript": "and now 21.4"
+  },
+  {
+   "turnId": 9,
+   "startMs": 39180,
+   "endMs": 41980,
+   "transcript": "A, B, C, was it?"
+  },
+  {
+   "turnId": 10,
+   "startMs": 42060,
+   "endMs": 42060,
+   "transcript": "was it?"
+  },
+  {
+   "turnId": 11,
+   "startMs": 43660,
+   "endMs": 43980,
+   "transcript": "Yeah."
+  },
+  {
+   "turnId": 12,
+   "startMs": 48940,
+   "endMs": 49660,
+   "transcript": "C,"
+  },
+  {
+   "turnId": 13,
+   "startMs": 53500,
+   "endMs": 53900,
+   "transcript": "D,"
+  },
+  {
+   "turnId": 14,
+   "startMs": 57020,
+   "endMs": 57420,
+   "transcript": "E"
+  }
+ ],
+ "_http": 200
+}

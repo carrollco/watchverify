@@ -1,0 +1,203 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 12000,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "REFERENCE procedure (steps in the expert's order; the candidate's timing is its own):\n{\n \"task\": \"Remove laptop battery and access M.2 storage\",\n \"steps\": [\n  {\n   \"index\": 0,\n   \"action\": \"unscrew top-left battery screw\",\n   \"objects\": [\n    \"phillips screwdriver\",\n    \"top-left battery screw\"\n   ],\n   \"observable_checkpoint\": \"screwdriver tip engaged on the left screw above the laptop battery\",\n   \"pass_condition\": \"screwdriver turns on the left screw above the battery\",\n   \"cannot_see\": \"thread release inside the standoff\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 1,\n   \"action\": \"unscrew top-right battery screw\",\n   \"objects\": [\n    \"phillips screwdriver\",\n    \"top-right battery screw\"\n   ],\n   \"observable_checkpoint\": \"hand and tool working on the right-side screw above the laptop battery\",\n   \"pass_condition\": \"tool turns on the right screw above the battery\",\n   \"cannot_see\": \"thread release inside the standoff\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 2,\n   \"action\": \"unscrew bottom-left battery screw\",\n   \"objects\": [\n    \"phillips screwdriver\",\n    \"bottom-left battery screw\"\n   ],\n   \"observable_checkpoint\": \"screwdriver tip engaged on the bottom-left screw of the laptop battery\",\n   \"pass_condition\": \"screwdriver turns on the bottom-left battery screw\",\n   \"cannot_see\": \"thread release inside the standoff\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 3,\n   \"action\": \"unscrew bottom battery screw\",\n   \"objects\": [\n    \"phillips screwdriver\",\n    \"bottom-right battery screw\"\n   ],\n   \"observable_checkpoint\": \"screwdriver tip engaged on the bottom screw of the laptop battery\",\n   \"pass_condition\": \"screwdriver turns on the bottom battery screw\",\n   \"cannot_see\": \"thread release inside the standoff\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 4,\n   \"action\": \"pry open battery cable connector\",\n   \"objects\": [\n    \"plastic pry tool\",\n    \"battery cable connector\"\n   ],\n   \"observable_checkpoint\": \"pry tool inserted under the battery cable at the bottom edge of the motherboard\",\n   \"pass_condition\": \"battery cable is loosened from the motherboard socket\",\n   \"cannot_see\": \"electrical disconnection inside the connector\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 5,\n   \"action\": \"lift laptop battery out of chassis\",\n   \"objects\": [\n    \"laptop battery\",\n    \"battery cable connector\"\n   ],\n   \"observable_checkpoint\": \"entire laptop battery detached and lifted clear exposing the touchpad module underneath\",\n   \"pass_condition\": \"battery is fully removed from the laptop chassis\",\n   \"cannot_see\": \"battery charge or internal cell condition\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 6,\n   \"action\": \"unscrew M.2 SSD retaining screw\",\n   \"objects\": [\n    \"phillips screwdriver\",\n    \"M.2 SSD retaining screw\"\n   ],\n   \"observable_checkpoint\": \"screwdriver tip engaged on the small screw at the right-side M.2 slot\",\n   \"pass_condition\": \"SSD retaining screw is loosened on the right slot\",\n   \"cannot_see\": \"thread release inside the standoff\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 7,\n   \"action\": \"lift off SSD heat shield\",\n   \"objects\": [\n    \"M.2 SSD heat shield\",\n    \"laptop chassis\"\n   ],\n   \"observable_checkpoint\": \"metallic heat shield lifted off the right M.2 area exposing the slot beneath\",\n   \"pass_condition\": \"heat shield is removed from the M.2 slot\",\n   \"cannot_see\": \"SSD data contents or underside contact\",\n   \"checkpoint_visibility\": \"clear\"\n  }\n ]\n}\n\nCheck the attached video against every reference step."
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 0, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:7a1a5a8c1bbe95e7"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 1, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:5ddf47ef1ea8d3a4"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 2, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:a907396343b34a60"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 3, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:273117c6d16d52a3"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 4, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:589803e414883a09"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 5, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:2ccf558b489b41b8"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 6, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:6c3868dae2214fc5"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 7, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:65e07d357a9633be"
+    },
+    {
+     "type": "input_file",
+     "file_id": "file-27308544828843889"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "video_verification",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "same_task": {
+      "type": "boolean"
+     },
+     "checks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell"
+        },
+        "observed_start_s": {
+         "type": "number",
+         "description": "seconds in the candidate video where the step starts, -1 if not observed"
+        },
+        "observed_end_s": {
+         "type": "number",
+         "description": "-1 if not observed"
+        },
+        "other_moments": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+           "start_s": {
+            "type": "number"
+           },
+           "end_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ]
+         },
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none"
+        },
+        "evidence": {
+         "type": "string",
+         "description": "what is visible that supports the status, with seconds"
+        },
+        "cannot_see": {
+         "type": "string",
+         "description": "properties of this step the camera cannot verify, or 'none'"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ]
+      }
+     },
+     "extra_actions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "start_s": {
+         "type": "number"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "action": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ]
+      }
+     },
+     "notes": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

@@ -1,0 +1,4 @@
+# Only for demo/build_video.py (the demo video); the entry itself needs ../requirements.txt
+playwright==1.64.1
+kokoro-onnx==0.6.1   # narration; its model files (kokoro-v1.0.onnx, voices-v1.0.bin) come from the kokoro-onnx releases
+imageio-ffmpeg==0.8.1

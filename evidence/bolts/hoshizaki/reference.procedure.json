@@ -1,0 +1,153 @@
+{
+ "audio_notes": "sharp mechanical clicks from torque wrench with each tightening, faint room hum",
+ "objects_seen": [
+  "torque wrench",
+  "bolt",
+  "brass bearing housing",
+  "silver gearbox housing",
+  "gray motor",
+  "auger shaft",
+  "white evaporator tube",
+  "Loctite 243 bottle",
+  "small screws",
+  "socket",
+  "black work table",
+  "ice machine",
+  "gloves"
+ ],
+ "speech_heard": "You want to tighten these in a cross pattern. Don't choke up on it, hold it out toward the end to give you proper leverage. When it clicks, go to the one across from it. Then go clockwise around. Then go around again to be sure they're all torqued evenly.",
+ "steps": [
+  {
+   "action": "tighten bolt",
+   "cannot_see": "exact torque value applied inside threads",
+   "checkpoint_visibility": "clear",
+   "end_s": 12.0,
+   "evidence_s": 6.0,
+   "index": 0,
+   "objects": [
+    "torque wrench",
+    "bolt",
+    "brass bearing housing",
+    "silver gearbox housing"
+   ],
+   "observable_checkpoint": "torque wrench engaged on front bolt of brass housing and turned",
+   "pass_condition": "bolt turned until wrench clicks",
+   "start_s": 0.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "tighten opposite bolt",
+   "cannot_see": "exact torque value applied",
+   "checkpoint_visibility": "clear",
+   "end_s": 21.0,
+   "evidence_s": 17.0,
+   "index": 1,
+   "objects": [
+    "torque wrench",
+    "bolt",
+    "brass bearing housing",
+    "silver gearbox housing"
+   ],
+   "observable_checkpoint": "torque wrench engaged on second bolt across from first and turned",
+   "pass_condition": "bolt turned until wrench clicks",
+   "start_s": 12.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "tighten side bolt",
+   "cannot_see": "thread engagement depth",
+   "checkpoint_visibility": "clear",
+   "end_s": 31.0,
+   "evidence_s": 27.0,
+   "index": 2,
+   "objects": [
+    "torque wrench",
+    "bolt",
+    "brass bearing housing",
+    "silver gearbox housing"
+   ],
+   "observable_checkpoint": "torque wrench engaged on side bolt of brass housing and turned",
+   "pass_condition": "bolt seated and wrench clicks",
+   "start_s": 21.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "tighten remaining bolt",
+   "cannot_see": "exact torque value applied",
+   "checkpoint_visibility": "clear",
+   "end_s": 41.0,
+   "evidence_s": 37.0,
+   "index": 3,
+   "objects": [
+    "torque wrench",
+    "bolt",
+    "brass bearing housing",
+    "silver gearbox housing"
+   ],
+   "observable_checkpoint": "torque wrench engaged on remaining bolt and turned clockwise",
+   "pass_condition": "bolt turned until wrench clicks",
+   "start_s": 31.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "re-check bolts clockwise",
+   "cannot_see": "whether internal clamping force is even",
+   "checkpoint_visibility": "subtle",
+   "end_s": 55.0,
+   "evidence_s": 50.0,
+   "index": 4,
+   "objects": [
+    "torque wrench",
+    "bolt",
+    "brass bearing housing",
+    "silver gearbox housing"
+   ],
+   "observable_checkpoint": "torque wrench moved sequentially around each bolt for second pass",
+   "pass_condition": "each bolt re-engaged with no further turning before click",
+   "start_s": 41.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "re-check bolts again",
+   "cannot_see": "exact final torque reading",
+   "checkpoint_visibility": "subtle",
+   "end_s": 69.0,
+   "evidence_s": 63.0,
+   "index": 5,
+   "objects": [
+    "torque wrench",
+    "bolt",
+    "brass bearing housing",
+    "silver gearbox housing"
+   ],
+   "observable_checkpoint": "torque wrench engaged on each bolt around housing for final verification",
+   "pass_condition": "all bolts hold torque with wrench clicking",
+   "start_s": 55.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "torque the bearing housing bolts on the gearbox assembly in a cross pattern",
+ "track": [
+  "torque wrench",
+  "bolt",
+  "brass bearing housing",
+  "silver gearbox housing"
+ ],
+ "uncertainty": "small bolts are low resolution so exact bolt positions are inferred from hand and wrench placement; spoken torque specification value not clearly audible so torque value cannot be confirmed",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-2394409301102190",
+  "usage": {
+   "input_tokens": 19709,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 0
+   },
+   "output_tokens": 3013,
+   "output_tokens_details": {
+    "reasoning_tokens": 2095
+   },
+   "total_tokens": 22722
+  }
+ }
+}

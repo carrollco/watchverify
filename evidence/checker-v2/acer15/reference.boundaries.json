@@ -1,0 +1,129 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   0.2,
+   6.2
+  ],
+  "fps": 4.0,
+  "frames": 24,
+  "evidence": "t=1.20 left gloved hand holds blue tool at left rear corner, t=1.45 still holds blue tool on left edge, t=1.70 hands/tool gone. Right side idle until t=4.20-4.45 right hand steadies right edge while blue tool approaches from top, t=4.70 top hand inserts blue tool under right rear corner near hinge with right hand steadying, held through 5.45.",
+  "first_ends_s": 1.45,
+  "second_begins_s": 4.7,
+  "clean": true
+ },
+ {
+  "after_step": 1,
+  "window": [
+   4.0,
+   11.8
+  ],
+  "fps": 4.0,
+  "frames": 31,
+  "evidence": "At 4.5-5.5 the upper hand holds the blue pry tool inserted under the right rear corner near the hinge while the gloved right hand steadies the cover; at 5.75 the tool is withdrawn and hands leave the laptop empty 6.0-6.75. After pressing the front seam and moving to the top, at 9.75 the left hand brings the blue tool to the left side edge near the hinge while the right hand holds the right side, then inserts and slides the tool down the left edge 10.0-11.5 lifting the seam.",
+  "first_ends_s": 5.5,
+  "second_begins_s": 9.75,
+  "clean": true
+ },
+ {
+  "after_step": 2,
+  "window": [
+   10.5,
+   16.5
+  ],
+  "fps": 4.0,
+  "frames": 24,
+  "evidence": "t=10.5 to 11.75 left hand holds blue tool inserted along left side edge of bottom cover sliding to lift seam while right hand stabilizes right side. t=12.0 tool pulled off left edge, t=12.25-14.0 hands carry tool away across top and to right side in transit with no left or front contact. t=14.25 onward hand brings blue tool to front edge center inserted under seam lifting cover, held through 16.25.",
+  "first_ends_s": 11.75,
+  "second_begins_s": 14.25,
+  "clean": true
+ },
+ {
+  "after_step": 3,
+  "window": [
+   15.5,
+   20.5
+  ],
+  "fps": 4.0,
+  "frames": 20,
+  "evidence": "hands hold blue tool under front-edge center lifting seam from 15.5s through 17.0s, lift tool away in air at 17.25s, then no handwork visible during move, then hand with blue tool contacts rear vent edge at 19.5s",
+  "first_ends_s": 17.0,
+  "second_begins_s": 19.5,
+  "clean": true
+ },
+ {
+  "after_step": 4,
+  "window": [
+   18.5,
+   23.0
+  ],
+  "fps": 4.0,
+  "frames": 18,
+  "evidence": "18.5-19.75s blue plastic tool visible at top/rear vent edge with gloved right hand stabilizing cover, tool working edge at 19.5; tool gone by 20.0 with only right hand holding corner; at 21.0 both gloved hands grip left and right rear corners and then lift, cover still on through 22.0 and removed by 22.25 exposing fan, motherboard and battery",
+  "first_ends_s": 19.75,
+  "second_begins_s": 21.0,
+  "clean": true
+ },
+ {
+  "after_step": 5,
+  "window": [
+   21.0,
+   26.5
+  ],
+  "fps": 4.0,
+  "frames": 22,
+  "evidence": "t=21.00 to t=21.75 gloved hands grip the top edges of the closed bottom cover. t=22.00 cover still on with hand tips at top edge still lifting. t=22.25 cover is gone exposing fan, motherboard and battery with no hands visible. Hands stay out through t=24.25 then at t=24.50 a gloved hand enters over the interior with finger on the battery connector area above the battery, continuing at t=24.75-25.00.",
+  "first_ends_s": 22,
+  "second_begins_s": 24.5,
+  "clean": true
+ },
+ {
+  "after_step": 6,
+  "window": [
+   25.5,
+   33.0
+  ],
+  "fps": 4.0,
+  "frames": 30,
+  "evidence": "gloved hand enters and grasps the red-black white battery connector in the center above the battery and pulls it out through 26.5-27.0, then moves away to the upper board at 27.25 and disappears; no hands visible until both index fingers point at battery screws, then a hand brings a Phillips screwdriver from the left and places it on the left battery screw at 31.25 and turns it",
+  "first_ends_s": 27.0,
+  "second_begins_s": 31.25,
+  "clean": true
+ },
+ {
+  "after_step": 7,
+  "window": [
+   30.5,
+   37.0
+  ],
+  "fps": 4.0,
+  "frames": 26,
+  "evidence": "gloved hand holds phillips screwdriver engaged on left-side screw securing laptop battery from 31.25s through 36.25s turning; at 36.50s screwdriver is lifted off and moving away at top-left, at 36.75s no hands visible; no frame shows screwdriver on a different second battery screw location",
+  "first_ends_s": 36.25,
+  "second_begins_s": -1,
+  "clean": false,
+  "narrow": {
+   "window": [
+    31.5,
+    36.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": 35.75,
+   "second_begins_s": -1,
+   "evidence": "Black-gloved hand holds Phillips screwdriver engaged on the left/top-left screw securing the laptop battery in all frames 31.50s to 35.75s with turning motion; the tool never lifts, moves away, or repositions to a different second screw location."
+  }
+ },
+ {
+  "after_step": 8,
+  "window": [
+   34.5,
+   51.0
+  ],
+  "fps": 2.42,
+  "frames": 40,
+  "evidence": "Early left-side screwdriver work ends by 36.15s and hands leave. Right hand with screwdriver works on right-side battery screw area from ~39.45s to 46.46s, then lifts away blurred at 46.88s with no hands 47.29-48.11s. Hand re-enters over board at 48.52s, then right hand contacts center of black battery at 48.94s and both hands grip and lift the battery edge by 50.59s.",
+  "first_ends_s": 46.46,
+  "second_begins_s": 48.94,
+  "clean": true
+ }
+]

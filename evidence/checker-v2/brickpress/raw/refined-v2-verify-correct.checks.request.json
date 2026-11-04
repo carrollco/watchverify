@@ -1,0 +1,235 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 12000,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "REFERENCE procedure (steps in the expert's order; the candidate's timing is its own):\n{\n \"task\": \"Assemble hydraulic press frame and base support beams\",\n \"steps\": [\n  {\n   \"index\": 0,\n   \"action\": \"bolt bottom cross beam to side rails on floor\",\n   \"objects\": [\n    \"cross beam\",\n    \"side rails\",\n    \"bolt container\"\n   ],\n   \"observable_checkpoint\": \"cross beam lying across end of flat frame on floor with hands working at corners\",\n   \"pass_condition\": \"bottom cross member attached to both side rails\",\n   \"cannot_see\": \"bolt thread engagement and tightening torque\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 1,\n   \"action\": \"stand frame upright to vertical\",\n   \"objects\": [\n    \"steel press frame\",\n    \"cross beam\"\n   ],\n   \"observable_checkpoint\": \"frame standing vertical centered in view after being flat on floor\",\n   \"pass_condition\": \"frame upright on its feet\",\n   \"cannot_see\": \"final stability of upright frame\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 2,\n   \"action\": \"tighten bolts on left side of frame\",\n   \"objects\": [\n    \"steel press frame\",\n    \"bolts\",\n    \"wrenches\"\n   ],\n   \"observable_checkpoint\": \"hands with yellow gloves working at left edge bolt holes with wrenches on floor\",\n   \"pass_condition\": \"left side bolts installed\",\n   \"cannot_see\": \"bolt torque and inside thread alignment\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 3,\n   \"action\": \"tighten bolts on right side of frame\",\n   \"objects\": [\n    \"steel press frame\",\n    \"bolts\",\n    \"wrenches\"\n   ],\n   \"observable_checkpoint\": \"hands working at right edge bolt holes of frame\",\n   \"pass_condition\": \"right side bolts installed\",\n   \"cannot_see\": \"bolt torque and inside thread alignment\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 4,\n   \"action\": \"install hydraulic cylinder and middle press plate\",\n   \"objects\": [\n    \"hydraulic cylinder\",\n    \"middle press plate\",\n    \"steel press frame\"\n   ],\n   \"observable_checkpoint\": \"black cylinder centered inside frame with flat plate on its rod end\",\n   \"pass_condition\": \"cylinder and middle plate seated inside frame\",\n   \"cannot_see\": \"cylinder mounting pin seating and alignment\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 5,\n   \"action\": \"mount front lower cross plate\",\n   \"objects\": [\n    \"cross beam\",\n    \"steel press frame\",\n    \"bolts\"\n   ],\n   \"observable_checkpoint\": \"horizontal plate spanning front face of frame at mid-height\",\n   \"pass_condition\": \"front lower plate attached across frame\",\n   \"cannot_see\": \"bolt tightness on back side\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 6,\n   \"action\": \"secure front plates with power tool\",\n   \"objects\": [\n    \"power drill\",\n    \"cross beam\",\n    \"bolts\"\n   ],\n   \"observable_checkpoint\": \"power tool and cord on floor beside frame while hands work front plate corners\",\n   \"pass_condition\": \"front plates firmly bolted\",\n   \"cannot_see\": \"final torque and thread depth\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 7,\n   \"action\": \"rotate assembled press frame to inspect\",\n   \"objects\": [\n    \"steel press frame\",\n    \"hydraulic cylinder\"\n   ],\n   \"observable_checkpoint\": \"complete frame tilted and turned showing side and back faces\",\n   \"pass_condition\": \"frame moved as one rigid assembly\",\n   \"cannot_see\": \"weight and internal weld integrity\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 8,\n   \"action\": \"stand left support posts upright\",\n   \"objects\": [\n    \"vertical posts\",\n    \"base beam\"\n   ],\n   \"observable_checkpoint\": \"two vertical posts standing on left side in front of white backdrop\",\n   \"pass_condition\": \"left posts vertical on floor\",\n   \"cannot_see\": \"base plate anchor tightness\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 9,\n   \"action\": \"stand right support posts upright\",\n   \"objects\": [\n    \"vertical posts\",\n    \"base beam\"\n   ],\n   \"observable_checkpoint\": \"two vertical posts standing on right side mirroring left side\",\n   \"pass_condition\": \"right posts vertical on floor\",\n   \"cannot_see\": \"base plate anchor tightness\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 10,\n   \"action\": \"place lower base beam across supports\",\n   \"objects\": [\n    \"base beam\",\n    \"vertical posts\",\n    \"wrenches\"\n   ],\n   \"observable_checkpoint\": \"long dark beam spanning between left and right posts at low height\",\n   \"pass_condition\": \"lower beam resting on both side supports\",\n   \"cannot_see\": \"seating of beam ends in brackets\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 11,\n   \"action\": \"place upper base beam onto lower beam\",\n   \"objects\": [\n    \"base beam\",\n    \"vertical posts\",\n    \"bolts\"\n   ],\n   \"observable_checkpoint\": \"second beam stacked directly on top of lower beam between posts\",\n   \"pass_condition\": \"two beams stacked as base assembly\",\n   \"cannot_see\": \"bolt hole alignment and fastener tightness\",\n   \"checkpoint_visibility\": \"clear\"\n  }\n ]\n}\n\nCheck the attached video against every reference step."
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 0, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:db343608826d9c4d"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 1, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:a8b29763c64bce33"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 2, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:849a9bd588589147"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 3, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:d16ab7e4ee94b25d"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 4, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:60af12c459bf4867"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 5, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:226429ddf346c66f"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 6, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:3d27df43d2269693"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 7, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:7c48e2029e857bbb"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 8, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:4b601cbaf6b67596"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 9, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:497b63af5d43237a"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 10, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:b65b3d1724d56954"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 11, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:aa6b3519543ecb92"
+    },
+    {
+     "type": "input_file",
+     "file_id": "file-1800314841187795"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "video_verification",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "same_task": {
+      "type": "boolean"
+     },
+     "checks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell"
+        },
+        "observed_start_s": {
+         "type": "number",
+         "description": "seconds in the candidate video where the step starts, -1 if not observed"
+        },
+        "observed_end_s": {
+         "type": "number",
+         "description": "-1 if not observed"
+        },
+        "other_moments": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+           "start_s": {
+            "type": "number"
+           },
+           "end_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ]
+         },
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none"
+        },
+        "evidence": {
+         "type": "string",
+         "description": "what is visible that supports the status, with seconds"
+        },
+        "cannot_see": {
+         "type": "string",
+         "description": "properties of this step the camera cannot verify, or 'none'"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ]
+      }
+     },
+     "extra_actions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "start_s": {
+         "type": "number"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "action": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ]
+      }
+     },
+     "notes": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

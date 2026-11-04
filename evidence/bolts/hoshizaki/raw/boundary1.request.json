@@ -1,0 +1,178 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 10000,
+ "instructions": "You are given two consecutive steps of a hands-on procedure and a strip of frames from the expert's video, in time order, each labeled with its time in seconds. Find where step A's hand work ends and step B's begins. first_ends_s: the label of the last frame in which the hands are still doing step A (holding the tool at step A's place or part, or finishing its action). second_begins_s: the label of the first frame in which the hands are at step B's place or part, or start its action. Moving between places, putting a tool down or picking one up belongs to neither step. Be strict: a frame that might still be step A counts as step A. Answer only from the frames; use -1 when no frame shows the step.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "STEP A:\n{\"action\": \"tighten opposite bolt\", \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on second bolt across from first and turned\"}\n\nSTEP B:\n{\"action\": \"tighten side bolt\", \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on side bolt of brass housing and turned\"}\n\nFrames, in time order:"
+    },
+    {
+     "type": "input_text",
+     "text": "t=19.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:66f50364bfe26fba"
+    },
+    {
+     "type": "input_text",
+     "text": "t=19.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:a8f829488fce51d8"
+    },
+    {
+     "type": "input_text",
+     "text": "t=19.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:b544bf69cb186361"
+    },
+    {
+     "type": "input_text",
+     "text": "t=19.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:9aac5998242ec3db"
+    },
+    {
+     "type": "input_text",
+     "text": "t=20.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:6102545c118c818d"
+    },
+    {
+     "type": "input_text",
+     "text": "t=20.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:25f6df670183d513"
+    },
+    {
+     "type": "input_text",
+     "text": "t=20.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:7396c5a7dfa2e888"
+    },
+    {
+     "type": "input_text",
+     "text": "t=20.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:4ae643c5b3717b58"
+    },
+    {
+     "type": "input_text",
+     "text": "t=21.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:f54befc95e29e0ae"
+    },
+    {
+     "type": "input_text",
+     "text": "t=21.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:2b04f130e9a7daa8"
+    },
+    {
+     "type": "input_text",
+     "text": "t=21.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:dc08b74ab96b5972"
+    },
+    {
+     "type": "input_text",
+     "text": "t=21.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:3883b0f2e7f914eb"
+    },
+    {
+     "type": "input_text",
+     "text": "t=22.00 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:5c76dac71701e561"
+    },
+    {
+     "type": "input_text",
+     "text": "t=22.25 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:8919a1cfa36fc541"
+    },
+    {
+     "type": "input_text",
+     "text": "t=22.50 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:00e5f061a6a97ff3"
+    },
+    {
+     "type": "input_text",
+     "text": "t=22.75 s"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:6e403791eab179a2"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "boundary",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "first_ends_s": {
+      "type": "number",
+      "description": "time label of the last frame where the hands still do step A; -1 if no frame shows it"
+     },
+     "second_begins_s": {
+      "type": "number",
+      "description": "time label of the first frame where the hands begin step B; -1 if no frame shows it"
+     },
+     "evidence": {
+      "type": "string",
+      "description": "what the hands do in the frames around both times"
+     }
+    },
+    "required": [
+     "first_ends_s",
+     "second_begins_s",
+     "evidence"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

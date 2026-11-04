@@ -1,0 +1,195 @@
+{
+ "id": "resp_6aeace786de50ebd8bc64064",
+ "access_programs": null,
+ "created_at": 1793773175.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeace786de50ebd8bc64064:rs_c6ec2432-d0e4-40b5-8c7a-c67b970e6e76",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_f5798f25-c973-4226-bb74-8693b9503f3f",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"audio_notes\": \"none\",\n  \"objects_seen\": [\n    \"laptop chassis\",\n    \"cooling fan\",\n    \"heat pipe\",\n    \"metal RAM cover\",\n    \"upper shield cover\",\n    \"M.2 SSD\",\n    \"DDR5 SODIMM RAM module\",\n    \"SODIMM slot\",\n    \"thermal pad\",\n    \"screwdriver\",\n    \"plastic pry tool\",\n    \"CMOS battery\",\n    \"ribbon cable\",\n    \"gloved hand\"\n  ],\n  \"speech_heard\": \"Cooling heat spreader. The WWAN slot, which is for 4G or 5G connectivity, is positioned below the fan. Unfortunately, you get just one M.2 slot for 2280 Gen 4 SSDs. The NVMe is also cooled by a sizable thermal pad underneath. The RAM slots are protected with a metal cover. You can pop it by lifting it with the attached fabric handle on top. According to Lenovo, the two SODIMMs are compatible with up to 64 gigabytes of DDR5, 5600 megahertz RAM in dual-channel mode. However, since the CPU can support up to 96 gigabytes, this laptop likely wouldn't have issues running a larger amount of memory than the official\",\n  \"steps\": [\n    {\n      \"action\": \"unscrew SSD retaining screw\",\n      \"cannot_see\": \"screw thread engagement and applied torque\",\n      \"checkpoint_visibility\": \"subtle\",\n      \"end_s\": 18.0,\n      \"evidence_s\": 16.0,\n      \"index\": 0,\n      \"objects\": [\n        \"screwdriver\",\n        \"M.2 SSD retaining screw\"\n      ],\n      \"observable_checkpoint\": \"screwdriver tip engaged on small screw at top of right-side M.2 SSD\",\n      \"pass_condition\": \"retaining screw is loosened for SSD removal\",\n      \"start_s\": 12.0\n    },\n    {\n      \"action\": \"pry out SSD\",\n      \"cannot_see\": \"condition of connector pins and stored data\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 24.5,\n      \"evidence_s\": 23.5,\n      \"index\": 1,\n      \"objects\": [\n        \"plastic pry tool\",\n        \"M.2 SSD\"\n      ],\n      \"observable_checkpoint\": \"M.2 SSD lifted from right-side slot leaving empty slot with pink thermal pad exposed\",\n      \"pass_condition\": \"SSD is fully separated from slot and removed\",\n      \"start_s\": 19.0\n    },\n    {\n      \"action\": \"lift RAM cover\",\n      \"cannot_see\": \"underside clips and full cover detachment force\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 36.0,\n      \"evidence_s\": 35.5,\n      \"index\": 2,\n      \"objects\": [\n        \"metal RAM cover\"\n      ],\n      \"observable_checkpoint\": \"metal cover raised to expose green RAM module and adjacent empty slot\",\n      \"pass_condition\": \"RAM slots are uncovered and visible\",\n      \"start_s\": 30.5\n    },\n    {\n      \"action\": \"lift upper shield cover\",\n      \"cannot_see\": \"clip engagement underneath the shield\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 40.0,\n      \"evidence_s\": 39.0,\n      \"index\": 3,\n      \"objects\": [\n        \"upper shield cover\"\n      ],\n      \"observable_checkpoint\": \"black rectangular shield removed from above RAM area exposing board underneath\",\n      \"pass_condition\": \"upper board area is uncovered\",\n      \"start_s\": 37.5\n    },\n    {\n      \"action\": \"press RAM module into slot\",\n      \"cannot_see\": \"electrical contact and side-clip lock force\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 48.5,\n      \"evidence_s\": 46.5,\n      \"index\": 4,\n      \"objects\": [\n        \"DDR5 SODIMM RAM module\"\n      ],\n      \"observable_checkpoint\": \"fingers pressing green RAM module flat in left SODIMM slot\",\n      \"pass_condition\": \"RAM module is fully seated in the slot\",\n      \"start_s\": 44.0\n    }\n  ],\n  \"task\": \"access SSD and RAM for inspection and upgrade\",\n  \"track\": [\n    \"screwdriver\",\n    \"plastic pry tool\",\n    \"metal RAM cover\",\n    \"DDR5 SODIMM RAM module\"\n  ],\n  \"uncertainty\": \"timings are estimated from visual changes; screwdriver and pry tool types inferred from appearance; pointing gestures and on-screen benchmark graphics excluded per instructions\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793773176.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "additionalProperties": false,
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object",
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 16984,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3433,
+  "output_tokens_details": {
+   "reasoning_tokens": 2429
+  },
+  "total_tokens": 20417
+ },
+ "user": null,
+ "store": true
+}

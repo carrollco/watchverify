@@ -1,0 +1,196 @@
+{
+ "id": "resp_6aeab31839de68fa7ab14e7c",
+ "access_programs": null,
+ "created_at": 1793766168.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeab31839de68fa7ab14e7c:rs_cdeb1d20-48f7-4b86-a9eb-005e2fdfd980",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_2062b66f-d0d4-42f9-9ede-71025e0a28fd",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n \"checks\": [\n  {\n   \"cannot_see\": \"exact torque value applied inside threads\",\n   \"evidence\": \"torque wrench engaged on front bolt of brass housing on silver gearbox and turned repeatedly 2-10s until click\",\n   \"observed_end_s\": 10.5,\n   \"observed_start_s\": 2.0,\n   \"other_moments\": [],\n   \"reference_step\": 0,\n   \"status\": \"observed\"\n  },\n  {\n   \"cannot_see\": \"exact torque value applied\",\n   \"evidence\": \"wrench moved to bolt across from first on brass housing and turned 12-17s\",\n   \"observed_end_s\": 17.5,\n   \"observed_start_s\": 12.0,\n   \"other_moments\": [],\n   \"reference_step\": 1,\n   \"status\": \"observed\"\n  },\n  {\n   \"cannot_see\": \"thread engagement depth\",\n   \"evidence\": \"wrench engaged on side bolt of brass housing and turned 23-29s\",\n   \"observed_end_s\": 29.0,\n   \"observed_start_s\": 23.5,\n   \"other_moments\": [],\n   \"reference_step\": 2,\n   \"status\": \"observed\"\n  },\n  {\n   \"cannot_see\": \"exact torque value applied\",\n   \"evidence\": \"wrench engaged on remaining bolt and turned clockwise 31-36s\",\n   \"observed_end_s\": 36.0,\n   \"observed_start_s\": 31.5,\n   \"other_moments\": [],\n   \"reference_step\": 3,\n   \"status\": \"observed\"\n  },\n  {\n   \"cannot_see\": \"whether internal clamping force is even\",\n   \"evidence\": \"wrench moved sequentially around each bolt for second pass 37-43s with left hand steadying motor, re-engaging bolts\",\n   \"observed_end_s\": 43.5,\n   \"observed_start_s\": 37.5,\n   \"other_moments\": [],\n   \"reference_step\": 4,\n   \"status\": \"observed\"\n  },\n  {\n   \"cannot_see\": \"exact final torque reading\",\n   \"evidence\": \"wrench engaged on each bolt around housing for final verification 46-60s moving clockwise with clicks\",\n   \"observed_end_s\": 60.0,\n   \"observed_start_s\": 46.5,\n   \"other_moments\": [],\n   \"reference_step\": 5,\n   \"status\": \"observed\"\n  }\n ],\n \"extra_actions\": [\n  {\n   \"action\": \"adjusts torque wrench setting / changes socket and repositions housing by hand\",\n   \"end_s\": 22.5,\n   \"start_s\": 18.5\n  }\n ],\n \"notes\": \"Same gearbox bearing housing torquing task performed in cross pattern then clockwise re-checks. Audible instruction mentions clicks and going clockwise / across from it. Exact torque values and clamping force not visible.\",\n \"same_task\": true\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793766168.0,
+ "conversation": null,
+ "max_output_tokens": 12000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "video_verification",
+   "schema_": {
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ],
+    "properties": {
+     "checks": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "cannot_see": {
+         "description": "properties of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "evidence": {
+         "description": "what is visible that supports the status, with seconds",
+         "type": "string"
+        },
+        "observed_end_s": {
+         "description": "-1 if not observed",
+         "type": "number"
+        },
+        "observed_start_s": {
+         "description": "seconds in the candidate video where the step starts, -1 if not observed",
+         "type": "number"
+        },
+        "other_moments": {
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none",
+         "items": {
+          "additionalProperties": false,
+          "properties": {
+           "end_s": {
+            "type": "number"
+           },
+           "start_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ],
+          "type": "object"
+         },
+         "type": "array"
+        },
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "type": "string"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "extra_actions": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "notes": {
+      "type": "string"
+     },
+     "same_task": {
+      "type": "boolean"
+     }
+    },
+    "type": "object",
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 18867,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 2417
+  },
+  "output_tokens": 2731,
+  "output_tokens_details": {
+   "reasoning_tokens": 2097
+  },
+  "total_tokens": 21598
+ },
+ "user": null,
+ "store": true
+}

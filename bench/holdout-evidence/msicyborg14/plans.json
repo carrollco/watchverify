@@ -1,0 +1,104 @@
+{
+ "source": "msicyborg14",
+ "cuts": "labels",
+ "clip_s": 60.0,
+ "plans": [
+  {
+   "name": "selfcheck",
+   "order": null,
+   "truth": {
+    "kind": "selfcheck",
+    "steps": []
+   },
+   "checked": true,
+   "check": "reference.selfcheck",
+   "reference_view": "unmarked",
+   "pieces": [
+    [
+     0.0,
+     60.0
+    ]
+   ],
+   "duration_s": 60.0,
+   "track_frames": null,
+   "claimed": {
+    "sid": "msicyborg14",
+    "name": "selfcheck",
+    "truth": {
+     "kind": "selfcheck",
+     "steps": []
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "graded": false,
+    "excluded_by": "code",
+    "why": "the self-check, re-scored with the marks it made, cannot fail; calibration only"
+   }
+  },
+  {
+   "name": "omit0",
+   "order": [],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     0
+    ]
+   },
+   "pieces": [],
+   "checked": false,
+   "claimed": {
+    "sid": "msicyborg14",
+    "name": "omit0",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      0
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_footage",
+    "graded": false,
+    "excluded_by": "code",
+    "why": "removing the planted step leaves no footage to check (it is the clip's only step)"
+   }
+  },
+  {
+   "name": "correct",
+   "order": [
+    0
+   ],
+   "truth": {
+    "kind": "correct",
+    "steps": []
+   },
+   "pieces": [
+    [
+     0.0,
+     60.0
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-correct",
+   "duration_s": 60.0,
+   "track_frames": 300,
+   "confirm": false,
+   "claimed": {
+    "sid": "msicyborg14",
+    "name": "correct",
+    "truth": {
+     "kind": "correct",
+     "steps": []
+    },
+    "verdict": "pass",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "correct_pass",
+    "graded": true
+   }
+  }
+ ]
+}

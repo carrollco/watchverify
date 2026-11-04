@@ -1,0 +1,1571 @@
+{
+ "video": "runs/holdout/bench-thinkbook13x/clip.mp4",
+ "seconds": 60.0,
+ "track_fps": 5,
+ "track_frames": 300,
+ "width": 640,
+ "phrases": [
+  "blue pry tool",
+  "tweezers",
+  "bottom battery cover",
+  "black SSD cover tape"
+ ],
+ "colors": {
+  "blue pry tool": "d62728",
+  "tweezers": "1f77b4",
+  "bottom battery cover": "2ca02c",
+  "black SSD cover tape": "ff7f0e"
+ },
+ "tracks": {
+  "blue pry tool": [
+   {
+    "frame": 194,
+    "t": 38.8,
+    "object_id": "0",
+    "left": 240,
+    "top": 48,
+    "right": 300,
+    "bottom": 88,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 195,
+    "t": 39.0,
+    "object_id": "0",
+    "left": 257,
+    "top": 92,
+    "right": 305,
+    "bottom": 132,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 196,
+    "t": 39.2,
+    "object_id": "0",
+    "left": 261,
+    "top": 84,
+    "right": 312,
+    "bottom": 130,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 197,
+    "t": 39.4,
+    "object_id": "0",
+    "left": 262,
+    "top": 83,
+    "right": 313,
+    "bottom": 131,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 198,
+    "t": 39.6,
+    "object_id": "0",
+    "left": 259,
+    "top": 79,
+    "right": 317,
+    "bottom": 131,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 199,
+    "t": 39.8,
+    "object_id": "0",
+    "left": 272,
+    "top": 76,
+    "right": 328,
+    "bottom": 130,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 200,
+    "t": 40.0,
+    "object_id": "0",
+    "left": 247,
+    "top": 81,
+    "right": 307,
+    "bottom": 138,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 201,
+    "t": 40.2,
+    "object_id": "0",
+    "left": 246,
+    "top": 85,
+    "right": 307,
+    "bottom": 141,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 202,
+    "t": 40.4,
+    "object_id": "0",
+    "left": 247,
+    "top": 88,
+    "right": 307,
+    "bottom": 142,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 203,
+    "t": 40.6,
+    "object_id": "0",
+    "left": 245,
+    "top": 89,
+    "right": 305,
+    "bottom": 144,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 204,
+    "t": 40.8,
+    "object_id": "0",
+    "left": 243,
+    "top": 92,
+    "right": 303,
+    "bottom": 145,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 205,
+    "t": 41.0,
+    "object_id": "0",
+    "left": 243,
+    "top": 92,
+    "right": 304,
+    "bottom": 145,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 206,
+    "t": 41.2,
+    "object_id": "0",
+    "left": 244,
+    "top": 92,
+    "right": 304,
+    "bottom": 145,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 207,
+    "t": 41.4,
+    "object_id": "0",
+    "left": 244,
+    "top": 92,
+    "right": 304,
+    "bottom": 145,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 208,
+    "t": 41.6,
+    "object_id": "0",
+    "left": 244,
+    "top": 93,
+    "right": 304,
+    "bottom": 145,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 209,
+    "t": 41.8,
+    "object_id": "0",
+    "left": 244,
+    "top": 94,
+    "right": 305,
+    "bottom": 146,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 210,
+    "t": 42.0,
+    "object_id": "0",
+    "left": 244,
+    "top": 94,
+    "right": 305,
+    "bottom": 146,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 211,
+    "t": 42.2,
+    "object_id": "0",
+    "left": 244,
+    "top": 95,
+    "right": 306,
+    "bottom": 146,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 212,
+    "t": 42.4,
+    "object_id": "0",
+    "left": 245,
+    "top": 95,
+    "right": 306,
+    "bottom": 147,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 213,
+    "t": 42.6,
+    "object_id": "0",
+    "left": 245,
+    "top": 96,
+    "right": 306,
+    "bottom": 146,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 214,
+    "t": 42.8,
+    "object_id": "0",
+    "left": 245,
+    "top": 96,
+    "right": 306,
+    "bottom": 146,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 215,
+    "t": 43.0,
+    "object_id": "0",
+    "left": 245,
+    "top": 96,
+    "right": 306,
+    "bottom": 146,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 216,
+    "t": 43.2,
+    "object_id": "0",
+    "left": 235,
+    "top": 89,
+    "right": 300,
+    "bottom": 140,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 217,
+    "t": 43.4,
+    "object_id": "0",
+    "left": 103,
+    "top": 4,
+    "right": 177,
+    "bottom": 38,
+    "confidence": 0.7104072570800781
+   }
+  ],
+  "tweezers": [],
+  "bottom battery cover": [
+   {
+    "frame": 0,
+    "t": 0.0,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 0,
+    "t": 0.0,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 1,
+    "t": 0.2,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 1,
+    "t": 0.2,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 2,
+    "t": 0.4,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 2,
+    "t": 0.4,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 3,
+    "t": 0.6,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 3,
+    "t": 0.6,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 4,
+    "t": 0.8,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 4,
+    "t": 0.8,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 5,
+    "t": 1.0,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 5,
+    "t": 1.0,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 6,
+    "t": 1.2,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 302,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 6,
+    "t": 1.2,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 7,
+    "t": 1.4,
+    "object_id": "0",
+    "left": 348,
+    "top": 226,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 7,
+    "t": 1.4,
+    "object_id": "1",
+    "left": 100,
+    "top": 226,
+    "right": 301,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 8,
+    "t": 1.6,
+    "object_id": "0",
+    "left": 352,
+    "top": 222,
+    "right": 558,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 8,
+    "t": 1.6,
+    "object_id": "1",
+    "left": 104,
+    "top": 223,
+    "right": 307,
+    "bottom": 301,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 9,
+    "t": 1.8,
+    "object_id": "0",
+    "left": 365,
+    "top": 166,
+    "right": 610,
+    "bottom": 256,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 9,
+    "t": 1.8,
+    "object_id": "1",
+    "left": 69,
+    "top": 164,
+    "right": 310,
+    "bottom": 258,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 15,
+    "t": 3.0,
+    "object_id": "0",
+    "left": 354,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 15,
+    "t": 3.0,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 16,
+    "t": 3.2,
+    "object_id": "0",
+    "left": 36,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 16,
+    "t": 3.2,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 17,
+    "t": 3.4,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 17,
+    "t": 3.4,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 18,
+    "t": 3.6,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 18,
+    "t": 3.6,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 19,
+    "t": 3.8,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 19,
+    "t": 3.8,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 20,
+    "t": 4.0,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 20,
+    "t": 4.0,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 21,
+    "t": 4.2,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 21,
+    "t": 4.2,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 22,
+    "t": 4.4,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 605,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 22,
+    "t": 4.4,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 23,
+    "t": 4.6,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 605,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 23,
+    "t": 4.6,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 294,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 24,
+    "t": 4.8,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 605,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 24,
+    "t": 4.8,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 297,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 25,
+    "t": 5.0,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 605,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 25,
+    "t": 5.0,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 297,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 26,
+    "t": 5.2,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 26,
+    "t": 5.2,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 297,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 27,
+    "t": 5.4,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 605,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 27,
+    "t": 5.4,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 297,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 28,
+    "t": 5.6,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 28,
+    "t": 5.6,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 297,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 29,
+    "t": 5.8,
+    "object_id": "0",
+    "left": 353,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 29,
+    "t": 5.8,
+    "object_id": "1",
+    "left": 34,
+    "top": 182,
+    "right": 297,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 30,
+    "t": 6.0,
+    "object_id": "0",
+    "left": 353,
+    "top": 183,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 30,
+    "t": 6.0,
+    "object_id": "1",
+    "left": 34,
+    "top": 181,
+    "right": 293,
+    "bottom": 283,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 31,
+    "t": 6.2,
+    "object_id": "0",
+    "left": 339,
+    "top": 182,
+    "right": 606,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 31,
+    "t": 6.2,
+    "object_id": "1",
+    "left": 34,
+    "top": 180,
+    "right": 294,
+    "bottom": 284,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 32,
+    "t": 6.4,
+    "object_id": "0",
+    "left": 355,
+    "top": 181,
+    "right": 604,
+    "bottom": 283,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 32,
+    "t": 6.4,
+    "object_id": "1",
+    "left": 67,
+    "top": 183,
+    "right": 248,
+    "bottom": 304,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 33,
+    "t": 6.6,
+    "object_id": "1",
+    "left": 103,
+    "top": 189,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 76,
+    "t": 15.2,
+    "object_id": "0",
+    "left": 440,
+    "top": 193,
+    "right": 509,
+    "bottom": 302,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 77,
+    "t": 15.4,
+    "object_id": "0",
+    "left": 440,
+    "top": 193,
+    "right": 499,
+    "bottom": 301,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 77,
+    "t": 15.4,
+    "object_id": "1",
+    "left": 142,
+    "top": 193,
+    "right": 216,
+    "bottom": 307,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 78,
+    "t": 15.6,
+    "object_id": "0",
+    "left": 438,
+    "top": 194,
+    "right": 491,
+    "bottom": 304,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 78,
+    "t": 15.6,
+    "object_id": "1",
+    "left": 136,
+    "top": 194,
+    "right": 215,
+    "bottom": 310,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 79,
+    "t": 15.8,
+    "object_id": "0",
+    "left": 432,
+    "top": 194,
+    "right": 486,
+    "bottom": 289,
+    "confidence": 0.7815700173377991
+   },
+   {
+    "frame": 79,
+    "t": 15.8,
+    "object_id": "1",
+    "left": 67,
+    "top": 179,
+    "right": 215,
+    "bottom": 306,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 252,
+    "t": 50.4,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 217,
+    "bottom": 306,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 253,
+    "t": 50.6,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 254,
+    "t": 50.8,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 217,
+    "bottom": 306,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 255,
+    "t": 51.0,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 256,
+    "t": 51.2,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 257,
+    "t": 51.4,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 258,
+    "t": 51.6,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 259,
+    "t": 51.8,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 260,
+    "t": 52.0,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 261,
+    "t": 52.2,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 262,
+    "t": 52.4,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 263,
+    "t": 52.6,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 306,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 264,
+    "t": 52.8,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 265,
+    "t": 53.0,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 266,
+    "t": 53.2,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 267,
+    "t": 53.4,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 268,
+    "t": 53.6,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 269,
+    "t": 53.8,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 270,
+    "t": 54.0,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 271,
+    "t": 54.2,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 272,
+    "t": 54.4,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 273,
+    "t": 54.6,
+    "object_id": "1",
+    "left": 103,
+    "top": 194,
+    "right": 216,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 274,
+    "t": 54.8,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 275,
+    "t": 55.0,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 217,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 276,
+    "t": 55.2,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 218,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 277,
+    "t": 55.4,
+    "object_id": "1",
+    "left": 103,
+    "top": 193,
+    "right": 218,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 278,
+    "t": 55.6,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 279,
+    "t": 55.8,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 280,
+    "t": 56.0,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 281,
+    "t": 56.2,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 282,
+    "t": 56.4,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 283,
+    "t": 56.6,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 284,
+    "t": 56.8,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 285,
+    "t": 57.0,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 286,
+    "t": 57.2,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 287,
+    "t": 57.4,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 288,
+    "t": 57.6,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 289,
+    "t": 57.8,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 290,
+    "t": 58.0,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 291,
+    "t": 58.2,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 292,
+    "t": 58.4,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 293,
+    "t": 58.6,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 294,
+    "t": 58.8,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 295,
+    "t": 59.0,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 296,
+    "t": 59.2,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 297,
+    "t": 59.4,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 298,
+    "t": 59.6,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   },
+   {
+    "frame": 299,
+    "t": 59.8,
+    "object_id": "1",
+    "left": 104,
+    "top": 193,
+    "right": 219,
+    "bottom": 305,
+    "confidence": 0.7575758099555969
+   }
+  ],
+  "black SSD cover tape": []
+ },
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 3100,
+   "transcript": ""
+  },
+  {
+   "turnId": 1,
+   "startMs": 12140,
+   "endMs": 19820,
+   "transcript": "The memory is solid. Still, you get up to 32 gigabytes of"
+  },
+  {
+   "turnId": 2,
+   "startMs": 20300,
+   "endMs": 25180,
+   "transcript": "8400 megahertz RAM in dual channel which is more than enough for regular home or office work."
+  },
+  {
+   "turnId": 3,
+   "startMs": 25820,
+   "endMs": 43500,
+   "transcript": "For storage, there is just a single M.2 slot compatible with with 2242 Gen 4 4 SSDs. The pre-installed NVMe drive is covered with a heat shield. There is tape on top be careful while peeling it off because you can tear the cover just like we did."
+  }
+ ],
+ "steps": [
+  {
+   "index": 0,
+   "evidence_s": 2.0,
+   "frame": "frames/reference-step0.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 10,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "tweezers": {
+     "frames": 0,
+     "window_frames": 10,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "bottom battery cover": {
+     "frames": 7,
+     "window_frames": 10,
+     "first_s": 0.6,
+     "last_s": 1.8,
+     "mean_confidence": 0.77
+    },
+    "black SSD cover tape": {
+     "frames": 0,
+     "window_frames": 10,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 0.0,
+     "end_s": 3.1,
+     "text": ""
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "evidence_s": 42.0,
+   "frame": "frames/reference-step1.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 24,
+     "window_frames": 28,
+     "first_s": 38.8,
+     "last_s": 43.4,
+     "mean_confidence": 0.71
+    },
+    "tweezers": {
+     "frames": 0,
+     "window_frames": 28,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "bottom battery cover": {
+     "frames": 0,
+     "window_frames": 28,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "black SSD cover tape": {
+     "frames": 0,
+     "window_frames": 28,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 25.82,
+     "end_s": 43.5,
+     "text": "For storage, there is just a single M.2 slot compatible with with 2242 Gen 4 4 SSDs. The pre-installed NVMe drive is covered with a heat shield. There is tape on top be careful while peeling it off because you can tear the cover just like we did."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "evidence_s": 54.5,
+   "frame": "frames/reference-step2.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 52,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "tweezers": {
+     "frames": 0,
+     "window_frames": 52,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "bottom battery cover": {
+     "frames": 24,
+     "window_frames": 52,
+     "first_s": 50.4,
+     "last_s": 55.0,
+     "mean_confidence": 0.758
+    },
+    "black SSD cover tape": {
+     "frames": 0,
+     "window_frames": 52,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  },
+  {
+   "index": 3,
+   "evidence_s": 58.5,
+   "frame": "frames/reference-step3.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "tweezers": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "bottom battery cover": {
+     "frames": 20,
+     "window_frames": 20,
+     "first_s": 56.0,
+     "last_s": 59.8,
+     "mean_confidence": 0.758
+    },
+    "black SSD cover tape": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  }
+ ]
+}

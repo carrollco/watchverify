@@ -1,0 +1,196 @@
+{
+ "id": "resp_6aeaa80cb23a1f766a7144c9",
+ "access_programs": null,
+ "created_at": 1793763340.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeaa80cb23a1f766a7144c9:rs_594d2f22-cd6d-427c-ab91-8ddec89826c3",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_0ab40ee8-2267-4795-bf7c-9006b261b8e0",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"checks\": [{\"cannot_see\": \"actual torque value reached and thread clamping force\", \"evidence\": \"green torque wrench seated on middle of cylinder head ~2.8s and handle swept to tighten then lifted off ~7.2s\", \"observed_end_s\": 7.2, \"observed_start_s\": 2.8, \"other_moments\": [], \"reference_step\": 0, \"status\": \"observed\"}, {\"cannot_see\": \"actual torque value reached and thread clamping force\", \"evidence\": \"green torque wrench seated on adjacent middle bolt ~8.0s and handle swept then lifted off ~11.2s\", \"observed_end_s\": 11.2, \"observed_start_s\": 8.0, \"other_moments\": [], \"reference_step\": 1, \"status\": \"observed\"}, {\"cannot_see\": \"actual torque value and which lettered position it is\", \"evidence\": \"green torque wrench repositioned to different bolt in head ~11.8s and handle swept then lifted off ~15.2s\", \"observed_end_s\": 15.2, \"observed_start_s\": 11.8, \"other_moments\": [], \"reference_step\": 2, \"status\": \"observed\"}, {\"cannot_see\": \"actual torque value reached\", \"evidence\": \"green torque wrench repositioned to different bolt ~15.8s and handle swept then lifted off ~19.5s\", \"observed_end_s\": 19.5, \"observed_start_s\": 15.8, \"other_moments\": [], \"reference_step\": 3, \"status\": \"observed\"}, {\"cannot_see\": \"actual torque value reached\", \"evidence\": \"green torque wrench repositioned to different bolt ~19.8s and handle swept then lifted off ~22.8s\", \"observed_end_s\": 22.8, \"observed_start_s\": 19.8, \"other_moments\": [], \"reference_step\": 4, \"status\": \"observed\"}, {\"cannot_see\": \"actual torque value reached\", \"evidence\": \"green torque wrench repositioned to different bolt ~23.2s and handle swept then lifted off ~27.5s\", \"observed_end_s\": 27.5, \"observed_start_s\": 23.2, \"other_moments\": [], \"reference_step\": 5, \"status\": \"observed\"}, {\"cannot_see\": \"actual torque value reached\", \"evidence\": \"green torque wrench repositioned to different bolt ~28.0s and handle swept then lifted off ~31.5s\", \"observed_end_s\": 31.5, \"observed_start_s\": 28.0, \"other_moments\": [], \"reference_step\": 6, \"status\": \"observed\"}, {\"cannot_see\": \"actual torque value reached, whether first or second pass\", \"evidence\": \"green torque wrench seated on another bolt ~31.5s and handle swept then lifted off ~36.0s\", \"observed_end_s\": 36.0, \"observed_start_s\": 31.5, \"other_moments\": [], \"reference_step\": 7, \"status\": \"observed\"}, {\"cannot_see\": \"actual final torque values and sequence letters\", \"evidence\": \"green torque wrench moved bolt to bolt across head with repeated handle sweeps and lift-offs from ~39.5s to ~56.5s\", \"observed_end_s\": 56.5, \"observed_start_s\": 39.5, \"other_moments\": [], \"reference_step\": 8, \"status\": \"observed\"}], \"extra_actions\": [{\"action\": \"points finger at torque sequence diagram (a)-(f) on computer monitor\", \"end_s\": 1.5, \"start_s\": 0.0}, {\"action\": \"removes socket/adapter from wrench, steps away from engine and returns\", \"end_s\": 39.5, \"start_s\": 36.0}], \"notes\": \"Candidate performs same task with same green torque wrench in same workshop. Individual bolt positions/letters and torque values not verifiable visually.\", \"same_task\": true}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793763340.0,
+ "conversation": null,
+ "max_output_tokens": 12000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "video_verification",
+   "schema_": {
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ],
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "checks": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "cannot_see": {
+         "description": "properties of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "evidence": {
+         "description": "what is visible that supports the status, with seconds",
+         "type": "string"
+        },
+        "observed_end_s": {
+         "description": "-1 if not observed",
+         "type": "number"
+        },
+        "observed_start_s": {
+         "description": "seconds in the candidate video where the step starts, -1 if not observed",
+         "type": "number"
+        },
+        "other_moments": {
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none",
+         "items": {
+          "additionalProperties": false,
+          "properties": {
+           "end_s": {
+            "type": "number"
+           },
+           "start_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ],
+          "type": "object"
+         },
+         "type": "array"
+        },
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "type": "string"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "extra_actions": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "notes": {
+      "type": "string"
+     },
+     "same_task": {
+      "type": "boolean"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 19030,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 3441
+  },
+  "output_tokens": 2490,
+  "output_tokens_details": {
+   "reasoning_tokens": 1614
+  },
+  "total_tokens": 21520
+ },
+ "user": null,
+ "store": true
+}

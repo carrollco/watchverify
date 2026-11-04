@@ -1,0 +1,25 @@
+{
+ "source": "bench-hp440",
+ "planted": 16,
+ "checked": 16,
+ "graded": 13,
+ "claimed": {
+  "selfcheck": "flagged",
+  "omit0": "missed",
+  "omit1": "untestable",
+  "omit2": "caught",
+  "omit3": "missed",
+  "omit4": "missed",
+  "omit5": "flagged",
+  "omit6": "missed",
+  "omit7": "flagged",
+  "swap01": "untestable",
+  "swap12": "untestable",
+  "swap23": "missed",
+  "swap34": "flagged",
+  "swap45": "missed",
+  "swap56": "missed",
+  "swap67": "missed",
+  "correct": "false_alarm"
+ }
+}

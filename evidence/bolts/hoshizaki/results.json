@@ -1,0 +1,21 @@
+{
+ "source": "bench-hoshizaki",
+ "planted": 12,
+ "checked": 12,
+ "graded": 8,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "no_clean_cut",
+  "omit1": "no_clean_cut",
+  "omit2": "missed",
+  "omit3": "missed",
+  "omit4": "missed",
+  "omit5": "flagged",
+  "swap01": "no_clean_cut",
+  "swap12": "no_clean_cut",
+  "swap23": "missed",
+  "swap34": "missed",
+  "swap45": "missed",
+  "correct": "flagged"
+ }
+}

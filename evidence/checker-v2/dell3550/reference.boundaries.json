@@ -1,0 +1,80 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   3.5,
+   8.5
+  ],
+  "fps": 4.0,
+  "frames": 20,
+  "evidence": "t=3.5 to t=4.25 gloved hand holds blue pry tool inserted at left rear hinge zone. t=4.5 hand has left the left zone and is moving at top right with no tool in hand. t=5.0-6.25 blue tool remains stuck upright at left rear while gloved hand presses center of base cover, then tool disappears by t=6.5. t=7.0 hand on right side with no tool visible. t=7.25 blue tool first appears inserted at right rear hinge zone while gloved hand stabilizes right side, continuing through t=8.25.",
+  "first_ends_s": 4.25,
+  "second_begins_s": 7.25,
+  "clean": true
+ },
+ {
+  "after_step": 1,
+  "window": [
+   7.5,
+   15.0
+  ],
+  "fps": 4.0,
+  "frames": 30,
+  "evidence": "7.5-8.5s blue pry tool is inserted at right rear behind hinge with gloved hand holding base cover (step A). 8.75s tool is gone from right hinge, hand lifts away; 9.25-9.5s no hands. 9.75-10.25s tool held in air over center (transit). 10.75-11.5s fingertips at top edge without tool. 11.75s left hand with blue tool is at left rear corner and 12.0-12.5s pries down left side edge (step B).",
+  "first_ends_s": 8.5,
+  "second_begins_s": 11.75,
+  "clean": true
+ },
+ {
+  "after_step": 2,
+  "window": [
+   17.5,
+   22.0
+  ],
+  "fps": 4.0,
+  "frames": 18,
+  "evidence": "17.5-19.0s left hand holds blue pry tool against left side edge moving upward toward top-left while right hand stabilizes cover; 19.25-21.5s tool leaves left side, hands lift and reposition around top/rear with no prying at left or front; 21.75s gloved hand with blue tool tip appears at bottom front-right edge at front seam",
+  "first_ends_s": 19.0,
+  "second_begins_s": 21.75,
+  "clean": true
+ },
+ {
+  "after_step": 3,
+  "window": [
+   22.0,
+   26.5
+  ],
+  "fps": 4.0,
+  "frames": 18,
+  "evidence": "t22.0-t23.25 right gloved hand pushes blue pry tool into bottom front edge seam while left hand holds chassis; t23.5 pry hand withdrawn and tool gone; t24.5 onward both gloved hands grip left and right rear corners of base cover to lift it.",
+  "first_ends_s": 23.25,
+  "second_begins_s": 24.5,
+  "clean": true
+ },
+ {
+  "after_step": 4,
+  "window": [
+   27.5,
+   45.5
+  ],
+  "fps": 2.22,
+  "frames": 40,
+  "evidence": "t=27.5 to 27.95 hands grip top edge of closed base cover. t=28.4 cover still on but no hands visible. t=28.85 cover fully removed exposing motherboard fan RAM and battery with no hands. Intermediate frames show finger pointing/touching battery and cable areas with no screwdriver. t=44.15 left hand brings red phillips screwdriver to top screw of battery with right hand stabilizing, tip engaged, then turning in 44.6-45.05.",
+  "first_ends_s": 27.95,
+  "second_begins_s": 44.15,
+  "clean": true
+ },
+ {
+  "after_step": 5,
+  "window": [
+   47.0,
+   54.0
+  ],
+  "fps": 4.0,
+  "frames": 28,
+  "evidence": "Left hand holds Phillips screwdriver engaged on the battery screw at left side while right hand steadies board through 51.5s; at 51.75s left hand without screwdriver is moving to center over cable area, and by 52.0s fingers are on the black battery cable/board connector starting unplug.",
+  "first_ends_s": 51.5,
+  "second_begins_s": 52.0,
+  "clean": true
+ }
+]

@@ -1,0 +1,2699 @@
+{
+ "video": "runs/bench-hp440/clip.mp4",
+ "seconds": 64.0,
+ "track_fps": 5,
+ "track_frames": 320,
+ "width": 640,
+ "phrases": [
+  "blue pry tool",
+  "laptop battery",
+  "metal RAM shield",
+  "RAM memory module"
+ ],
+ "colors": {
+  "blue pry tool": "d62728",
+  "laptop battery": "1f77b4",
+  "metal RAM shield": "2ca02c",
+  "RAM memory module": "ff7f0e"
+ },
+ "tracks": {
+  "blue pry tool": [
+   {
+    "frame": 239,
+    "t": 47.8,
+    "object_id": "0",
+    "left": 133,
+    "top": 49,
+    "right": 266,
+    "bottom": 150,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 240,
+    "t": 48.0,
+    "object_id": "0",
+    "left": 161,
+    "top": 86,
+    "right": 292,
+    "bottom": 181,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 241,
+    "t": 48.2,
+    "object_id": "0",
+    "left": 148,
+    "top": 100,
+    "right": 315,
+    "bottom": 157,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 242,
+    "t": 48.4,
+    "object_id": "0",
+    "left": 137,
+    "top": 104,
+    "right": 301,
+    "bottom": 147,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 243,
+    "t": 48.6,
+    "object_id": "0",
+    "left": 116,
+    "top": 83,
+    "right": 282,
+    "bottom": 139,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 244,
+    "t": 48.8,
+    "object_id": "0",
+    "left": 189,
+    "top": 0,
+    "right": 299,
+    "bottom": 61,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 245,
+    "t": 49.0,
+    "object_id": "0",
+    "left": 258,
+    "top": 20,
+    "right": 273,
+    "bottom": 46,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 246,
+    "t": 49.2,
+    "object_id": "0",
+    "left": 273,
+    "top": 26,
+    "right": 286,
+    "bottom": 47,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 247,
+    "t": 49.4,
+    "object_id": "0",
+    "left": 271,
+    "top": 30,
+    "right": 284,
+    "bottom": 53,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 248,
+    "t": 49.6,
+    "object_id": "0",
+    "left": 255,
+    "top": 0,
+    "right": 327,
+    "bottom": 58,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 249,
+    "t": 49.8,
+    "object_id": "0",
+    "left": 137,
+    "top": 38,
+    "right": 297,
+    "bottom": 96,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 250,
+    "t": 50.0,
+    "object_id": "0",
+    "left": 127,
+    "top": 81,
+    "right": 263,
+    "bottom": 144,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 251,
+    "t": 50.2,
+    "object_id": "0",
+    "left": 177,
+    "top": 82,
+    "right": 289,
+    "bottom": 168,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 252,
+    "t": 50.4,
+    "object_id": "0",
+    "left": 182,
+    "top": 90,
+    "right": 293,
+    "bottom": 168,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 253,
+    "t": 50.6,
+    "object_id": "0",
+    "left": 154,
+    "top": 123,
+    "right": 293,
+    "bottom": 168,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 254,
+    "t": 50.8,
+    "object_id": "0",
+    "left": 148,
+    "top": 133,
+    "right": 293,
+    "bottom": 168,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 255,
+    "t": 51.0,
+    "object_id": "0",
+    "left": 145,
+    "top": 134,
+    "right": 294,
+    "bottom": 166,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 256,
+    "t": 51.2,
+    "object_id": "0",
+    "left": 143,
+    "top": 130,
+    "right": 294,
+    "bottom": 160,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 257,
+    "t": 51.4,
+    "object_id": "0",
+    "left": 147,
+    "top": 121,
+    "right": 290,
+    "bottom": 166,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 258,
+    "t": 51.6,
+    "object_id": "0",
+    "left": 173,
+    "top": 88,
+    "right": 290,
+    "bottom": 153,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 259,
+    "t": 51.8,
+    "object_id": "0",
+    "left": 176,
+    "top": 95,
+    "right": 293,
+    "bottom": 153,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 260,
+    "t": 52.0,
+    "object_id": "0",
+    "left": 163,
+    "top": 111,
+    "right": 293,
+    "bottom": 152,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 261,
+    "t": 52.2,
+    "object_id": "0",
+    "left": 162,
+    "top": 115,
+    "right": 293,
+    "bottom": 152,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 262,
+    "t": 52.4,
+    "object_id": "0",
+    "left": 158,
+    "top": 124,
+    "right": 293,
+    "bottom": 152,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 263,
+    "t": 52.6,
+    "object_id": "0",
+    "left": 161,
+    "top": 117,
+    "right": 294,
+    "bottom": 152,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 264,
+    "t": 52.8,
+    "object_id": "0",
+    "left": 160,
+    "top": 120,
+    "right": 294,
+    "bottom": 148,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 265,
+    "t": 53.0,
+    "object_id": "0",
+    "left": 157,
+    "top": 126,
+    "right": 294,
+    "bottom": 145,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 266,
+    "t": 53.2,
+    "object_id": "0",
+    "left": 148,
+    "top": 118,
+    "right": 293,
+    "bottom": 142,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 267,
+    "t": 53.4,
+    "object_id": "0",
+    "left": 129,
+    "top": 88,
+    "right": 286,
+    "bottom": 113,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 268,
+    "t": 53.6,
+    "object_id": "0",
+    "left": 97,
+    "top": 49,
+    "right": 266,
+    "bottom": 83,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 269,
+    "t": 53.8,
+    "object_id": "0",
+    "left": 65,
+    "top": 1,
+    "right": 96,
+    "bottom": 27,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 272,
+    "t": 54.4,
+    "object_id": "0",
+    "left": 222,
+    "top": 0,
+    "right": 295,
+    "bottom": 19,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 273,
+    "t": 54.6,
+    "object_id": "0",
+    "left": 231,
+    "top": 0,
+    "right": 253,
+    "bottom": 35,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 274,
+    "t": 54.8,
+    "object_id": "0",
+    "left": 229,
+    "top": 10,
+    "right": 250,
+    "bottom": 56,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 275,
+    "t": 55.0,
+    "object_id": "0",
+    "left": 237,
+    "top": 12,
+    "right": 260,
+    "bottom": 59,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 276,
+    "t": 55.2,
+    "object_id": "0",
+    "left": 229,
+    "top": 4,
+    "right": 254,
+    "bottom": 57,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 284,
+    "t": 56.8,
+    "object_id": "0",
+    "left": 250,
+    "top": 0,
+    "right": 265,
+    "bottom": 8,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 285,
+    "t": 57.0,
+    "object_id": "0",
+    "left": 259,
+    "top": 0,
+    "right": 271,
+    "bottom": 8,
+    "confidence": 0.7770034670829773
+   },
+   {
+    "frame": 291,
+    "t": 58.2,
+    "object_id": "0",
+    "left": 185,
+    "top": 244,
+    "right": 256,
+    "bottom": 256,
+    "confidence": 0.7770034670829773
+   }
+  ],
+  "laptop battery": [
+   {
+    "frame": 8,
+    "t": 1.6,
+    "object_id": "0",
+    "left": 89,
+    "top": 197,
+    "right": 552,
+    "bottom": 303,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 9,
+    "t": 1.8,
+    "object_id": "0",
+    "left": 89,
+    "top": 198,
+    "right": 552,
+    "bottom": 306,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 10,
+    "t": 2.0,
+    "object_id": "0",
+    "left": 90,
+    "top": 197,
+    "right": 552,
+    "bottom": 306,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 11,
+    "t": 2.2,
+    "object_id": "0",
+    "left": 90,
+    "top": 198,
+    "right": 553,
+    "bottom": 306,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 12,
+    "t": 2.4,
+    "object_id": "0",
+    "left": 91,
+    "top": 197,
+    "right": 551,
+    "bottom": 302,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 30,
+    "t": 6.0,
+    "object_id": "0",
+    "left": 93,
+    "top": 185,
+    "right": 547,
+    "bottom": 308,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 31,
+    "t": 6.2,
+    "object_id": "0",
+    "left": 92,
+    "top": 196,
+    "right": 552,
+    "bottom": 310,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 32,
+    "t": 6.4,
+    "object_id": "0",
+    "left": 91,
+    "top": 198,
+    "right": 552,
+    "bottom": 307,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 33,
+    "t": 6.6,
+    "object_id": "0",
+    "left": 89,
+    "top": 198,
+    "right": 552,
+    "bottom": 302,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 34,
+    "t": 6.8,
+    "object_id": "0",
+    "left": 90,
+    "top": 199,
+    "right": 551,
+    "bottom": 305,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 35,
+    "t": 7.0,
+    "object_id": "0",
+    "left": 90,
+    "top": 204,
+    "right": 551,
+    "bottom": 308,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 36,
+    "t": 7.2,
+    "object_id": "0",
+    "left": 90,
+    "top": 212,
+    "right": 552,
+    "bottom": 310,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 37,
+    "t": 7.4,
+    "object_id": "0",
+    "left": 90,
+    "top": 215,
+    "right": 552,
+    "bottom": 311,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 38,
+    "t": 7.6,
+    "object_id": "0",
+    "left": 110,
+    "top": 216,
+    "right": 549,
+    "bottom": 315,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 39,
+    "t": 7.8,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 40,
+    "t": 8.0,
+    "object_id": "0",
+    "left": 112,
+    "top": 216,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 41,
+    "t": 8.2,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 42,
+    "t": 8.4,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 43,
+    "t": 8.6,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 44,
+    "t": 8.8,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 45,
+    "t": 9.0,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 46,
+    "t": 9.2,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 47,
+    "t": 9.4,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 48,
+    "t": 9.6,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 49,
+    "t": 9.8,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 50,
+    "t": 10.0,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 51,
+    "t": 10.2,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 52,
+    "t": 10.4,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 53,
+    "t": 10.6,
+    "object_id": "0",
+    "left": 112,
+    "top": 217,
+    "right": 527,
+    "bottom": 319,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 54,
+    "t": 10.8,
+    "object_id": "0",
+    "left": 105,
+    "top": 217,
+    "right": 548,
+    "bottom": 313,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 55,
+    "t": 11.0,
+    "object_id": "0",
+    "left": 103,
+    "top": 217,
+    "right": 549,
+    "bottom": 312,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 56,
+    "t": 11.2,
+    "object_id": "0",
+    "left": 92,
+    "top": 216,
+    "right": 551,
+    "bottom": 311,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 57,
+    "t": 11.4,
+    "object_id": "0",
+    "left": 90,
+    "top": 214,
+    "right": 551,
+    "bottom": 311,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 58,
+    "t": 11.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 59,
+    "t": 11.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 60,
+    "t": 12.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 61,
+    "t": 12.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 62,
+    "t": 12.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 63,
+    "t": 12.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 64,
+    "t": 12.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 65,
+    "t": 13.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 66,
+    "t": 13.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 67,
+    "t": 13.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 68,
+    "t": 13.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 69,
+    "t": 13.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 70,
+    "t": 14.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 71,
+    "t": 14.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 72,
+    "t": 14.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 73,
+    "t": 14.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 74,
+    "t": 14.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 75,
+    "t": 15.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 76,
+    "t": 15.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 77,
+    "t": 15.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 78,
+    "t": 15.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 79,
+    "t": 15.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 80,
+    "t": 16.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 81,
+    "t": 16.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 82,
+    "t": 16.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 83,
+    "t": 16.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 84,
+    "t": 16.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 85,
+    "t": 17.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 86,
+    "t": 17.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 87,
+    "t": 17.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 88,
+    "t": 17.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 89,
+    "t": 17.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 90,
+    "t": 18.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 91,
+    "t": 18.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 92,
+    "t": 18.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 93,
+    "t": 18.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 94,
+    "t": 18.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 95,
+    "t": 19.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 96,
+    "t": 19.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 97,
+    "t": 19.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 98,
+    "t": 19.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 99,
+    "t": 19.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 100,
+    "t": 20.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 101,
+    "t": 20.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 102,
+    "t": 20.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 103,
+    "t": 20.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 104,
+    "t": 20.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 105,
+    "t": 21.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 106,
+    "t": 21.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 107,
+    "t": 21.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 108,
+    "t": 21.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 109,
+    "t": 21.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 110,
+    "t": 22.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 111,
+    "t": 22.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 112,
+    "t": 22.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 113,
+    "t": 22.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 114,
+    "t": 22.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 115,
+    "t": 23.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 116,
+    "t": 23.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 117,
+    "t": 23.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 118,
+    "t": 23.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 119,
+    "t": 23.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 120,
+    "t": 24.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 121,
+    "t": 24.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 122,
+    "t": 24.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 123,
+    "t": 24.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 124,
+    "t": 24.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 125,
+    "t": 25.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 126,
+    "t": 25.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 127,
+    "t": 25.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 128,
+    "t": 25.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 129,
+    "t": 25.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 130,
+    "t": 26.0,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 541,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 131,
+    "t": 26.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 132,
+    "t": 26.4,
+    "object_id": "0",
+    "left": 89,
+    "top": 197,
+    "right": 553,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 133,
+    "t": 26.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 134,
+    "t": 26.8,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 135,
+    "t": 27.0,
+    "object_id": "0",
+    "left": 135,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 136,
+    "t": 27.2,
+    "object_id": "0",
+    "left": 136,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 137,
+    "t": 27.4,
+    "object_id": "0",
+    "left": 139,
+    "top": 198,
+    "right": 552,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 138,
+    "t": 27.6,
+    "object_id": "0",
+    "left": 135,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 139,
+    "t": 27.8,
+    "object_id": "0",
+    "left": 145,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 140,
+    "t": 28.0,
+    "object_id": "0",
+    "left": 147,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 141,
+    "t": 28.2,
+    "object_id": "0",
+    "left": 152,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 142,
+    "t": 28.4,
+    "object_id": "0",
+    "left": 151,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 143,
+    "t": 28.6,
+    "object_id": "0",
+    "left": 147,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 144,
+    "t": 28.8,
+    "object_id": "0",
+    "left": 138,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 145,
+    "t": 29.0,
+    "object_id": "0",
+    "left": 138,
+    "top": 199,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 146,
+    "t": 29.2,
+    "object_id": "0",
+    "left": 134,
+    "top": 199,
+    "right": 551,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 147,
+    "t": 29.4,
+    "object_id": "0",
+    "left": 139,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 148,
+    "t": 29.6,
+    "object_id": "0",
+    "left": 89,
+    "top": 198,
+    "right": 502,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 149,
+    "t": 29.8,
+    "object_id": "0",
+    "left": 89,
+    "top": 198,
+    "right": 500,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 150,
+    "t": 30.0,
+    "object_id": "0",
+    "left": 89,
+    "top": 198,
+    "right": 496,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 151,
+    "t": 30.2,
+    "object_id": "0",
+    "left": 89,
+    "top": 198,
+    "right": 498,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 152,
+    "t": 30.4,
+    "object_id": "0",
+    "left": 89,
+    "top": 199,
+    "right": 491,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 153,
+    "t": 30.6,
+    "object_id": "0",
+    "left": 89,
+    "top": 199,
+    "right": 483,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 154,
+    "t": 30.8,
+    "object_id": "0",
+    "left": 89,
+    "top": 199,
+    "right": 482,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 155,
+    "t": 31.0,
+    "object_id": "0",
+    "left": 89,
+    "top": 199,
+    "right": 483,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 156,
+    "t": 31.2,
+    "object_id": "0",
+    "left": 89,
+    "top": 199,
+    "right": 483,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 157,
+    "t": 31.4,
+    "object_id": "0",
+    "left": 89,
+    "top": 199,
+    "right": 483,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 158,
+    "t": 31.6,
+    "object_id": "0",
+    "left": 89,
+    "top": 199,
+    "right": 483,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 159,
+    "t": 31.8,
+    "object_id": "0",
+    "left": 125,
+    "top": 199,
+    "right": 481,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 160,
+    "t": 32.0,
+    "object_id": "0",
+    "left": 134,
+    "top": 199,
+    "right": 481,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 161,
+    "t": 32.2,
+    "object_id": "0",
+    "left": 134,
+    "top": 199,
+    "right": 481,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 162,
+    "t": 32.4,
+    "object_id": "0",
+    "left": 137,
+    "top": 199,
+    "right": 480,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 163,
+    "t": 32.6,
+    "object_id": "0",
+    "left": 139,
+    "top": 199,
+    "right": 480,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 164,
+    "t": 32.8,
+    "object_id": "0",
+    "left": 126,
+    "top": 198,
+    "right": 490,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 165,
+    "t": 33.0,
+    "object_id": "0",
+    "left": 89,
+    "top": 198,
+    "right": 552,
+    "bottom": 301,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 166,
+    "t": 33.2,
+    "object_id": "0",
+    "left": 88,
+    "top": 198,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 167,
+    "t": 33.4,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 168,
+    "t": 33.6,
+    "object_id": "0",
+    "left": 88,
+    "top": 199,
+    "right": 551,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 169,
+    "t": 33.8,
+    "object_id": "0",
+    "left": 87,
+    "top": 198,
+    "right": 552,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 170,
+    "t": 34.0,
+    "object_id": "0",
+    "left": 87,
+    "top": 198,
+    "right": 552,
+    "bottom": 300,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 171,
+    "t": 34.2,
+    "object_id": "0",
+    "left": 86,
+    "top": 197,
+    "right": 552,
+    "bottom": 303,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 172,
+    "t": 34.4,
+    "object_id": "0",
+    "left": 82,
+    "top": 194,
+    "right": 552,
+    "bottom": 302,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 173,
+    "t": 34.6,
+    "object_id": "0",
+    "left": 82,
+    "top": 191,
+    "right": 553,
+    "bottom": 303,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 174,
+    "t": 34.8,
+    "object_id": "0",
+    "left": 73,
+    "top": 178,
+    "right": 566,
+    "bottom": 296,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 175,
+    "t": 35.0,
+    "object_id": "0",
+    "left": 31,
+    "top": 79,
+    "right": 616,
+    "bottom": 222,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 196,
+    "t": 39.2,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 197,
+    "t": 39.4,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 198,
+    "t": 39.6,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 199,
+    "t": 39.8,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 200,
+    "t": 40.0,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 201,
+    "t": 40.2,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 202,
+    "t": 40.4,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 203,
+    "t": 40.6,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 204,
+    "t": 40.8,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 205,
+    "t": 41.0,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 206,
+    "t": 41.2,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 207,
+    "t": 41.4,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 208,
+    "t": 41.6,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 209,
+    "t": 41.8,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 210,
+    "t": 42.0,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 211,
+    "t": 42.2,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 251,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 212,
+    "t": 42.4,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 250,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 213,
+    "t": 42.6,
+    "object_id": "0",
+    "left": 17,
+    "top": 109,
+    "right": 623,
+    "bottom": 250,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 214,
+    "t": 42.8,
+    "object_id": "0",
+    "left": 18,
+    "top": 109,
+    "right": 622,
+    "bottom": 250,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 260,
+    "t": 52.0,
+    "object_id": "0",
+    "left": 292,
+    "top": 107,
+    "right": 493,
+    "bottom": 168,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 261,
+    "t": 52.2,
+    "object_id": "0",
+    "left": 293,
+    "top": 100,
+    "right": 369,
+    "bottom": 165,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 262,
+    "t": 52.4,
+    "object_id": "0",
+    "left": 293,
+    "top": 109,
+    "right": 357,
+    "bottom": 165,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 263,
+    "t": 52.6,
+    "object_id": "0",
+    "left": 293,
+    "top": 110,
+    "right": 395,
+    "bottom": 165,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 264,
+    "t": 52.8,
+    "object_id": "0",
+    "left": 293,
+    "top": 107,
+    "right": 389,
+    "bottom": 165,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 265,
+    "t": 53.0,
+    "object_id": "0",
+    "left": 293,
+    "top": 104,
+    "right": 386,
+    "bottom": 163,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 266,
+    "t": 53.2,
+    "object_id": "0",
+    "left": 293,
+    "top": 96,
+    "right": 319,
+    "bottom": 164,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 267,
+    "t": 53.4,
+    "object_id": "0",
+    "left": 297,
+    "top": 83,
+    "right": 335,
+    "bottom": 166,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 268,
+    "t": 53.6,
+    "object_id": "0",
+    "left": 296,
+    "top": 83,
+    "right": 544,
+    "bottom": 165,
+    "confidence": 0.7264957427978516
+   },
+   {
+    "frame": 269,
+    "t": 53.8,
+    "object_id": "0",
+    "left": 248,
+    "top": 0,
+    "right": 288,
+    "bottom": 72,
+    "confidence": 0.7264957427978516
+   }
+  ],
+  "metal RAM shield": [],
+  "RAM memory module": [
+   {
+    "frame": 307,
+    "t": 61.4,
+    "object_id": "0",
+    "left": 377,
+    "top": 242,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 308,
+    "t": 61.6,
+    "object_id": "0",
+    "left": 377,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 309,
+    "t": 61.8,
+    "object_id": "0",
+    "left": 376,
+    "top": 242,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 310,
+    "t": 62.0,
+    "object_id": "0",
+    "left": 376,
+    "top": 242,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 311,
+    "t": 62.2,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 312,
+    "t": 62.4,
+    "object_id": "0",
+    "left": 376,
+    "top": 242,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 313,
+    "t": 62.6,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 314,
+    "t": 62.8,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 315,
+    "t": 63.0,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 316,
+    "t": 63.2,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 317,
+    "t": 63.4,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 318,
+    "t": 63.6,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   },
+   {
+    "frame": 319,
+    "t": 63.8,
+    "object_id": "0",
+    "left": 376,
+    "top": 243,
+    "right": 637,
+    "bottom": 356,
+    "confidence": 0.7500000596046448
+   }
+  ]
+ },
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 11340,
+   "endMs": 26540,
+   "transcript": "The device that we bought has the optional 56 watt hour battery. The base model has a 48 watt hour capacity. To remove it pull out the connector towards the battery rotate the two blue latches on the bottom bottom and lift the unit away from the chassis."
+  },
+  {
+   "turnId": 1,
+   "startMs": 27180,
+   "endMs": 37260,
+   "transcript": "The capacity is enough for around 11 hours of video playback. Our test was conducted with the battery saver preset activated in the Windows power power and battery menu"
+  },
+  {
+   "turnId": 2,
+   "startMs": 43260,
+   "endMs": 46860,
+   "transcript": "You can pop the metal shield above the RAM section with a lever tool."
+  },
+  {
+   "turnId": 3,
+   "startMs": 57100,
+   "endMs": 63580,
+   "transcript": "According to HP the two SODIMMs can handle up to 32 gigabytes of DDR5 5600"
+  }
+ ],
+ "steps": [
+  {
+   "index": 0,
+   "evidence_s": 2.0,
+   "frame": "frames/reference-step0.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 6,
+     "window_frames": 30,
+     "first_s": 1.6,
+     "last_s": 6.0,
+     "mean_confidence": 0.726
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  },
+  {
+   "index": 1,
+   "evidence_s": 20.0,
+   "frame": "frames/reference-step1.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 21,
+     "window_frames": 20,
+     "first_s": 18.0,
+     "last_s": 22.0,
+     "mean_confidence": 0.726
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 11.34,
+     "end_s": 26.54,
+     "text": "The device that we bought has the optional 56 watt hour battery. The base model has a 48 watt hour capacity. To remove it pull out the connector towards the battery rotate the two blue latches on the bottom bottom and lift the unit away from the chassis."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "evidence_s": 26.0,
+   "frame": "frames/reference-step2.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 21,
+     "window_frames": 20,
+     "first_s": 24.0,
+     "last_s": 28.0,
+     "mean_confidence": 0.726
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 11.34,
+     "end_s": 26.54,
+     "text": "The device that we bought has the optional 56 watt hour battery. The base model has a 48 watt hour capacity. To remove it pull out the connector towards the battery rotate the two blue latches on the bottom bottom and lift the unit away from the chassis."
+    },
+    {
+     "start_s": 27.18,
+     "end_s": 37.26,
+     "text": "The capacity is enough for around 11 hours of video playback. Our test was conducted with the battery saver preset activated in the Windows power power and battery menu"
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "evidence_s": 30.0,
+   "frame": "frames/reference-step3.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 21,
+     "window_frames": 20,
+     "first_s": 28.0,
+     "last_s": 32.0,
+     "mean_confidence": 0.726
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 27.18,
+     "end_s": 37.26,
+     "text": "The capacity is enough for around 11 hours of video playback. Our test was conducted with the battery saver preset activated in the Windows power power and battery menu"
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "evidence_s": 35.0,
+   "frame": "frames/reference-step4.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 16,
+     "window_frames": 25,
+     "first_s": 32.0,
+     "last_s": 35.0,
+     "mean_confidence": 0.726
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 27.18,
+     "end_s": 37.26,
+     "text": "The capacity is enough for around 11 hours of video playback. Our test was conducted with the battery saver preset activated in the Windows power power and battery menu"
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "evidence_s": 51.0,
+   "frame": "frames/reference-step5.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 27,
+     "window_frames": 30,
+     "first_s": 47.8,
+     "last_s": 53.0,
+     "mean_confidence": 0.777
+    },
+    "laptop battery": {
+     "frames": 6,
+     "window_frames": 30,
+     "first_s": 52.0,
+     "last_s": 53.0,
+     "mean_confidence": 0.726
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  },
+  {
+   "index": 6,
+   "evidence_s": 55.0,
+   "frame": "frames/reference-step6.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 10,
+     "window_frames": 15,
+     "first_s": 53.0,
+     "last_s": 55.2,
+     "mean_confidence": 0.777
+    },
+    "laptop battery": {
+     "frames": 5,
+     "window_frames": 15,
+     "first_s": 53.0,
+     "last_s": 53.8,
+     "mean_confidence": 0.726
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  },
+  {
+   "index": 7,
+   "evidence_s": 62.5,
+   "frame": "frames/reference-step7.jpg",
+   "tracks": {
+    "blue pry tool": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "laptop battery": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "metal RAM shield": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "RAM memory module": {
+     "frames": 13,
+     "window_frames": 20,
+     "first_s": 61.4,
+     "last_s": 63.8,
+     "mean_confidence": 0.75
+    }
+   },
+   "speech": [
+    {
+     "start_s": 57.1,
+     "end_s": 63.58,
+     "text": "According to HP the two SODIMMs can handle up to 32 gigabytes of DDR5 5600"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "id": "resp_6aeacf06028a5c1591b343d4",
+ "access_programs": null,
+ "created_at": 1793773318.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeacf06028a5c1591b343d4:rs_3b29ece9-2fa6-4786-b950-7bfa51f5a6bc",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_2f83c9a6-dabf-4206-b2ca-6ae8794953cf",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"none\", \"objects_seen\": [\"laptop chassis\", \"bottom battery cover\", \"Lenovo battery pack\", \"cooling fans\", \"motherboard\", \"touchpad circuit board\", \"black SSD cover tape\", \"blue pry tool\", \"silver thermal foil\", \"M.2 SSD\", \"tweezers\", \"SSD bracket screw\"], \"speech_heard\": \"The memory is soldered. Still, you get up to 32 gigabytes of LPDDR5x, 8400 megahertz RAM in dual-channel, which is more than enough for regular home or office work. For storage, there is just a single M point 2 slot compatible with 2242 Gen 4 SSDs. The preinstalled NVMe drive is covered with a heat shield. There is tape on top. Be careful while peeling it off because you can tear the cover just like we did.\", \"steps\": [{\"action\": \"lift off bottom battery cover\", \"cannot_see\": \"whether internal battery cable is still connected or power state\", \"checkpoint_visibility\": \"clear\", \"end_s\": 2.5, \"evidence_s\": 2.0, \"index\": 0, \"objects\": [\"bottom battery cover\", \"laptop chassis\"], \"observable_checkpoint\": \"internal chassis with two cooling fans, motherboard and touchpad board fully exposed\", \"pass_condition\": \"battery cover separated and internals visible\", \"start_s\": 0.5}, {\"action\": \"pry up black SSD cover tape\", \"cannot_see\": \"adhesive strength or whether tape is torn underneath\", \"checkpoint_visibility\": \"clear\", \"end_s\": 44.0, \"evidence_s\": 42.0, \"index\": 1, \"objects\": [\"blue pry tool\", \"black SSD cover tape\"], \"observable_checkpoint\": \"black tape lifted from center motherboard revealing copper and SSD area underneath\", \"pass_condition\": \"tape detached and folded back from SSD slot\", \"start_s\": 38.5}, {\"action\": \"peel back silver thermal foil\", \"cannot_see\": \"whether SSD or heat shield was damaged during peeling\", \"checkpoint_visibility\": \"clear\", \"end_s\": 55.0, \"evidence_s\": 54.5, \"index\": 2, \"objects\": [\"silver thermal foil\", \"M.2 SSD\"], \"observable_checkpoint\": \"silver foil folded back and M.2 SSD area exposed in center slot\", \"pass_condition\": \"foil repositioned and SSD slot visible\", \"start_s\": 44.5}, {\"action\": \"turn SSD bracket screw with tool\", \"cannot_see\": \"screw tightness torque and thread engagement\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 60.0, \"evidence_s\": 58.5, \"index\": 3, \"objects\": [\"tweezers\", \"SSD bracket screw\"], \"observable_checkpoint\": \"tool tip contacting small screw on SSD bracket next to right fan\", \"pass_condition\": \"tool engages screw on SSD bracket\", \"start_s\": 56.0}], \"task\": \"Remove laptop bottom cover to expose internals and open SSD heat-shield tape for storage access\", \"track\": [\"blue pry tool\", \"tweezers\", \"bottom battery cover\", \"black SSD cover tape\"], \"uncertainty\": \"Exact SSD removal versus repositioning is unclear; final tool action is partially occluded so screw versus clip manipulation is estimated.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793773318.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "additionalProperties": false,
+    "type": "object"
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 16984,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 625
+  },
+  "output_tokens": 2624,
+  "output_tokens_details": {
+   "reasoning_tokens": 1888
+  },
+  "total_tokens": 19608
+ },
+ "user": null,
+ "store": true
+}

@@ -1,0 +1,195 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   5.5,
+   12.5
+  ],
+  "fps": 4.0,
+  "frames": 28,
+  "evidence": "t=5.5-6.0 gloved hand at lower left is at the pump/flange under the mounting plate adjusting/sliding it; t=7.0 gloved hand still visible at left edge next to plate/pump; t=7.25-10.25 hands are absent with pump centered under plate and shaft in cutout; t=10.5 fingers appear on top of plate holding washer/bolt through plate into pump flange and continue through 12.25",
+  "first_ends_s": 7.0,
+  "second_begins_s": 10.5,
+  "clean": true
+ },
+ {
+  "after_step": 1,
+  "window": [
+   11.0,
+   20.5
+  ],
+  "fps": 4.0,
+  "frames": 38,
+  "evidence": "11.00s-12.75s close-up shows fingers on washer/bolt through mounting plate into pump flange (step A). 13.00s-18.00s wide view shows no hands. 18.25s onward shows hand gripping side hydraulic fitting on pump body (step B).",
+  "first_ends_s": 12.75,
+  "second_begins_s": 18.25,
+  "clean": true
+ },
+ {
+  "after_step": 2,
+  "window": [
+   20.0,
+   24.5
+  ],
+  "fps": 4.0,
+  "frames": 18,
+  "evidence": "20.00-20.50 lower hand grips the small side fitting on pump body while upper hand works on it; 20.75-21.00 hands lift off but return to same fitting at 21.25-22.25 with lower hand on fitting and upper hand turning/working it. From 22.50 camera shows between tanks and hand reaches behind/beside pump in the tank gap to work on tube connection, while the adjusted foreground fitting is left untouched.",
+  "first_ends_s": 22.25,
+  "second_begins_s": 22.5,
+  "clean": true
+ },
+ {
+  "after_step": 3,
+  "window": [
+   22.0,
+   30.5
+  ],
+  "fps": 4.0,
+  "frames": 34,
+  "evidence": "t22.00-22.25 side view hands are between pump and tank working on pump side joining tube; t22.50 front view hands have moved to left tank wall area working on tank port seating tube, continuing there after",
+  "first_ends_s": 22.25,
+  "second_begins_s": 22.5,
+  "clean": true,
+  "narrow": {
+   "window": [
+    24.5,
+    28.5
+   ],
+   "fps": 4.0,
+   "first_ends_s": 28.25,
+   "second_begins_s": -1,
+   "evidence": "hands stay behind and around the central hydraulic pump in the gap between the left and right tanks gripping the thick black transverse tube at the pump side; right-hand pink flesh is visible immediately beside the pump body through 27.5s to 28.25s still on the pump end and never moves out to the tank wall port face"
+  }
+ },
+ {
+  "after_step": 4,
+  "window": [
+   26.0,
+   30.5
+  ],
+  "fps": 4.0,
+  "frames": 18,
+  "evidence": "Left hand holds thick black tube at left tank port 26.0-27.5s seating it, then right hand holds tube at right tank port 27.75-29.5s seating it; no tool or hose-clamp tightening action visible, later wide frames show no hands.",
+  "first_ends_s": 29.5,
+  "second_begins_s": -1,
+  "clean": false,
+  "narrow": {
+   "window": [
+    24.5,
+    32.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": 29.25,
+   "second_begins_s": -1,
+   "evidence": "Close-up frames 24.5s to ~29.25s show hands partly visible behind/around the central pump manipulating the thick black cross tube where it meets the side tanks. Left and right fingers appear to hold/adjust/seat the tube at the ports. No distinct tool use or separate clamp-tightening hand position is clearly visible. By 29.5s hands are no longer visible and 30.0s+ wide shots show the machine alone with no hands."
+  }
+ },
+ {
+  "after_step": 5,
+  "window": [
+   26.0,
+   42.0
+  ],
+  "fps": 2.5,
+  "frames": 40,
+  "evidence": "t=26.0 to t=29.2 close-up under frame shows hands on left and right at the thick black hydraulic tubes beside the pump, consistent with tightening hose clamps; t=29.6 is a dissolve, then wide shots t=30.0+ show no hands, cooler with fan appears on ground at t=33.2 and later is repositioned near/under frame at t=38.4-40.4 with no hands visible handling it.",
+  "first_ends_s": 29.2,
+  "second_begins_s": -1,
+  "clean": false,
+  "narrow": {
+   "window": [
+    28.0,
+    40.5
+   ],
+   "fps": 3.2,
+   "first_ends_s": -1,
+   "second_begins_s": -1,
+   "evidence": "Early close frames 28.00-29.56 show static underside machinery and thick tube area with no clear hands holding a tool on hose clamps; later wide frames show the frame unmanned and the cooler/fan appearing on the ground at 33.31 and later repositioned toward the frame by 38.62-39.56 with no hands visible touching the cooler/fan in any frame."
+  }
+ },
+ {
+  "after_step": 6,
+  "window": [
+   38.0,
+   45.0
+  ],
+  "fps": 4.0,
+  "frames": 28,
+  "evidence": "Frames 38.0-40.25 show cooler with fan on ground with no hands visible; 39.5-40.25 it is moved under frame still with no hands; 40.5-41.75 it disappears from front view with no hands visible. At 42.0 the view cuts to close-up with cooler already flat against west side mesh fan-inward and hands appear on left working low near the cooler/mesh, continuing through 43.5, then 43.75+ external view shows hand on outside mesh working fasteners. No frame shows hands carrying/positioning the cooler.",
+  "first_ends_s": -1,
+  "second_begins_s": 42.0,
+  "clean": false,
+  "narrow": {
+   "window": [
+    39.5,
+    44.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": -1,
+   "second_begins_s": 42,
+   "evidence": "Frames 39.5-40.25 show cooler with fan on ground with no hands visible; 40.5-41.75 show cooler gone from ground with still no hands visible so positioning hands are never shown. Frame 42.0 is first close-up showing cooler flat against west side mesh with fan inward and hands at the mesh/cooler bolting location, with hands continuing to work there through 43.5-43.75."
+  }
+ },
+ {
+  "after_step": 7,
+  "window": [
+   42.5,
+   46.5
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "42.50-43.50s hands low on left at cooler-to-mesh interface working bolts with cooler flat against mesh fan inward; 43.75s view shifts outside and hand contacts outer gold mesh cover; 44.50s fingers manipulate cover screw, 45.25s screwdriver tip is on cover and stays engaged through 46.25s turning screws through mesh",
+  "first_ends_s": 43.5,
+  "second_begins_s": 43.75,
+  "clean": true
+ },
+ {
+  "after_step": 8,
+  "window": [
+   44.0,
+   56.0
+  ],
+  "fps": 3.3333333333333335,
+  "frames": 40,
+  "evidence": "Hands at side mesh cover t=44.0-47.6 holding/turning screwdriver into mesh screws; t=47.9-48.2 no hands, camera cuts to front engine view; t=48.5 hand reappears holding metal fitting/hose on left side and continues handling hose/fitting.",
+  "first_ends_s": 47.6,
+  "second_begins_s": 48.5,
+  "clean": true,
+  "narrow": {
+   "window": [
+    46.0,
+    50.5
+   ],
+   "fps": 4.0,
+   "first_ends_s": 47.5,
+   "second_begins_s": -1,
+   "evidence": "46.00-47.50 hands on left mesh cover with screwdriver at screws turning/finishing. 47.75-48.25 front view with no hands visible. 48.50 onward hand upper-left near engine left side pointing/holding, never on hydraulic tank top lower-right and never seating filter head assembly."
+  }
+ },
+ {
+  "after_step": 9,
+  "window": [
+   53.5,
+   58.0
+  ],
+  "fps": 4.0,
+  "frames": 18,
+  "evidence": "From 53.5s to 55.25s the left hand is in lower-left contacting the filter fitting assembly on top of the tank, gripping and finishing mounting. At 55.5s the hand blurs upward away from that spot and is gone in 55.75s-56.25s with no hands visible. At 56.5s fingertips reappear from the top at the cooler top holding the black return hose and continue to route/manipulate it through 57.75s.",
+  "first_ends_s": 55.25,
+  "second_begins_s": 56.5,
+  "clean": true
+ },
+ {
+  "after_step": 10,
+  "window": [
+   58.0,
+   67.0
+  ],
+  "fps": 4.0,
+  "frames": 36,
+  "evidence": "Around 59.5-59.75 a hand is visible at the top of the frame over the engine working on the black hose routed to the cooler, then gone by 60.0 with no hands in wide shots. White Zinga canister sits on the floor with no hands 62.5-64.0, then at 64.25 the canister is up at the left-side filter head area, and 65.0 close-up shows a hand holding and turning the white Zinga canister onto the head through 66.75.",
+  "first_ends_s": 59.75,
+  "second_begins_s": 64.25,
+  "clean": true
+ }
+]

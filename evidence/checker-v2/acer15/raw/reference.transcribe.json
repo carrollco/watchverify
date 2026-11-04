@@ -1,0 +1,32 @@
+{
+ "sessionId": "voyager/transcribe/EC5A0F067CDE4DE6AE4CF09C59F52F83",
+ "transcript": "Pop the top two corners with a thin plastic tool and and then pry the sides the front and the back This laptop has a 53 watt hour battery To take it out unplug the connector from the motherboard and undo the two Phillips head screws that secure the unit in place The capacity is is enough for around eight hours and a half of video playback to achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and the silent preset in the Acer Sense app",
+ "audioDurationMs": 58080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 3100,
+   "endMs": 8940,
+   "transcript": "Pop the top two corners with a thin plastic tool and and then pry the sides the front and the back"
+  },
+  {
+   "turnId": 1,
+   "startMs": 23260,
+   "endMs": 26220,
+   "transcript": "This laptop has a 53 watt hour battery"
+  },
+  {
+   "turnId": 2,
+   "startMs": 26620,
+   "endMs": 33660,
+   "transcript": "To take it out unplug the connector from the motherboard and undo the two Phillips head screws that secure the unit in place"
+  },
+  {
+   "turnId": 3,
+   "startMs": 34140,
+   "endMs": 47580,
+   "transcript": "The capacity is is enough for around eight hours and a half of video playback to achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and the silent preset in the Acer Sense app"
+  }
+ ],
+ "_http": 200
+}

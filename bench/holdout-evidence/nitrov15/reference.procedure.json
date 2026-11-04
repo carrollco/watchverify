@@ -1,0 +1,124 @@
+{
+ "audio_notes": "soft plastic clicks when clips and connector seat, light handling and tapping noises, no music",
+ "objects_seen": [
+  "laptop motherboard",
+  "memory module",
+  "motherboard RAM slot",
+  "laptop battery",
+  "battery tray",
+  "battery cable connector",
+  "motherboard battery socket",
+  "insulating flap",
+  "blue plastic pry tool",
+  "cooling fan",
+  "copper heat pipes",
+  "black gloves"
+ ],
+ "speech_heard": "Down until both side clips lock. Place the battery back into its tray and reconnect it. Since it has no screws, confirm it sits flat before closing the laptop.",
+ "steps": [
+  {
+   "action": "press memory module down into slot",
+   "cannot_see": "electrical contact inside the slot",
+   "checkpoint_visibility": "clear",
+   "end_s": 7.0,
+   "evidence_s": 5.5,
+   "index": 0,
+   "objects": [
+    "memory module",
+    "motherboard RAM slot"
+   ],
+   "observable_checkpoint": "memory module lies flat in slot with side clips engaged",
+   "pass_condition": "module is level and both side clips are locked",
+   "start_s": 0.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "place battery into tray",
+   "cannot_see": "fit under unseen edges of tray",
+   "checkpoint_visibility": "clear",
+   "end_s": 25.0,
+   "evidence_s": 23.0,
+   "index": 1,
+   "objects": [
+    "laptop battery",
+    "battery tray"
+   ],
+   "observable_checkpoint": "battery rests aligned in lower chassis tray",
+   "pass_condition": "battery sits in recess without overhang",
+   "start_s": 15.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "push battery cable connector into socket",
+   "cannot_see": "electrical continuity of the connection",
+   "checkpoint_visibility": "clear",
+   "end_s": 43.0,
+   "evidence_s": 35.0,
+   "index": 2,
+   "objects": [
+    "blue plastic pry tool",
+    "battery cable connector",
+    "motherboard battery socket"
+   ],
+   "observable_checkpoint": "multicolor wired connector is fully inserted into white motherboard socket",
+   "pass_condition": "connector is flush with socket with no gap",
+   "start_s": 28.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "fold insulating flap over connector",
+   "cannot_see": "adhesive hold underneath flap",
+   "checkpoint_visibility": "clear",
+   "end_s": 57.0,
+   "evidence_s": 55.0,
+   "index": 3,
+   "objects": [
+    "insulating flap",
+    "battery cable connector"
+   ],
+   "observable_checkpoint": "black flap lies flat covering battery connector area",
+   "pass_condition": "flap covers connector completely",
+   "start_s": 48.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "press battery edge to confirm seating",
+   "cannot_see": "securement without screws",
+   "checkpoint_visibility": "subtle",
+   "end_s": 60.0,
+   "evidence_s": 59.0,
+   "index": 4,
+   "objects": [
+    "laptop battery"
+   ],
+   "observable_checkpoint": "battery remains flat in tray when pressed",
+   "pass_condition": "battery does not lift or rock",
+   "start_s": 57.5,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Seat RAM module and reinstall laptop battery",
+ "track": [
+  "blue plastic pry tool",
+  "memory module",
+  "laptop battery",
+  "battery cable connector"
+ ],
+ "uncertainty": "timings are approximate; battery connector seating is partly occluded by gloves and tool so full insertion is inferred from tool motion and final position",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-1081213554904527",
+  "usage": {
+   "input_tokens": 16984,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 0
+   },
+   "output_tokens": 3734,
+   "output_tokens_details": {
+    "reasoning_tokens": 2999
+   },
+   "total_tokens": 20718
+  }
+ }
+}

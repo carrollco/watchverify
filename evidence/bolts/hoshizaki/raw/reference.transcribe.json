@@ -1,0 +1,62 @@
+{
+ "sessionId": "voyager/transcribe/1013DB959C8F4B03B68FEC9AD4E4B142",
+ "transcript": "and you want to tighten it kind of hold your torque wrench out toward the end don't choke up on it but hold it out toward the end give you proper leverage when it clicks go to the one across from it <|speaker_A|> when it clicks go to the one next to it going clockwise <|speaker_A|>  when it when it clicks go to the one across from it and going clockwise again the one next to it clicks one across from it and all six of these bolts should should be torqued you may want to give it another round just to be sure when it clicks across from it clicks next to it clicks the oneclicks the one across from it click again next to it click across from",
+ "audioDurationMs": 70080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 2540,
+   "endMs": 20940,
+   "transcript": "and you want to tighten it kind of hold your torque wrench out toward the end don't choke up on it but hold it out toward the end give you proper leverage when it clicks go to the one across from it <|speaker_A|>"
+  },
+  {
+   "turnId": 1,
+   "startMs": 21420,
+   "endMs": 23420,
+   "transcript": "when it clicks go to the one next to it"
+  },
+  {
+   "turnId": 2,
+   "startMs": 25740,
+   "endMs": 31420,
+   "transcript": "going clockwise <|speaker_A|>  when it when it clicks go to the one across from it"
+  },
+  {
+   "turnId": 3,
+   "startMs": 37980,
+   "endMs": 40220,
+   "transcript": "and going clockwise again the one next to it"
+  },
+  {
+   "turnId": 4,
+   "startMs": 45020,
+   "endMs": 47100,
+   "transcript": "clicks one across from it"
+  },
+  {
+   "turnId": 5,
+   "startMs": 52460,
+   "endMs": 59500,
+   "transcript": "and all six of these bolts should should be torqued you may want to give it another round just to be sure when it clicks across from it"
+  },
+  {
+   "turnId": 6,
+   "startMs": 60460,
+   "endMs": 62300,
+   "transcript": "clicks next to it"
+  },
+  {
+   "turnId": 7,
+   "startMs": 63580,
+   "endMs": 65660,
+   "transcript": "clicks the oneclicks the one across from it"
+  },
+  {
+   "turnId": 8,
+   "startMs": 66460,
+   "endMs": 69580,
+   "transcript": "click again next to it click across from"
+  }
+ ],
+ "_http": 200
+}

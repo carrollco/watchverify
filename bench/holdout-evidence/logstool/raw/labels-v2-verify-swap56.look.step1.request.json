@@ -1,0 +1,68 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 8000,
+ "instructions": "You are given one step of a hands-on procedure, a frame showing that step in an expert's video, and a short clip from another performance. Decide from the clip alone whether this step's observable checkpoint is visible in it. observed: you can point to the seconds where it happens. done_differently: its result is visible but reached another way (another tool, by hand); say how. not_observed: you watched the whole clip and it does not happen. unclear: it might be happening but the view does not let you tell. The clip may well not contain the step; do not assume it does.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "STEP from the reference procedure:\n{\n \"action\": \"saw left side of stump base\",\n \"objects\": [\n  \"chainsaw\",\n  \"standing tree stump\"\n ],\n \"observable_checkpoint\": \"person moved to opposite side with sawdust spraying from left side of stump base\",\n \"pass_condition\": \"cut marks encircle lower stump base\"\n}\n\nThe image shows this step in the expert's video.\n\nThe attached clip is 2.0 s long. Is the step's checkpoint visible in it?"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:608d41684005ae37"
+    },
+    {
+     "type": "input_file",
+     "file_id": "file-1814477936342193"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "second_look",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "status": {
+      "type": "string",
+      "enum": [
+       "observed",
+       "done_differently",
+       "not_observed",
+       "unclear"
+      ]
+     },
+     "observed_start_s": {
+      "type": "number",
+      "description": "seconds in this clip where the step starts, -1 if not observed"
+     },
+     "observed_end_s": {
+      "type": "number",
+      "description": "-1 if not observed"
+     },
+     "evidence": {
+      "type": "string",
+      "description": "what is visible that supports the status, with seconds in this clip"
+     }
+    },
+    "required": [
+     "status",
+     "observed_start_s",
+     "observed_end_s",
+     "evidence"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "id": "resp_6aeb1d3df379ce57ac544717",
+ "access_programs": null,
+ "created_at": 1793793341.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given one step of a hands-on procedure, a frame showing that step in an expert's video, and a short clip from another performance. Decide from the clip alone whether this step's observable checkpoint is visible in it. observed: you can point to the seconds where it happens. done_differently: its result is visible but reached another way (another tool, by hand); say how. not_observed: you watched the whole clip and it does not happen. unclear: it might be happening but the view does not let you tell. The clip may well not contain the step; do not assume it does.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeb1d3df379ce57ac544717:rs_a20d9539-ffe7-49d5-a9ab-78a878da09a7",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_bade9e30-5711-4093-bdad-93c0c09cee17",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"evidence\":\"at 0.0s-1.0s person holds chainsaw horizontally across top of standing stump cutting with sawdust, at ~1.2s-1.7s the severed round top tips and falls to snow beside stump leaving separated legged base\",\"observed_end_s\":1.7,\"observed_start_s\":0.0,\"status\":\"observed\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793793341.0,
+ "conversation": null,
+ "max_output_tokens": 8000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "second_look",
+   "schema_": {
+    "properties": {
+     "evidence": {
+      "description": "what is visible that supports the status, with seconds in this clip",
+      "type": "string"
+     },
+     "observed_end_s": {
+      "description": "-1 if not observed",
+      "type": "number"
+     },
+     "observed_start_s": {
+      "description": "seconds in this clip where the step starts, -1 if not observed",
+      "type": "number"
+     },
+     "status": {
+      "enum": [
+       "observed",
+       "done_differently",
+       "not_observed",
+       "unclear"
+      ],
+      "type": "string"
+     }
+    },
+    "required": [
+     "status",
+     "observed_start_s",
+     "observed_end_s",
+     "evidence"
+    ],
+    "type": "object",
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 1100,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 241
+  },
+  "output_tokens": 1493,
+  "output_tokens_details": {
+   "reasoning_tokens": 1405
+  },
+  "total_tokens": 2593
+ },
+ "user": null,
+ "store": true
+}

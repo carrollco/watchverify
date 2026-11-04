@@ -1,0 +1,14 @@
+{
+ "made_by": "model under test",
+ "how": "the checker run on the expert's own clip (self-check)",
+ "steps": {
+  "0": "observed",
+  "1": "observed",
+  "2": "observed",
+  "3": "observed",
+  "4": "observed",
+  "5": "observed",
+  "6": "observed",
+  "7": "observed"
+ }
+}

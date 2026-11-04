@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae22335f5070190ce19488a",
+ "access_programs": null,
+ "created_at": 1793205045.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae22335f5070190ce19488a:rs_18aaee21-c6a7-4a64-aa42-75ef229f5b47",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_7f4d7fc7-c357-44c3-877d-0a3fc358edad",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"faint plastic prying clicks and handling noises during cover removal\", \"objects_seen\": [\"laptop base cover\", \"blue plastic pry tool\", \"phillips screwdriver\", \"laptop battery\", \"laptop battery cable\", \"motherboard\", \"RAM module\", \"cooling fan\", \"black gloves\"], \"speech_heard\": \"Use a lever tool to pop the back in the zones behind the hinges. Then, fully pry the rear as well as the sides and the front. This machine has the optional 54Wh battery. The base model is a 42Wh variant. To remove it, unplug the connector from the main board and undo the five Phillips head screws that secure the unit to the base. The capacity is enough for around 9 hours of video playback. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu and select the optimized power plan in the Dell Optimizer app.\", \"steps\": [{\"action\": \"prying open left hinge zone\", \"cannot_see\": \"whether internal clips are undamaged or fully released\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 5.5, \"evidence_s\": 4.5, \"index\": 0, \"objects\": [\"blue plastic pry tool\", \"laptop base cover\"], \"observable_checkpoint\": \"small gap opens between base cover and chassis at left rear behind hinge\", \"pass_condition\": \"visible separation appears at left rear edge\", \"start_s\": 2.5}, {\"action\": \"prying open right hinge zone\", \"cannot_see\": \"whether internal clips are undamaged or fully released\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 9.5, \"evidence_s\": 8.0, \"index\": 1, \"objects\": [\"blue plastic pry tool\", \"laptop base cover\"], \"observable_checkpoint\": \"small gap opens between base cover and chassis at right rear behind hinge\", \"pass_condition\": \"visible separation appears at right rear edge\", \"start_s\": 6.5}, {\"action\": \"prying along left side edge\", \"cannot_see\": \"exact number of clips released along the side\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 19.5, \"evidence_s\": 18.0, \"index\": 2, \"objects\": [\"blue plastic pry tool\", \"laptop base cover\"], \"observable_checkpoint\": \"seam widens along left side between cover and chassis\", \"pass_condition\": \"side seam is visibly loosened\", \"start_s\": 13.0}, {\"action\": \"prying along front edge\", \"cannot_see\": \"exact number of clips released along the front\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 24.0, \"evidence_s\": 22.5, \"index\": 3, \"objects\": [\"blue plastic pry tool\", \"laptop base cover\"], \"observable_checkpoint\": \"seam widens along bottom front edge between cover and chassis\", \"pass_condition\": \"front seam is visibly loosened\", \"start_s\": 20.0}, {\"action\": \"lifting off base cover\", \"cannot_see\": \"underside clip condition\", \"checkpoint_visibility\": \"clear\", \"end_s\": 29.5, \"evidence_s\": 29.2, \"index\": 4, \"objects\": [\"laptop base cover\"], \"observable_checkpoint\": \"base cover fully removed exposing motherboard, fan, RAM and battery\", \"pass_condition\": \"internal components are fully exposed with cover off frame\", \"start_s\": 24.5}, {\"action\": \"loosening battery screw\", \"cannot_see\": \"screw torque, thread condition, and whether all five screws are removed\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 49.0, \"evidence_s\": 46.5, \"index\": 5, \"objects\": [\"phillips screwdriver\", \"laptop battery\"], \"observable_checkpoint\": \"screwdriver tip engaged on top screw of battery and screw turned\", \"pass_condition\": \"screwdriver visibly turns the battery retaining screw\", \"start_s\": 43.5}, {\"action\": \"unplugging battery connector\", \"cannot_see\": \"electrical isolation and connector pin condition\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 66.5, \"evidence_s\": 60.0, \"index\": 6, \"objects\": [\"laptop battery cable\", \"motherboard\"], \"observable_checkpoint\": \"black battery cable pulled free from board connector and laid aside\", \"pass_condition\": \"cable end is visibly separated from motherboard socket\", \"start_s\": 52.0}], \"task\": \"Remove laptop bottom cover and disconnect battery\", \"track\": [\"blue plastic pry tool\", \"phillips screwdriver\", \"laptop base cover\", \"laptop battery cable\"], \"uncertainty\": \"Prying gaps are small and briefly visible; battery screw and connector work is partly occluded by gloved hands and on-screen power-menu overlays, and only one screw location is clearly seen though narration states five screws.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205045.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object"
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 20518,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3933,
+  "output_tokens_details": {
+   "reasoning_tokens": 2828
+  },
+  "total_tokens": 24451
+ },
+ "user": null,
+ "store": true
+}

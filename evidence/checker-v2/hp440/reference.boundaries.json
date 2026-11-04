@@ -1,0 +1,123 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   0.0,
+   22.5
+  ],
+  "fps": 1.7777777777777777,
+  "frames": 40,
+  "evidence": "t0.00-t0.56 gloved hands grip the closed silver bottom cover at the top edge to lift it; t1.12 cover is gone with fan, motherboard and battery exposed and no hands. No hands through middle frames. t14.62-t15.19 hand briefly points/hovers over left-center board/SSD shield, not on connector cable. t18.00 hand re-enters from top, t18.56-t19.12 fingers pinch the small battery-connector area just above battery center to pull toward battery.",
+  "first_ends_s": 0.56,
+  "second_begins_s": 18.56,
+  "clean": true,
+  "narrow": {
+   "window": [
+    4.0,
+    20.0
+   ],
+   "fps": 2.5,
+   "first_ends_s": -1,
+   "second_begins_s": 18.4,
+   "evidence": "Frames 4.00-5.20 show only the inside of the bottom cover with no hands. Frames 6.40-14.40 show the chassis with motherboard, fan and battery exposed with no hands visible, so no hand work for lifting the cover is shown. A gloved hand briefly enters at 14.80-15.20 hovering over the center/left board then leaves by 15.60 without contacting the battery connector. At 18.40 a gloved hand re-enters with fingers directly on the battery connector cable just above the battery center and stays through 19.60 pulling toward the battery."
+  }
+ },
+ {
+  "after_step": 1,
+  "window": [
+   20.0,
+   26.0
+  ],
+  "fps": 4.0,
+  "frames": 24,
+  "evidence": "At 21.0-21.25 both gloved index fingers are on the top middle edge of the battery at the battery connector cable, pressing/pulling toward battery; at 21.5 the fingers lift up away from the connector. Frames 21.75-23.5 show no hands. At 23.75-24.0 hands re-enter and hover over the battery sides, then at 24.25 both index fingers move down to the bottom edge of the battery onto the left and right blue latch areas and remain there through 25.0.",
+  "first_ends_s": 21.25,
+  "second_begins_s": 24.25,
+  "clean": true
+ },
+ {
+  "after_step": 2,
+  "window": [
+   26.0,
+   30.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "Left hand grips the left-bottom battery edge latch area from t=27.0 through t=29.25 while right hand rests on mid-battery; at t=29.5 both hands lift off and reposition, and at t=29.75 right hand is on the bottom-right latch area pinching it while left hand is away on the left side.",
+  "first_ends_s": 29.25,
+  "second_begins_s": 29.75,
+  "clean": true
+ },
+ {
+  "after_step": 3,
+  "window": [
+   30.0,
+   34.0
+  ],
+  "fps": 4.0,
+  "frames": 16,
+  "evidence": "t=30.00 to t=31.75 right hand stays pinched at bottom-right corner of battery at right latch area manipulating latch while left hand holds left side; at t=32.00 both hands reposition outward to grip left and right side edges of battery in lifting posture and begin to lift",
+  "first_ends_s": 31.75,
+  "second_begins_s": 32.0,
+  "clean": true
+ },
+ {
+  "after_step": 4,
+  "window": [
+   31.5,
+   53.5
+  ],
+  "fps": 1.8181818181818181,
+  "frames": 40,
+  "evidence": "31.5-34.25 both gloved hands grip sides of black battery seated in chassis, at 34.8 hands lift battery upward revealing green touchpad board in empty bay, 35.35+ bay empty with no hands. Later left hand returns holding blue pry tool hovering over board 48.0-49.65, at 50.2 left hand places blue tool tip under left edge of dark metal RAM shield while right hand steadies chassis to start pry.",
+  "first_ends_s": 34.8,
+  "second_begins_s": 50.2,
+  "clean": true,
+  "narrow": {
+   "window": [
+    35.0,
+    49.0
+   ],
+   "fps": 2.86,
+   "first_ends_s": -1,
+   "second_begins_s": 47.95,
+   "evidence": "Frames 35.00-43.05 show battery lifting out and empty bay with green touchpad visible but no hands are visible. Chassis stays empty with no hands 43.05-46.90. Gloved finger points over board 44.45-45.50 without tool, then disappears. At 47.60 gloved hand holds blue pry tool over fan away from shield, at 47.95 hand puts blue tool tip under left edge of metal RAM shield."
+  }
+ },
+ {
+  "after_step": 5,
+  "window": [
+   46.5,
+   56.5
+  ],
+  "fps": 4.0,
+  "frames": 40,
+  "evidence": "Frames 46.5-47.5 show no hands with metal shield covering RAM. From 47.75 left gloved hand brings blue pry tool to lower-left edge of shield and inserts/pries through 53.25, right hand joins to hold/stabilize shield. At 53.5 blue tool is withdrawn from edge and right hand lifts shield up, at 53.75 shield is lifted away exposing green RAM modules in slots.",
+  "first_ends_s": 53.25,
+  "second_begins_s": 53.5,
+  "clean": true,
+  "narrow": {
+   "window": [
+    51.0,
+    55.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": 53.25,
+   "second_begins_s": 51.75,
+   "evidence": "Left hand holds blue pry tool at left edge of metal RAM shield from 51.0 through 53.25, then lifts tool clear in air at 53.5. Right hand holds chassis until 51.5, moves onto shield at 51.75 and begins lifting/peeling shield, exposing green RAM modules by 53.75."
+  }
+ },
+ {
+  "after_step": 6,
+  "window": [
+   54.0,
+   62.0
+  ],
+  "fps": 4.0,
+  "frames": 32,
+  "evidence": "At 57.00 hands grip the gray metal RAM shield over the slots, at 57.25 the shield is blurred in the air being lifted away exposing the green modules, hands are gone by 57.50. After a gap with no hands, hands re-enter from top at 58.50 above the slots and by 58.75-59.00 fingertips are contacting the green RAM memory module in the SODIMM slot.",
+  "first_ends_s": 57.25,
+  "second_begins_s": 58.75,
+  "clean": true
+ }
+]

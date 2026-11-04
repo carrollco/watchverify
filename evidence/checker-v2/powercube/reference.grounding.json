@@ -1,0 +1,624 @@
+{
+ "video": "runs/bench-powercube/clip.mp4",
+ "seconds": 71.0,
+ "track_fps": 5,
+ "track_frames": 355,
+ "width": 640,
+ "phrases": [
+  "screwdriver",
+  "hydraulic pump",
+  "hydraulic cooler",
+  "hydraulic filter canister"
+ ],
+ "colors": {
+  "screwdriver": "d62728",
+  "hydraulic pump": "1f77b4",
+  "hydraulic cooler": "2ca02c",
+  "hydraulic filter canister": "ff7f0e"
+ },
+ "tracks": {
+  "screwdriver": [],
+  "hydraulic pump": [],
+  "hydraulic cooler": [],
+  "hydraulic filter canister": []
+ },
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 1580,
+   "endMs": 7260,
+   "transcript": "While one person lifts the frame, slide the hydraulic motor under the hydraulic plate."
+  },
+  {
+   "turnId": 1,
+   "startMs": 8540,
+   "endMs": 12300,
+   "transcript": "Connect the fitting then secure the pump using two bolts."
+  },
+  {
+   "turnId": 2,
+   "startMs": 12620,
+   "endMs": 17420,
+   "transcript": "Ensuring the pivoting hydraulic output fitting is facing southwest."
+  },
+  {
+   "turnId": 3,
+   "startMs": 17900,
+   "endMs": 25340,
+   "transcript": "Connect the thick hydraulic tube to the northeast intake fitting of the pump and secure the other end of the tube to the hydraulic tank."
+  },
+  {
+   "turnId": 4,
+   "startMs": 26300,
+   "endMs": 28540,
+   "transcript": "Tighten with hose clamps to prevent leakage."
+  },
+  {
+   "turnId": 5,
+   "startMs": 30220,
+   "endMs": 32860,
+   "transcript": "Now we're ready to mount the hydraulic cooler."
+  },
+  {
+   "turnId": 6,
+   "startMs": 33740,
+   "endMs": 41420,
+   "transcript": "Place the four rubber screw mounts into the corner fittings of the hydraulic cooler and bolt them to the mesh on the west side side of the frame."
+  },
+  {
+   "turnId": 7,
+   "startMs": 41820,
+   "endMs": 46780,
+   "transcript": "Ensure the hydraulic cooler wafers are against the mesh and the fan is on the inside."
+  },
+  {
+   "turnId": 8,
+   "startMs": 47580,
+   "endMs": 53500,
+   "transcript": "Next mount mount the hydraulic tube with return line filter fitting to the top of the hydraulic tank."
+  },
+  {
+   "turnId": 9,
+   "startMs": 54380,
+   "endMs": 58060,
+   "transcript": "Fit the other end of the tube to the hydraulic cooler fluid outlet."
+  },
+  {
+   "turnId": 10,
+   "startMs": 58540,
+   "endMs": 62140,
+   "transcript": "screw these fittings tightly then screw in the hydraulic filter."
+  },
+  {
+   "turnId": 11,
+   "startMs": 69580,
+   "endMs": 70540,
+   "transcript": "Now we're ready to mount"
+  }
+ ],
+ "steps": [
+  {
+   "index": 0,
+   "evidence_s": 4.5,
+   "frame": "frames/reference-step0.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 30,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 1.58,
+     "end_s": 7.26,
+     "text": "While one person lifts the frame, slide the hydraulic motor under the hydraulic plate."
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "evidence_s": 11.8,
+   "frame": "frames/reference-step1.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 8.54,
+     "end_s": 12.3,
+     "text": "Connect the fitting then secure the pump using two bolts."
+    },
+    {
+     "start_s": 12.62,
+     "end_s": 17.42,
+     "text": "Ensuring the pivoting hydraulic output fitting is facing southwest."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "evidence_s": 20.0,
+   "frame": "frames/reference-step2.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 17.9,
+     "end_s": 25.34,
+     "text": "Connect the thick hydraulic tube to the northeast intake fitting of the pump and secure the other end of the tube to the hydraulic tank."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "evidence_s": 24.5,
+   "frame": "frames/reference-step3.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 17.9,
+     "end_s": 25.34,
+     "text": "Connect the thick hydraulic tube to the northeast intake fitting of the pump and secure the other end of the tube to the hydraulic tank."
+    },
+    {
+     "start_s": 26.3,
+     "end_s": 28.54,
+     "text": "Tighten with hose clamps to prevent leakage."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "evidence_s": 28.5,
+   "frame": "frames/reference-step4.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 26.3,
+     "end_s": 28.54,
+     "text": "Tighten with hose clamps to prevent leakage."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "evidence_s": 28.5,
+   "frame": "frames/reference-step5.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 26.3,
+     "end_s": 28.54,
+     "text": "Tighten with hose clamps to prevent leakage."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "evidence_s": 40.0,
+   "frame": "frames/reference-step6.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 33.74,
+     "end_s": 41.42,
+     "text": "Place the four rubber screw mounts into the corner fittings of the hydraulic cooler and bolt them to the mesh on the west side side of the frame."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "evidence_s": 43.2,
+   "frame": "frames/reference-step7.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 41.82,
+     "end_s": 46.78,
+     "text": "Ensure the hydraulic cooler wafers are against the mesh and the fan is on the inside."
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "evidence_s": 46.0,
+   "frame": "frames/reference-step8.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 18,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 41.82,
+     "end_s": 46.78,
+     "text": "Ensure the hydraulic cooler wafers are against the mesh and the fan is on the inside."
+    },
+    {
+     "start_s": 47.58,
+     "end_s": 53.5,
+     "text": "Next mount mount the hydraulic tube with return line filter fitting to the top of the hydraulic tank."
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "evidence_s": 52.0,
+   "frame": "frames/reference-step9.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 35,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 47.58,
+     "end_s": 53.5,
+     "text": "Next mount mount the hydraulic tube with return line filter fitting to the top of the hydraulic tank."
+    },
+    {
+     "start_s": 54.38,
+     "end_s": 58.06,
+     "text": "Fit the other end of the tube to the hydraulic cooler fluid outlet."
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "evidence_s": 58.5,
+   "frame": "frames/reference-step10.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 54.38,
+     "end_s": 58.06,
+     "text": "Fit the other end of the tube to the hydraulic cooler fluid outlet."
+    },
+    {
+     "start_s": 58.54,
+     "end_s": 62.14,
+     "text": "screw these fittings tightly then screw in the hydraulic filter."
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "evidence_s": 68.2,
+   "frame": "frames/reference-step11.jpg",
+   "tracks": {
+    "screwdriver": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic pump": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cooler": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic filter canister": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  }
+ ]
+}

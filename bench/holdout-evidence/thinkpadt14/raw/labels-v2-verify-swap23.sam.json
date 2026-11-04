@@ -1,0 +1,303 @@
+{
+ "raw_text": "<56f>0<|box;x1=509;y1=0;x2=534;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,26,!!!!!=NrB(!)PY&5Xf_S'a5ZHc0NAx`VB1j)|>\n<57f>0<|box;x1=510;y1=0;x2=535;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,26,!!!!!=y:HUnhLM#FY?6U*U)Xwk_TrFZHvFPp|>\n<58f>0<|box;x1=513;y1=0;x2=541;y2=59;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=60,29,!!!!!:JCxZltUyNWDf3@n.7uZBA-EZ!Xwo&|>\n<59f>0<|box;x1=513;y1=0;x2=554;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,42,!!!!!GHnV*T.I-[Y4U.Yz_6!:'wwY$4uX'{t$wMKDC!ZiVqU|>\n<60f>0<|box;x1=513;y1=0;x2=544;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,32,!!!!!@I7Q/m7Zl/jXiTe?w8V3v*dEXee#QtiM=*|>\n<61f>0<|box;x1=513;y1=0;x2=547;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,35,!!!!!=HPK/mlx'%ob!JZ++eeuBXp1^cMcS12|>\n<62f>0<|box;x1=512;y1=0;x2=546;y2=61;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=62,35,!!!!!@H4/7KRI*l59jTav3![z'3nQ$o:@vcN!!!|>\n<63f>0<|box;x1=513;y1=0;x2=550;y2=61;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=62,38,!!!!!@GO`zuiajONTn9=N4i`$2-0^Q#_iJSRYJ#|>\n<64f>0<|box;x1=513;y1=0;x2=550;y2=61;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=62,38,!!!!!?GOa.S:4B(N5O1Rs4APe)FpS+Z[M]Cs@`|>\n<65f>0<|box;x1=513;y1=0;x2=558;y2=61;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=62,46,!!!!!CFR/OJ-8Wdkmx.Zx/H6ti^MxX$*eP0bGX[&{!!|>\n<66f>0<|box;x1=513;y1=0;x2=550;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,38,!!!!!FFjhop@Nm)m?yCQ!uPE6=oY[7WJ_GoQ0_nkZ$SauK|>\n<67f>0<|box;x1=513;y1=0;x2=553;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,41,!!!!!BFwr@jbeH{Y6uFGwAjWqm5(Mk!c(1f:O[sD`|>\n<68f>0<|box;x1=513;y1=0;x2=550;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=61,38,!!!!!CIdbz[(1XN1W/Z@5)^hRAtCwIbHfApsY:NBe!!|>\n<69f>0<|box;x1=514;y1=30;x2=535;y2=60;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=31,22,!!!!!9Gamhp'7'F3C5vEasg4&m)qcXU!!!|>\n<70f>0<|box;x1=514;y1=0;x2=555;y2=59;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=60,42,!!!!!AFjNk?8@CvqwB8bs1hZs$HBC5G!P*z6=)wr|>\n<71f>0<|box;x1=513;y1=0;x2=550;y2=59;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=60,38,!!!!!?GOa.S:4D+!0rcmCm!{pOR-EbJZda=q5]|>\n<72f>0<|box;x1=506;y1=0;x2=556;y2=59;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=60,51,!!!!!LN_S9(Qjx*QK:1IOM?h/bQ?T]e#s{Uo%*ERj=]'$3n9/K!uPA|>\n<73f>0<|box;x1=514;y1=25;x2=533;y2=59;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=35,20,!!!!!9GafyN:3KTD7.=qNN'e.XrF/6PRu7|>\n<74f>0<|box;x1=516;y1=0;x2=557;y2=54;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=55,42,!!!!!BGO=zESqjsjuZz0iKkYos5:p#LQyfjsCen.:|>\n<75f>0<|box;x1=515;y1=0;x2=551;y2=54;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=55,37,!!!!!BHnQ1Ym({3+21CcmbBd?:IAWtIA`9U4d{N{j|>\n<76f>0<|box;x1=515;y1=0;x2=569;y2=55;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=56,55,!!!!!IHoKHp9ihCBMqsX!I.*z2=RgbAbnQJ]5V=t$QD9+'g&3j|>\n<77f>0<|box;x1=515;y1=25;x2=531;y2=56;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=32,17,!!!!!3HNBmcb8wx1+RR.jGrXtQ|>\n<78f>0<|box;x1=515;y1=0;x2=563;y2=55;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=56,49,!!!!!EGOBppCUTgqZjA$TnF`yt&c`Kx5aM5)L7rZw#H9`|>\n<79f>0<|box;x1=516;y1=0;x2=556;y2=55;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=56,41,!!!!!@GOc%I(B*)72Gi(A8gX36%!zvP:AqQBsRL|>\n<80f>0<|box;x1=515;y1=0;x2=550;y2=56;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=57,36,!!!!!AHQ.]JU^X'^c%)8?Wf(OJJgZYMJG*`Q'R^9|>\n<81f>0<|box;x1=514;y1=0;x2=560;y2=56;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=57,47,!!!!!HG?3g7WU+4[58i.?=k7-$$!t!R51)KuITT]Glw'=8P*{|>\n<82f>0<|box;x1=516;y1=0;x2=551;y2=55;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=56,36,!!!!!CGv=:R)_uVRWc^F3&9t=AC6.n*:ZGx-0knIA!!|>\n<83f>0<|box;x1=515;y1=0;x2=555;y2=56;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=57,41,!!!!!BGvp&QA!pR&PDL@%BG5lO+ZS-4_/no#U7IMf|>\n<84f>0<|box;x1=514;y1=0;x2=550;y2=55;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=56,37,!!!!!@Gvlw&1w[E!qS=l/Yut[N#'&Rq0bHt-t5W|>\n<85f>0<|box;x1=515;y1=24;x2=533;y2=54;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=31,19,!!!!!8Gu2_.B='$.$oUmzEO`i[gW^'m!!|>\n<86f>0<|box;x1=515;y1=0;x2=548;y2=49;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=50,34,!!!!!9HQ+oh(:W[`w@7UjZ0rSg-m?QuUV3|>\n<87f>0<|box;x1=520;y1=0;x2=548;y2=41;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=42,29,!!!!!:JAJ-B^uYbi]Hm5voPq*%]u2%wcWvp|>\n<88f>0<|box;x1=526;y1=0;x2=540;y2=30;w=640;h=360;c=0.8518518805503845|><|mask;x=0;y=0;c=0.8518518805503845;data=31,15,!!!!!=IeF5MaOg95f0[@K@l1MV%rD?Ri]SjB|>\n",
+ "boxes": [
+  {
+   "object_id": "0",
+   "frame": 56,
+   "left": 509,
+   "top": 0,
+   "right": 535,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 57,
+   "left": 510,
+   "top": 0,
+   "right": 536,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 58,
+   "left": 513,
+   "top": 0,
+   "right": 542,
+   "bottom": 60,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 59,
+   "left": 513,
+   "top": 0,
+   "right": 555,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 60,
+   "left": 513,
+   "top": 0,
+   "right": 545,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 61,
+   "left": 513,
+   "top": 0,
+   "right": 548,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 62,
+   "left": 512,
+   "top": 0,
+   "right": 547,
+   "bottom": 62,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 63,
+   "left": 513,
+   "top": 0,
+   "right": 551,
+   "bottom": 62,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 64,
+   "left": 513,
+   "top": 0,
+   "right": 551,
+   "bottom": 62,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 65,
+   "left": 513,
+   "top": 0,
+   "right": 559,
+   "bottom": 62,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 66,
+   "left": 513,
+   "top": 0,
+   "right": 551,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 67,
+   "left": 513,
+   "top": 0,
+   "right": 554,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 68,
+   "left": 513,
+   "top": 0,
+   "right": 551,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 69,
+   "left": 514,
+   "top": 30,
+   "right": 536,
+   "bottom": 61,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 70,
+   "left": 514,
+   "top": 0,
+   "right": 556,
+   "bottom": 60,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 71,
+   "left": 513,
+   "top": 0,
+   "right": 551,
+   "bottom": 60,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 72,
+   "left": 506,
+   "top": 0,
+   "right": 557,
+   "bottom": 60,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 73,
+   "left": 514,
+   "top": 25,
+   "right": 534,
+   "bottom": 60,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 74,
+   "left": 516,
+   "top": 0,
+   "right": 558,
+   "bottom": 55,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 75,
+   "left": 515,
+   "top": 0,
+   "right": 552,
+   "bottom": 55,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 76,
+   "left": 515,
+   "top": 0,
+   "right": 570,
+   "bottom": 56,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 77,
+   "left": 515,
+   "top": 25,
+   "right": 532,
+   "bottom": 57,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 78,
+   "left": 515,
+   "top": 0,
+   "right": 564,
+   "bottom": 56,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 79,
+   "left": 516,
+   "top": 0,
+   "right": 557,
+   "bottom": 56,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 80,
+   "left": 515,
+   "top": 0,
+   "right": 551,
+   "bottom": 57,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 81,
+   "left": 514,
+   "top": 0,
+   "right": 561,
+   "bottom": 57,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 82,
+   "left": 516,
+   "top": 0,
+   "right": 552,
+   "bottom": 56,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 83,
+   "left": 515,
+   "top": 0,
+   "right": 556,
+   "bottom": 57,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 84,
+   "left": 514,
+   "top": 0,
+   "right": 551,
+   "bottom": 56,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 85,
+   "left": 515,
+   "top": 24,
+   "right": 534,
+   "bottom": 55,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 86,
+   "left": 515,
+   "top": 0,
+   "right": 549,
+   "bottom": 50,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 87,
+   "left": 520,
+   "top": 0,
+   "right": 549,
+   "bottom": 42,
+   "confidence": 0.8518518805503845
+  },
+  {
+   "object_id": "0",
+   "frame": 88,
+   "left": 526,
+   "top": 0,
+   "right": 541,
+   "bottom": 31,
+   "confidence": 0.8518518805503845
+  }
+ ],
+ "outcome": "CompletedOutcome(status='completed')"
+}

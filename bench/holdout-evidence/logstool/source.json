@@ -1,0 +1,6 @@
+{
+ "sid": "logstool",
+ "video": "logstool.webm",
+ "sha256": "b056afe62454d10947d51c7cda2b49963f0cd4720545372c444a593e6ce908be",
+ "holdout": true
+}

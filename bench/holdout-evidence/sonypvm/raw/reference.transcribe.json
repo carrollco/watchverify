@@ -1,0 +1,14 @@
+{
+ "sessionId": "voyager/transcribe/06D6F55F35E2465BB9DD2DA3BA289361",
+ "transcript": "put back together the ground ground uh connection on the circuit board does go on the top part of the frame you just saw saw there and then it's just the two screws on the side and we'll be ready to to start running some some tests on here i have done some videos about this style monitor before so if you want to check out those videos in the the past you can on the eight inch and how to calibrate them specifically today we're just looking at this color repair and it works perfectly now so what i did was i just turned it back on and let it run for a while and then i came back and power cycled it again and then let it run for a little while longer and ever since i did that solder reflow i was not able to get the black and white glitch to show show back up so i'm assuming that it was 100 100% that solder problem because again I could not not get the the monitor to go out of color unless I specifically selected black and white",
+ "audioDurationMs": 60080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 59580,
+   "transcript": "put back together the ground ground uh connection on the circuit board does go on the top part of the frame you just saw saw there and then it's just the two screws on the side and we'll be ready to to start running some some tests on here i have done some videos about this style monitor before so if you want to check out those videos in the the past you can on the eight inch and how to calibrate them specifically today we're just looking at this color repair and it works perfectly now so what i did was i just turned it back on and let it run for a while and then i came back and power cycled it again and then let it run for a little while longer and ever since i did that solder reflow i was not able to get the black and white glitch to show show back up so i'm assuming that it was 100 100% that solder problem because again I could not not get the the monitor to go out of color unless I specifically selected black and white"
+  }
+ ],
+ "_http": 200
+}

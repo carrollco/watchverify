@@ -1,0 +1,26 @@
+{
+ "sessionId": "voyager/transcribe/AE0091D6C837445DA850141E6773B812",
+ "transcript": "we are happy to see a long thick thermal pad below the SSD for additional cooling. The Wi-Fi 6E card is on the left of the battery. The thermal system seems decent for such a compact device. It comprises one large fan three heat pipes two heat sinks and three heat spreaders.",
+ "audioDurationMs": 60080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 11580,
+   "endMs": 16700,
+   "transcript": "we are happy to see a long thick thermal pad below the SSD for additional cooling."
+  },
+  {
+   "turnId": 1,
+   "startMs": 20620,
+   "endMs": 23500,
+   "transcript": "The Wi-Fi 6E card is on the left of the battery."
+  },
+  {
+   "turnId": 2,
+   "startMs": 26380,
+   "endMs": 36300,
+   "transcript": "The thermal system seems decent for such a compact device. It comprises one large fan three heat pipes two heat sinks and three heat spreaders."
+  }
+ ],
+ "_http": 200
+}

@@ -1,0 +1,195 @@
+{
+ "id": "resp_6aeaa6fb517c6a948a4748b2",
+ "access_programs": null,
+ "created_at": 1793763067.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeaa6fb517c6a948a4748b2:rs_a102d31e-874b-4662-a341-75da6072c4b3",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_0bddbe78-b5bc-4f52-8666-ae899ee6d440",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"electronic torque wrench beeps and clicks, ratchet clicks, metal tool handling clanks\", \"objects_seen\": [\"computer monitor\", \"finger\", \"man\", \"green torque wrench\", \"silver breaker bar\", \"engine cylinder head\", \"cylinder head bolt\", \"workbench\", \"tool cabinet\", \"shelves with bottles\"], \"speech_heard\": \"You can read through and then A and B will tighten again by another 45 degrees. First step 21.4. What I like to do is get it to... get all of them to 10. A B C D E F... 21.4... 50.9... Now notice no cracking of the bolts, no noise at all, nice and smooth. That's the oil. If you would have... these weird noises like... Once you're done with the crushing procedure take that one out and put more oil on it. Okay now the other way to loosening it... So F... was it F... Okay another 180... Now it's basically loose... Okay now it's 31... But again I'm gonna do you know 10... 31... If you're using one of these torque wrenches for the first time go slow. Because if you yank on it it will get to its specification faster. So once you're close to the number you want go slower. Now I'm gonna set it down... needs to calibrate on its own... I'm actually gonna do 89... Actually 88... because it's from 80 to 90... So I'm gonna go 88 because it says 80 to 90 and next step is 40 to 45 and do not exceed the total... So just to be safe I'm gonna go 88. 88... Hit 90 on this one... 90 again... 40... It's gonna go 43... 44... The tighter it gets the harder it is to aim for the exact number... 44 again... 44 every time... 44 on every single one... That is it for this one. Next, the rocker assembly... Thanks for watching. Cya soon!\", \"steps\": [{\"action\": \"tightening rear-middle head bolt\", \"cannot_see\": \"actual torque value reached\", \"checkpoint_visibility\": \"clear\", \"end_s\": 22.0, \"evidence_s\": 15.0, \"index\": 0, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench engaged on rear-middle cylinder head bolt and turned\", \"pass_condition\": \"wrench beeps and bolt stops turning freely\", \"start_s\": 10.0}, {\"action\": \"tightening front-middle head bolt\", \"cannot_see\": \"actual torque value reached\", \"checkpoint_visibility\": \"clear\", \"end_s\": 38.0, \"evidence_s\": 31.0, \"index\": 1, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench engaged on different front-middle cylinder head bolt and turned\", \"pass_condition\": \"wrench beeps and bolt stops turning freely\", \"start_s\": 25.0}, {\"action\": \"tightening left-rear head bolt\", \"cannot_see\": \"actual torque value reached\", \"checkpoint_visibility\": \"clear\", \"end_s\": 51.0, \"evidence_s\": 45.0, \"index\": 2, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench moved to left-rear cylinder head bolt and turned\", \"pass_condition\": \"wrench beeps and bolt stops turning freely\", \"start_s\": 38.0}, {\"action\": \"tightening right-rear head bolt\", \"cannot_see\": \"actual torque value reached\", \"checkpoint_visibility\": \"clear\", \"end_s\": 70.0, \"evidence_s\": 62.0, \"index\": 3, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench engaged on right-rear cylinder head bolt and turned\", \"pass_condition\": \"wrench beeps and bolt stops turning freely\", \"start_s\": 52.0}, {\"action\": \"tightening left-front head bolt\", \"cannot_see\": \"actual torque value reached\", \"checkpoint_visibility\": \"clear\", \"end_s\": 88.0, \"evidence_s\": 80.0, \"index\": 4, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench engaged on left-front cylinder head bolt and turned\", \"pass_condition\": \"wrench beeps and bolt stops turning freely\", \"start_s\": 75.0}, {\"action\": \"tightening right-front head bolt\", \"cannot_see\": \"actual torque value reached\", \"checkpoint_visibility\": \"clear\", \"end_s\": 115.0, \"evidence_s\": 106.0, \"index\": 5, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench engaged on right-front cylinder head bolt and turned\", \"pass_condition\": \"wrench beeps and bolt stops turning freely\", \"start_s\": 96.0}, {\"action\": \"loosening rear head bolt\", \"cannot_see\": \"degrees of rotation\", \"checkpoint_visibility\": \"clear\", \"end_s\": 132.0, \"evidence_s\": 125.0, \"index\": 6, \"objects\": [\"silver breaker bar\", \"cylinder head bolt\"], \"observable_checkpoint\": \"silver breaker bar engaged on cylinder head bolt and turned counter-clockwise to loosen\", \"pass_condition\": \"bolt rotates loose\", \"start_s\": 119.0}, {\"action\": \"loosening middle head bolt\", \"cannot_see\": \"degrees of rotation\", \"checkpoint_visibility\": \"clear\", \"end_s\": 154.0, \"evidence_s\": 146.0, \"index\": 7, \"objects\": [\"silver breaker bar\", \"cylinder head bolt\"], \"observable_checkpoint\": \"silver breaker bar moved to different middle cylinder head bolt and turned to loosen\", \"pass_condition\": \"bolt rotates loose\", \"start_s\": 138.0}, {\"action\": \"loosening front head bolt\", \"cannot_see\": \"degrees of rotation\", \"checkpoint_visibility\": \"clear\", \"end_s\": 177.0, \"evidence_s\": 165.0, \"index\": 8, \"objects\": [\"silver breaker bar\", \"cylinder head bolt\"], \"observable_checkpoint\": \"silver breaker bar moved to front cylinder head bolt and turned to loosen\", \"pass_condition\": \"bolt rotates loose\", \"start_s\": 157.0}, {\"action\": \"setting torque wrench to angle mode\", \"cannot_see\": \"exact degree setting inside tool\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 242.0, \"evidence_s\": 235.0, \"index\": 9, \"objects\": [\"green torque wrench\"], \"observable_checkpoint\": \"hands manipulate green torque wrench at bench, display adjusted for degrees\", \"pass_condition\": \"tool shows angle mode ready\", \"start_s\": 225.0}, {\"action\": \"angle-tightening rear head bolt\", \"cannot_see\": \"exact angle degrees achieved\", \"checkpoint_visibility\": \"clear\", \"end_s\": 278.0, \"evidence_s\": 261.0, \"index\": 10, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench engaged on rear cylinder head bolt and pulled through angle\", \"pass_condition\": \"wrench beeps at ~88-90 degrees\", \"start_s\": 250.0}, {\"action\": \"angle-tightening middle head bolt\", \"cannot_see\": \"exact angle degrees achieved\", \"checkpoint_visibility\": \"clear\", \"end_s\": 305.0, \"evidence_s\": 295.0, \"index\": 11, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench moved to middle cylinder head bolt and pulled through angle\", \"pass_condition\": \"wrench beeps at ~44 degrees\", \"start_s\": 285.0}, {\"action\": \"angle-tightening front head bolt\", \"cannot_see\": \"exact angle degrees achieved\", \"checkpoint_visibility\": \"clear\", \"end_s\": 332.0, \"evidence_s\": 321.0, \"index\": 12, \"objects\": [\"green torque wrench\", \"cylinder head bolt\"], \"observable_checkpoint\": \"green torque wrench moved to front cylinder head bolt and pulled through angle\", \"pass_condition\": \"wrench beeps at ~44 degrees and remains tight\", \"start_s\": 310.0}], \"task\": \"Torque cylinder head bolts in sequence with multi-stage torque and angle tightening\", \"track\": [\"green torque wrench\", \"silver breaker bar\", \"cylinder head bolt\"], \"uncertainty\": \"Camera is distant so individual bolt labels a-f and exact torque/angle numbers on wrench display are not readable; bolt identities by position are approximate and intermediate repeat passes are merged.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793763067.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "type": "object"
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 82968,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5597,
+  "output_tokens_details": {
+   "reasoning_tokens": 3662
+  },
+  "total_tokens": 88565
+ },
+ "user": null,
+ "store": true
+}

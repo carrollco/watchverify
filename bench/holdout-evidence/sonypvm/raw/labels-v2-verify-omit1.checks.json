@@ -1,0 +1,196 @@
+{
+ "id": "resp_6aeb1c2b9667af14adaa4af8",
+ "access_programs": null,
+ "created_at": 1793793067.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeb1c2b9667af14adaa4af8:rs_d7ebf6cd-56d9-4f6d-87e7-c1efbef1b065",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_0ca6815a-bd73-4709-b327-8261fbec6d7c",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"checks\": [{\"cannot_see\": \"electrical grounding continuity through the tab\", \"evidence\": \"0.0-3.8s both hands on top of open chassis, fingers press small metal tab flush against top metal frame and release, tab stays in place\", \"observed_end_s\": 3.8, \"observed_start_s\": 0.0, \"other_moments\": [], \"reference_step\": 0, \"status\": \"observed\"}, {\"cannot_see\": \"internal connector mating and pin engagement\", \"evidence\": \"Board assembly is already seated flush in side of chassis from start; no pushing/insertion motion of green board assembly into frame is seen at any time 0-13s\", \"observed_end_s\": -1, \"observed_start_s\": -1, \"other_moments\": [], \"reference_step\": 1, \"status\": \"not_observed\"}, {\"cannot_see\": \"screw torque and thread engagement depth\", \"evidence\": \"4.0-6.8s screwdriver tip engaged in screw on right side of black circuit board frame and turned, then removed with screw remaining\", \"observed_end_s\": 6.8, \"observed_start_s\": 4.0, \"other_moments\": [], \"reference_step\": 2, \"status\": \"observed\"}, {\"cannot_see\": \"screw torque and thread engagement depth\", \"evidence\": \"7.5-10.8s screwdriver tip engaged in screw on left side of circuit board frame and turned, then removed with screw remaining\", \"observed_end_s\": 10.8, \"observed_start_s\": 7.5, \"other_moments\": [], \"reference_step\": 3, \"status\": \"observed\"}, {\"cannot_see\": \"internal power supply voltage and warm-up state\", \"evidence\": \"13.5-16.5s finger presses green power button on front bezel of Sony monitor, CRT screen illuminates from dark to grey static/raster pattern\", \"observed_end_s\": 16.5, \"observed_start_s\": 13.5, \"other_moments\": [], \"reference_step\": 4, \"status\": \"observed\"}, {\"cannot_see\": \"exact video calibration settings selected\", \"evidence\": \"17.0-19.5s finger presses front control buttons below screen, CRT changes to full bright white field\", \"observed_end_s\": 19.5, \"observed_start_s\": 17.0, \"other_moments\": [], \"reference_step\": 5, \"status\": \"observed\"}], \"extra_actions\": [{\"action\": \"connect game input and display color video/gameplay on CRT to demonstrate color repair, including Konami logo and Teenage Mutant Ninja Turtles IV gameplay\", \"end_s\": 56.9, \"start_s\": 20.0}], \"notes\": \"Candidate performs top tab seating and both screw tightenings and power/white-screen tests in same order as reference, but no side board insertion push is shown; board is already seated. Continues beyond reference white-screen test with extended color game demo.\", \"same_task\": true}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793793067.0,
+ "conversation": null,
+ "max_output_tokens": 12000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "video_verification",
+   "schema_": {
+    "properties": {
+     "checks": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "cannot_see": {
+         "description": "properties of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "evidence": {
+         "description": "what is visible that supports the status, with seconds",
+         "type": "string"
+        },
+        "observed_end_s": {
+         "description": "-1 if not observed",
+         "type": "number"
+        },
+        "observed_start_s": {
+         "description": "seconds in the candidate video where the step starts, -1 if not observed",
+         "type": "number"
+        },
+        "other_moments": {
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none",
+         "items": {
+          "additionalProperties": false,
+          "properties": {
+           "end_s": {
+            "type": "number"
+           },
+           "start_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ],
+          "type": "object"
+         },
+         "type": "array"
+        },
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "type": "string"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "extra_actions": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "notes": {
+      "type": "string"
+     },
+     "same_task": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ],
+    "type": "object",
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 18039,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 625
+  },
+  "output_tokens": 2224,
+  "output_tokens_details": {
+   "reasoning_tokens": 1568
+  },
+  "total_tokens": 20263
+ },
+ "user": null,
+ "store": true
+}

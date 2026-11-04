@@ -1,0 +1,13 @@
+{
+ "made_by": "model under test",
+ "cuts": "refined",
+ "clean": [
+  false,
+  true,
+  true,
+  true,
+  true
+ ],
+ "ungradable": null,
+ "how": "a planted mistake is graded only if the boundaries around its steps are clean and, under labels, a person says its steps are real and a camera shows them"
+}

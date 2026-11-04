@@ -1,0 +1,11 @@
+{
+ "made_by": "human",
+ "cuts": "labels",
+ "clean": [
+  true,
+  true,
+  true
+ ],
+ "ungradable": {},
+ "how": "a planted mistake is graded only if the boundaries around its steps are clean and, under labels, a person says its steps are real and a camera shows them"
+}

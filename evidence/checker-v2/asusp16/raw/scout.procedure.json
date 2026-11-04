@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae2240bad082cf031474740",
+ "access_programs": null,
+ "created_at": 1793205259.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae2240bad082cf031474740:rs_e6b45c9b-d8cb-47fc-81ac-2c11850b4d20",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_5f45db27-f332-42e8-8e7f-13579eb4eaa9",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"none\", \"objects_seen\": [\"ASUS laptop bottom panel\", \"blue plastic pry tool\", \"phillips screwdriver\", \"Li-ion battery\", \"battery connector cable\", \"motherboard\", \"cooling fans\", \"heat pipes\", \"M.2 SSD\", \"SSD thermal cover\", \"Wi-Fi card\", \"touchpad module\", \"dust filter mesh\"], \"speech_heard\": \"Hello, this is Nick from Laptop Media and today we will show you how to open the Asus ProArt P16, H7606, seventy-six, zero six. To open this thin and powerful laptop, you have to undo eleven Torx head screws. The upper two in the middle are hidden below rubber caps and you have to unglue them first. Raise the top two corners with a lever tool to open gaps in these sections. Then, fully pry the back with a thin plastic tool and work your way around the sides and the front. The inside of the bottom plate houses dust filters for the three fans and a soft material above the battery that protects it from scratches. This machine has a ninety watt hour battery. To take it out, unplug the connector from the motherboard and undo the four Phillips head screws that fix the unit to the base. The capacity is enough for around twelve hours of video playback. A great result considering the high-res OLED display and the powerful CPU and GPU. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the MyAsus or ProArt Creator Hub app. The Wi-Fi card is positioned close to the battery connector. For storage, there are two M point two slots compatible with twenty-two eighty Gen four SSDs. The one on the left offers half of the PCIe lanes compared to the other one. We found a big thermal pad below the pre-installed NVME. The memory is soldered but on the bright side, you get up to sixty-four gigabytes of LPDDR5X, seventy-five hundred megahertz in dual channel mode, which sounds future proof. The three-fan cooling system has a trio of long heat pipes shared between the processor and the graphics card and a fourth one solely dedicated to the GPU. The system is complemented by two top mounted heat sinks and a pair of heat spreaders.\", \"steps\": [{\"action\": \"pry rear edge of bottom panel\", \"cannot_see\": \"screw removal and clip disengagement under the panel\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 28.0, \"evidence_s\": 25.0, \"index\": 0, \"objects\": [\"blue plastic pry tool\", \"laptop bottom panel\"], \"observable_checkpoint\": \"thin gap opens along the rear hinge edge of the bottom panel\", \"pass_condition\": \"visible separation line appears at the rear edge\", \"start_s\": 23.0}, {\"action\": \"pry left side edge of bottom panel\", \"cannot_see\": \"internal clips releasing\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 35.0, \"evidence_s\": 32.0, \"index\": 1, \"objects\": [\"blue plastic pry tool\", \"laptop bottom panel\"], \"observable_checkpoint\": \"gap extends down the left side seam of the bottom panel\", \"pass_condition\": \"side seam visibly lifted from the chassis\", \"start_s\": 30.0}, {\"action\": \"pry right and front edges of bottom panel\", \"cannot_see\": \"number of clips released\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 53.0, \"evidence_s\": 49.0, \"index\": 2, \"objects\": [\"blue plastic pry tool\", \"laptop bottom panel\"], \"observable_checkpoint\": \"panel edge loosened around right side and front lip\", \"pass_condition\": \"panel is loose on all sides and can be lifted by hand\", \"start_s\": 44.0}, {\"action\": \"lift off bottom panel\", \"cannot_see\": \"none, interior is fully exposed\", \"checkpoint_visibility\": \"clear\", \"end_s\": 62.0, \"evidence_s\": 61.0, \"index\": 3, \"objects\": [\"laptop bottom panel\", \"motherboard\"], \"observable_checkpoint\": \"bottom panel removed, motherboard with three fans, heat pipes and battery fully exposed\", \"pass_condition\": \"internal components uncovered in full top-down view\", \"start_s\": 54.0}, {\"action\": \"disconnect battery connector\", \"cannot_see\": \"electrical continuity, whether power is fully isolated\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 83.0, \"evidence_s\": 81.5, \"index\": 4, \"objects\": [\"battery connector cable\", \"motherboard\"], \"observable_checkpoint\": \"battery cable plug lifted away from motherboard socket in center\", \"pass_condition\": \"connector is separated and wires are free from socket\", \"start_s\": 80.0}, {\"action\": \"unscrew battery fasteners at top edge\", \"cannot_see\": \"screw thread engagement and torque\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 94.0, \"evidence_s\": 90.0, \"index\": 5, \"objects\": [\"phillips screwdriver\", \"Li-ion battery\"], \"observable_checkpoint\": \"screwdriver engages screw above battery and screw is extracted\", \"pass_condition\": \"screw no longer securing the battery top edge\", \"start_s\": 86.0}, {\"action\": \"unscrew battery fasteners at bottom edge\", \"cannot_see\": \"screw retention, whether screws are captive\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 113.0, \"evidence_s\": 110.0, \"index\": 6, \"objects\": [\"phillips screwdriver\", \"Li-ion battery\"], \"observable_checkpoint\": \"screwdriver turns screws along lower edge of battery\", \"pass_condition\": \"all bottom battery screws loosened and removed\", \"start_s\": 105.0}, {\"action\": \"lift battery out of chassis\", \"cannot_see\": \"adhesive strength under battery\", \"checkpoint_visibility\": \"clear\", \"end_s\": 132.0, \"evidence_s\": 131.0, \"index\": 7, \"objects\": [\"Li-ion battery\", \"touchpad module\"], \"observable_checkpoint\": \"large black battery lifted away revealing green touchpad board underneath\", \"pass_condition\": \"battery bay empty with touchpad module visible\", \"start_s\": 124.0}, {\"action\": \"remove SSD thermal cover on right slot\", \"cannot_see\": \"SSD data and screw tightness underneath\", \"checkpoint_visibility\": \"clear\", \"end_s\": 159.0, \"evidence_s\": 157.0, \"index\": 8, \"objects\": [\"SSD thermal cover\", \"M.2 SSD\"], \"observable_checkpoint\": \"silver cover on right M.2 slot peeled back exposing slot area\", \"pass_condition\": \"thermal cover detached from SSD area\", \"start_s\": 152.0}], \"task\": \"open ASUS ProArt P16 laptop and remove battery and SSD cover for upgrade inspection\", \"track\": [\"blue plastic pry tool\", \"laptop bottom panel\", \"Li-ion battery\", \"M.2 SSD\"], \"uncertainty\": \"Exact timestamps are approximate; initial Torx screw removal is narration_only and not visually confirmed; number of pry locations and battery screws inferred from visible hand positions and narration.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205259.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "type": "object",
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ]
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 60040,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5164,
+  "output_tokens_details": {
+   "reasoning_tokens": 3568
+  },
+  "total_tokens": 65204
+ },
+ "user": null,
+ "store": true
+}

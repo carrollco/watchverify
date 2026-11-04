@@ -1,0 +1,113 @@
+[
+ {
+  "after_step": 0,
+  "window": [
+   5.0,
+   12.0
+  ],
+  "fps": 4.0,
+  "frames": 28,
+  "evidence": "t=5.0 to t=7.0 gloved hand on left side with phillips screwdriver tip engaged on the left screw above the battery unscrewing; t=7.25 hand lifts tool off screw and moves away; t=7.5-9.75 no hands visible; t=10.0-10.25 hand re-enters moving toward right side; t=10.5 onward hand with tool engaged on the right-side screw above the battery unscrewing",
+  "first_ends_s": 7.0,
+  "second_begins_s": 10.5,
+  "clean": true
+ },
+ {
+  "after_step": 1,
+  "window": [
+   16.0,
+   22.0
+  ],
+  "fps": 4.0,
+  "frames": 24,
+  "evidence": "t16.00-t17.50 right gloved hand holds screwdriver down on top-right above battery working the right-side screw; t17.75 hand lifts up away from screw; t18.00-t20.00 no hands visible; t20.25 left gloved hand enters with screwdriver hovering over left battery; t20.50 onward tip engaged on bottom-left battery screw unscrewing.",
+  "first_ends_s": 17.5,
+  "second_begins_s": 20.5,
+  "clean": true
+ },
+ {
+  "after_step": 2,
+  "window": [
+   19.5,
+   28.5
+  ],
+  "fps": 4.0,
+  "frames": 36,
+  "evidence": "Left gloved hand holds red-handled phillips screwdriver with tip on the bottom-left battery/chassis screw from ~20.5s through 28.0s unscrewing, right hand steadies top-right chassis from 23.25s; at 28.25s screwdriver is lifted away over left fan with no contact. No frame shows tip engaged on bottom-right/bottom screw.",
+  "first_ends_s": 28.0,
+  "second_begins_s": -1.0,
+  "clean": false,
+  "narrow": {
+   "window": [
+    20.0,
+    25.0
+   ],
+   "fps": 4.0,
+   "first_ends_s": 24.75,
+   "second_begins_s": -1,
+   "evidence": "Left gloved hand holds Phillips screwdriver with tip engaged on the bottom-left battery screw from t=20.50 through t=24.75, maintaining position at the bottom-left edge while unscrewing; right hand only steadies chassis from t=23.00 onward. t=20.00 shows no hands and t=20.25 shows approach above battery with no engagement. Screwdriver never moves to bottom / bottom-right screw location in any frame."
+  }
+ },
+ {
+  "after_step": 3,
+  "window": [
+   26.0,
+   32.0
+  ],
+  "fps": 4.0,
+  "frames": 24,
+  "evidence": "At 27.75-28.0 left gloved hand holds phillips screwdriver tip engaged on the bottom screw at the lower edge of the battery/chassis while right hand stabilizes top. At 28.25 screwdriver is lifted away and blurred. No hands 28.5-29.5. At 30.0 hands re-enter with tool over motherboard, then at 30.25 onward right/left gloved hand is over the bottom edge of motherboard/battery top covering the battery cable connector area working to pry it.",
+  "first_ends_s": 28.0,
+  "second_begins_s": 30.25,
+  "clean": true
+ },
+ {
+  "after_step": 4,
+  "window": [
+   35.0,
+   41.0
+  ],
+  "fps": 4.0,
+  "frames": 24,
+  "evidence": "Around 36.5 the right gloved hand still covers the battery-motherboard junction where the battery cable connector is, obscuring the pry work; at 36.75 the hand is lifted clear holding the white pry tool over the right-side silver plate away from the connector in transit. Around 39.25 both hands hold the top chassis corners; at 39.5 the left hand moves down onto the top edge of the black laptop battery to grip it, starting the lift.",
+  "first_ends_s": 36.5,
+  "second_begins_s": 39.5,
+  "clean": true
+ },
+ {
+  "after_step": 5,
+  "window": [
+   38.5,
+   67.5
+  ],
+  "fps": 1.3793103448275863,
+  "frames": 40,
+  "evidence": "Left hand grips and lifts battery edge through 45.02-45.75, battery fully removed exposing green touchpad module by 46.48 with hands withdrawn; later both gloved hands re-enter with right index on the right-side M.2 cover at 55.90",
+  "first_ends_s": 45.75,
+  "second_begins_s": 55.9,
+  "clean": true,
+  "narrow": {
+   "window": [
+    45.0,
+    61.0
+   ],
+   "fps": 2.5,
+   "first_ends_s": 46.2,
+   "second_begins_s": -1,
+   "evidence": "t=45.0-45.8 both gloved hands grip the black battery in chassis, t=46.2 left hand lifts the battery up tilted clear while right hand steadies top, t=46.6-47.0 battery is gone exposing green touchpad module and hands are withdrawn with no battery in grasp. Later frames show empty chassis, graphic overlays, or bare fingers pointing at fans/M.2 cover, never a phillips screwdriver tip engaged on the right-side M.2 retaining screw."
+  }
+ },
+ {
+  "after_step": 6,
+  "window": [
+   65.0,
+   70.0
+  ],
+  "fps": 4.0,
+  "frames": 20,
+  "evidence": "t=65.0-65.5 gloved right hand holds screwdriver tip engaged down on the small screw at the right-side M.2 slot; t=65.75 tool is withdrawn and hand pulls away from that spot; t=66.0-67.0 no hands in view and shield remains in place; t=67.5-67.75 right hand re-enters and grasps the metallic heat shield at the right M.2 area and maintains grip through 69.75 with shield still seated",
+  "first_ends_s": 65.5,
+  "second_begins_s": 67.75,
+  "clean": true
+ }
+]

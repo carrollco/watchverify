@@ -1,0 +1,111 @@
+{
+ "id": "resp_6ae255080c8a2221f74941a7",
+ "access_programs": null,
+ "created_at": 1793217800.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given two consecutive steps of a hands-on procedure and a strip of frames from the expert's video, in time order, each labeled with its time in seconds. Find where step A's hand work ends and step B's begins. first_ends_s: the label of the last frame in which the hands are still doing step A (holding the tool at step A's place or part, or finishing its action). second_begins_s: the label of the first frame in which the hands are at step B's place or part, or start its action. Moving between places, putting a tool down or picking one up belongs to neither step. Be strict: a frame that might still be step A counts as step A. Answer only from the frames; use -1 when no frame shows the step.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae255080c8a2221f74941a7:rs_1f796e75-8517-4c93-b78f-d0a10ae51ada",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_611fc045-8439-4dcc-b5a7-217fd1512264",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"evidence\": \"Frames 38.0-40.25 show cooler with fan on ground with no hands visible; 39.5-40.25 it is moved under frame still with no hands; 40.5-41.75 it disappears from front view with no hands visible. At 42.0 the view cuts to close-up with cooler already flat against west side mesh fan-inward and hands appear on left working low near the cooler/mesh, continuing through 43.5, then 43.75+ external view shows hand on outside mesh working fasteners. No frame shows hands carrying/positioning the cooler.\",\"first_ends_s\": -1,\"second_begins_s\": 42.0}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793217800.0,
+ "conversation": null,
+ "max_output_tokens": 10000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "boundary",
+   "schema_": {
+    "additionalProperties": false,
+    "properties": {
+     "evidence": {
+      "description": "what the hands do in the frames around both times",
+      "type": "string"
+     },
+     "first_ends_s": {
+      "description": "time label of the last frame where the hands still do step A; -1 if no frame shows it",
+      "type": "number"
+     },
+     "second_begins_s": {
+      "description": "time label of the first frame where the hands begin step B; -1 if no frame shows it",
+      "type": "number"
+     }
+    },
+    "required": [
+     "first_ends_s",
+     "second_begins_s",
+     "evidence"
+    ],
+    "type": "object"
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 5656,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 241
+  },
+  "output_tokens": 1812,
+  "output_tokens_details": {
+   "reasoning_tokens": 1654
+  },
+  "total_tokens": 7468
+ },
+ "user": null,
+ "store": true
+}

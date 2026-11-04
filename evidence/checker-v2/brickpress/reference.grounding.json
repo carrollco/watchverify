@@ -1,0 +1,2557 @@
+{
+ "video": "runs/bench-brickpress/clip.mp4",
+ "seconds": 69.0,
+ "track_fps": 5,
+ "track_frames": 345,
+ "width": 640,
+ "phrases": [
+  "wrenches",
+  "cross beam",
+  "hydraulic cylinder",
+  "base beam"
+ ],
+ "colors": {
+  "wrenches": "d62728",
+  "cross beam": "1f77b4",
+  "hydraulic cylinder": "2ca02c",
+  "base beam": "ff7f0e"
+ },
+ "tracks": {
+  "wrenches": [
+   {
+    "frame": 21,
+    "t": 4.2,
+    "object_id": "0",
+    "left": 393,
+    "top": 162,
+    "right": 453,
+    "bottom": 185,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 22,
+    "t": 4.4,
+    "object_id": "0",
+    "left": 394,
+    "top": 163,
+    "right": 452,
+    "bottom": 185,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 23,
+    "t": 4.6,
+    "object_id": "0",
+    "left": 394,
+    "top": 162,
+    "right": 452,
+    "bottom": 185,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 24,
+    "t": 4.8,
+    "object_id": "0",
+    "left": 394,
+    "top": 164,
+    "right": 452,
+    "bottom": 185,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 34,
+    "t": 6.8,
+    "object_id": "0",
+    "left": 456,
+    "top": 144,
+    "right": 493,
+    "bottom": 178,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 34,
+    "t": 6.8,
+    "object_id": "1",
+    "left": 485,
+    "top": 151,
+    "right": 511,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 39,
+    "t": 7.8,
+    "object_id": "1",
+    "left": 480,
+    "top": 154,
+    "right": 496,
+    "bottom": 165,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 41,
+    "t": 8.2,
+    "object_id": "2",
+    "left": 505,
+    "top": 313,
+    "right": 611,
+    "bottom": 348,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 42,
+    "t": 8.4,
+    "object_id": "2",
+    "left": 506,
+    "top": 313,
+    "right": 611,
+    "bottom": 348,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 48,
+    "t": 9.6,
+    "object_id": "1",
+    "left": 484,
+    "top": 154,
+    "right": 512,
+    "bottom": 190,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 49,
+    "t": 9.8,
+    "object_id": "1",
+    "left": 485,
+    "top": 155,
+    "right": 510,
+    "bottom": 192,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 50,
+    "t": 10.0,
+    "object_id": "2",
+    "left": 150,
+    "top": 304,
+    "right": 426,
+    "bottom": 348,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 51,
+    "t": 10.2,
+    "object_id": "2",
+    "left": 399,
+    "top": 301,
+    "right": 485,
+    "bottom": 322,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 52,
+    "t": 10.4,
+    "object_id": "1",
+    "left": 484,
+    "top": 148,
+    "right": 501,
+    "bottom": 165,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 52,
+    "t": 10.4,
+    "object_id": "2",
+    "left": 466,
+    "top": 332,
+    "right": 573,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 52,
+    "t": 10.4,
+    "object_id": "3",
+    "left": 134,
+    "top": 288,
+    "right": 175,
+    "bottom": 354,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 53,
+    "t": 10.6,
+    "object_id": "1",
+    "left": 484,
+    "top": 151,
+    "right": 512,
+    "bottom": 190,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 53,
+    "t": 10.6,
+    "object_id": "2",
+    "left": 467,
+    "top": 336,
+    "right": 575,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 53,
+    "t": 10.6,
+    "object_id": "3",
+    "left": 134,
+    "top": 288,
+    "right": 174,
+    "bottom": 355,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 54,
+    "t": 10.8,
+    "object_id": "2",
+    "left": 467,
+    "top": 336,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 54,
+    "t": 10.8,
+    "object_id": "3",
+    "left": 134,
+    "top": 288,
+    "right": 174,
+    "bottom": 355,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 55,
+    "t": 11.0,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 55,
+    "t": 11.0,
+    "object_id": "3",
+    "left": 134,
+    "top": 288,
+    "right": 174,
+    "bottom": 355,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 56,
+    "t": 11.2,
+    "object_id": "2",
+    "left": 465,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 56,
+    "t": 11.2,
+    "object_id": "3",
+    "left": 134,
+    "top": 288,
+    "right": 174,
+    "bottom": 355,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 57,
+    "t": 11.4,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 57,
+    "t": 11.4,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 577,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 57,
+    "t": 11.4,
+    "object_id": "3",
+    "left": 134,
+    "top": 288,
+    "right": 174,
+    "bottom": 355,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 58,
+    "t": 11.6,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 58,
+    "t": 11.6,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 577,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 58,
+    "t": 11.6,
+    "object_id": "3",
+    "left": 145,
+    "top": 314,
+    "right": 174,
+    "bottom": 355,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 58,
+    "t": 11.6,
+    "object_id": "4",
+    "left": 552,
+    "top": 350,
+    "right": 583,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 59,
+    "t": 11.8,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 59,
+    "t": 11.8,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 59,
+    "t": 11.8,
+    "object_id": "3",
+    "left": 149,
+    "top": 328,
+    "right": 174,
+    "bottom": 355,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 59,
+    "t": 11.8,
+    "object_id": "4",
+    "left": 551,
+    "top": 350,
+    "right": 582,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 60,
+    "t": 12.0,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 60,
+    "t": 12.0,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 60,
+    "t": 12.0,
+    "object_id": "4",
+    "left": 550,
+    "top": 350,
+    "right": 583,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 61,
+    "t": 12.2,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 61,
+    "t": 12.2,
+    "object_id": "2",
+    "left": 465,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 61,
+    "t": 12.2,
+    "object_id": "3",
+    "left": 149,
+    "top": 325,
+    "right": 175,
+    "bottom": 347,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 61,
+    "t": 12.2,
+    "object_id": "4",
+    "left": 550,
+    "top": 350,
+    "right": 583,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 62,
+    "t": 12.4,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 62,
+    "t": 12.4,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 62,
+    "t": 12.4,
+    "object_id": "4",
+    "left": 550,
+    "top": 350,
+    "right": 583,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 63,
+    "t": 12.6,
+    "object_id": "1",
+    "left": 483,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 63,
+    "t": 12.6,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 63,
+    "t": 12.6,
+    "object_id": "4",
+    "left": 550,
+    "top": 350,
+    "right": 583,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 64,
+    "t": 12.8,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 64,
+    "t": 12.8,
+    "object_id": "2",
+    "left": 466,
+    "top": 335,
+    "right": 576,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 64,
+    "t": 12.8,
+    "object_id": "4",
+    "left": 550,
+    "top": 350,
+    "right": 582,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 65,
+    "t": 13.0,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 65,
+    "t": 13.0,
+    "object_id": "2",
+    "left": 463,
+    "top": 335,
+    "right": 581,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 65,
+    "t": 13.0,
+    "object_id": "4",
+    "left": 551,
+    "top": 350,
+    "right": 585,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 66,
+    "t": 13.2,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 66,
+    "t": 13.2,
+    "object_id": "2",
+    "left": 466,
+    "top": 333,
+    "right": 574,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 66,
+    "t": 13.2,
+    "object_id": "4",
+    "left": 543,
+    "top": 346,
+    "right": 580,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 67,
+    "t": 13.4,
+    "object_id": "1",
+    "left": 485,
+    "top": 155,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 67,
+    "t": 13.4,
+    "object_id": "2",
+    "left": 469,
+    "top": 333,
+    "right": 574,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 67,
+    "t": 13.4,
+    "object_id": "4",
+    "left": 543,
+    "top": 346,
+    "right": 580,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 68,
+    "t": 13.6,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 68,
+    "t": 13.6,
+    "object_id": "4",
+    "left": 545,
+    "top": 347,
+    "right": 580,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 69,
+    "t": 13.8,
+    "object_id": "1",
+    "left": 484,
+    "top": 152,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 69,
+    "t": 13.8,
+    "object_id": "3",
+    "left": 31,
+    "top": 333,
+    "right": 77,
+    "bottom": 359,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 69,
+    "t": 13.8,
+    "object_id": "4",
+    "left": 545,
+    "top": 346,
+    "right": 580,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 70,
+    "t": 14.0,
+    "object_id": "1",
+    "left": 483,
+    "top": 152,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 70,
+    "t": 14.0,
+    "object_id": "3",
+    "left": 31,
+    "top": 333,
+    "right": 78,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 70,
+    "t": 14.0,
+    "object_id": "4",
+    "left": 545,
+    "top": 346,
+    "right": 580,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 71,
+    "t": 14.2,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 513,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 71,
+    "t": 14.2,
+    "object_id": "3",
+    "left": 31,
+    "top": 333,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 71,
+    "t": 14.2,
+    "object_id": "4",
+    "left": 545,
+    "top": 346,
+    "right": 580,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 72,
+    "t": 14.4,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 165,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 72,
+    "t": 14.4,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 513,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 72,
+    "t": 14.4,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 72,
+    "t": 14.4,
+    "object_id": "4",
+    "left": 562,
+    "top": 346,
+    "right": 580,
+    "bottom": 359,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 73,
+    "t": 14.6,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 73,
+    "t": 14.6,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 73,
+    "t": 14.6,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 73,
+    "t": 14.6,
+    "object_id": "4",
+    "left": 572,
+    "top": 344,
+    "right": 580,
+    "bottom": 357,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 74,
+    "t": 14.8,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 165,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 74,
+    "t": 14.8,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 74,
+    "t": 14.8,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 75,
+    "t": 15.0,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 75,
+    "t": 15.0,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 75,
+    "t": 15.0,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 75,
+    "t": 15.0,
+    "object_id": "4",
+    "left": 561,
+    "top": 346,
+    "right": 580,
+    "bottom": 360,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 76,
+    "t": 15.2,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 76,
+    "t": 15.2,
+    "object_id": "1",
+    "left": 489,
+    "top": 153,
+    "right": 511,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 76,
+    "t": 15.2,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 77,
+    "t": 15.4,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 165,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 77,
+    "t": 15.4,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 77,
+    "t": 15.4,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 77,
+    "t": 15.4,
+    "object_id": "4",
+    "left": 571,
+    "top": 346,
+    "right": 580,
+    "bottom": 357,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 78,
+    "t": 15.6,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 249,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 78,
+    "t": 15.6,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 78,
+    "t": 15.6,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 79,
+    "t": 15.8,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 165,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 79,
+    "t": 15.8,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 79,
+    "t": 15.8,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 80,
+    "t": 16.0,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 165,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 80,
+    "t": 16.0,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 511,
+    "bottom": 191,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 80,
+    "t": 16.0,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 81,
+    "t": 16.2,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 165,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 81,
+    "t": 16.2,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 81,
+    "t": 16.2,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 82,
+    "t": 16.4,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 249,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 82,
+    "t": 16.4,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 82,
+    "t": 16.4,
+    "object_id": "3",
+    "left": 31,
+    "top": 335,
+    "right": 79,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 83,
+    "t": 16.6,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 83,
+    "t": 16.6,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 83,
+    "t": 16.6,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 79,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 84,
+    "t": 16.8,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 84,
+    "t": 16.8,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 84,
+    "t": 16.8,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 85,
+    "t": 17.0,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 249,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 85,
+    "t": 17.0,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 512,
+    "bottom": 194,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 85,
+    "t": 17.0,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 79,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 86,
+    "t": 17.2,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 249,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 86,
+    "t": 17.2,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 504,
+    "bottom": 183,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 86,
+    "t": 17.2,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 79,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 87,
+    "t": 17.4,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 87,
+    "t": 17.4,
+    "object_id": "1",
+    "left": 484,
+    "top": 153,
+    "right": 509,
+    "bottom": 190,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 87,
+    "t": 17.4,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 88,
+    "t": 17.6,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 164,
+    "bottom": 249,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 88,
+    "t": 17.6,
+    "object_id": "3",
+    "left": 31,
+    "top": 336,
+    "right": 79,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 89,
+    "t": 17.8,
+    "object_id": "0",
+    "left": 67,
+    "top": 212,
+    "right": 165,
+    "bottom": 250,
+    "confidence": 0.7730495929718018
+   },
+   {
+    "frame": 89,
+    "t": 17.8,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 80,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 90,
+    "t": 18.0,
+    "object_id": "3",
+    "left": 31,
+    "top": 334,
+    "right": 79,
+    "bottom": 360,
+    "confidence": 0.9139785170555115
+   },
+   {
+    "frame": 91,
+    "t": 18.2,
+    "object_id": "1",
+    "left": 518,
+    "top": 208,
+    "right": 575,
+    "bottom": 292,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 91,
+    "t": 18.2,
+    "object_id": "4",
+    "left": 550,
+    "top": 295,
+    "right": 609,
+    "bottom": 351,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 92,
+    "t": 18.4,
+    "object_id": "1",
+    "left": 518,
+    "top": 208,
+    "right": 576,
+    "bottom": 292,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 92,
+    "t": 18.4,
+    "object_id": "4",
+    "left": 550,
+    "top": 296,
+    "right": 609,
+    "bottom": 351,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 93,
+    "t": 18.6,
+    "object_id": "1",
+    "left": 518,
+    "top": 208,
+    "right": 576,
+    "bottom": 292,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 93,
+    "t": 18.6,
+    "object_id": "4",
+    "left": 550,
+    "top": 296,
+    "right": 609,
+    "bottom": 351,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 97,
+    "t": 19.4,
+    "object_id": "1",
+    "left": 466,
+    "top": 209,
+    "right": 575,
+    "bottom": 309,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 97,
+    "t": 19.4,
+    "object_id": "4",
+    "left": 551,
+    "top": 294,
+    "right": 610,
+    "bottom": 350,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 98,
+    "t": 19.6,
+    "object_id": "1",
+    "left": 519,
+    "top": 209,
+    "right": 576,
+    "bottom": 292,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 98,
+    "t": 19.6,
+    "object_id": "4",
+    "left": 551,
+    "top": 294,
+    "right": 610,
+    "bottom": 350,
+    "confidence": 0.7104072570800781
+   },
+   {
+    "frame": 101,
+    "t": 20.2,
+    "object_id": "1",
+    "left": 519,
+    "top": 209,
+    "right": 528,
+    "bottom": 216,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 102,
+    "t": 20.4,
+    "object_id": "1",
+    "left": 518,
+    "top": 209,
+    "right": 532,
+    "bottom": 229,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 103,
+    "t": 20.6,
+    "object_id": "1",
+    "left": 519,
+    "top": 209,
+    "right": 532,
+    "bottom": 224,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 104,
+    "t": 20.8,
+    "object_id": "1",
+    "left": 519,
+    "top": 209,
+    "right": 528,
+    "bottom": 221,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 112,
+    "t": 22.4,
+    "object_id": "1",
+    "left": 498,
+    "top": 178,
+    "right": 513,
+    "bottom": 195,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 119,
+    "t": 23.8,
+    "object_id": "1",
+    "left": 429,
+    "top": 260,
+    "right": 467,
+    "bottom": 284,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 119,
+    "t": 23.8,
+    "object_id": "5",
+    "left": 88,
+    "top": 253,
+    "right": 159,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 120,
+    "t": 24.0,
+    "object_id": "1",
+    "left": 466,
+    "top": 254,
+    "right": 577,
+    "bottom": 303,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 120,
+    "t": 24.0,
+    "object_id": "2",
+    "left": 459,
+    "top": 340,
+    "right": 474,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 121,
+    "t": 24.2,
+    "object_id": "1",
+    "left": 466,
+    "top": 254,
+    "right": 576,
+    "bottom": 303,
+    "confidence": 0.7142857313156128
+   },
+   {
+    "frame": 121,
+    "t": 24.2,
+    "object_id": "2",
+    "left": 459,
+    "top": 340,
+    "right": 475,
+    "bottom": 359,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 121,
+    "t": 24.2,
+    "object_id": "5",
+    "left": 92,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 122,
+    "t": 24.4,
+    "object_id": "2",
+    "left": 459,
+    "top": 340,
+    "right": 475,
+    "bottom": 359,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 122,
+    "t": 24.4,
+    "object_id": "5",
+    "left": 91,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 123,
+    "t": 24.6,
+    "object_id": "2",
+    "left": 458,
+    "top": 351,
+    "right": 473,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 123,
+    "t": 24.6,
+    "object_id": "5",
+    "left": 91,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 124,
+    "t": 24.8,
+    "object_id": "2",
+    "left": 460,
+    "top": 348,
+    "right": 474,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 124,
+    "t": 24.8,
+    "object_id": "5",
+    "left": 92,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 125,
+    "t": 25.0,
+    "object_id": "2",
+    "left": 460,
+    "top": 348,
+    "right": 474,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 125,
+    "t": 25.0,
+    "object_id": "5",
+    "left": 92,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 126,
+    "t": 25.2,
+    "object_id": "2",
+    "left": 459,
+    "top": 347,
+    "right": 474,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 126,
+    "t": 25.2,
+    "object_id": "5",
+    "left": 92,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 127,
+    "t": 25.4,
+    "object_id": "2",
+    "left": 460,
+    "top": 341,
+    "right": 475,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 127,
+    "t": 25.4,
+    "object_id": "5",
+    "left": 92,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 128,
+    "t": 25.6,
+    "object_id": "2",
+    "left": 460,
+    "top": 341,
+    "right": 475,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 128,
+    "t": 25.6,
+    "object_id": "5",
+    "left": 90,
+    "top": 254,
+    "right": 158,
+    "bottom": 277,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 129,
+    "t": 25.8,
+    "object_id": "2",
+    "left": 460,
+    "top": 341,
+    "right": 475,
+    "bottom": 360,
+    "confidence": 0.8518518805503845
+   },
+   {
+    "frame": 129,
+    "t": 25.8,
+    "object_id": "5",
+    "left": 90,
+    "top": 254,
+    "right": 158,
+    "bottom": 277,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 130,
+    "t": 26.0,
+    "object_id": "5",
+    "left": 90,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 131,
+    "t": 26.2,
+    "object_id": "5",
+    "left": 88,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 132,
+    "t": 26.4,
+    "object_id": "5",
+    "left": 88,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 133,
+    "t": 26.6,
+    "object_id": "5",
+    "left": 88,
+    "top": 254,
+    "right": 158,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 134,
+    "t": 26.8,
+    "object_id": "5",
+    "left": 89,
+    "top": 252,
+    "right": 159,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 135,
+    "t": 27.0,
+    "object_id": "5",
+    "left": 89,
+    "top": 252,
+    "right": 159,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 136,
+    "t": 27.2,
+    "object_id": "5",
+    "left": 89,
+    "top": 252,
+    "right": 159,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 137,
+    "t": 27.4,
+    "object_id": "5",
+    "left": 89,
+    "top": 252,
+    "right": 159,
+    "bottom": 276,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 138,
+    "t": 27.6,
+    "object_id": "5",
+    "left": 89,
+    "top": 252,
+    "right": 159,
+    "bottom": 275,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 324,
+    "t": 64.8,
+    "object_id": "5",
+    "left": 109,
+    "top": 267,
+    "right": 132,
+    "bottom": 273,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 325,
+    "t": 65.0,
+    "object_id": "5",
+    "left": 86,
+    "top": 275,
+    "right": 112,
+    "bottom": 282,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 326,
+    "t": 65.2,
+    "object_id": "5",
+    "left": 63,
+    "top": 284,
+    "right": 92,
+    "bottom": 290,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 327,
+    "t": 65.4,
+    "object_id": "5",
+    "left": 40,
+    "top": 292,
+    "right": 71,
+    "bottom": 299,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 328,
+    "t": 65.6,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 329,
+    "t": 65.8,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 330,
+    "t": 66.0,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 331,
+    "t": 66.2,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 332,
+    "t": 66.4,
+    "object_id": "5",
+    "left": 25,
+    "top": 295,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 333,
+    "t": 66.6,
+    "object_id": "5",
+    "left": 26,
+    "top": 295,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 334,
+    "t": 66.8,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 335,
+    "t": 67.0,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 336,
+    "t": 67.2,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 337,
+    "t": 67.4,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 338,
+    "t": 67.6,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 339,
+    "t": 67.8,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 340,
+    "t": 68.0,
+    "object_id": "5",
+    "left": 26,
+    "top": 295,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 341,
+    "t": 68.2,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 342,
+    "t": 68.4,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 343,
+    "t": 68.6,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   },
+   {
+    "frame": 344,
+    "t": 68.8,
+    "object_id": "5",
+    "left": 26,
+    "top": 296,
+    "right": 59,
+    "bottom": 304,
+    "confidence": 0.8709677457809448
+   }
+  ],
+  "cross beam": [],
+  "hydraulic cylinder": [],
+  "base beam": []
+ },
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 4060,
+   "transcript": "frame plate to the vertical vertical frame members and stand the frame up"
+  },
+  {
+   "turnId": 1,
+   "startMs": 5820,
+   "endMs": 15500,
+   "transcript": "bolt on the second cylinder mount and mount and top frame plates and insert the primary hydraulic cylinder with cylinder mount plate and secure with pin"
+  },
+  {
+   "turnId": 2,
+   "startMs": 18700,
+   "endMs": 21740,
+   "transcript": "now attach the compression chamber cover plates"
+  },
+  {
+   "turnId": 3,
+   "startMs": 27500,
+   "endMs": 30140,
+   "transcript": "this completes the main frame assembly"
+  },
+  {
+   "turnId": 4,
+   "startMs": 32620,
+   "endMs": 35260,
+   "transcript": "step two base assembly"
+  },
+  {
+   "turnId": 5,
+   "startMs": 36060,
+   "endMs": 39740,
+   "transcript": "clear an open area and place the four legs in the four feet"
+  },
+  {
+   "turnId": 6,
+   "startMs": 41500,
+   "endMs": 57340,
+   "transcript": "next Insert the legs legs into the outer leg holders on the secondary arms for the loading side and ejection side of the machine. Note that placement of the secondary arm with the central welded tabs dictates the loading side of the machine."
+  },
+  {
+   "turnId": 7,
+   "startMs": 59180,
+   "endMs": 67740,
+   "transcript": "Next, attach the primary arms to the secondary arms. Ensure the midway bolt holes on both primary arms align."
+  },
+  {
+   "turnId": 8,
+   "startMs": 68300,
+   "endMs": 68540,
+   "transcript": "The position"
+  }
+ ],
+ "steps": [
+  {
+   "index": 0,
+   "evidence_s": 2.5,
+   "frame": "frames/reference-step0.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 4,
+     "window_frames": 24,
+     "first_s": 4.2,
+     "last_s": 4.8,
+     "mean_confidence": 0.773
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 24,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 24,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 24,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 0.0,
+     "end_s": 4.06,
+     "text": "frame plate to the vertical vertical frame members and stand the frame up"
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "evidence_s": 6.5,
+   "frame": "frames/reference-step1.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 2,
+     "window_frames": 12,
+     "first_s": 4.8,
+     "last_s": 6.8,
+     "mean_confidence": 0.753
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 12,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 5.82,
+     "end_s": 15.5,
+     "text": "bolt on the second cylinder mount and mount and top frame plates and insert the primary hydraulic cylinder with cylinder mount plate and secure with pin"
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "evidence_s": 9.0,
+   "frame": "frames/reference-step2.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 8,
+     "window_frames": 16,
+     "first_s": 7.8,
+     "last_s": 10.4,
+     "mean_confidence": 0.803
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 16,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 16,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 16,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 5.82,
+     "end_s": 15.5,
+     "text": "bolt on the second cylinder mount and mount and top frame plates and insert the primary hydraulic cylinder with cylinder mount plate and secure with pin"
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "evidence_s": 11.5,
+   "frame": "frames/reference-step3.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 17,
+     "window_frames": 17,
+     "first_s": 10.6,
+     "last_s": 13.8,
+     "mean_confidence": 0.791
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 17,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 17,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 17,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 5.82,
+     "end_s": 15.5,
+     "text": "bolt on the second cylinder mount and mount and top frame plates and insert the primary hydraulic cylinder with cylinder mount plate and secure with pin"
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "evidence_s": 17.0,
+   "frame": "frames/reference-step4.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 24,
+     "window_frames": 23,
+     "first_s": 13.8,
+     "last_s": 18.4,
+     "mean_confidence": 0.792
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 23,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 23,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 23,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 5.82,
+     "end_s": 15.5,
+     "text": "bolt on the second cylinder mount and mount and top frame plates and insert the primary hydraulic cylinder with cylinder mount plate and secure with pin"
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "evidence_s": 22.0,
+   "frame": "frames/reference-step5.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 8,
+     "window_frames": 25,
+     "first_s": 18.6,
+     "last_s": 22.4,
+     "mean_confidence": 0.713
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 25,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 18.7,
+     "end_s": 21.74,
+     "text": "now attach the compression chamber cover plates"
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "evidence_s": 25.5,
+   "frame": "frames/reference-step6.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 19,
+     "window_frames": 20,
+     "first_s": 23.8,
+     "last_s": 27.4,
+     "mean_confidence": 0.85
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": []
+  },
+  {
+   "index": 7,
+   "evidence_s": 30.0,
+   "frame": "frames/reference-step7.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 1,
+     "window_frames": 22,
+     "first_s": 27.6,
+     "last_s": 27.6,
+     "mean_confidence": 0.871
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 27.5,
+     "end_s": 30.14,
+     "text": "this completes the main frame assembly"
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "evidence_s": 40.5,
+   "frame": "frames/reference-step8.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 36.06,
+     "end_s": 39.74,
+     "text": "clear an open area and place the four legs in the four feet"
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "evidence_s": 43.5,
+   "frame": "frames/reference-step9.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 15,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 41.5,
+     "end_s": 57.34,
+     "text": "next Insert the legs legs into the outer leg holders on the secondary arms for the loading side and ejection side of the machine. Note that placement of the secondary arm with the central welded tabs dictates the loading side of the machine."
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "evidence_s": 63.0,
+   "frame": "frames/reference-step10.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 20,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 59.18,
+     "end_s": 67.74,
+     "text": "Next, attach the primary arms to the secondary arms. Ensure the midway bolt holes on both primary arms align."
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "evidence_s": 67.5,
+   "frame": "frames/reference-step11.jpg",
+   "tracks": {
+    "wrenches": {
+     "frames": 19,
+     "window_frames": 22,
+     "first_s": 64.8,
+     "last_s": 68.4,
+     "mean_confidence": 0.871
+    },
+    "cross beam": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "hydraulic cylinder": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    },
+    "base beam": {
+     "frames": 0,
+     "window_frames": 22,
+     "first_s": null,
+     "last_s": null,
+     "mean_confidence": null
+    }
+   },
+   "speech": [
+    {
+     "start_s": 59.18,
+     "end_s": 67.74,
+     "text": "Next, attach the primary arms to the secondary arms. Ensure the midway bolt holes on both primary arms align."
+    },
+    {
+     "start_s": 68.3,
+     "end_s": 68.54,
+     "text": "The position"
+    }
+   ]
+  }
+ ]
+}

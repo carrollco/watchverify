@@ -1,0 +1,27 @@
+{
+ "source": "bench-subaru",
+ "planted": 18,
+ "checked": 18,
+ "graded": 18,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "missed",
+  "omit1": "missed",
+  "omit2": "missed",
+  "omit3": "missed",
+  "omit4": "missed",
+  "omit5": "flagged",
+  "omit6": "flagged",
+  "omit7": "flagged",
+  "omit8": "flagged",
+  "swap01": "missed",
+  "swap12": "missed",
+  "swap23": "missed",
+  "swap34": "missed",
+  "swap45": "missed",
+  "swap56": "missed",
+  "swap67": "missed",
+  "swap78": "missed",
+  "correct": "correct_pass"
+ }
+}

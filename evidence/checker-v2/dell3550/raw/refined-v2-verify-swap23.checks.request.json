@@ -1,0 +1,195 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 12000,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "REFERENCE procedure (steps in the expert's order; the candidate's timing is its own):\n{\n \"task\": \"Remove laptop bottom cover and disconnect battery\",\n \"steps\": [\n  {\n   \"index\": 0,\n   \"action\": \"prying open left hinge zone\",\n   \"objects\": [\n    \"blue plastic pry tool\",\n    \"laptop base cover\"\n   ],\n   \"observable_checkpoint\": \"small gap opens between base cover and chassis at left rear behind hinge\",\n   \"pass_condition\": \"visible separation appears at left rear edge\",\n   \"cannot_see\": \"whether internal clips are undamaged or fully released\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 1,\n   \"action\": \"prying open right hinge zone\",\n   \"objects\": [\n    \"blue plastic pry tool\",\n    \"laptop base cover\"\n   ],\n   \"observable_checkpoint\": \"small gap opens between base cover and chassis at right rear behind hinge\",\n   \"pass_condition\": \"visible separation appears at right rear edge\",\n   \"cannot_see\": \"whether internal clips are undamaged or fully released\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 2,\n   \"action\": \"prying along left side edge\",\n   \"objects\": [\n    \"blue plastic pry tool\",\n    \"laptop base cover\"\n   ],\n   \"observable_checkpoint\": \"seam widens along left side between cover and chassis\",\n   \"pass_condition\": \"side seam is visibly loosened\",\n   \"cannot_see\": \"exact number of clips released along the side\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 3,\n   \"action\": \"prying along front edge\",\n   \"objects\": [\n    \"blue plastic pry tool\",\n    \"laptop base cover\"\n   ],\n   \"observable_checkpoint\": \"seam widens along bottom front edge between cover and chassis\",\n   \"pass_condition\": \"front seam is visibly loosened\",\n   \"cannot_see\": \"exact number of clips released along the front\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 4,\n   \"action\": \"lifting off base cover\",\n   \"objects\": [\n    \"laptop base cover\"\n   ],\n   \"observable_checkpoint\": \"base cover fully removed exposing motherboard, fan, RAM and battery\",\n   \"pass_condition\": \"internal components are fully exposed with cover off frame\",\n   \"cannot_see\": \"underside clip condition\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 5,\n   \"action\": \"loosening battery screw\",\n   \"objects\": [\n    \"phillips screwdriver\",\n    \"laptop battery\"\n   ],\n   \"observable_checkpoint\": \"screwdriver tip engaged on top screw of battery and screw turned\",\n   \"pass_condition\": \"screwdriver visibly turns the battery retaining screw\",\n   \"cannot_see\": \"screw torque, thread condition, and whether all five screws are removed\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 6,\n   \"action\": \"unplugging battery connector\",\n   \"objects\": [\n    \"laptop battery cable\",\n    \"motherboard\"\n   ],\n   \"observable_checkpoint\": \"black battery cable pulled free from board connector and laid aside\",\n   \"pass_condition\": \"cable end is visibly separated from motherboard socket\",\n   \"cannot_see\": \"electrical isolation and connector pin condition\",\n   \"checkpoint_visibility\": \"subtle\"\n  }\n ]\n}\n\nCheck the attached video against every reference step."
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 0, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:edd8595692403509"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 1, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:241abbc1aa95ef66"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 2, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:343ed863c9486161"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 3, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:581674a221132e13"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 4, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:628abc5eae0d3407"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 5, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:dd5257e23cc4875c"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 6, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:6670f742a7c45124"
+    },
+    {
+     "type": "input_file",
+     "file_id": "file-1117171441184688"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "video_verification",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "same_task": {
+      "type": "boolean"
+     },
+     "checks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell"
+        },
+        "observed_start_s": {
+         "type": "number",
+         "description": "seconds in the candidate video where the step starts, -1 if not observed"
+        },
+        "observed_end_s": {
+         "type": "number",
+         "description": "-1 if not observed"
+        },
+        "other_moments": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+           "start_s": {
+            "type": "number"
+           },
+           "end_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ]
+         },
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none"
+        },
+        "evidence": {
+         "type": "string",
+         "description": "what is visible that supports the status, with seconds"
+        },
+        "cannot_see": {
+         "type": "string",
+         "description": "properties of this step the camera cannot verify, or 'none'"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ]
+      }
+     },
+     "extra_actions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "start_s": {
+         "type": "number"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "action": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ]
+      }
+     },
+     "notes": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

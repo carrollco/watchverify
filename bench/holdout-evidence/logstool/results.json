@@ -1,0 +1,25 @@
+{
+ "source": "bench-logstool",
+ "planted": 16,
+ "checked": 16,
+ "graded": 13,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "flagged",
+  "omit1": "not_visible",
+  "omit2": "missed",
+  "omit3": "flagged",
+  "omit4": "caught",
+  "omit5": "flagged",
+  "omit6": "flagged",
+  "omit7": "caught",
+  "swap01": "not_visible",
+  "swap12": "not_visible",
+  "swap23": "caught",
+  "swap34": "caught",
+  "swap45": "caught",
+  "swap56": "flagged",
+  "swap67": "flagged",
+  "correct": "correct_pass"
+ }
+}

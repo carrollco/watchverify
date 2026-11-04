@@ -1,0 +1,952 @@
+{
+ "source": "asusp16",
+ "cuts": "refined",
+ "clip_s": 75.0,
+ "plans": [
+  {
+   "name": "selfcheck",
+   "order": null,
+   "truth": {
+    "kind": "selfcheck",
+    "steps": []
+   },
+   "checked": true,
+   "check": "reference.selfcheck",
+   "reference_view": "unmarked",
+   "pieces": [
+    [
+     0.0,
+     75.0
+    ]
+   ],
+   "duration_s": 75.0,
+   "track_frames": null,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "selfcheck",
+    "truth": {
+     "kind": "selfcheck",
+     "steps": []
+    },
+    "verdict": "pass",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "correct_pass",
+    "graded": false,
+    "excluded_by": "code",
+    "why": "the self-check, re-scored with the marks it made, cannot fail; calibration only"
+   }
+  },
+  {
+   "name": "omit0",
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     0
+    ]
+   },
+   "pieces": [
+    [
+     10.375,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit0",
+   "duration_s": 64.6,
+   "track_frames": 323,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit0",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      0
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     4,
+     5
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit0"
+  },
+  {
+   "name": "omit1",
+   "order": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     1
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     7.125
+    ],
+    [
+     20.375,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit1",
+   "duration_s": 61.73,
+   "track_frames": 309,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit1",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      1
+     ]
+    },
+    "verdict": "fail",
+    "missing": [
+     1
+    ],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "caught",
+    "extras": [],
+    "extras_review": [
+     4,
+     5
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit1"
+  },
+  {
+   "name": "omit2",
+   "order": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     17.625
+    ],
+    [
+     22.5,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit2",
+   "duration_s": 70.13,
+   "track_frames": 351,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit2",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      2
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "omit3",
+   "order": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     22.5
+    ],
+    [
+     30.125,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit3",
+   "duration_s": 67.4,
+   "track_frames": 337,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit3",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      3
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "omit4",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     4
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     28.125
+    ],
+    [
+     39.375,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit4",
+   "duration_s": 63.73,
+   "track_frames": 319,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit4",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      4
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "explained_away",
+    "extras": [],
+    "extras_review": [
+     5
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit4"
+  },
+  {
+   "name": "omit5",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     5
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     36.625
+    ],
+    [
+     55.538,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit5",
+   "duration_s": 56.06,
+   "track_frames": 280,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit5",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      5
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     4
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit5"
+  },
+  {
+   "name": "omit6",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     6
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     46.112
+    ],
+    [
+     67.625,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit6",
+   "duration_s": 53.46,
+   "track_frames": 267,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit6",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      6
+     ]
+    },
+    "verdict": "fail",
+    "missing": [],
+    "out_of_order": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "extras_review": [
+     7
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit6"
+  },
+  {
+   "name": "omit7",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     7
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     65.625
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit7",
+   "duration_s": 65.66,
+   "track_frames": 328,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "omit7",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      7
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     7
+    ],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     4,
+     5
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-omit7"
+  },
+  {
+   "name": "swap01",
+   "order": [
+    1,
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     0,
+     1
+    ]
+   },
+   "pieces": [
+    [
+     10.375,
+     17.625
+    ],
+    [
+     0.0,
+     7.125
+    ],
+    [
+     20.375,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap01",
+   "duration_s": 69.0,
+   "track_frames": 345,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "swap01",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      0,
+      1
+     ]
+    },
+    "verdict": "fail",
+    "missing": [],
+    "out_of_order": [
+     0,
+     1
+    ],
+    "unclear": [],
+    "outcome": "caught",
+    "extras": [],
+    "extras_review": [
+     4,
+     5
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap01"
+  },
+  {
+   "name": "swap12",
+   "order": [
+    0,
+    2,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     1,
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     7.125
+    ],
+    [
+     20.375,
+     22.5
+    ],
+    [
+     10.375,
+     17.625
+    ],
+    [
+     22.5,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap12",
+   "duration_s": 69.0,
+   "track_frames": 345,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "swap12",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      1,
+      2
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "swap23",
+   "order": [
+    0,
+    1,
+    3,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     2,
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     17.625
+    ],
+    [
+     22.5,
+     28.125
+    ],
+    [
+     20.375,
+     22.5
+    ],
+    [
+     30.125,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap23",
+   "duration_s": 70.26,
+   "track_frames": 351,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "swap23",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      2,
+      3
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "swap34",
+   "order": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     3,
+     4
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     22.5
+    ],
+    [
+     30.125,
+     36.625
+    ],
+    [
+     22.5,
+     28.125
+    ],
+    [
+     39.375,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap34",
+   "duration_s": 70.26,
+   "track_frames": 351,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "swap34",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      3,
+      4
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "swap45",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    4,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     4,
+     5
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     28.125
+    ],
+    [
+     39.375,
+     46.112
+    ],
+    [
+     30.125,
+     36.625
+    ],
+    [
+     55.538,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap45",
+   "duration_s": 60.8,
+   "track_frames": 304,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "swap45",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      4,
+      5
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap45"
+  },
+  {
+   "name": "swap56",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    5,
+    7
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     5,
+     6
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     36.625
+    ],
+    [
+     55.538,
+     65.625
+    ],
+    [
+     39.375,
+     46.112
+    ],
+    [
+     67.625,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap56",
+   "duration_s": 60.8,
+   "track_frames": 304,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "swap56",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      5,
+      6
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     4
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap56"
+  },
+  {
+   "name": "swap67",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    6
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     6,
+     7
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     46.112
+    ],
+    [
+     67.625,
+     75.0
+    ],
+    [
+     55.538,
+     65.625
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap67",
+   "duration_s": 63.6,
+   "track_frames": 318,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "swap67",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      6,
+      7
+     ]
+    },
+    "verdict": "fail",
+    "missing": [],
+    "out_of_order": [
+     6,
+     7
+    ],
+    "unclear": [],
+    "outcome": "caught",
+    "extras": [],
+    "extras_review": [
+     4,
+     5
+    ],
+    "graded": true
+   },
+   "timing_from": "refined-verify-swap67"
+  },
+  {
+   "name": "correct",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "truth": {
+    "kind": "correct",
+    "steps": []
+   },
+   "pieces": [
+    [
+     0.0,
+     75.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-correct",
+   "duration_s": 75.0,
+   "track_frames": 375,
+   "confirm": false,
+   "claimed": {
+    "sid": "asusp16",
+    "name": "correct",
+    "truth": {
+     "kind": "correct",
+     "steps": []
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "graded": true
+   },
+   "timing_from": "refined-verify-correct"
+  }
+ ]
+}

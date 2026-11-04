@@ -1,0 +1,32 @@
+{
+ "sessionId": "voyager/transcribe/2C59C425430242F6A05D35DB953F6D67",
+ "transcript": "The device that we bought has the optional 56 watt hour battery. The base model has a 48 watt hour capacity. To remove it pull out the connector towards the battery rotate the two blue latches on the bottom bottom and lift the unit away from the chassis. The capacity is enough for around 11 hours of video playback. Our test was conducted with the battery saver preset activated in the Windows power power and battery menu You can pop the metal shield above the RAM section with a lever tool. According to HP the two SODIMMs can handle up to 32 gigabytes of DDR5 5600",
+ "audioDurationMs": 64080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 11340,
+   "endMs": 26540,
+   "transcript": "The device that we bought has the optional 56 watt hour battery. The base model has a 48 watt hour capacity. To remove it pull out the connector towards the battery rotate the two blue latches on the bottom bottom and lift the unit away from the chassis."
+  },
+  {
+   "turnId": 1,
+   "startMs": 27180,
+   "endMs": 37260,
+   "transcript": "The capacity is enough for around 11 hours of video playback. Our test was conducted with the battery saver preset activated in the Windows power power and battery menu"
+  },
+  {
+   "turnId": 2,
+   "startMs": 43260,
+   "endMs": 46860,
+   "transcript": "You can pop the metal shield above the RAM section with a lever tool."
+  },
+  {
+   "turnId": 3,
+   "startMs": 57100,
+   "endMs": 63580,
+   "transcript": "According to HP the two SODIMMs can handle up to 32 gigabytes of DDR5 5600"
+  }
+ ],
+ "_http": 200
+}

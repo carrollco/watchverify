@@ -1,0 +1,26 @@
+{
+ "sessionId": "voyager/transcribe/7C1DB6F912A442E2A596465D2E27CA56",
+ "transcript": "down until both side clips lock. Place the battery back into its tray and reconnect reconnect it. Since it has no no screws, confirm it sits flat before closing the laptop.",
+ "audioDurationMs": 60080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 1820,
+   "transcript": "down until both side clips lock."
+  },
+  {
+   "turnId": 1,
+   "startMs": 15580,
+   "endMs": 18620,
+   "transcript": "Place the battery back into its tray and reconnect reconnect it."
+  },
+  {
+   "turnId": 2,
+   "startMs": 19100,
+   "endMs": 23260,
+   "transcript": "Since it has no no screws, confirm it sits flat before closing the laptop."
+  }
+ ],
+ "_http": 200
+}

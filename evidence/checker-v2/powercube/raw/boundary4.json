@@ -1,0 +1,111 @@
+{
+ "id": "resp_6ae2538f4d5a3e927d9c4bec",
+ "access_programs": null,
+ "created_at": 1793217423.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given two consecutive steps of a hands-on procedure and a strip of frames from the expert's video, in time order, each labeled with its time in seconds. Find where step A's hand work ends and step B's begins. first_ends_s: the label of the last frame in which the hands are still doing step A (holding the tool at step A's place or part, or finishing its action). second_begins_s: the label of the first frame in which the hands are at step B's place or part, or start its action. Moving between places, putting a tool down or picking one up belongs to neither step. Be strict: a frame that might still be step A counts as step A. Answer only from the frames; use -1 when no frame shows the step.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae2538f4d5a3e927d9c4bec:rs_7a9e73e4-fb9c-4dab-9182-bb4bf8e7085d",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_d3679d17-d5f3-4eba-a58d-a49a8691867d",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"evidence\": \"Close-up frames 24.5s to ~29.25s show hands partly visible behind/around the central pump manipulating the thick black cross tube where it meets the side tanks. Left and right fingers appear to hold/adjust/seat the tube at the ports. No distinct tool use or separate clamp-tightening hand position is clearly visible. By 29.5s hands are no longer visible and 30.0s+ wide shots show the machine alone with no hands.\", \"first_ends_s\": 29.25, \"second_begins_s\": -1}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793217423.0,
+ "conversation": null,
+ "max_output_tokens": 10000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "boundary",
+   "schema_": {
+    "additionalProperties": false,
+    "required": [
+     "first_ends_s",
+     "second_begins_s",
+     "evidence"
+    ],
+    "type": "object",
+    "properties": {
+     "evidence": {
+      "description": "what the hands do in the frames around both times",
+      "type": "string"
+     },
+     "first_ends_s": {
+      "description": "time label of the last frame where the hands still do step A; -1 if no frame shows it",
+      "type": "number"
+     },
+     "second_begins_s": {
+      "description": "time label of the first frame where the hands begin step B; -1 if no frame shows it",
+      "type": "number"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 6038,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2748,
+  "output_tokens_details": {
+   "reasoning_tokens": 2617
+  },
+  "total_tokens": 8786
+ },
+ "user": null,
+ "store": true
+}

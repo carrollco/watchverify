@@ -1,0 +1,196 @@
+{
+ "id": "resp_6aeb1c0080d099dbbb1f46ce",
+ "access_programs": null,
+ "created_at": 1793793024.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeb1c0080d099dbbb1f46ce:rs_e9d4c027-f466-46cb-90ab-fbc7d29a106e",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_ec578844-ae7e-443a-a23b-0a6aa39b2079",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"checks\": [{\"cannot_see\": \"whether laptop power and battery were disconnected before handling\", \"evidence\": \"Gloved hands use blue plastic pry tool on left M.2 slot ~5-11s to lift black M.2 SSD; by ~13-15s SSD is fully detached and lifted off, leaving pale rectangular thermal pad clearly exposed in left M.2 slot area, matching reference frame\", \"observed_end_s\": 15.0, \"observed_start_s\": 5.0, \"other_moments\": [], \"reference_step\": 0, \"status\": \"observed\"}], \"extra_actions\": [{\"action\": \"Display CrystalDiskMark benchmark overlays for SSD over motherboard view\", \"end_s\": 4.5, \"start_s\": 0.0}, {\"action\": \"Point to and describe motherboard components including WiFi card, RAM slots, fan and copper heat pipes\", \"end_s\": 40.0, \"start_s\": 16.0}, {\"action\": \"Show close-up overlay of Intel AX211 WiFi card\", \"end_s\": 24.5, \"start_s\": 20.5}, {\"action\": \"Show comparison still image with RAM sticks installed\", \"end_s\": 46.5, \"start_s\": 41.0}, {\"action\": \"Show YouTube subscribe outro animation on laptop screen\", \"end_s\": 60.0, \"start_s\": 51.5}], \"notes\": \"SSD removal performed with blue plastic pry tool as in reference, resulting in exposed pale thermal pad in left slot. Remainder of video is explanatory commentary and outro.\", \"same_task\": true}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793793024.0,
+ "conversation": null,
+ "max_output_tokens": 12000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "video_verification",
+   "schema_": {
+    "properties": {
+     "checks": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "cannot_see": {
+         "description": "properties of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "evidence": {
+         "description": "what is visible that supports the status, with seconds",
+         "type": "string"
+        },
+        "observed_end_s": {
+         "description": "-1 if not observed",
+         "type": "number"
+        },
+        "observed_start_s": {
+         "description": "seconds in the candidate video where the step starts, -1 if not observed",
+         "type": "number"
+        },
+        "other_moments": {
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none",
+         "items": {
+          "additionalProperties": false,
+          "properties": {
+           "end_s": {
+            "type": "number"
+           },
+           "start_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ],
+          "type": "object"
+         },
+         "type": "array"
+        },
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "type": "string"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "extra_actions": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "notes": {
+      "type": "string"
+     },
+     "same_task": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ],
+    "type": "object",
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 17375,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 625
+  },
+  "output_tokens": 1693,
+  "output_tokens_details": {
+   "reasoning_tokens": 1341
+  },
+  "total_tokens": 19068
+ },
+ "user": null,
+ "store": true
+}

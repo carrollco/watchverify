@@ -1,0 +1,202 @@
+{
+ "audio_notes": "none",
+ "objects_seen": [
+  "acer laptop",
+  "blue plastic pry tool",
+  "black gloves",
+  "laptop bottom cover",
+  "cooling fan",
+  "motherboard",
+  "laptop battery",
+  "battery connector cable",
+  "phillips screwdriver",
+  "battery screws"
+ ],
+ "speech_heard": "Pop the top two corners with a thin plastic tool and then pry the sides, the front, and the back. This laptop has a 53 watt hour battery. To take it out, unplug the connector from the motherboard and undo the two Philips head screws that secure the unit in place. The capacity is enough for around eight hours and a half of video playback. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu and the silent preset in the Acer Sense app.",
+ "steps": [
+  {
+   "action": "pry open left rear corner with plastic tool",
+   "cannot_see": "whether internal clips are undamaged",
+   "checkpoint_visibility": "clear",
+   "end_s": 2.2,
+   "evidence_s": 1.5,
+   "index": 0,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop bottom cover"
+   ],
+   "observable_checkpoint": "blue tool inserted under left rear corner of bottom cover with gap opening",
+   "pass_condition": "visible separation at left rear corner",
+   "start_s": 0.8,
+   "self_check": "observed"
+  },
+  {
+   "action": "pry open right rear corner with plastic tool",
+   "cannot_see": "whether internal clips are undamaged",
+   "checkpoint_visibility": "clear",
+   "end_s": 6.0,
+   "evidence_s": 5.0,
+   "index": 1,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop bottom cover"
+   ],
+   "observable_checkpoint": "blue tool inserted under right rear corner near hinge with gap opening",
+   "pass_condition": "visible separation at right rear corner",
+   "start_s": 4.2,
+   "self_check": "observed"
+  },
+  {
+   "action": "pry open left side edge with plastic tool",
+   "cannot_see": "whether all side clips are released",
+   "checkpoint_visibility": "clear",
+   "end_s": 12.5,
+   "evidence_s": 11.0,
+   "index": 2,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop bottom cover"
+   ],
+   "observable_checkpoint": "blue tool slid along left side edge lifting cover seam",
+   "pass_condition": "seam gap visible along left side",
+   "start_s": 9.8,
+   "self_check": "observed"
+  },
+  {
+   "action": "pry open front edge with plastic tool",
+   "cannot_see": "whether front clips are fully released",
+   "checkpoint_visibility": "clear",
+   "end_s": 17.5,
+   "evidence_s": 16.0,
+   "index": 3,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop bottom cover"
+   ],
+   "observable_checkpoint": "blue tool inserted under front edge center lifting cover seam",
+   "pass_condition": "seam gap visible along front edge",
+   "start_s": 14.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "pry open rear edge with plastic tool",
+   "cannot_see": "whether rear clips are fully released",
+   "checkpoint_visibility": "subtle",
+   "end_s": 20.5,
+   "evidence_s": 19.3,
+   "index": 4,
+   "objects": [
+    "blue plastic pry tool",
+    "laptop bottom cover"
+   ],
+   "observable_checkpoint": "blue tool worked along rear vent edge to free cover",
+   "pass_condition": "cover loose on all sides",
+   "start_s": 18.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift off bottom cover by hand",
+   "cannot_see": "screw removal that preceded loosening, screws not shown removed on camera",
+   "checkpoint_visibility": "clear",
+   "end_s": 23.0,
+   "evidence_s": 22.5,
+   "index": 5,
+   "objects": [
+    "laptop bottom cover"
+   ],
+   "observable_checkpoint": "bottom cover removed exposing fan, motherboard and battery inside",
+   "pass_condition": "internal components fully exposed",
+   "start_s": 21.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "unplug battery cable from motherboard",
+   "cannot_see": "electrical charge state of battery",
+   "checkpoint_visibility": "clear",
+   "end_s": 27.5,
+   "evidence_s": 26.5,
+   "index": 6,
+   "objects": [
+    "battery connector cable",
+    "laptop battery"
+   ],
+   "observable_checkpoint": "fingers pull red-black battery connector out of motherboard socket",
+   "pass_condition": "connector separated from socket",
+   "start_s": 24.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "unscrew first battery screw with screwdriver",
+   "cannot_see": "whether screw threads are damaged",
+   "checkpoint_visibility": "clear",
+   "end_s": 33.5,
+   "evidence_s": 32.5,
+   "index": 7,
+   "objects": [
+    "phillips screwdriver",
+    "battery screws",
+    "laptop battery"
+   ],
+   "observable_checkpoint": "screwdriver turning on left screw securing battery",
+   "pass_condition": "first screw loosened and removed",
+   "start_s": 31.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "unscrew second battery screw with screwdriver",
+   "cannot_see": "whether screw is retained or lost after removal",
+   "checkpoint_visibility": "clear",
+   "end_s": 36.5,
+   "evidence_s": 35.5,
+   "index": 8,
+   "objects": [
+    "phillips screwdriver",
+    "battery screws",
+    "laptop battery"
+   ],
+   "observable_checkpoint": "screwdriver turning on second screw securing battery",
+   "pass_condition": "second screw loosened and removed",
+   "start_s": 34.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift out battery by hand",
+   "cannot_see": "battery capacity and health, known only from narration and label close-up",
+   "checkpoint_visibility": "clear",
+   "end_s": 52.0,
+   "evidence_s": 51.0,
+   "index": 9,
+   "objects": [
+    "laptop battery"
+   ],
+   "observable_checkpoint": "large black battery lifted clear of chassis exposing touchpad cables underneath",
+   "pass_condition": "battery bay empty with chassis frame visible",
+   "start_s": 49.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Remove laptop bottom cover and remove 53Wh battery",
+ "track": [
+  "blue plastic pry tool",
+  "laptop bottom cover",
+  "battery connector cable",
+  "laptop battery"
+ ],
+ "uncertainty": "Timeline seconds are estimated from visual sequence. Right-side prying is partly obscured by hand. Two battery screws are both on left side of battery; exact screw positions are close together. On-screen text overlays about battery life and AcerSense settings were excluded as non-hand steps.",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-39834284506185012",
+  "usage": {
+   "input_tokens": 16431,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 497
+   },
+   "output_tokens": 4360,
+   "output_tokens_details": {
+    "reasoning_tokens": 2955
+   },
+   "total_tokens": 20791
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "source": "bench-brickpress",
+ "planted": 24,
+ "checked": 24,
+ "graded": 17,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "caught",
+  "omit1": "missed",
+  "omit2": "missed",
+  "omit3": "flagged",
+  "omit4": "flagged",
+  "omit5": "cut_misses_step",
+  "omit6": "explained_away",
+  "omit7": "caught",
+  "omit8": "no_clean_cut",
+  "omit9": "no_clean_cut",
+  "omit10": "cut_misses_step",
+  "omit11": "caught",
+  "swap01": "missed",
+  "swap12": "missed",
+  "swap23": "caught",
+  "swap34": "caught",
+  "swap45": "missed",
+  "swap56": "missed",
+  "swap67": "caught",
+  "swap78": "no_clean_cut",
+  "swap89": "no_clean_cut",
+  "swap910": "no_clean_cut",
+  "swap1011": "missed",
+  "correct": "correct_pass"
+ }
+}

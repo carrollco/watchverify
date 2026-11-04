@@ -1,0 +1,52 @@
+{
+ "made_by": "human:owner",
+ "confirmed_at": "2026-11-04T03:43:17-08:00",
+ "prelabeled_by": "a different AI model (not the model under test), from stills",
+ "prelabels_sha256": "0d2382c438ab0509b5ca2e5af4472a52ecc6043ca9c0243b6a7f4d04c7fa5078",
+ "changed_from_prelabels": [],
+ "missed_steps": [],
+ "steps": [
+  {
+   "index": 0,
+   "start_s": 0.0,
+   "end_s": 3.5,
+   "visible": true,
+   "is_step": true
+  },
+  {
+   "index": 1,
+   "start_s": 4.0,
+   "end_s": 6.0,
+   "visible": true,
+   "is_step": true
+  },
+  {
+   "index": 2,
+   "start_s": 6.5,
+   "end_s": 9.5,
+   "visible": true,
+   "is_step": true
+  },
+  {
+   "index": 3,
+   "start_s": 10.5,
+   "end_s": 13.5,
+   "visible": true,
+   "is_step": true
+  },
+  {
+   "index": 4,
+   "start_s": 16.5,
+   "end_s": 17.0,
+   "visible": false,
+   "is_step": true
+  },
+  {
+   "index": 5,
+   "start_s": 19.5,
+   "end_s": 23.0,
+   "visible": true,
+   "is_step": true
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "source": "bench-sonypvm",
+ "planted": 12,
+ "checked": 12,
+ "graded": 9,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "flagged",
+  "omit1": "flagged",
+  "omit2": "caught",
+  "omit3": "caught",
+  "omit4": "not_visible",
+  "omit5": "caught",
+  "swap01": "caught",
+  "swap12": "caught",
+  "swap23": "caught",
+  "swap34": "not_visible",
+  "swap45": "not_visible",
+  "correct": "correct_pass"
+ }
+}

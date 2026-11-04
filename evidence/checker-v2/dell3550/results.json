@@ -1,0 +1,23 @@
+{
+ "source": "bench-dell3550",
+ "planted": 14,
+ "checked": 14,
+ "graded": 12,
+ "claimed": {
+  "selfcheck": "flagged",
+  "omit0": "missed",
+  "omit1": "flagged",
+  "omit2": "flagged",
+  "omit3": "explained_away",
+  "omit4": "flagged",
+  "omit5": "caught",
+  "omit6": "untestable",
+  "swap01": "caught",
+  "swap12": "caught",
+  "swap23": "caught",
+  "swap34": "flagged",
+  "swap45": "flagged",
+  "swap56": "untestable",
+  "correct": "flagged"
+ }
+}

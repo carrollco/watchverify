@@ -1,0 +1,187 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 12000,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "REFERENCE procedure (steps in the expert's order; the candidate's timing is its own):\n{\n \"task\": \"Reassemble monitor circuit board frame and test color repair on Sony monitor\",\n \"steps\": [\n  {\n   \"index\": 0,\n   \"action\": \"press top grounding tab into chassis\",\n   \"objects\": [\n    \"metal chassis frame\",\n    \"grounding tab\"\n   ],\n   \"observable_checkpoint\": \"fingers seat small metal tab flush against top of metal chassis frame\",\n   \"pass_condition\": \"tab stays in place on chassis after fingers release\",\n   \"cannot_see\": \"electrical grounding continuity through the tab\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 1,\n   \"action\": \"push side circuit board assembly into chassis\",\n   \"objects\": [\n    \"circuit board assembly\",\n    \"metal chassis frame\"\n   ],\n   \"observable_checkpoint\": \"green circuit board assembly sits flush inside side of metal chassis frame\",\n   \"pass_condition\": \"board panel is aligned and held in chassis frame\",\n   \"cannot_see\": \"internal connector mating and pin engagement\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 2,\n   \"action\": \"tighten screw on right side of frame\",\n   \"objects\": [\n    \"screwdriver\",\n    \"circuit board frame\"\n   ],\n   \"observable_checkpoint\": \"screwdriver tip engaged in right side screw of circuit board frame and turned\",\n   \"pass_condition\": \"screwdriver removed and right side screw remains in frame\",\n   \"cannot_see\": \"screw torque and thread engagement depth\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 3,\n   \"action\": \"tighten screw on left side of frame\",\n   \"objects\": [\n    \"screwdriver\",\n    \"circuit board frame\"\n   ],\n   \"observable_checkpoint\": \"screwdriver tip engaged in left side screw of circuit board frame and turned\",\n   \"pass_condition\": \"screwdriver removed and left side screw remains in frame\",\n   \"cannot_see\": \"screw torque and thread engagement depth\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 4,\n   \"action\": \"press power button on front panel\",\n   \"objects\": [\n    \"power button\",\n    \"monitor front bezel\"\n   ],\n   \"observable_checkpoint\": \"finger presses green power button on monitor front bezel and CRT screen lights with static pattern\",\n   \"pass_condition\": \"screen illuminates after button press\",\n   \"cannot_see\": \"internal power supply voltage and warm-up state\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 5,\n   \"action\": \"press front control buttons to drive white screen\",\n   \"objects\": [\n    \"front control buttons\",\n    \"CRT screen\"\n   ],\n   \"observable_checkpoint\": \"finger presses front control buttons and CRT screen changes to bright white field\",\n   \"pass_condition\": \"CRT screen shows full white raster\",\n   \"cannot_see\": \"exact video calibration settings selected\",\n   \"checkpoint_visibility\": \"clear\"\n  }\n ]\n}\n\nCheck the attached video against every reference step."
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 0, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:6ef440ab13f9ab2f"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 1, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:c58e8c640beabb81"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 2, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:fe13496e632b1ac6"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 3, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:53206f8f1a7e194b"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 4, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:ba00e2c2fe2d2d02"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 5, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:f76947070c05a614"
+    },
+    {
+     "type": "input_file",
+     "file_id": "file-2060627127961115"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "video_verification",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "same_task": {
+      "type": "boolean"
+     },
+     "checks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell"
+        },
+        "observed_start_s": {
+         "type": "number",
+         "description": "seconds in the candidate video where the step starts, -1 if not observed"
+        },
+        "observed_end_s": {
+         "type": "number",
+         "description": "-1 if not observed"
+        },
+        "other_moments": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+           "start_s": {
+            "type": "number"
+           },
+           "end_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ]
+         },
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none"
+        },
+        "evidence": {
+         "type": "string",
+         "description": "what is visible that supports the status, with seconds"
+        },
+        "cannot_see": {
+         "type": "string",
+         "description": "properties of this step the camera cannot verify, or 'none'"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ]
+      }
+     },
+     "extra_actions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "start_s": {
+         "type": "number"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "action": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ]
+      }
+     },
+     "notes": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

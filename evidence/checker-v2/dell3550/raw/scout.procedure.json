@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae223189b37ea2231344c8d",
+ "access_programs": null,
+ "created_at": 1793205016.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae223189b37ea2231344c8d:rs_9b1631cc-1f15-4a30-8001-e2e8fd69c594",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_a2cbd64f-509b-4d91-9149-f8c7e1f6de95",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"none\", \"objects_seen\": [\"bottom panel\", \"bottom panel screws\", \"blue plastic pry tool\", \"Phillips screwdriver\", \"motherboard\", \"battery pack\", \"battery cable\", \"cooling fan\", \"heat pipe\", \"RAM stick\", \"M.2 SSD\", \"SSD metal bracket\", \"Wi-Fi card\", \"touchpad board\", \"speakers\"], \"speech_heard\": \"Hello, this is Nick from Laptop Media, and today we will show you how to open the 15.6-inch Dell Latitude 3550. To open this laptop, you have to undo nine captive Phillips head screws. The two in the top corners are captive, and they'll lift the panel up, which makes the whole disassembly a lot easier. Use a lever tool to pop the back in the zones behind the hinges. Then, fully pry the rear as well as the sides and the front. This machine has the optional 54 watt-hour battery. The base model is a 42 watt-hour variant. To remove it, unplug the connector from the main board and undo the five Phillips head screws that secure the unit to the base. The capacity is enough for around nine hours of video playback. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu and select the optimized power plan in the Dell Optimizer app. The Wi-Fi card is placed in the lower mid section of the motherboard. Since our laptop has a 13th Gen CPU, the two SODIMM fit up to 64 gigabytes of DDR5 5200 megahertz memory in dual-channel mode. However, since the CPU can support up to 96 gigabytes, this laptop likely wouldn't have issues running a larger amount of memory than the official manufacturer's specified limit. The Core Ultra iterations can handle 5600 megahertz RAM. For storage upgrades, there is just one M.2 slot compatible with Gen 4 NVMe drives. Here we have a 2230 SSD with a metal bracket, but you can also install a standard 2280 unit. We found a tiny thermal pad below the NVMe drive. The 2280 units will be additionally cooled by a second pad located slightly in front. The cooling is pretty basic. It comprises one fan, a decently long heat pipe, and a heat spreader.\", \"steps\": [{\"action\": \"loosen captive screws on bottom panel\", \"cannot_see\": \"screw looseness and thread condition underneath\", \"checkpoint_visibility\": \"narration_only\", \"end_s\": 18.0, \"evidence_s\": 12.0, \"index\": 0, \"objects\": [\"Phillips screwdriver\", \"bottom panel screws\"], \"observable_checkpoint\": \"nine screws in bottom panel are loosened but remain captive\", \"pass_condition\": \"all nine screws are loose and retained in panel\", \"start_s\": 10.0}, {\"action\": \"pry open left rear edge of bottom panel\", \"cannot_see\": \"clip condition under the edge\", \"checkpoint_visibility\": \"clear\", \"end_s\": 28.0, \"evidence_s\": 26.0, \"index\": 1, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"gap opens along rear edge near left hinge zone\", \"pass_condition\": \"left rear clips release and gap stays open\", \"start_s\": 23.0}, {\"action\": \"pry open right rear edge of bottom panel\", \"cannot_see\": \"clip condition under the edge\", \"checkpoint_visibility\": \"clear\", \"end_s\": 32.0, \"evidence_s\": 30.0, \"index\": 2, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"gap opens along rear edge near right hinge zone\", \"pass_condition\": \"right rear clips release and gap stays open\", \"start_s\": 29.0}, {\"action\": \"pry open left side edge of bottom panel\", \"cannot_see\": \"clip condition under the side\", \"checkpoint_visibility\": \"clear\", \"end_s\": 41.0, \"evidence_s\": 39.0, \"index\": 3, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"separation line visible along left side of panel\", \"pass_condition\": \"left side clips release\", \"start_s\": 34.0}, {\"action\": \"pry open front and right edges of bottom panel\", \"cannot_see\": \"clip condition under the front edge\", \"checkpoint_visibility\": \"clear\", \"end_s\": 46.0, \"evidence_s\": 45.0, \"index\": 4, \"objects\": [\"blue plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"panel is loose around front and right sides\", \"pass_condition\": \"all perimeter clips are released\", \"start_s\": 42.0}, {\"action\": \"lift bottom panel away from chassis\", \"cannot_see\": \"underside of panel after removal\", \"checkpoint_visibility\": \"clear\", \"end_s\": 52.0, \"evidence_s\": 51.0, \"index\": 5, \"objects\": [\"bottom panel\"], \"observable_checkpoint\": \"internals with motherboard, fan and battery pack are exposed\", \"pass_condition\": \"bottom panel fully separated from laptop\", \"start_s\": 47.0}, {\"action\": \"unscrew battery pack fasteners\", \"cannot_see\": \"screw torque and thread engagement depth\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 74.0, \"evidence_s\": 69.0, \"index\": 6, \"objects\": [\"Phillips screwdriver\", \"battery pack\"], \"observable_checkpoint\": \"screwdriver engages screws around battery pack\", \"pass_condition\": \"battery screws are loosened\", \"start_s\": 66.0}, {\"action\": \"unplug battery cable from motherboard\", \"cannot_see\": \"electrical continuity after unplug\", \"checkpoint_visibility\": \"clear\", \"end_s\": 94.0, \"evidence_s\": 92.0, \"index\": 7, \"objects\": [\"battery cable\", \"battery pack\"], \"observable_checkpoint\": \"battery connector is separated from motherboard socket\", \"pass_condition\": \"battery is electrically disconnected\", \"start_s\": 87.0}, {\"action\": \"lift battery pack out of chassis\", \"cannot_see\": \"charge level inside cells\", \"checkpoint_visibility\": \"clear\", \"end_s\": 99.0, \"evidence_s\": 98.0, \"index\": 8, \"objects\": [\"battery pack\"], \"observable_checkpoint\": \"empty battery bay with touchpad board visible underneath\", \"pass_condition\": \"battery pack fully removed\", \"start_s\": 95.0}, {\"action\": \"remove memory stick from memory slot\", \"cannot_see\": \"gold contact condition on removed stick\", \"checkpoint_visibility\": \"clear\", \"end_s\": 118.0, \"evidence_s\": 117.0, \"index\": 9, \"objects\": [\"RAM stick\"], \"observable_checkpoint\": \"RAM stick lifted out leaving empty DIMM slot visible\", \"pass_condition\": \"memory stick is out of slot\", \"start_s\": 112.0}, {\"action\": \"unscrew SSD bracket and remove SSD\", \"cannot_see\": \"data contents on drive\", \"checkpoint_visibility\": \"clear\", \"end_s\": 149.0, \"evidence_s\": 147.0, \"index\": 10, \"objects\": [\"Phillips screwdriver\", \"SSD metal bracket\", \"M.2 SSD\"], \"observable_checkpoint\": \"SSD and bracket lifted away exposing empty M.2 area\", \"pass_condition\": \"SSD is detached from M.2 slot\", \"start_s\": 141.0}], \"task\": \"open Dell Latitude 3550 bottom panel and remove battery, RAM and SSD\", \"track\": [\"blue plastic pry tool\", \"bottom panel\", \"battery pack\", \"RAM stick\"], \"uncertainty\": \"Bottom-cover screw removal is narrated but not clearly shown, so marked narration_only. Timestamps are estimates from top-down view. Pointing gestures and on-screen text close-ups of battery, RAM, SSD and benchmarks were excluded as non-hand steps.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205016.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object",
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 53223,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5320,
+  "output_tokens_details": {
+   "reasoning_tokens": 3564
+  },
+  "total_tokens": 58543
+ },
+ "user": null,
+ "store": true
+}

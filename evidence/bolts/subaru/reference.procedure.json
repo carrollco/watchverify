@@ -1,0 +1,192 @@
+{
+ "audio_notes": "repeated metallic ratchet clicks from the torque wrench during tightening, plus faint workshop handling noise",
+ "objects_seen": [
+  "green torque wrench",
+  "engine cylinder head",
+  "engine block",
+  "workbench",
+  "tool cabinets",
+  "shelves with bottles and cans",
+  "computer monitor showing bolt diagram",
+  "striped cloth"
+ ],
+ "speech_heard": "Two middle ones. Alright first step 21.4. What I like to do is get it to 10. A B C D E. Not 21.4. A B. C was it? C D E.",
+ "steps": [
+  {
+   "action": "seat torque wrench onto first middle bolt and rotate to tighten",
+   "cannot_see": "actual torque value reached and thread clamping force",
+   "checkpoint_visibility": "subtle",
+   "end_s": 7.5,
+   "evidence_s": 5.0,
+   "index": 0,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench seated on middle of cylinder head and handle swept to tighten",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 2.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto second middle bolt and rotate to tighten",
+   "cannot_see": "actual torque value reached and thread clamping force",
+   "checkpoint_visibility": "subtle",
+   "end_s": 12.5,
+   "evidence_s": 10.0,
+   "index": 1,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench seated on adjacent middle bolt and handle swept",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 7.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto rear bolt and rotate to tighten",
+   "cannot_see": "actual torque value and which lettered position it is",
+   "checkpoint_visibility": "subtle",
+   "end_s": 20.0,
+   "evidence_s": 18.0,
+   "index": 2,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench seated on rear section bolt and handle swept",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 16.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto next bolt and rotate to tighten",
+   "cannot_see": "actual torque value reached",
+   "checkpoint_visibility": "subtle",
+   "end_s": 24.5,
+   "evidence_s": 22.0,
+   "index": 3,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench repositioned to different bolt and handle swept",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 20.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto next bolt and rotate to tighten",
+   "cannot_see": "actual torque value reached",
+   "checkpoint_visibility": "subtle",
+   "end_s": 29.0,
+   "evidence_s": 27.0,
+   "index": 4,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench repositioned to different bolt and handle swept",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 24.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto next bolt and rotate to tighten",
+   "cannot_see": "actual torque value reached",
+   "checkpoint_visibility": "subtle",
+   "end_s": 35.0,
+   "evidence_s": 32.0,
+   "index": 5,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench repositioned to different bolt and handle swept",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 29.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto next bolt and rotate to tighten",
+   "cannot_see": "actual torque value reached",
+   "checkpoint_visibility": "subtle",
+   "end_s": 41.5,
+   "evidence_s": 38.0,
+   "index": 6,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench repositioned to different bolt and handle swept",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 35.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto front-section bolt and rotate to tighten",
+   "cannot_see": "actual torque value reached, whether first or second pass",
+   "checkpoint_visibility": "subtle",
+   "end_s": 50.0,
+   "evidence_s": 47.0,
+   "index": 7,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench seated on front-section bolt and handle swept",
+   "pass_condition": "wrench operated on that bolt then lifted off",
+   "start_s": 44.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "seat torque wrench onto remaining bolts and rotate to tighten in sequence",
+   "cannot_see": "actual final torque values and sequence letters",
+   "checkpoint_visibility": "subtle",
+   "end_s": 61.5,
+   "evidence_s": 56.0,
+   "index": 8,
+   "objects": [
+    "green torque wrench",
+    "cylinder head bolt",
+    "engine cylinder head"
+   ],
+   "observable_checkpoint": "torque wrench moved bolt to bolt across head with handle sweeps",
+   "pass_condition": "wrench operated on each visited bolt then lifted off",
+   "start_s": 50.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "torque cylinder head bolts in sequence with torque wrench",
+ "track": [
+  "green torque wrench",
+  "cylinder head bolt",
+  "engine cylinder head"
+ ],
+ "uncertainty": "Far fixed camera makes individual small bolts hard to distinguish, so exact A-F identities and order are inferred from hand moves and narration; torque settings mentioned in speech are not visible on camera and cannot be verified visually.",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-1503962258244800",
+  "usage": {
+   "input_tokens": 17529,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 0
+   },
+   "output_tokens": 3567,
+   "output_tokens_details": {
+    "reasoning_tokens": 2332
+   },
+   "total_tokens": 21096
+  }
+ }
+}

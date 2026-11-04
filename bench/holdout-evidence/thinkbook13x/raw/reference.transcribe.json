@@ -1,0 +1,32 @@
+{
+ "sessionId": "voyager/transcribe/4592D6D68E6E44BC9F964C2B50991229",
+ "transcript": "The memory is solid. Still, you get up to 32 gigabytes of 8400 megahertz RAM in dual channel which is more than enough for regular home or office work. For storage, there is just a single M.2 slot compatible with with 2242 Gen 4 4 SSDs. The pre-installed NVMe drive is covered with a heat shield. There is tape on top be careful while peeling it off because you can tear the cover just like we did.",
+ "audioDurationMs": 60080,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 3100,
+   "transcript": ""
+  },
+  {
+   "turnId": 1,
+   "startMs": 12140,
+   "endMs": 19820,
+   "transcript": "The memory is solid. Still, you get up to 32 gigabytes of"
+  },
+  {
+   "turnId": 2,
+   "startMs": 20300,
+   "endMs": 25180,
+   "transcript": "8400 megahertz RAM in dual channel which is more than enough for regular home or office work."
+  },
+  {
+   "turnId": 3,
+   "startMs": 25820,
+   "endMs": 43500,
+   "transcript": "For storage, there is just a single M.2 slot compatible with with 2242 Gen 4 4 SSDs. The pre-installed NVMe drive is covered with a heat shield. There is tape on top be careful while peeling it off because you can tear the cover just like we did."
+  }
+ ],
+ "_http": 200
+}

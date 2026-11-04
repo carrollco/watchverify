@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae2242b27d2b1281fb445c7",
+ "access_programs": null,
+ "created_at": 1793205291.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae2242b27d2b1281fb445c7:rs_9274ba6f-60c5-427a-9d1d-2b9ffc942985",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_2924801b-340e-4cb7-b45c-c61f27fb1b3a",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"none\", \"objects_seen\": [\"phillips screwdriver\", \"plastic pry tool\", \"laptop battery\", \"battery cable connector\", \"top-left battery screw\", \"top-right battery screw\", \"bottom-left battery screw\", \"bottom-right battery screw\", \"M.2 SSD retaining screw\", \"M.2 SSD heat shield\", \"motherboard\", \"cooling fan\", \"heat pipe\", \"Wi-Fi module\", \"touchpad module\", \"laptop chassis\", \"black work gloves\"], \"speech_heard\": \"Phillips head screws that fix the unit to the base. The capacity is enough for around twelve hours of video playback. A great result considering the high-res OLED display and the powerful CPU and GPU. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu, and select the standard mode in the MyAsus or ProArt Creator Hub app. The Wi-Fi card is positioned close to the battery connector. For storage, there are two M.2 slots compatible with 2280 Gen 4 SSDs. The one on the left offers half of the PCIe lanes compared to the other one.\", \"steps\": [{\"action\": \"unscrew top-left battery screw\", \"cannot_see\": \"thread release inside the standoff\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 7.0, \"evidence_s\": 4.0, \"index\": 0, \"objects\": [\"phillips screwdriver\", \"top-left battery screw\"], \"observable_checkpoint\": \"screwdriver tip engaged on the left screw above the laptop battery\", \"pass_condition\": \"screwdriver turns on the left screw above the battery\", \"start_s\": 1.0}, {\"action\": \"unscrew top-right battery screw\", \"cannot_see\": \"thread release inside the standoff\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 18.0, \"evidence_s\": 14.0, \"index\": 1, \"objects\": [\"phillips screwdriver\", \"top-right battery screw\"], \"observable_checkpoint\": \"hand and tool working on the right-side screw above the laptop battery\", \"pass_condition\": \"tool turns on the right screw above the battery\", \"start_s\": 10.0}, {\"action\": \"unscrew bottom-left battery screw\", \"cannot_see\": \"thread release inside the standoff\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 22.0, \"evidence_s\": 21.0, \"index\": 2, \"objects\": [\"phillips screwdriver\", \"bottom-left battery screw\"], \"observable_checkpoint\": \"screwdriver tip engaged on the bottom-left screw of the laptop battery\", \"pass_condition\": \"screwdriver turns on the bottom-left battery screw\", \"start_s\": 20.0}, {\"action\": \"unscrew bottom battery screw\", \"cannot_see\": \"thread release inside the standoff\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 28.0, \"evidence_s\": 26.0, \"index\": 3, \"objects\": [\"phillips screwdriver\", \"bottom-right battery screw\"], \"observable_checkpoint\": \"screwdriver tip engaged on the bottom screw of the laptop battery\", \"pass_condition\": \"screwdriver turns on the bottom battery screw\", \"start_s\": 23.0}, {\"action\": \"pry open battery cable connector\", \"cannot_see\": \"electrical disconnection inside the connector\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 37.0, \"evidence_s\": 34.0, \"index\": 4, \"objects\": [\"plastic pry tool\", \"battery cable connector\"], \"observable_checkpoint\": \"pry tool inserted under the battery cable at the bottom edge of the motherboard\", \"pass_condition\": \"battery cable is loosened from the motherboard socket\", \"start_s\": 30.0}, {\"action\": \"lift laptop battery out of chassis\", \"cannot_see\": \"battery charge or internal cell condition\", \"checkpoint_visibility\": \"clear\", \"end_s\": 47.0, \"evidence_s\": 46.0, \"index\": 5, \"objects\": [\"laptop battery\", \"battery cable connector\"], \"observable_checkpoint\": \"entire laptop battery detached and lifted clear exposing the touchpad module underneath\", \"pass_condition\": \"battery is fully removed from the laptop chassis\", \"start_s\": 39.0}, {\"action\": \"unscrew M.2 SSD retaining screw\", \"cannot_see\": \"thread release inside the standoff\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 67.0, \"evidence_s\": 63.0, \"index\": 6, \"objects\": [\"phillips screwdriver\", \"M.2 SSD retaining screw\"], \"observable_checkpoint\": \"screwdriver tip engaged on the small screw at the right-side M.2 slot\", \"pass_condition\": \"SSD retaining screw is loosened on the right slot\", \"start_s\": 59.0}, {\"action\": \"lift off SSD heat shield\", \"cannot_see\": \"SSD data contents or underside contact\", \"checkpoint_visibility\": \"clear\", \"end_s\": 74.0, \"evidence_s\": 73.0, \"index\": 7, \"objects\": [\"M.2 SSD heat shield\", \"laptop chassis\"], \"observable_checkpoint\": \"metallic heat shield lifted off the right M.2 area exposing the slot beneath\", \"pass_condition\": \"heat shield is removed from the M.2 slot\", \"start_s\": 68.0}], \"task\": \"Remove laptop battery and access M.2 storage\", \"track\": [\"phillips screwdriver\", \"laptop battery\", \"M.2 SSD retaining screw\", \"M.2 SSD heat shield\"], \"uncertainty\": \"Screwdriver tip and small screws are partly occluded by gloved fingers; exact screw count and torque cannot be verified visually. On-screen text overlays about battery capacity, power modes, Wi-Fi position and SSD benchmarks were excluded as non-hand steps.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205291.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "type": "object",
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 21063,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 497
+  },
+  "output_tokens": 3663,
+  "output_tokens_details": {
+   "reasoning_tokens": 2368
+  },
+  "total_tokens": 24726
+ },
+ "user": null,
+ "store": true
+}

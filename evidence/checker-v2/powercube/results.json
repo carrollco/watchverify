@@ -1,0 +1,33 @@
+{
+ "source": "bench-powercube",
+ "planted": 24,
+ "checked": 24,
+ "graded": 11,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "flagged",
+  "omit1": "flagged",
+  "omit2": "no_clean_cut",
+  "omit3": "no_clean_cut",
+  "omit4": "no_clean_cut",
+  "omit5": "no_clean_cut",
+  "omit6": "no_clean_cut",
+  "omit7": "no_clean_cut",
+  "omit8": "caught",
+  "omit9": "missed",
+  "omit10": "missed",
+  "omit11": "flagged",
+  "swap01": "caught",
+  "swap12": "no_clean_cut",
+  "swap23": "no_clean_cut",
+  "swap34": "no_clean_cut",
+  "swap45": "no_clean_cut",
+  "swap56": "no_clean_cut",
+  "swap67": "no_clean_cut",
+  "swap78": "no_clean_cut",
+  "swap89": "caught",
+  "swap910": "caught",
+  "swap1011": "missed",
+  "correct": "flagged"
+ }
+}

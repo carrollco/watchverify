@@ -1,0 +1,20 @@
+{
+ "sessionId": "voyager/transcribe/5C60D3E1617B44DF81AAB3A1D5DACADF",
+ "transcript": "Phillips head screws that fix fix the unit to the base. The capacity is enough for around 12 hours of video playback. A great result considering the high res OLED display and the powerful CPU and GPU. To achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the My Asus or ProArt Creator Hub app The Wi-Fi card is positioned close to the battery connector. For storage, there are two M.2 slots compatible with 2280 Gen 4 SSDs. The one on the left offers half of the PCIe lanes compared to the to the other one.",
+ "audioDurationMs": 75040,
+ "turns": [
+  {
+   "turnId": 0,
+   "startMs": 0,
+   "endMs": 26460,
+   "transcript": "Phillips head screws that fix fix the unit to the base. The capacity is enough for around 12 hours of video playback. A great result considering the high res OLED display and the powerful CPU and GPU. To achieve that you have to apply the best power efficiency preset in the Windows power and battery menu and select the standard mode in the My Asus or ProArt Creator Hub app"
+  },
+  {
+   "turnId": 1,
+   "startMs": 52460,
+   "endMs": 66700,
+   "transcript": "The Wi-Fi card is positioned close to the battery connector. For storage, there are two M.2 slots compatible with 2280 Gen 4 SSDs. The one on the left offers half of the PCIe lanes compared to the to the other one."
+  }
+ ],
+ "_http": 200
+}

@@ -1,0 +1,235 @@
+{
+ "model": "muse-spark-1.3",
+ "reasoning": {
+  "effort": "medium"
+ },
+ "max_output_tokens": 12000,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "input": [
+  {
+   "type": "message",
+   "role": "user",
+   "content": [
+    {
+     "type": "input_text",
+     "text": "REFERENCE procedure (steps in the expert's order; the candidate's timing is its own):\n{\n \"task\": \"Mount hydraulic pump, cooler, and return filter to engine frame\",\n \"steps\": [\n  {\n   \"index\": 0,\n   \"action\": \"slide pump under plate\",\n   \"objects\": [\n    \"hydraulic pump\",\n    \"mounting plate\"\n   ],\n   \"observable_checkpoint\": \"hydraulic pump centered under mounting plate with shaft aligned in cutout\",\n   \"pass_condition\": \"pump positioned under plate\",\n   \"cannot_see\": \"whether another person lifted the frame\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 1,\n   \"action\": \"install mounting bolt through plate\",\n   \"objects\": [\n    \"mounting bolt\",\n    \"washer\",\n    \"mounting plate\",\n    \"hydraulic pump\"\n   ],\n   \"observable_checkpoint\": \"fingers placing washer and bolt through mounting plate into pump flange\",\n   \"pass_condition\": \"bolt inserted through plate into pump\",\n   \"cannot_see\": \"second bolt and final torque\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 2,\n   \"action\": \"adjust side fitting orientation\",\n   \"objects\": [\n    \"side hydraulic fitting\",\n    \"hydraulic pump\"\n   ],\n   \"observable_checkpoint\": \"hand turning side fitting on pump body\",\n   \"pass_condition\": \"fitting oriented outward from pump\",\n   \"cannot_see\": \"exact southwest compass direction\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 3,\n   \"action\": \"connect tube to pump end\",\n   \"objects\": [\n    \"thick black hydraulic tube\",\n    \"hydraulic pump\"\n   ],\n   \"observable_checkpoint\": \"black tube joined to side of pump between tanks\",\n   \"pass_condition\": \"tube attached at pump end\",\n   \"cannot_see\": \"which port is the northeast intake\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 4,\n   \"action\": \"connect tube to tank end\",\n   \"objects\": [\n    \"thick black hydraulic tube\",\n    \"hydraulic tank\"\n   ],\n   \"observable_checkpoint\": \"tube end seated on hydraulic tank port\",\n   \"pass_condition\": \"tube connects pump to tank\",\n   \"cannot_see\": \"clamp tightness and leak-proof seal\",\n   \"checkpoint_visibility\": \"subtle\"\n  },\n  {\n   \"index\": 5,\n   \"action\": \"tighten hose clamps\",\n   \"objects\": [\n    \"hose clamps\",\n    \"thick black hydraulic tube\"\n   ],\n   \"observable_checkpoint\": \"hose clamps tightened on tube ends as described in narration\",\n   \"pass_condition\": \"clamps secured to prevent leakage\",\n   \"cannot_see\": \"clamp tightness and leak prevention\",\n   \"checkpoint_visibility\": \"narration_only\"\n  },\n  {\n   \"index\": 6,\n   \"action\": \"position cooler at frame\",\n   \"objects\": [\n    \"hydraulic cooler\",\n    \"fan\"\n   ],\n   \"observable_checkpoint\": \"cooler with fan moved from ground to west side of frame\",\n   \"pass_condition\": \"cooler at frame for mounting\",\n   \"cannot_see\": \"hands placing four rubber screw mounts\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 7,\n   \"action\": \"bolt cooler to mesh\",\n   \"objects\": [\n    \"hydraulic cooler\",\n    \"frame mesh\"\n   ],\n   \"observable_checkpoint\": \"cooler held flat against west side mesh with fan inward\",\n   \"pass_condition\": \"cooler mounted with wafers against mesh\",\n   \"cannot_see\": \"torque on four rubber mounts\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 8,\n   \"action\": \"tighten mesh cover screws\",\n   \"objects\": [\n    \"screwdriver\",\n    \"mesh cover screws\",\n    \"frame mesh\"\n   ],\n   \"observable_checkpoint\": \"screwdriver turning screws through mesh cover into frame\",\n   \"pass_condition\": \"mesh cover secured over cooler\",\n   \"cannot_see\": \"final screw tightness\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 9,\n   \"action\": \"mount filter assembly on tank\",\n   \"objects\": [\n    \"return filter fitting assembly\",\n    \"return hose\",\n    \"hydraulic tank\"\n   ],\n   \"observable_checkpoint\": \"metal filter head assembly seated on top of hydraulic tank\",\n   \"pass_condition\": \"filter head mounted on tank\",\n   \"cannot_see\": \"thread seal and tightening torque\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 10,\n   \"action\": \"connect return hose to cooler\",\n   \"objects\": [\n    \"return hose\",\n    \"hydraulic cooler\"\n   ],\n   \"observable_checkpoint\": \"black return hose routed up and connected to top of cooler\",\n   \"pass_condition\": \"hose connects filter head to cooler outlet\",\n   \"cannot_see\": \"fitting tightness at cooler outlet\",\n   \"checkpoint_visibility\": \"clear\"\n  },\n  {\n   \"index\": 11,\n   \"action\": \"screw filter canister onto head\",\n   \"objects\": [\n    \"hydraulic filter canister\",\n    \"return filter fitting assembly\"\n   ],\n   \"observable_checkpoint\": \"white Zinga canister threaded onto filter head by hand\",\n   \"pass_condition\": \"filter canister secured on head\",\n   \"cannot_see\": \"seal compression inside\",\n   \"checkpoint_visibility\": \"clear\"\n  }\n ]\n}\n\nCheck the attached video against every reference step."
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 0, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:1a7d5048a742b34b"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 1, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:9b7960d4a2d05960"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 2, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:fc958b29c69b16d3"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 3, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:4ab182dafa7184f0"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 4, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:5c2d2439dfac9414"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 5, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:5c2d2439dfac9414"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 6, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:ab0b08ce3c5065d6"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 7, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:e27bd2d271c78864"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 8, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:a825cb1a25a04712"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 9, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:09c97d49d79fcda4"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 10, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:576d59e2cf64ca1e"
+    },
+    {
+     "type": "input_text",
+     "text": "Reference step 11, as it looks in the expert's video:"
+    },
+    {
+     "type": "input_image",
+     "image_url": "sha256:de5019e5b795d713"
+    },
+    {
+     "type": "input_file",
+     "file_id": "file-1088827894147597"
+    }
+   ]
+  }
+ ],
+ "text": {
+  "format": {
+   "type": "json_schema",
+   "name": "video_verification",
+   "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "same_task": {
+      "type": "boolean"
+     },
+     "checks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell"
+        },
+        "observed_start_s": {
+         "type": "number",
+         "description": "seconds in the candidate video where the step starts, -1 if not observed"
+        },
+        "observed_end_s": {
+         "type": "number",
+         "description": "-1 if not observed"
+        },
+        "other_moments": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+           "start_s": {
+            "type": "number"
+           },
+           "end_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ]
+         },
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none"
+        },
+        "evidence": {
+         "type": "string",
+         "description": "what is visible that supports the status, with seconds"
+        },
+        "cannot_see": {
+         "type": "string",
+         "description": "properties of this step the camera cannot verify, or 'none'"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ]
+      }
+     },
+     "extra_actions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "start_s": {
+         "type": "number"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "action": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ]
+      }
+     },
+     "notes": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ]
+   },
+   "strict": true
+  }
+ }
+}

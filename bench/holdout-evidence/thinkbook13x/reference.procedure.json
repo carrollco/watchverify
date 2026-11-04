@@ -1,0 +1,108 @@
+{
+ "audio_notes": "none",
+ "objects_seen": [
+  "laptop chassis",
+  "bottom battery cover",
+  "Lenovo battery pack",
+  "cooling fans",
+  "motherboard",
+  "touchpad circuit board",
+  "black SSD cover tape",
+  "blue pry tool",
+  "silver thermal foil",
+  "M.2 SSD",
+  "tweezers",
+  "SSD bracket screw"
+ ],
+ "speech_heard": "The memory is soldered. Still, you get up to 32 gigabytes of LPDDR5x, 8400 megahertz RAM in dual-channel, which is more than enough for regular home or office work. For storage, there is just a single M point 2 slot compatible with 2242 Gen 4 SSDs. The preinstalled NVMe drive is covered with a heat shield. There is tape on top. Be careful while peeling it off because you can tear the cover just like we did.",
+ "steps": [
+  {
+   "action": "lift off bottom battery cover",
+   "cannot_see": "whether internal battery cable is still connected or power state",
+   "checkpoint_visibility": "clear",
+   "end_s": 2.5,
+   "evidence_s": 2.0,
+   "index": 0,
+   "objects": [
+    "bottom battery cover",
+    "laptop chassis"
+   ],
+   "observable_checkpoint": "internal chassis with two cooling fans, motherboard and touchpad board fully exposed",
+   "pass_condition": "battery cover separated and internals visible",
+   "start_s": 0.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "pry up black SSD cover tape",
+   "cannot_see": "adhesive strength or whether tape is torn underneath",
+   "checkpoint_visibility": "clear",
+   "end_s": 44.0,
+   "evidence_s": 42.0,
+   "index": 1,
+   "objects": [
+    "blue pry tool",
+    "black SSD cover tape"
+   ],
+   "observable_checkpoint": "black tape lifted from center motherboard revealing copper and SSD area underneath",
+   "pass_condition": "tape detached and folded back from SSD slot",
+   "start_s": 38.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "peel back silver thermal foil",
+   "cannot_see": "whether SSD or heat shield was damaged during peeling",
+   "checkpoint_visibility": "clear",
+   "end_s": 55.0,
+   "evidence_s": 54.5,
+   "index": 2,
+   "objects": [
+    "silver thermal foil",
+    "M.2 SSD"
+   ],
+   "observable_checkpoint": "silver foil folded back and M.2 SSD area exposed in center slot",
+   "pass_condition": "foil repositioned and SSD slot visible",
+   "start_s": 44.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "turn SSD bracket screw with tool",
+   "cannot_see": "screw tightness torque and thread engagement",
+   "checkpoint_visibility": "subtle",
+   "end_s": 60.0,
+   "evidence_s": 58.5,
+   "index": 3,
+   "objects": [
+    "tweezers",
+    "SSD bracket screw"
+   ],
+   "observable_checkpoint": "tool tip contacting small screw on SSD bracket next to right fan",
+   "pass_condition": "tool engages screw on SSD bracket",
+   "start_s": 56.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Remove laptop bottom cover to expose internals and open SSD heat-shield tape for storage access",
+ "track": [
+  "blue pry tool",
+  "tweezers",
+  "bottom battery cover",
+  "black SSD cover tape"
+ ],
+ "uncertainty": "Exact SSD removal versus repositioning is unclear; final tool action is partially occluded so screw versus clip manipulation is estimated.",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-2684174715353669",
+  "usage": {
+   "input_tokens": 16984,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 625
+   },
+   "output_tokens": 2624,
+   "output_tokens_details": {
+    "reasoning_tokens": 1888
+   },
+   "total_tokens": 19608
+  }
+ }
+}

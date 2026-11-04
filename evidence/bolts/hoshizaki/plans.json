@@ -1,0 +1,667 @@
+{
+ "source": "hoshizaki",
+ "cuts": "refined",
+ "clip_s": 70.0,
+ "plans": [
+  {
+   "name": "selfcheck",
+   "order": null,
+   "truth": {
+    "kind": "selfcheck",
+    "steps": []
+   },
+   "checked": true,
+   "check": "reference.selfcheck",
+   "reference_view": "unmarked",
+   "pieces": [
+    [
+     0.0,
+     70.0
+    ]
+   ],
+   "duration_s": 70.0,
+   "track_frames": null,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "selfcheck",
+    "truth": {
+     "kind": "selfcheck",
+     "steps": []
+    },
+    "verdict": "pass",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "correct_pass",
+    "graded": false,
+    "excluded_by": "code",
+    "why": "the self-check, re-scored with the marks it made, cannot fail; calibration only"
+   }
+  },
+  {
+   "name": "omit0",
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     0
+    ]
+   },
+   "pieces": [
+    [
+     12.0,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit0",
+   "duration_s": 58.0,
+   "track_frames": 290,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "omit0",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      0
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "omit1",
+   "order": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     1
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     12.0
+    ],
+    [
+     22.75,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit1",
+   "duration_s": 59.2,
+   "track_frames": 296,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "omit1",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      1
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "omit2",
+   "order": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     13.75
+    ],
+    [
+     31.125,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit2",
+   "duration_s": 52.66,
+   "track_frames": 263,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "omit2",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      2
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     1
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "omit3",
+   "order": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     30.375
+    ],
+    [
+     40.625,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit3",
+   "duration_s": 59.73,
+   "track_frames": 299,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "omit3",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      3
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     5
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "omit4",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     4
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     40.375
+    ],
+    [
+     55.375,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit4",
+   "duration_s": 55.0,
+   "track_frames": 275,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "omit4",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      4
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     3
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "omit5",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     5
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     53.375
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-omit5",
+   "duration_s": 53.4,
+   "track_frames": 267,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "omit5",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      5
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     0,
+     4
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "swap01",
+   "order": [
+    1,
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     0,
+     1
+    ]
+   },
+   "pieces": [
+    [
+     12.0,
+     13.75
+    ],
+    [
+     0.0,
+     12.0
+    ],
+    [
+     22.75,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap01",
+   "duration_s": 61.0,
+   "track_frames": 305,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "swap01",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      0,
+      1
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "swap12",
+   "order": [
+    0,
+    2,
+    1,
+    3,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     1,
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     12.0
+    ],
+    [
+     22.75,
+     30.375
+    ],
+    [
+     12.0,
+     13.75
+    ],
+    [
+     31.125,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap12",
+   "duration_s": 60.26,
+   "track_frames": 301,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "swap12",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      1,
+      2
+     ]
+    },
+    "verdict": "none",
+    "outcome": "no_clean_cut",
+    "graded": false,
+    "excluded_by": "model under test",
+    "why": "the step boundaries do not separate the planted steps, so no cut removes one cleanly"
+   }
+  },
+  {
+   "name": "swap23",
+   "order": [
+    0,
+    1,
+    3,
+    2,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     2,
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     13.75
+    ],
+    [
+     31.125,
+     40.375
+    ],
+    [
+     22.75,
+     30.375
+    ],
+    [
+     40.625,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap23",
+   "duration_s": 60.0,
+   "track_frames": 300,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "swap23",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      2,
+      3
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     1
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "swap34",
+   "order": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    5
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     3,
+     4
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     30.375
+    ],
+    [
+     40.625,
+     53.375
+    ],
+    [
+     31.125,
+     40.375
+    ],
+    [
+     55.375,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap34",
+   "duration_s": 67.0,
+   "track_frames": 335,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "swap34",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      3,
+      4
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "swap45",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    4
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     4,
+     5
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     40.375
+    ],
+    [
+     55.375,
+     70.0
+    ],
+    [
+     40.625,
+     53.375
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-swap45",
+   "duration_s": 67.73,
+   "track_frames": 339,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "swap45",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      4,
+      5
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [
+     0,
+     3
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "correct",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "truth": {
+    "kind": "correct",
+    "steps": []
+   },
+   "pieces": [
+    [
+     0.0,
+     70.0
+    ]
+   ],
+   "checked": true,
+   "check": "refined-v2-verify-correct",
+   "duration_s": 70.0,
+   "track_frames": 350,
+   "confirm": false,
+   "claimed": {
+    "sid": "hoshizaki",
+    "name": "correct",
+    "truth": {
+     "kind": "correct",
+     "steps": []
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "graded": true
+   }
+  }
+ ]
+}

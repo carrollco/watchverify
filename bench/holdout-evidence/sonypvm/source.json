@@ -1,0 +1,6 @@
+{
+ "sid": "sonypvm",
+ "video": "sonypvm.webm",
+ "sha256": "0587f5c3cd3d8cda876b767fe375813149066b85c88285272b46ade1fc0ac3f8",
+ "holdout": true
+}

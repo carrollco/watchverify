@@ -1,0 +1,7 @@
+.venv/
+tmp/
+__pycache__/
+.env
+.env.*
+node_modules/
+runs/

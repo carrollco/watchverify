@@ -1,0 +1,25 @@
+{
+ "source": "bench-asusp16",
+ "planted": 16,
+ "checked": 16,
+ "graded": 11,
+ "claimed": {
+  "selfcheck": "correct_pass",
+  "omit0": "flagged",
+  "omit1": "caught",
+  "omit2": "no_clean_cut",
+  "omit3": "no_clean_cut",
+  "omit4": "explained_away",
+  "omit5": "flagged",
+  "omit6": "missed",
+  "omit7": "flagged",
+  "swap01": "caught",
+  "swap12": "no_clean_cut",
+  "swap23": "no_clean_cut",
+  "swap34": "no_clean_cut",
+  "swap45": "flagged",
+  "swap56": "flagged",
+  "swap67": "caught",
+  "correct": "flagged"
+ }
+}

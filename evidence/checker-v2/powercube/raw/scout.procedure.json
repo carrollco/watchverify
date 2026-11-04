@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae22429a8d849ee8f1f4b0c",
+ "access_programs": null,
+ "created_at": 1793205289.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae22429a8d849ee8f1f4b0c:rs_2aecd33d-5a04-4f60-aef5-73b652d5701f",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_1c262e4b-b938-4a4a-a6db-ab8484bbe7c4",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\n  \"audio_notes\": \"clear male narration throughout; faint metallic clanks, wrench clicks and handling noises during assembly, no music\",\n  \"objects_seen\": [\n    \"metal frame\",\n    \"hydraulic tank\",\n    \"fuel tank\",\n    \"master plate\",\n    \"engine\",\n    \"engine sprocket\",\n    \"pump mount bracket\",\n    \"drive chain\",\n    \"hydraulic pump\",\n    \"cooler assembly\",\n    \"mesh guard\",\n    \"hydraulic hoses\",\n    \"hydraulic filter\",\n    \"filter head\",\n    \"battery\",\n    \"starter solenoid\",\n    \"battery cables\",\n    \"wiring harness\",\n    \"control panel\",\n    \"adjustable wrench\",\n    \"level tool\",\n    \"nuts\",\n    \"bolts\",\n    \"work gloves\"\n  ],\n  \"speech_heard\": \"The Powercube version 7 is a modular box-shaped power unit. It is used as an external engine to power all machines in the Global Village Construction Set, transferring 27 horsepower via hydraulic, flexible, quick-connect tubes. This video tutorial will present the correct assembly of the Powercube version 7, once all components have been acquired and fabricated. You will need the following components to complete the Powercube version 7 assembly: the Powercube frame, mainly comprised of 12 pieces of steel angle welded in miter corner joints. Control panel, engine interface plate, master mounting plate, pump mounting plate, hydraulic pump with pump coupler and chain coupler, hydraulic quick-attach hoses and filter, battery wires and solenoid, control wires, lead-acid 12 volt battery, 27 horsepower engine with muffler, fuel tank, hydraulic fluid tank, hydraulic cooler with fan. These should have welded latches to connect to the Powercube frame. To recap, that's the pump mounting plate, engine mounting plate, control panel, master mounting plate, engine, hydraulic pump, hydraulic cooler, hydraulic tubes and filter, battery wires and solenoid, control wires, battery, fuel tank and hydraulic tank. In this instructional, we will be facing the control panel of the Powercube with the hydraulic cooler on the left and the battery on the right. To help clarify orientation, sides of the Powercube will be described as north, east, south, or west facing. First, add the reservoirs, with the hydraulic tank facing west and the fuel tank facing east. When inserting the tanks, ensure each mount fits over the steel plate and is pushed down firmly. Use a hammering tool if necessary to ensure a tight fit. Next, add the master mounting plate. This will fit onto four bolts on top of the tanks, with the solenoid mount over the fuel tank. Screw the four nuts securely and ensure the plate is level. Now we're ready to mount the hydraulic cooler. Place the four rubber screw mounts into the corner fittings of the hydraulic cooler and bolt them to the mesh on the west side of the frame. Ensure the hydraulic cooler wafers are against the mesh and the fan is on the inside. Next, mount the hydraulic tube with return line filter fitting to the top of the hydraulic cooler. Fit the other end of the tube to the hydraulic filter. Screw these fittings tightly, then screw in the hydraulic filter. Now we're ready to mount the electric components. First, insert the battery to the welded mount on the fuel tank, ensuring the negative terminal is facing north. Next, mount the solenoid to the welded mount on the east-facing side of the master mounting plate, securing it with two bolts. Next, take the control wires and plug them into the engine wires. Then, take the two fan power wires and attach them to the fan. Black to black, blue to red. Finally, connect one end of the long black wire to the engine starter terminal and the other end to the frame, and the short red solenoid starter wire. Then attach the thick hydraulic pump with pump coupler and chain coupler. These should have welded latches to connect to the Powercube frame. Tighten with hose clamps to prevent leakage. Now we're ready to mount the hydraulic cooler. Place the four rubber screw mounts into the corner fittings of the hydraulic cooler and bolt them to the mesh on the west side of the frame. Ensure the hydraulic cooler wafers are against the mesh and the fan is on the inside. Next, attach the hydraulic return pipe to the base of the engine by bolting on the four side holes. Then, fit the engine coupler through the plate's hole. Now we're ready to mount the engine into the Powercube. Lift the engine and lower it into the frame so the muffler is facing north. The two bolts from the engine interface plate will fit into the two holes in the master mounting plate. Next, attach the pump mounting plate to the base of the master mounting plate. Ensure the engine coupler is attached to the base of the engine and screw two nuts securely onto both bolts. Now, attach the engine coupler to the pump coupler using the double-chain coupler. This must be fitted around the sprockets of both couplers and secured with the master link. Finally, connect one end of the long black wire to the engine starter. Attach the thick hydraulic tube to the northeast intake fitting of the pump and secure the other end of the tube to the hydraulic tank. Tighten with hose clamps to prevent leakage. Next, take the control wires and plug them into the engine wires. Now we're ready to mount the hydraulic pump. First, insert the battery to the welded mount on the fuel tank, ensuring the negative terminal is facing north. Next, mount the solenoid to the welded mount. To recap, that's the pump mounting plate, engine mounting plate, control panel, master mounting plate, engine, hydraulic pump, hydraulic cooler, hydraulic tubes and filter, battery wires and solenoid, control wires, battery, fuel tank and hydraulic tank. To help clarify orientation, sides of the Powercube will be described as north, east, south, or west facing. First, add the reservoirs, with the hydraulic tank facing west and the fuel tank facing east. Next, add the master mounting plate. This will fit onto four bolts on top of the tanks. Now, attach the hydraulic pump. Attach the thick hydraulic tube to the northeast intake fitting of the pump and secure the other end to the hydraulic tank. Next, connect the hydraulic return pipe to the base of the engine. Now, attach the engine coupler to the pump coupler. Finally, attach the throttle control cable to the engine and south-facing hydraulic cooler input. Attach the thick hydraulic tube to the north-east intake fitting of the pump and secure the other end to the hydraulic tank. Connect the throttle control cable to the engine and south-facing hydraulic cooler input. Your Powercube is now complete.\",\n  \"steps\": [\n    {\n      \"action\": \"sliding hydraulic tank into frame\",\n      \"cannot_see\": \"whether mounting tabs are fully seated and tightness inside rails\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 188.0,\n      \"evidence_s\": 184.0,\n      \"index\": 0,\n      \"objects\": [\n        \"metal frame\",\n        \"hydraulic tank\"\n      ],\n      \"observable_checkpoint\": \"hydraulic tank seated inside west side rails of frame\",\n      \"pass_condition\": \"tank stays in place without shifting\",\n      \"start_s\": 174.0\n    },\n    {\n      \"action\": \"sliding fuel tank into frame\",\n      \"cannot_see\": \"fit of rear mounting tabs\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 192.0,\n      \"evidence_s\": 189.0,\n      \"index\": 1,\n      \"objects\": [\n        \"metal frame\",\n        \"fuel tank\"\n      ],\n      \"observable_checkpoint\": \"fuel tank seated inside east side rails opposite hydraulic tank\",\n      \"pass_condition\": \"both tanks sit level inside frame\",\n      \"start_s\": 187.0\n    },\n    {\n      \"action\": \"laying master plate across tanks\",\n      \"cannot_see\": \"nut torque value and true level calibration\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 210.0,\n      \"evidence_s\": 206.0,\n      \"index\": 2,\n      \"objects\": [\n        \"master plate\",\n        \"nuts\",\n        \"level tool\"\n      ],\n      \"observable_checkpoint\": \"flat perforated plate spanning both tanks with level tool sitting on top\",\n      \"pass_condition\": \"plate is flat and nuts are threaded on four studs\",\n      \"start_s\": 194.0\n    },\n    {\n      \"action\": \"tightening engine sprocket onto shaft\",\n      \"cannot_see\": \"key engagement and final torque\",\n      \"checkpoint_visibility\": \"subtle\",\n      \"end_s\": 221.0,\n      \"evidence_s\": 218.0,\n      \"index\": 3,\n      \"objects\": [\n        \"engine\",\n        \"engine sprocket\",\n        \"adjustable wrench\"\n      ],\n      \"observable_checkpoint\": \"toothed sprocket fixed on engine crankshaft end\",\n      \"pass_condition\": \"sprocket does not spin freely on shaft\",\n      \"start_s\": 213.0\n    },\n    {\n      \"action\": \"lifting engine onto plate\",\n      \"cannot_see\": \"alignment of bolt holes underneath\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 237.0,\n      \"evidence_s\": 233.0,\n      \"index\": 4,\n      \"objects\": [\n        \"engine\",\n        \"master plate\"\n      ],\n      \"observable_checkpoint\": \"engine sitting centered on master plate with shaft pointing down\",\n      \"pass_condition\": \"engine rests stable on plate\",\n      \"start_s\": 228.0\n    },\n    {\n      \"action\": \"bolting engine to master plate\",\n      \"cannot_see\": \"thread engagement length and torque\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 239.0,\n      \"evidence_s\": 237.0,\n      \"index\": 5,\n      \"objects\": [\n        \"engine\",\n        \"master plate\",\n        \"bolts\"\n      ],\n      \"observable_checkpoint\": \"engine base fasteners visible through master plate holes\",\n      \"pass_condition\": \"engine does not lift off plate\",\n      \"start_s\": 236.0\n    },\n    {\n      \"action\": \"positioning pump mount under engine\",\n      \"cannot_see\": \"concentricity of shaft to mount hole\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 250.0,\n      \"evidence_s\": 247.0,\n      \"index\": 6,\n      \"objects\": [\n        \"pump mount bracket\",\n        \"engine\"\n      ],\n      \"observable_checkpoint\": \"square steel bracket held up beneath engine shaft between tanks\",\n      \"pass_condition\": \"bracket contacts underside of mounting plate\",\n      \"start_s\": 243.0\n    },\n    {\n      \"action\": \"looping drive chain around sprockets\",\n      \"cannot_see\": \"chain tension and tooth meshing inside bracket\",\n      \"checkpoint_visibility\": \"subtle\",\n      \"end_s\": 261.0,\n      \"evidence_s\": 257.0,\n      \"index\": 7,\n      \"objects\": [\n        \"drive chain\",\n        \"engine sprocket\",\n        \"work gloves\"\n      ],\n      \"observable_checkpoint\": \"roller chain encircling sprockets inside bracket seen in close-up\",\n      \"pass_condition\": \"chain loops both upper and lower sprockets\",\n      \"start_s\": 251.0\n    },\n    {\n      \"action\": \"inserting chain master-link pins\",\n      \"cannot_see\": \"clip retention strength\",\n      \"checkpoint_visibility\": \"subtle\",\n      \"end_s\": 271.0,\n      \"evidence_s\": 266.0,\n      \"index\": 8,\n      \"objects\": [\n        \"drive chain\",\n        \"nuts\"\n      ],\n      \"observable_checkpoint\": \"fingers placing small pins into chain ends\",\n      \"pass_condition\": \"chain forms continuous loop\",\n      \"start_s\": 262.0\n    },\n    {\n      \"action\": \"mounting hydraulic pump from below\",\n      \"cannot_see\": \"spline engagement and bolt torque\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 292.0,\n      \"evidence_s\": 287.0,\n      \"index\": 9,\n      \"objects\": [\n        \"hydraulic pump\",\n        \"pump mount bracket\",\n        \"bolts\"\n      ],\n      \"observable_checkpoint\": \"pump body hanging below bracket centered between tanks\",\n      \"pass_condition\": \"pump is bolted and does not drop\",\n      \"start_s\": 275.0\n    },\n    {\n      \"action\": \"connecting suction hoses to pump\",\n      \"cannot_see\": \"hose seal tightness and internal flow direction\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 304.0,\n      \"evidence_s\": 300.0,\n      \"index\": 10,\n      \"objects\": [\n        \"hydraulic hoses\",\n        \"hydraulic pump\",\n        \"hydraulic tank\"\n      ],\n      \"observable_checkpoint\": \"black hoses attached to side fittings of pump and tank\",\n      \"pass_condition\": \"fittings are threaded and hoses are routed without kinks\",\n      \"start_s\": 293.0\n    },\n    {\n      \"action\": \"lifting cooler assembly onto frame side\",\n      \"cannot_see\": \"rubber mount compression\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 318.0,\n      \"evidence_s\": 314.0,\n      \"index\": 11,\n      \"objects\": [\n        \"cooler assembly\",\n        \"metal frame\"\n      ],\n      \"observable_checkpoint\": \"fan and radiator held against west exterior of frame\",\n      \"pass_condition\": \"cooler covers side opening\",\n      \"start_s\": 307.0\n    },\n    {\n      \"action\": \"fastening mesh guard screws\",\n      \"cannot_see\": \"thread engagement in frame\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 323.0,\n      \"evidence_s\": 321.0,\n      \"index\": 12,\n      \"objects\": [\n        \"mesh guard\",\n        \"cooler assembly\",\n        \"bolts\"\n      ],\n      \"observable_checkpoint\": \"diamond mesh panel screwed over cooler on frame side\",\n      \"pass_condition\": \"mesh is flat and screws are seated\",\n      \"start_s\": 318.0\n    },\n    {\n      \"action\": \"threading cooler hoses to filter head\",\n      \"cannot_see\": \"leak-proof seal of hydraulic fittings\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 334.0,\n      \"evidence_s\": 328.0,\n      \"index\": 13,\n      \"objects\": [\n        \"hydraulic hoses\",\n        \"filter head\",\n        \"cooler assembly\"\n      ],\n      \"observable_checkpoint\": \"hose end fittings screwed into cooler and head beside engine\",\n      \"pass_condition\": \"hoses connect cooler to engine area\",\n      \"start_s\": 322.0\n    },\n    {\n      \"action\": \"spinning hydraulic filter onto head\",\n      \"cannot_see\": \"gasket seal compression\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 344.0,\n      \"evidence_s\": 341.0,\n      \"index\": 14,\n      \"objects\": [\n        \"hydraulic filter\",\n        \"filter head\"\n      ],\n      \"observable_checkpoint\": \"white cylindrical filter mounted horizontal beside engine\",\n      \"pass_condition\": \"filter is hand-tight and upright\",\n      \"start_s\": 336.0\n    },\n    {\n      \"action\": \"setting battery into frame\",\n      \"cannot_see\": \"battery charge state and polarity continuity\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 360.0,\n      \"evidence_s\": 357.0,\n      \"index\": 15,\n      \"objects\": [\n        \"battery\",\n        \"fuel tank\"\n      ],\n      \"observable_checkpoint\": \"black battery box sitting on east side mount by fuel tank\",\n      \"pass_condition\": \"battery sits stable with terminals up\",\n      \"start_s\": 352.0\n    },\n    {\n      \"action\": \"bolting starter solenoid to plate\",\n      \"cannot_see\": \"electrical contact quality\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 370.0,\n      \"evidence_s\": 366.0,\n      \"index\": 16,\n      \"objects\": [\n        \"starter solenoid\",\n        \"master plate\"\n      ],\n      \"observable_checkpoint\": \"small black solenoid block fixed to tab on master plate\",\n      \"pass_condition\": \"solenoid does not move when touched\",\n      \"start_s\": 360.0\n    },\n    {\n      \"action\": \"attaching battery cables to terminals\",\n      \"cannot_see\": \"electrical continuity and crimp integrity\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 396.0,\n      \"evidence_s\": 385.0,\n      \"index\": 17,\n      \"objects\": [\n        \"battery cables\",\n        \"battery\",\n        \"starter solenoid\"\n      ],\n      \"observable_checkpoint\": \"red and black cables routed from battery posts to solenoid and frame ground\",\n      \"pass_condition\": \"lugs are fastened on posts\",\n      \"start_s\": 371.0\n    },\n    {\n      \"action\": \"plugging wiring harness connectors\",\n      \"cannot_see\": \"wire pinout correctness and voltage\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 418.0,\n      \"evidence_s\": 409.0,\n      \"index\": 18,\n      \"objects\": [\n        \"wiring harness\",\n        \"engine\",\n        \"starter solenoid\"\n      ],\n      \"observable_checkpoint\": \"white multi-pin connectors joined and colored wires routed around engine\",\n      \"pass_condition\": \"connectors are mated and wires are dressed\",\n      \"start_s\": 397.0\n    },\n    {\n      \"action\": \"mounting control panel to front\",\n      \"cannot_see\": \"hydraulic pressure integrity and throttle adjustment\",\n      \"checkpoint_visibility\": \"clear\",\n      \"end_s\": 471.0,\n      \"evidence_s\": 463.0,\n      \"index\": 19,\n      \"objects\": [\n        \"control panel\",\n        \"hydraulic hoses\",\n        \"wiring harness\"\n      ],\n      \"observable_checkpoint\": \"panel with quick-couplers and switch fixed across front opening with hoses attached\",\n      \"pass_condition\": \"panel is secured and hoses and cable are connected\",\n      \"start_s\": 437.0\n    }\n  ],\n  \"task\": \"Assemble PowerCube v7.0 modular hydraulic power unit\",\n  \"track\": [\n    \"adjustable wrench\",\n    \"master plate\",\n    \"engine\",\n    \"hydraulic pump\"\n  ],\n  \"uncertainty\": \"Timestamps are approximate due to time-lapse and stop-motion editing; some hose and wire routings are partly occluded; torque values, electrical continuity and leak-tightness cannot be verified visually\"\n}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205289.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "additionalProperties": false,
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object",
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 85017,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 497
+  },
+  "output_tokens": 6431,
+  "output_tokens_details": {
+   "reasoning_tokens": 2378
+  },
+  "total_tokens": 91448
+ },
+ "user": null,
+ "store": true
+}

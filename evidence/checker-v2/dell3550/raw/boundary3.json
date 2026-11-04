@@ -1,0 +1,111 @@
+{
+ "id": "resp_6ae25278725fa2cbf5d14d9f",
+ "access_programs": null,
+ "created_at": 1793217144.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given two consecutive steps of a hands-on procedure and a strip of frames from the expert's video, in time order, each labeled with its time in seconds. Find where step A's hand work ends and step B's begins. first_ends_s: the label of the last frame in which the hands are still doing step A (holding the tool at step A's place or part, or finishing its action). second_begins_s: the label of the first frame in which the hands are at step B's place or part, or start its action. Moving between places, putting a tool down or picking one up belongs to neither step. Be strict: a frame that might still be step A counts as step A. Answer only from the frames; use -1 when no frame shows the step.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae25278725fa2cbf5d14d9f:rs_b83e9bed-64cf-4e32-97f5-c9d8d66d290d",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_86cf1f34-8075-4ba8-99e4-5d754313ddd1",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"evidence\": \"t22.0-t23.25 right gloved hand pushes blue pry tool into bottom front edge seam while left hand holds chassis; t23.5 pry hand withdrawn and tool gone; t24.5 onward both gloved hands grip left and right rear corners of base cover to lift it.\", \"first_ends_s\": 23.25, \"second_begins_s\": 24.5}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793217144.0,
+ "conversation": null,
+ "max_output_tokens": 3000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "boundary",
+   "schema_": {
+    "required": [
+     "first_ends_s",
+     "second_begins_s",
+     "evidence"
+    ],
+    "type": "object",
+    "properties": {
+     "evidence": {
+      "description": "what the hands do in the frames around both times",
+      "type": "string"
+     },
+     "first_ends_s": {
+      "description": "time label of the last frame where the hands still do step A; -1 if no frame shows it",
+      "type": "number"
+     },
+     "second_begins_s": {
+      "description": "time label of the first frame where the hands begin step B; -1 if no frame shows it",
+      "type": "number"
+     }
+    },
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 3781,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1506,
+  "output_tokens_details": {
+   "reasoning_tokens": 1407
+  },
+  "total_tokens": 5287
+ },
+ "user": null,
+ "store": true
+}

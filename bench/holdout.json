@@ -1,0 +1,178 @@
+{
+ "registered": "2026-10-28, before any held-out video was downloaded or watched",
+ "protocol": [
+  "These videos are never used to tune the checker. Development uses bench/sources.json only.",
+  "Held-out runs write under runs/holdout/; only the totals command reads them during development.",
+  "Each held-out grading is recorded here with the checker version it graded; a grading is spent once read.",
+  "Selection: a seeded random draw (seed below) from two pools fixed by the rules below, by title and metadata only.",
+  "Publication: the grading's evidence (references, cut points, planted-mistake plans with their truth, every raw model response and request as sent, the cost ledger, the claimed results; no video) is committed under bench/holdout-evidence/, and `python -m watchverify.cli bench-replay bench/holdout-evidence` re-scores it offline through the checker's own code and exits non-zero on any mismatch.",
+  "The correct-performance case is a second check of the expert's own clip, graded against the self-check's marks; the self-check itself is calibration, not a graded result (re-scored with its own marks it cannot fail)."
+ ],
+ "seed": 20261028,
+ "pool_rules": {
+  "laptops": "Commons search results titled 'How to open ...', CC BY/BY-SA/CC0, 60 to 900 s, minus every video used in development",
+  "non_laptop": "Commons search results for soldering, bicycle repair, sewing machine, woodworking, plumbing, how to repair, how to install; licence and length as above; title names a hands-on procedure on a physical object; software installs and talks excluded"
+ },
+ "pools": {
+  "laptops": [
+   "2026-06-27 How to open Lenovo LOQ 15 (15IPH11) - disassembly and upgrade options.webm",
+   "2026-06-30 How to open Lenovo Legion 5i (15\", Gen 11) - disassembly and upgrade options.webm",
+   "2026-08-13 How to open Acer Nitro V 15 (ANV15-A31) - disassembly and upgrade options.webm",
+   "How to open ASUS Chromebook Flip CX5 (CX5400) - disassembly and upgrade options.webm",
+   "How to open ASUS TUF Gaming A14 (FA401) - disassembly and upgrade options.webm",
+   "How to open ASUS Vivobook S 14 OLED M5406 - disassembly and upgrade options.webm",
+   "How to open ASUS Zenbook S 14 UX5406 - disassembly and upgrade options 01.webm",
+   "How to open Acer Aspire 16 (A16-51GM) - disassembly and upgrade options.webm",
+   "How to open Acer Aspire 3 (A315-510P) - disassembly and upgrade options.webm",
+   "How to open Acer Aspire 3 (A317-55P) - disassembly and upgrade options.webm",
+   "How to open Acer Predator Helios 16 (PH16-72) - disassembly and upgrade options.webm",
+   "How to open Acer Predator Helios Neo 14 (PHN14-51) - disassembly and upgrade options.webm",
+   "How to open Acer Swift Edge (SFE16-44) - disassembly and upgrade options.webm",
+   "How to open Alienware x16 R2 - disassembly and upgrade options.webm",
+   "How to open Dell Latitude 7450 - disassembly and upgrade options.webm",
+   "How to open Dell Latitude 7455 - disassembly and upgrade options.webm",
+   "How to open Dell Latitude 9450 (2-in-1) - disassembly and upgrade options.webm",
+   "How to open Dell Precision 5690 - disassembly and upgrade options.webm",
+   "How to open Dell Vostro 5640 - disassembly and upgrade options.webm",
+   "How to open HP Dragonfly G4 - disassembly and upgrade options.webm",
+   "How to open HP EliteBook 830 G11 - disassembly and upgrade options.webm",
+   "How to open HP EliteBook 860 G11 - disassembly and upgrade options.webm",
+   "How to open HP OMEN 16 (16-xd0000) - disassembly and upgrade options.webm",
+   "How to open HP OMEN Transcend 16 (16-u0000) - disassembly and upgrade options.webm",
+   "How to open HP Pavilion Aero 13 (13-bg0000) - disassembly and upgrade options.webm",
+   "How to open HP ProBook 460 G11 - disassembly and upgrade options.webm",
+   "How to open HP ProBook 465 G11 - disassembly and upgrade options.webm",
+   "How to open HP ZBook Firefly 16 G11 - disassembly and upgrade options.webm",
+   "How to open Lenovo IdeaPad Pro 5 14\" Gen 9 (14AHP9) - disassembly and upgrade options.webm",
+   "How to open Lenovo IdeaPad Slim 3 16\" Gen 9 - disassembly and upgrade options.webm",
+   "How to open Lenovo ThinkBook 14 2-in-1 Gen 4 - disassembly and upgrade options.webm",
+   "How to open Lenovo ThinkBook 16 Gen 7 (Intel) - disassembly and upgrade options.webm",
+   "How to open Lenovo ThinkBook 16p Gen 5 (16\") - disassembly and upgrade options.webm",
+   "How to open Lenovo ThinkPad E16 Gen 2 (Intel) - disassembly and upgrade options.webm",
+   "How to open Lenovo ThinkPad L16 Gen 1 (Intel) - disassembly and upgrade options.webm",
+   "How to open Lenovo ThinkPad T14 Gen 5 (Intel) - disassembly and upgrade options.webm",
+   "How to open Lenovo ThinkPad T14s Gen 6 (14″ Snapdragon) - disassembly and upgrade options.webm",
+   "How to open Lenovo Thinkbook 13x Gen 4 - disassembly and upgrade options.webm",
+   "How to open Lenovo Yoga Pro 7i (14″, Gen 9) - disassembly and upgrade options.webm",
+   "How to open MSI Cyborg 14 A13V - disassembly and upgrade options.webm",
+   "How to open MSI Stealth 16 AI Studio A1V - disassembly and upgrade options.webm",
+   "How to open MSI Thin 15 B12U - disassembly and upgrade options.webm"
+  ],
+  "non_laptop": [
+   "AMD K5 CPU Delid – Exposing the Integrated Circuit within.webm",
+   "Astronauts Prepare for NICER Repair Training (SVS14680).webm",
+   "Changing a String to Classical Guitar.webm",
+   "DIY! Cutting and stitching of triangular-V hijab(Easy tutorial).webm",
+   "DIY!! How to sew a classy hijab - Side pleat hijab with ruffle tutorial.webm",
+   "How to clear a Jammed Garbage Disposal.webm",
+   "How to install the Nazava Water Filter Video—for Kenya-IEGIGG-e2PM.webm",
+   "Monochrome HYTE Y70 Touch Custom Loop Water Cooling PC Build.webm",
+   "Replacing a wire string on an Irish harp 2022.webm",
+   "Sony PVM 8041Q - Black & White to Color CRT Repair - Retro Tech.webm",
+   "Video of making of log furniture cutting a bar stool from a log.webm",
+   "Wii U INTERNAL SSD MOD-g5hXmertk3M.webm"
+  ]
+ },
+ "excluded_as_used_in_development": [
+  "How to open Lenovo Yoga Pro 9i Gen 9 (16\") - disassembly and upgrade options.webm"
+ ],
+ "picked": [
+  "How to open MSI Cyborg 14 A13V - disassembly and upgrade options.webm",
+  "How to open Lenovo ThinkPad T14 Gen 5 (Intel) - disassembly and upgrade options.webm",
+  "How to open Lenovo Thinkbook 13x Gen 4 - disassembly and upgrade options.webm",
+  "2026-08-13 How to open Acer Nitro V 15 (ANV15-A31) - disassembly and upgrade options.webm",
+  "Sony PVM 8041Q - Black & White to Color CRT Repair - Retro Tech.webm",
+  "Video of making of log furniture cutting a bar stool from a log.webm"
+ ],
+ "gradings": [
+  {
+   "when": "2026-11-04, 03:45 to 03:56 Pacific",
+   "checker": "v2 (the published checker: first pass plus second looks)",
+   "cuts": "labels: bench/holdout-labels/<sid>.json, saved at 03:45:13, before the first check at 03:46:10",
+   "labels_made": "pre-labeled from stills and step text by a different AI model (not the model under test); confirmed by the owner on the label page with no changes, about 3 to 8 seconds per video after the first",
+   "evidence": "bench/holdout-evidence/ (bench-replay: 64 of 64 rows match)",
+   "cost_usd": 6.65,
+   "result": "removed steps: 8 caught, 13 sent to a person, 2 explained away, 3 missed of 26 graded (29 planted: 2 not visible, 1 no footage); swapped pairs: 7 caught, 7 sent to a person, 5 missed of 19 graded (23 planted: 4 not visible); untouched copies: 5 of 6 clean passes",
+   "spent": true
+  }
+ ],
+ "corrections": [
+  {
+   "when": "2026-10-28, before any download",
+   "what": "the first draw picked a molecular-biology animation (a paper supplement) whose title matched 'repair'; it violates the pool rule (a hands-on procedure on a physical object), so the three such files were removed from the pool and the draw repeated with the same seed",
+   "removed": [
+    "Structural-Insights-Into-DNA-Repair-by-RNase-T--An-Exonuclease-Processing-3-End-of-Structured-DNA-pbio.1001803.s007.ogv",
+    "Structural-Insights-Into-DNA-Repair-by-RNase-T--An-Exonuclease-Processing-3-End-of-Structured-DNA-pbio.1001803.s008.ogv",
+    "Structural-Insights-Into-DNA-Repair-by-RNase-T--An-Exonuclease-Processing-3-End-of-Structured-DNA-pbio.1001803.s009.ogv"
+   ],
+   "first_draw_non_laptop": [
+    "Sony PVM 8041Q - Black & White to Color CRT Repair - Retro Tech.webm",
+    "Structural-Insights-Into-DNA-Repair-by-RNase-T--An-Exonuclease-Processing-3-End-of-Structured-DNA-pbio.1001803.s007.ogv"
+   ]
+  },
+  {
+   "when": "2026-10-28 evening, before any held-out download (runs/holdout does not exist)",
+   "what": "protocol additions: how the grading is published and re-scored (the grading-evidence change), and the correct case moved from the self-check to a second check of the expert's clip. The graded checker version will be recorded with the grading; checker changes since registration were made on the development set only."
+  },
+  {
+   "when": "2026-11-04, after the grading",
+   "what": "the protocol's correct-case line predates the labels cut method (added 2026-10-28, before any held-out download): under labels the person-confirmed labels decide which steps are gradable and the correct case is scored without the self-check's marks; the publication line's path is followed (bench/holdout-evidence/), after a first export to evidence/holdout-v2/ was moved there before publication"
+  }
+ ],
+ "downloads": [
+  {
+   "title": "2026-08-13 How to open Acer Nitro V 15 (ANV15-A31) - disassembly and upgrade options.webm",
+   "sid": "nitrov15",
+   "sha256": "b523b3634460530bb08c3d1479fd71ff56e18dbdac6125a3d436adf3ba98cef3",
+   "bytes": 641450394,
+   "author": "LaptopMedia",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:2026-08-13_How_to_open_Acer_Nitro_V_15_(ANV15-A31)_-_disassembly_and_upgrade_options.webm"
+  },
+  {
+   "title": "How to open Lenovo ThinkPad T14 Gen 5 (Intel) - disassembly and upgrade options.webm",
+   "sid": "thinkpadt14",
+   "sha256": "93a13a4bfd0944e92ea0bc9a4a86ab67130056adca1a482d9406d0b719a001cd",
+   "bytes": 347771671,
+   "author": "LaptopMedia",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:How_to_open_Lenovo_ThinkPad_T14_Gen_5_(Intel)_-_disassembly_and_upgrade_options.webm"
+  },
+  {
+   "title": "How to open Lenovo Thinkbook 13x Gen 4 - disassembly and upgrade options.webm",
+   "sid": "thinkbook13x",
+   "sha256": "5e8e95b869401a3f1970e62d3d4e994124c1c67c008e234caf96146f1aa3cb5f",
+   "bytes": 392381854,
+   "author": "LaptopMedia",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:How_to_open_Lenovo_Thinkbook_13x_Gen_4_-_disassembly_and_upgrade_options.webm"
+  },
+  {
+   "title": "How to open MSI Cyborg 14 A13V - disassembly and upgrade options.webm",
+   "sid": "msicyborg14",
+   "sha256": "03d4917ff4081099932ea4b6b1303236a15e9af9633cac37252c5c213d3f023f",
+   "bytes": 497005338,
+   "author": "LaptopMedia",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:How_to_open_MSI_Cyborg_14_A13V_-_disassembly_and_upgrade_options.webm"
+  },
+  {
+   "title": "Sony PVM 8041Q - Black & White to Color CRT Repair - Retro Tech.webm",
+   "sid": "sonypvm",
+   "sha256": "0587f5c3cd3d8cda876b767fe375813149066b85c88285272b46ade1fc0ac3f8",
+   "bytes": 858354911,
+   "author": "Retro Tech",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Sony_PVM_8041Q_-_Black_%26_White_to_Color_CRT_Repair_-_Retro_Tech.webm"
+  },
+  {
+   "title": "Video of making of log furniture cutting a bar stool from a log.webm",
+   "sid": "logstool",
+   "sha256": "b056afe62454d10947d51c7cda2b49963f0cd4720545372c444a593e6ce908be",
+   "bytes": 119347308,
+   "author": "Sillerkiil",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Video_of_making_of_log_furniture_cutting_a_bar_stool_from_a_log.webm"
+  }
+ ]
+}

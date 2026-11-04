@@ -1,0 +1,433 @@
+{
+ "source": "thinkbook13x",
+ "cuts": "labels",
+ "clip_s": 60.0,
+ "plans": [
+  {
+   "name": "selfcheck",
+   "order": null,
+   "truth": {
+    "kind": "selfcheck",
+    "steps": []
+   },
+   "checked": true,
+   "check": "reference.selfcheck",
+   "reference_view": "unmarked",
+   "pieces": [
+    [
+     0.0,
+     60.0
+    ]
+   ],
+   "duration_s": 60.0,
+   "track_frames": null,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "selfcheck",
+    "truth": {
+     "kind": "selfcheck",
+     "steps": []
+    },
+    "verdict": "pass",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "correct_pass",
+    "graded": false,
+    "excluded_by": "code",
+    "why": "the self-check, re-scored with the marks it made, cannot fail; calibration only"
+   }
+  },
+  {
+   "name": "omit0",
+   "order": [
+    1,
+    2,
+    3
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     0
+    ]
+   },
+   "pieces": [
+    [
+     38.0,
+     60.0
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-omit0",
+   "duration_s": 22.0,
+   "track_frames": 110,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "omit0",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      0
+     ]
+    },
+    "verdict": "pass",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [],
+    "graded": true
+   }
+  },
+  {
+   "name": "omit1",
+   "order": [
+    0,
+    2,
+    3
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     1
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     1.5
+    ],
+    [
+     44.0,
+     60.0
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-omit1",
+   "duration_s": 17.53,
+   "track_frames": 88,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "omit1",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      1
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "explained_away",
+    "extras": [],
+    "extras_review": [],
+    "graded": true
+   }
+  },
+  {
+   "name": "omit2",
+   "order": [
+    0,
+    1,
+    3
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     43.5
+    ],
+    [
+     56.5,
+     60.0
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-omit2",
+   "duration_s": 47.0,
+   "track_frames": 235,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "omit2",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      2
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [
+     3
+    ],
+    "graded": true
+   }
+  },
+  {
+   "name": "omit3",
+   "order": [
+    0,
+    1,
+    2
+   ],
+   "truth": {
+    "kind": "omit",
+    "steps": [
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     54.5
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-omit3",
+   "duration_s": 54.53,
+   "track_frames": 273,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "omit3",
+    "truth": {
+     "kind": "omit",
+     "steps": [
+      3
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [
+     3
+    ],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [],
+    "graded": true
+   }
+  },
+  {
+   "name": "swap01",
+   "order": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     0,
+     1
+    ]
+   },
+   "pieces": [
+    [
+     38.0,
+     43.5
+    ],
+    [
+     0.0,
+     1.5
+    ],
+    [
+     44.0,
+     60.0
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-swap01",
+   "duration_s": 23.06,
+   "track_frames": 115,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "swap01",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      0,
+      1
+     ]
+    },
+    "verdict": "pass",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "missed",
+    "extras": [],
+    "extras_review": [],
+    "graded": true
+   }
+  },
+  {
+   "name": "swap12",
+   "order": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     1,
+     2
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     1.5
+    ],
+    [
+     44.0,
+     54.5
+    ],
+    [
+     38.0,
+     43.5
+    ],
+    [
+     56.5,
+     60.0
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-swap12",
+   "duration_s": 21.06,
+   "track_frames": 105,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "swap12",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      1,
+      2
+     ]
+    },
+    "verdict": "fail",
+    "missing": [],
+    "out_of_order": [
+     1,
+     2
+    ],
+    "unclear": [],
+    "outcome": "caught",
+    "extras": [],
+    "extras_review": [],
+    "graded": true
+   }
+  },
+  {
+   "name": "swap23",
+   "order": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "truth": {
+    "kind": "swap",
+    "steps": [
+     2,
+     3
+    ]
+   },
+   "pieces": [
+    [
+     0.0,
+     43.5
+    ],
+    [
+     56.5,
+     60.0
+    ],
+    [
+     44.0,
+     54.5
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-swap23",
+   "duration_s": 57.6,
+   "track_frames": 288,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "swap23",
+    "truth": {
+     "kind": "swap",
+     "steps": [
+      2,
+      3
+     ]
+    },
+    "verdict": "review",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "flagged",
+    "extras": [],
+    "extras_review": [],
+    "graded": true
+   }
+  },
+  {
+   "name": "correct",
+   "order": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "truth": {
+    "kind": "correct",
+    "steps": []
+   },
+   "pieces": [
+    [
+     0.0,
+     60.0
+    ]
+   ],
+   "checked": true,
+   "check": "labels-v2-verify-correct",
+   "duration_s": 60.0,
+   "track_frames": 300,
+   "confirm": false,
+   "claimed": {
+    "sid": "thinkbook13x",
+    "name": "correct",
+    "truth": {
+     "kind": "correct",
+     "steps": []
+    },
+    "verdict": "pass",
+    "missing": [],
+    "out_of_order": [],
+    "unclear": [],
+    "outcome": "correct_pass",
+    "graded": true
+   }
+  }
+ ]
+}

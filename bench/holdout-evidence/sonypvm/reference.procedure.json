@@ -1,0 +1,141 @@
+{
+ "audio_notes": "none",
+ "objects_seen": [
+  "metal chassis frame",
+  "circuit board assembly",
+  "grounding tab",
+  "screwdriver",
+  "circuit board frame",
+  "Sony Trinitron CRT monitor",
+  "monitor front bezel",
+  "power button",
+  "front control buttons",
+  "CRT screen",
+  "workbench",
+  "game controller graphic",
+  "person in picture-in-picture inset"
+ ],
+ "speech_heard": "Put back together the ground on the circuit board. Those go on the top part of the frame and it's just the two screws on the side and we'll be ready to start running some tests on here. I have done some videos about this style monitor before so if you want to check out those videos in the past you can on the 8 inch and how to calibrate them specifically. Today we're just looking at this color repair and it works perfectly now. So what I did was I just turned it back on and let it run for a while and then I came back and power cycled it again and then let it run for a little while longer and ever since I did that solder reflow I was not able to get the black and white glitch to show back up. So I'm assuming that it was 100% that solder problem because again I could not get the the monitor to go out of color unless I specifically selected black and white.",
+ "steps": [
+  {
+   "action": "press top grounding tab into chassis",
+   "cannot_see": "electrical grounding continuity through the tab",
+   "checkpoint_visibility": "clear",
+   "end_s": 4.5,
+   "evidence_s": 2.0,
+   "index": 0,
+   "objects": [
+    "metal chassis frame",
+    "grounding tab"
+   ],
+   "observable_checkpoint": "fingers seat small metal tab flush against top of metal chassis frame",
+   "pass_condition": "tab stays in place on chassis after fingers release",
+   "start_s": 0.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "push side circuit board assembly into chassis",
+   "cannot_see": "internal connector mating and pin engagement",
+   "checkpoint_visibility": "clear",
+   "end_s": 6.5,
+   "evidence_s": 5.5,
+   "index": 1,
+   "objects": [
+    "circuit board assembly",
+    "metal chassis frame"
+   ],
+   "observable_checkpoint": "green circuit board assembly sits flush inside side of metal chassis frame",
+   "pass_condition": "board panel is aligned and held in chassis frame",
+   "start_s": 4.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "tighten screw on right side of frame",
+   "cannot_see": "screw torque and thread engagement depth",
+   "checkpoint_visibility": "clear",
+   "end_s": 10.2,
+   "evidence_s": 8.0,
+   "index": 2,
+   "objects": [
+    "screwdriver",
+    "circuit board frame"
+   ],
+   "observable_checkpoint": "screwdriver tip engaged in right side screw of circuit board frame and turned",
+   "pass_condition": "screwdriver removed and right side screw remains in frame",
+   "start_s": 6.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "tighten screw on left side of frame",
+   "cannot_see": "screw torque and thread engagement depth",
+   "checkpoint_visibility": "clear",
+   "end_s": 14.0,
+   "evidence_s": 12.0,
+   "index": 3,
+   "objects": [
+    "screwdriver",
+    "circuit board frame"
+   ],
+   "observable_checkpoint": "screwdriver tip engaged in left side screw of circuit board frame and turned",
+   "pass_condition": "screwdriver removed and left side screw remains in frame",
+   "start_s": 10.2,
+   "self_check": "observed"
+  },
+  {
+   "action": "press power button on front panel",
+   "cannot_see": "internal power supply voltage and warm-up state",
+   "checkpoint_visibility": "clear",
+   "end_s": 18.5,
+   "evidence_s": 17.5,
+   "index": 4,
+   "objects": [
+    "power button",
+    "monitor front bezel"
+   ],
+   "observable_checkpoint": "finger presses green power button on monitor front bezel and CRT screen lights with static pattern",
+   "pass_condition": "screen illuminates after button press",
+   "start_s": 16.5,
+   "self_check": "observed"
+  },
+  {
+   "action": "press front control buttons to drive white screen",
+   "cannot_see": "exact video calibration settings selected",
+   "checkpoint_visibility": "clear",
+   "end_s": 23.5,
+   "evidence_s": 21.5,
+   "index": 5,
+   "objects": [
+    "front control buttons",
+    "CRT screen"
+   ],
+   "observable_checkpoint": "finger presses front control buttons and CRT screen changes to bright white field",
+   "pass_condition": "CRT screen shows full white raster",
+   "start_s": 20.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Reassemble monitor circuit board frame and test color repair on Sony monitor",
+ "track": [
+  "screwdriver",
+  "circuit board frame",
+  "power button",
+  "CRT screen"
+ ],
+ "uncertainty": "Hands briefly occlude the top grounding tab and screw heads during tightening, so exact fastener count relies partly on narration stating two side screws; no torque or electrical continuity can be verified visually.",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-2372982180117802",
+  "usage": {
+   "input_tokens": 16984,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 625
+   },
+   "output_tokens": 3610,
+   "output_tokens_details": {
+    "reasoning_tokens": 2617
+   },
+   "total_tokens": 20594
+  }
+ }
+}

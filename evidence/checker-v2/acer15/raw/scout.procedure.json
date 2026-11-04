@@ -1,0 +1,195 @@
+{
+ "id": "resp_6ae22405ce9c248063974db2",
+ "access_programs": null,
+ "created_at": 1793205253.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6ae22405ce9c248063974db2:rs_09c4b390-d958-45ef-b3ce-a90950160a17",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_3d9db570-c1d4-4f16-900b-0ec62f553820",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"soft plastic prying clicks and light handling noises during disassembly, no music\", \"objects_seen\": [\"laptop\", \"bottom panel\", \"plastic pry tool\", \"screwdriver\", \"motherboard\", \"battery pack\", \"battery cable connector\", \"cooling fan\", \"heat pipes\", \"memory shield\", \"RAM module\", \"memory slot\", \"SSD module\", \"gloved hands\"], \"speech_heard\": \"Hello, this is Nick from Laptop Media, and today we will show you how to open the Acer Aspire 15, A15, 41M. To open this laptop, you have to undo 11 Philips head screws. Pop the top two corners with a thin plastic tool, and then pry the sides, the front, and the back. This laptop has a 53 watt hour battery. To take it out, unplug the connector from the motherboard, and undo the two Philips head screws that secure the unit in place. The capacity is enough for around eight hours and a half of video playback. To achieve that, you have to apply the best power efficiency preset in the Windows power and battery menu, and the silent preset in the Acer Sense app. The memory zone is covered with a metal cap, and you can lift it with a lever tool. All devices have eight gigabytes of soldered RAM. Luckily, you get a SODIMM for dual channel mode. According to Acer, the slot fits up to eight gigabyte DDR5, fifty-six hundred megahertz RAM sticks. However, since the Zen four CPU can support up to two hundred and fifty-six gigabytes, this laptop likely wouldn't have issues running a larger amount of memory than the official manufacturer's specified limit. You get just one M point two slot compatible with twenty-two eighty Gen four SSDs. The cooling seems sufficient for an iGPU only laptop. It has one fan, a top mounted heat sink, two heat pipes, and a heat spreader.\", \"steps\": [{\"action\": \"pry loose rear corners of bottom panel\", \"cannot_see\": \"whether internal clips are fully released underneath\", \"checkpoint_visibility\": \"clear\", \"end_s\": 21.0, \"evidence_s\": 18.0, \"index\": 0, \"objects\": [\"plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"blue tool inserted under hinge edge creating visible gap at corners\", \"pass_condition\": \"gap visible at both rear corners\", \"start_s\": 16.0}, {\"action\": \"pry loose side edges of bottom panel\", \"cannot_see\": \"condition of plastic clips underneath\", \"checkpoint_visibility\": \"clear\", \"end_s\": 30.0, \"evidence_s\": 27.0, \"index\": 1, \"objects\": [\"plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"tool slid along left and right seams separating panel from chassis\", \"pass_condition\": \"seam opens along both sides\", \"start_s\": 25.0}, {\"action\": \"pry loose front edge of bottom panel\", \"cannot_see\": \"clip engagement at front lip\", \"checkpoint_visibility\": \"clear\", \"end_s\": 35.0, \"evidence_s\": 31.0, \"index\": 2, \"objects\": [\"plastic pry tool\", \"bottom panel\"], \"observable_checkpoint\": \"front seam lifts away from chassis\", \"pass_condition\": \"front edge fully detached\", \"start_s\": 30.0}, {\"action\": \"lift off bottom panel\", \"cannot_see\": \"none\", \"checkpoint_visibility\": \"clear\", \"end_s\": 39.0, \"evidence_s\": 38.0, \"index\": 3, \"objects\": [\"bottom panel\"], \"observable_checkpoint\": \"internal motherboard, fan and battery fully exposed\", \"pass_condition\": \"cover completely removed from laptop\", \"start_s\": 36.0}, {\"action\": \"unplug battery connector\", \"cannot_see\": \"residual electrical charge in battery\", \"checkpoint_visibility\": \"clear\", \"end_s\": 44.0, \"evidence_s\": 42.0, \"index\": 4, \"objects\": [\"battery cable connector\", \"motherboard\"], \"observable_checkpoint\": \"red-black cable connector separated from motherboard socket\", \"pass_condition\": \"battery cable visibly detached\", \"start_s\": 40.0}, {\"action\": \"unscrew battery screws\", \"cannot_see\": \"screw torque and thread condition\", \"checkpoint_visibility\": \"clear\", \"end_s\": 52.0, \"evidence_s\": 49.0, \"index\": 5, \"objects\": [\"screwdriver\", \"battery pack\"], \"observable_checkpoint\": \"screwdriver turns screws at top edge of battery pack\", \"pass_condition\": \"fasteners loosened at battery\", \"start_s\": 46.0}, {\"action\": \"lift out battery pack\", \"cannot_see\": \"capacity and health of cells\", \"checkpoint_visibility\": \"clear\", \"end_s\": 72.0, \"evidence_s\": 67.0, \"index\": 6, \"objects\": [\"battery pack\"], \"observable_checkpoint\": \"large black rectangular battery lifted clear revealing chassis underneath\", \"pass_condition\": \"battery removed from bay\", \"start_s\": 64.0}, {\"action\": \"lift off memory shield\", \"cannot_see\": \"none\", \"checkpoint_visibility\": \"clear\", \"end_s\": 88.0, \"evidence_s\": 86.0, \"index\": 7, \"objects\": [\"plastic pry tool\", \"memory shield\"], \"observable_checkpoint\": \"silver metal cover over RAM lifted exposing green module\", \"pass_condition\": \"memory area uncovered\", \"start_s\": 80.0}, {\"action\": \"remove RAM module from slot\", \"cannot_see\": \"RAM capacity and speed, known only from narration and overlay\", \"checkpoint_visibility\": \"clear\", \"end_s\": 109.0, \"evidence_s\": 103.0, \"index\": 8, \"objects\": [\"RAM module\", \"memory slot\"], \"observable_checkpoint\": \"green SODIMM released leaving empty blue slot contacts\", \"pass_condition\": \"slot empty, module out\", \"start_s\": 96.0}, {\"action\": \"remove SSD from M.2 slot\", \"cannot_see\": \"SSD data contents and Gen4 speed, known only from narration\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 134.0, \"evidence_s\": 132.0, \"index\": 9, \"objects\": [\"SSD module\"], \"observable_checkpoint\": \"vertical M.2 board on right side lifted out leaving slot empty\", \"pass_condition\": \"M.2 slot empty\", \"start_s\": 130.0}], \"task\": \"Open Acer Aspire 15 A15-41M and remove bottom panel, battery, memory shield, RAM and SSD\", \"track\": [\"plastic pry tool\", \"bottom panel\", \"battery pack\", \"RAM module\"], \"uncertainty\": \"Exact screw count and unscrewing of 11 bottom screws is narration_only and not clearly shown; RAM and SSD specifications rely on narration and on-screen overlays, not visually verifiable.\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793205253.0,
+ "conversation": null,
+ "max_output_tokens": 16000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "additionalProperties": false,
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object"
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 44506,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 4701,
+  "output_tokens_details": {
+   "reasoning_tokens": 3176
+  },
+  "total_tokens": 49207
+ },
+ "user": null,
+ "store": true
+}

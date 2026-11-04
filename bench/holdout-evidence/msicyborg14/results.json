@@ -1,0 +1,11 @@
+{
+ "source": "bench-msicyborg14",
+ "planted": 2,
+ "checked": 1,
+ "graded": 1,
+ "claimed": {
+  "selfcheck": "flagged",
+  "omit0": "no_footage",
+  "correct": "correct_pass"
+ }
+}

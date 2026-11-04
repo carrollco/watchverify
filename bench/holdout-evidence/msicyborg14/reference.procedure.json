@@ -1,0 +1,58 @@
+{
+ "audio_notes": "none",
+ "objects_seen": [
+  "laptop motherboard",
+  "copper heat pipes",
+  "cooling fan",
+  "M.2 SSD",
+  "thermal pad",
+  "RAM slots",
+  "WiFi card",
+  "speakers",
+  "touchpad bracket",
+  "black gloves",
+  "blue plastic pry tool"
+ ],
+ "speech_heard": "We are happy to see a long thick thermal pad below the SSD for additional cooling. The WiFi 6E card is on the left of the battery. The thermal system seems decent for such a compact device. It comprises one large fan, three heat pipes, two heat sinks, and three heat spreaders.",
+ "steps": [
+  {
+   "action": "remove SSD from slot",
+   "cannot_see": "whether laptop power and battery were disconnected before handling",
+   "checkpoint_visibility": "clear",
+   "end_s": 14.0,
+   "evidence_s": 14.0,
+   "index": 0,
+   "objects": [
+    "blue plastic pry tool",
+    "M.2 SSD",
+    "laptop motherboard"
+   ],
+   "observable_checkpoint": "M.2 SSD is off the motherboard and pale thermal pad is exposed in the left M.2 slot area",
+   "pass_condition": "SSD is fully detached and thermal pad is visible",
+   "start_s": 4.5,
+   "self_check": "observed"
+  }
+ ],
+ "task": "Remove M.2 SSD from laptop motherboard to reveal thermal pad underneath",
+ "track": [
+  "blue plastic pry tool",
+  "M.2 SSD"
+ ],
+ "uncertainty": "Opening seconds obscured by benchmark overlay graphics; pointing-only gestures excluded per instructions, leaving one verifiable hands-on step",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-1660479892537297",
+  "usage": {
+   "input_tokens": 16984,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 625
+   },
+   "output_tokens": 2593,
+   "output_tokens_details": {
+    "reasoning_tokens": 2253
+   },
+   "total_tokens": 19577
+  }
+ }
+}

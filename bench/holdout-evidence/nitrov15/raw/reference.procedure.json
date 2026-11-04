@@ -1,0 +1,195 @@
+{
+ "id": "resp_6aeacdebf418b124466143a4",
+ "access_programs": null,
+ "created_at": 1793773035.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeacdebf418b124466143a4:rs_120135d9-7358-4fe3-8ad9-b1c4bbc9a82b",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_5d8a432f-4734-47f7-aa9a-125de28b4283",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"soft plastic clicks when clips and connector seat, light handling and tapping noises, no music\", \"objects_seen\": [\"laptop motherboard\", \"memory module\", \"motherboard RAM slot\", \"laptop battery\", \"battery tray\", \"battery cable connector\", \"motherboard battery socket\", \"insulating flap\", \"blue plastic pry tool\", \"cooling fan\", \"copper heat pipes\", \"black gloves\"], \"speech_heard\": \"Down until both side clips lock. Place the battery back into its tray and reconnect it. Since it has no screws, confirm it sits flat before closing the laptop.\", \"steps\": [{\"action\": \"press memory module down into slot\", \"cannot_see\": \"electrical contact inside the slot\", \"checkpoint_visibility\": \"clear\", \"end_s\": 7.0, \"evidence_s\": 5.5, \"index\": 0, \"objects\": [\"memory module\", \"motherboard RAM slot\"], \"observable_checkpoint\": \"memory module lies flat in slot with side clips engaged\", \"pass_condition\": \"module is level and both side clips are locked\", \"start_s\": 0.0}, {\"action\": \"place battery into tray\", \"cannot_see\": \"fit under unseen edges of tray\", \"checkpoint_visibility\": \"clear\", \"end_s\": 25.0, \"evidence_s\": 23.0, \"index\": 1, \"objects\": [\"laptop battery\", \"battery tray\"], \"observable_checkpoint\": \"battery rests aligned in lower chassis tray\", \"pass_condition\": \"battery sits in recess without overhang\", \"start_s\": 15.0}, {\"action\": \"push battery cable connector into socket\", \"cannot_see\": \"electrical continuity of the connection\", \"checkpoint_visibility\": \"clear\", \"end_s\": 43.0, \"evidence_s\": 35.0, \"index\": 2, \"objects\": [\"blue plastic pry tool\", \"battery cable connector\", \"motherboard battery socket\"], \"observable_checkpoint\": \"multicolor wired connector is fully inserted into white motherboard socket\", \"pass_condition\": \"connector is flush with socket with no gap\", \"start_s\": 28.0}, {\"action\": \"fold insulating flap over connector\", \"cannot_see\": \"adhesive hold underneath flap\", \"checkpoint_visibility\": \"clear\", \"end_s\": 57.0, \"evidence_s\": 55.0, \"index\": 3, \"objects\": [\"insulating flap\", \"battery cable connector\"], \"observable_checkpoint\": \"black flap lies flat covering battery connector area\", \"pass_condition\": \"flap covers connector completely\", \"start_s\": 48.0}, {\"action\": \"press battery edge to confirm seating\", \"cannot_see\": \"securement without screws\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 60.0, \"evidence_s\": 59.0, \"index\": 4, \"objects\": [\"laptop battery\"], \"observable_checkpoint\": \"battery remains flat in tray when pressed\", \"pass_condition\": \"battery does not lift or rock\", \"start_s\": 57.5}], \"task\": \"Seat RAM module and reinstall laptop battery\", \"track\": [\"blue plastic pry tool\", \"memory module\", \"laptop battery\", \"battery cable connector\"], \"uncertainty\": \"timings are approximate; battery connector seating is partly occluded by gloves and tool so full insertion is inferred from tool motion and final position\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793773035.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    }
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 16984,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3734,
+  "output_tokens_details": {
+   "reasoning_tokens": 2999
+  },
+  "total_tokens": 20718
+ },
+ "user": null,
+ "store": true
+}

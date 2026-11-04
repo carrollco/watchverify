@@ -1,0 +1,111 @@
+{
+ "id": "resp_6aeaa79ec506f13671844068",
+ "access_programs": null,
+ "created_at": 1793763230.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given two consecutive steps of a hands-on procedure and a strip of frames from the expert's video, in time order, each labeled with its time in seconds. Find where step A's hand work ends and step B's begins. first_ends_s: the label of the last frame in which the hands are still doing step A (holding the tool at step A's place or part, or finishing its action). second_begins_s: the label of the first frame in which the hands are at step B's place or part, or start its action. Moving between places, putting a tool down or picking one up belongs to neither step. Be strict: a frame that might still be step A counts as step A. Answer only from the frames; use -1 when no frame shows the step.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeaa79ec506f13671844068:rs_bf613518-d833-432c-91b4-48ab938baf40",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_f17b6011-cf3b-4ad5-9676-1252ea11d1b6",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"evidence\": \"From 10.5s to 12.25s both hands are on the engine middle: left hand steadies the head while right hand holds the green torque wrench seated into the head and sweeps the handle to tighten. At 12.5s the wrench is lifted up off the bolt with shaft exposed and gaze shifts away, then 12.75s-15.5s the wrench is carried away from the engine as the person steps left and returns. At 15.75s the wrench is held horizontally above the head not yet seated, and at 16.0s onward the tip is seated on the rear section with left hand on the rear bolt area and right hand on the handle to tighten.\", \"first_ends_s\": 12.25, \"second_begins_s\": 16.0}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793763230.0,
+ "conversation": null,
+ "max_output_tokens": 10000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "boundary",
+   "schema_": {
+    "additionalProperties": false,
+    "properties": {
+     "evidence": {
+      "description": "what the hands do in the frames around both times",
+      "type": "string"
+     },
+     "first_ends_s": {
+      "description": "time label of the last frame where the hands still do step A; -1 if no frame shows it",
+      "type": "number"
+     },
+     "second_begins_s": {
+      "description": "time label of the first frame where the hands begin step B; -1 if no frame shows it",
+      "type": "number"
+     }
+    },
+    "required": [
+     "first_ends_s",
+     "second_begins_s",
+     "evidence"
+    ],
+    "type": "object"
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 6059,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2367,
+  "output_tokens_details": {
+   "reasoning_tokens": 2184
+  },
+  "total_tokens": 8426
+ },
+ "user": null,
+ "store": true
+}

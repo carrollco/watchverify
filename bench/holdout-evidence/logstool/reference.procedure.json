@@ -1,0 +1,167 @@
+{
+ "audio_notes": "loud two-stroke chainsaw engine idling, revving, and wood-cutting buzz with sawdust spray; no voices",
+ "objects_seen": [
+  "person",
+  "chainsaw",
+  "standing tree stump",
+  "severed log round",
+  "cut wood block",
+  "snow",
+  "trees"
+ ],
+ "speech_heard": "none",
+ "steps": [
+  {
+   "action": "saw right side of stump base",
+   "cannot_see": "exact depth of cut inside wood",
+   "checkpoint_visibility": "clear",
+   "end_s": 4.0,
+   "evidence_s": 2.0,
+   "index": 0,
+   "objects": [
+    "chainsaw",
+    "standing tree stump"
+   ],
+   "observable_checkpoint": "sawdust plume spraying from right side of lower stump and fresh cut groove",
+   "pass_condition": "cut groove visible on right side of stump base",
+   "start_s": 0.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "saw left side of stump base",
+   "cannot_see": "whether cuts meet through the trunk",
+   "checkpoint_visibility": "clear",
+   "end_s": 9.0,
+   "evidence_s": 6.0,
+   "index": 1,
+   "objects": [
+    "chainsaw",
+    "standing tree stump"
+   ],
+   "observable_checkpoint": "person moved to opposite side with sawdust spraying from left side of stump base",
+   "pass_condition": "cut marks encircle lower stump base",
+   "start_s": 4.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "pull wood block from stump slot",
+   "cannot_see": "none",
+   "checkpoint_visibility": "clear",
+   "end_s": 13.0,
+   "evidence_s": 11.0,
+   "index": 2,
+   "objects": [
+    "cut wood block",
+    "standing tree stump"
+   ],
+   "observable_checkpoint": "rectangular wood block lifted out of vertical slot by hand and tossed aside leaving empty slot",
+   "pass_condition": "slot in stump is empty and block is separated",
+   "start_s": 9.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "saw front lower stump",
+   "cannot_see": "exact depth of cut inside wood",
+   "checkpoint_visibility": "clear",
+   "end_s": 26.0,
+   "evidence_s": 22.0,
+   "index": 3,
+   "objects": [
+    "chainsaw",
+    "standing tree stump"
+   ],
+   "observable_checkpoint": "chainsaw bar pressed into front lower stump with sawdust falling to snow",
+   "pass_condition": "horizontal cut visible on front of stump",
+   "start_s": 17.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "saw rear lower stump",
+   "cannot_see": "whether cut fully frees the upper section",
+   "checkpoint_visibility": "clear",
+   "end_s": 31.0,
+   "evidence_s": 29.0,
+   "index": 4,
+   "objects": [
+    "chainsaw",
+    "standing tree stump"
+   ],
+   "observable_checkpoint": "person moved to opposite side sawing rear lower stump with sawdust spray",
+   "pass_condition": "cut visible on rear side matching front cut",
+   "start_s": 27.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "crosscut top of stump to sever round",
+   "cannot_see": "whether chain binds inside cut",
+   "checkpoint_visibility": "clear",
+   "end_s": 40.0,
+   "evidence_s": 36.0,
+   "index": 5,
+   "objects": [
+    "chainsaw",
+    "standing tree stump"
+   ],
+   "observable_checkpoint": "horizontal cut across top of stump then round top section tips and falls to snow",
+   "pass_condition": "round top separated from legged base",
+   "start_s": 31.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "saw severed round on snow",
+   "cannot_see": "final thickness uniformity of the round",
+   "checkpoint_visibility": "clear",
+   "end_s": 47.0,
+   "evidence_s": 44.0,
+   "index": 6,
+   "objects": [
+    "chainsaw",
+    "severed log round"
+   ],
+   "observable_checkpoint": "chainsaw cutting into round log lying on its side in snow with sawdust",
+   "pass_condition": "cut marks and sawdust on fallen round",
+   "start_s": 40.0,
+   "self_check": "observed"
+  },
+  {
+   "action": "lift and position round onto base",
+   "cannot_see": "stability of assembled stool",
+   "checkpoint_visibility": "clear",
+   "end_s": 60.0,
+   "evidence_s": 57.0,
+   "index": 7,
+   "objects": [
+    "severed log round",
+    "standing tree stump"
+   ],
+   "observable_checkpoint": "round top lifted by both hands, turned and set onto two-legged base",
+   "pass_condition": "round sits atop legged base forming stool shape",
+   "start_s": 51.0,
+   "self_check": "observed"
+  }
+ ],
+ "task": "cut a standing stump into a stool with a chainsaw",
+ "track": [
+  "chainsaw",
+  "standing tree stump",
+  "severed log round",
+  "cut wood block"
+ ],
+ "uncertainty": "exact cut sequence around base is inferred from body position and sawdust; edit near 47s obscures continuity of reassembly",
+ "_source": {
+  "video": "clip.mp4",
+  "file_id": "file-1868695090790141",
+  "usage": {
+   "input_tokens": 16984,
+   "input_tokens_details": {
+    "cache_write_tokens": null,
+    "cached_tokens": 0
+   },
+   "output_tokens": 3802,
+   "output_tokens_details": {
+    "reasoning_tokens": 2821
+   },
+   "total_tokens": 20786
+  }
+ }
+}

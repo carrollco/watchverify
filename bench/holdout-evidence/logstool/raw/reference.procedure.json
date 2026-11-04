@@ -1,0 +1,195 @@
+{
+ "id": "resp_6aead0afe4063406d3654d55",
+ "access_programs": null,
+ "created_at": 1793773743.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aead0afe4063406d3654d55:rs_1357cb18-937d-4a3b-a29c-d36d8a99d667",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_2b8fd486-4b38-4116-8f58-d42e21cde993",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"loud two-stroke chainsaw engine idling, revving, and wood-cutting buzz with sawdust spray; no voices\",\"objects_seen\": [\"person\", \"chainsaw\", \"standing tree stump\", \"severed log round\", \"cut wood block\", \"snow\", \"trees\"],\"speech_heard\": \"none\",\"steps\": [{\"action\": \"saw right side of stump base\",\"cannot_see\": \"exact depth of cut inside wood\",\"checkpoint_visibility\": \"clear\",\"end_s\": 4.0,\"evidence_s\": 2.0,\"index\": 0,\"objects\": [\"chainsaw\", \"standing tree stump\"],\"observable_checkpoint\": \"sawdust plume spraying from right side of lower stump and fresh cut groove\",\"pass_condition\": \"cut groove visible on right side of stump base\",\"start_s\": 0.0}, {\"action\": \"saw left side of stump base\",\"cannot_see\": \"whether cuts meet through the trunk\",\"checkpoint_visibility\": \"clear\",\"end_s\": 9.0,\"evidence_s\": 6.0,\"index\": 1,\"objects\": [\"chainsaw\", \"standing tree stump\"],\"observable_checkpoint\": \"person moved to opposite side with sawdust spraying from left side of stump base\",\"pass_condition\": \"cut marks encircle lower stump base\",\"start_s\": 4.0}, {\"action\": \"pull wood block from stump slot\",\"cannot_see\": \"none\",\"checkpoint_visibility\": \"clear\",\"end_s\": 13.0,\"evidence_s\": 11.0,\"index\": 2,\"objects\": [\"cut wood block\", \"standing tree stump\"],\"observable_checkpoint\": \"rectangular wood block lifted out of vertical slot by hand and tossed aside leaving empty slot\",\"pass_condition\": \"slot in stump is empty and block is separated\",\"start_s\": 9.0}, {\"action\": \"saw front lower stump\",\"cannot_see\": \"exact depth of cut inside wood\",\"checkpoint_visibility\": \"clear\",\"end_s\": 26.0,\"evidence_s\": 22.0,\"index\": 3,\"objects\": [\"chainsaw\", \"standing tree stump\"],\"observable_checkpoint\": \"chainsaw bar pressed into front lower stump with sawdust falling to snow\",\"pass_condition\": \"horizontal cut visible on front of stump\",\"start_s\": 17.0}, {\"action\": \"saw rear lower stump\",\"cannot_see\": \"whether cut fully frees the upper section\",\"checkpoint_visibility\": \"clear\",\"end_s\": 31.0,\"evidence_s\": 29.0,\"index\": 4,\"objects\": [\"chainsaw\", \"standing tree stump\"],\"observable_checkpoint\": \"person moved to opposite side sawing rear lower stump with sawdust spray\",\"pass_condition\": \"cut visible on rear side matching front cut\",\"start_s\": 27.0}, {\"action\": \"crosscut top of stump to sever round\",\"cannot_see\": \"whether chain binds inside cut\",\"checkpoint_visibility\": \"clear\",\"end_s\": 40.0,\"evidence_s\": 36.0,\"index\": 5,\"objects\": [\"chainsaw\", \"standing tree stump\"],\"observable_checkpoint\": \"horizontal cut across top of stump then round top section tips and falls to snow\",\"pass_condition\": \"round top separated from legged base\",\"start_s\": 31.0}, {\"action\": \"saw severed round on snow\",\"cannot_see\": \"final thickness uniformity of the round\",\"checkpoint_visibility\": \"clear\",\"end_s\": 47.0,\"evidence_s\": 44.0,\"index\": 6,\"objects\": [\"chainsaw\", \"severed log round\"],\"observable_checkpoint\": \"chainsaw cutting into round log lying on its side in snow with sawdust\",\"pass_condition\": \"cut marks and sawdust on fallen round\",\"start_s\": 40.0}, {\"action\": \"lift and position round onto base\",\"cannot_see\": \"stability of assembled stool\",\"checkpoint_visibility\": \"clear\",\"end_s\": 60.0,\"evidence_s\": 57.0,\"index\": 7,\"objects\": [\"severed log round\", \"standing tree stump\"],\"observable_checkpoint\": \"round top lifted by both hands, turned and set onto two-legged base\",\"pass_condition\": \"round sits atop legged base forming stool shape\",\"start_s\": 51.0}],\"task\": \"cut a standing stump into a stool with a chainsaw\",\"track\": [\"chainsaw\", \"standing tree stump\", \"severed log round\", \"cut wood block\"],\"uncertainty\": \"exact cut sequence around base is inferred from body position and sawdust; edit near 47s obscures continuity of reassembly\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793773743.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "additionalProperties": false,
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "type": "object"
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 16984,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3802,
+  "output_tokens_details": {
+   "reasoning_tokens": 2821
+  },
+  "total_tokens": 20786
+ },
+ "user": null,
+ "store": true
+}

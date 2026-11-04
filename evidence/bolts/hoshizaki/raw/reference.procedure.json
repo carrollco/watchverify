@@ -1,0 +1,195 @@
+{
+ "id": "resp_6aeab24203ab69b8a5bc4900",
+ "access_programs": null,
+ "created_at": 1793765954.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You turn a video of a hands-on task into a step procedure with evidence. Every step names what the camera can see that proves it was done, and names what the camera cannot verify. Use the video's timeline in seconds. Be concrete: nouns a segmentation model could track. Rate each checkpoint's visibility honestly: a checkpoint you know only from the narration is narration_only, even if the step surely happened. One step per place or part: when the hands move to a different edge, side, corner or part, start a new step, even if the action repeats, so that skipping any one place shows as a missing step. Only steps the hands perform on the task: leave out title cards, screenshots, on-screen text, graphics or animations drawn over the video, close-ups that only show a label, and pointing at parts.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeab24203ab69b8a5bc4900:rs_ff36b1ea-d28e-40b2-bb77-74cc029fe806",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_bab1380a-d046-4dbc-9e84-3801372a46a7",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"audio_notes\": \"sharp mechanical clicks from torque wrench with each tightening, faint room hum\",\"objects_seen\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\", \"gray motor\", \"auger shaft\", \"white evaporator tube\", \"Loctite 243 bottle\", \"small screws\", \"socket\", \"black work table\", \"ice machine\", \"gloves\"],\"speech_heard\": \"You want to tighten these in a cross pattern. Don't choke up on it, hold it out toward the end to give you proper leverage. When it clicks, go to the one across from it. Then go clockwise around. Then go around again to be sure they're all torqued evenly.\",\"steps\": [{\"action\": \"tighten bolt\", \"cannot_see\": \"exact torque value applied inside threads\", \"checkpoint_visibility\": \"clear\", \"end_s\": 12.0, \"evidence_s\": 6.0, \"index\": 0, \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on front bolt of brass housing and turned\", \"pass_condition\": \"bolt turned until wrench clicks\", \"start_s\": 0.0}, {\"action\": \"tighten opposite bolt\", \"cannot_see\": \"exact torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 21.0, \"evidence_s\": 17.0, \"index\": 1, \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on second bolt across from first and turned\", \"pass_condition\": \"bolt turned until wrench clicks\", \"start_s\": 12.0}, {\"action\": \"tighten side bolt\", \"cannot_see\": \"thread engagement depth\", \"checkpoint_visibility\": \"clear\", \"end_s\": 31.0, \"evidence_s\": 27.0, \"index\": 2, \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on side bolt of brass housing and turned\", \"pass_condition\": \"bolt seated and wrench clicks\", \"start_s\": 21.0}, {\"action\": \"tighten remaining bolt\", \"cannot_see\": \"exact torque value applied\", \"checkpoint_visibility\": \"clear\", \"end_s\": 41.0, \"evidence_s\": 37.0, \"index\": 3, \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on remaining bolt and turned clockwise\", \"pass_condition\": \"bolt turned until wrench clicks\", \"start_s\": 31.0}, {\"action\": \"re-check bolts clockwise\", \"cannot_see\": \"whether internal clamping force is even\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 55.0, \"evidence_s\": 50.0, \"index\": 4, \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench moved sequentially around each bolt for second pass\", \"pass_condition\": \"each bolt re-engaged with no further turning before click\", \"start_s\": 41.0}, {\"action\": \"re-check bolts again\", \"cannot_see\": \"exact final torque reading\", \"checkpoint_visibility\": \"subtle\", \"end_s\": 69.0, \"evidence_s\": 63.0, \"index\": 5, \"objects\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"observable_checkpoint\": \"torque wrench engaged on each bolt around housing for final verification\", \"pass_condition\": \"all bolts hold torque with wrench clicking\", \"start_s\": 55.0}], \"task\": \"torque the bearing housing bolts on the gearbox assembly in a cross pattern\", \"track\": [\"torque wrench\", \"bolt\", \"brass bearing housing\", \"silver gearbox housing\"], \"uncertainty\": \"small bolts are low resolution so exact bolt positions are inferred from hand and wrench placement; spoken torque specification value not clearly audible so torque value cannot be confirmed\"}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793765954.0,
+ "conversation": null,
+ "max_output_tokens": 6000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "auto",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "procedure",
+   "schema_": {
+    "type": "object",
+    "required": [
+     "task",
+     "steps",
+     "objects_seen",
+     "speech_heard",
+     "audio_notes",
+     "uncertainty",
+     "track"
+    ],
+    "properties": {
+     "audio_notes": {
+      "description": "non-speech sounds that carry information, or 'none'",
+      "type": "string"
+     },
+     "objects_seen": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "speech_heard": {
+      "description": "transcript of any speech in the audio track, or 'none'",
+      "type": "string"
+     },
+     "steps": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "description": "one verb phrase, what the hands do",
+         "type": "string"
+        },
+        "cannot_see": {
+         "description": "a property of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "checkpoint_visibility": {
+         "description": "clear: the checkpoint is plainly visible in the frames; subtle: visible only briefly, partly, small or occluded; narration_only: known from the speech, not visible",
+         "enum": [
+          "clear",
+          "subtle",
+          "narration_only"
+         ],
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "evidence_s": {
+         "description": "the second in this video where the checkpoint is best seen",
+         "type": "number"
+        },
+        "index": {
+         "type": "integer"
+        },
+        "objects": {
+         "description": "parts and tools involved, as concrete noun phrases a segmentation model can track",
+         "items": {
+          "type": "string"
+         },
+         "type": "array"
+        },
+        "observable_checkpoint": {
+         "description": "what a camera can see that shows the step was done",
+         "type": "string"
+        },
+        "pass_condition": {
+         "type": "string"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "index",
+        "start_s",
+        "end_s",
+        "action",
+        "objects",
+        "observable_checkpoint",
+        "pass_condition",
+        "cannot_see",
+        "checkpoint_visibility",
+        "evidence_s"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "task": {
+      "type": "string"
+     },
+     "track": {
+      "description": "up to four noun phrases, copied exactly from the steps' objects, whose position in the frame shows the task progressing: the tools first, then the parts that move; never hands or gloves, not the whole workpiece, not the background",
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "uncertainty": {
+      "type": "string"
+     }
+    },
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 19709,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3013,
+  "output_tokens_details": {
+   "reasoning_tokens": 2095
+  },
+  "total_tokens": 22722
+ },
+ "user": null,
+ "store": true
+}

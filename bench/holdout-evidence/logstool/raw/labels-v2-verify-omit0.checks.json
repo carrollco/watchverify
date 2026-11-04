@@ -1,0 +1,196 @@
+{
+ "id": "resp_6aeb1c8cc310dd47c2d14288",
+ "access_programs": null,
+ "created_at": 1793793164.0,
+ "error": null,
+ "incomplete_details": null,
+ "instructions": "You are given a reference procedure (an expert's steps, each with an observable checkpoint) and a video of another performance of the task. For every reference step, decide from the video alone whether its observable checkpoint is visible, and at what seconds. Judge only what is visible; properties that cannot be seen go in cannot_see, never into the status. Do not infer a step from neighboring steps or from the reference's timing: the performer may skip or reorder steps. List actions in the video that are not in the reference. Report every reference step exactly once, in reference order. When reference frames are given, they show what each step looks like in the expert's video; compare like with like. Use unclear when a subtle checkpoint might be present but you cannot tell. Judge a step by its result, what is different afterwards: when the result is visible but reached another way than the reference describes (another tool, by hand), use done_differently and say how in evidence. A similar action can happen more than once: give the clearest moment as observed_start_s to observed_end_s and list any other moment that could be this step in other_moments.",
+ "metadata": null,
+ "model": "muse-spark-1.3",
+ "object": "response",
+ "output": [
+  {
+   "id": "rs_6aeb1c8cc310dd47c2d14288:rs_e8f6eb52-4f90-4cf8-b5ff-c1c7eba216c7",
+   "summary": [],
+   "type": "reasoning",
+   "content": null,
+   "encrypted_content": null,
+   "status": "completed"
+  },
+  {
+   "id": "msg_84f7e82b-9a9c-4a8f-947c-245d139d260c",
+   "content": [
+    {
+     "annotations": [],
+     "text": "{\"checks\": [{\"cannot_see\": \"exact depth of cut inside wood\", \"evidence\": \"Video starts at 0s with vertical slot already cut in stump; no sawing on right side base with sawdust plume is shown. First visible action 0-5s is pulling block, not sawing.\", \"observed_end_s\": -1, \"observed_start_s\": -1, \"other_moments\": [], \"reference_step\": 0, \"status\": \"not_observed\"}, {\"cannot_see\": \"whether cuts meet through the trunk\", \"evidence\": \"No sawing from opposite/left side base with spray is shown. From 0s to 22s person works front then rear lower, not left side slot cut. Slot pre-exists.\", \"observed_end_s\": -1, \"observed_start_s\": -1, \"other_moments\": [], \"reference_step\": 1, \"status\": \"not_observed\"}, {\"cannot_see\": \"none\", \"evidence\": \"0-4.5s person bends over stump, pulls light rectangular wood block from vertical slot by hand, carries and tosses aside to left leaving empty slot visible.\", \"observed_end_s\": 4.5, \"observed_start_s\": 0.5, \"other_moments\": [], \"reference_step\": 2, \"status\": \"observed\"}, {\"cannot_see\": \"exact depth of cut inside wood\", \"evidence\": \"10-17s chainsaw bar pressed into front lower stump while bent over, sawing with sawdust, producing horizontal cut on front of stump.\", \"observed_end_s\": 17.0, \"observed_start_s\": 10.0, \"other_moments\": [], \"reference_step\": 3, \"status\": \"observed\"}, {\"cannot_see\": \"whether cut fully frees the upper section\", \"evidence\": \"19-21.5s person moved to opposite side of stump, sawing rear lower stump with chainsaw, matching front cut.\", \"observed_end_s\": 21.5, \"observed_start_s\": 19.0, \"other_moments\": [], \"reference_step\": 4, \"status\": \"observed\"}, {\"cannot_see\": \"whether chain binds inside cut\", \"evidence\": \"24-31s horizontal cut across top of stump with chainsaw, then top round section tips and falls to snow at ~30-31s separating from legged base.\", \"observed_end_s\": 31.0, \"observed_start_s\": 24.0, \"other_moments\": [], \"reference_step\": 5, \"status\": \"observed\"}, {\"cannot_see\": \"final thickness uniformity of the round\", \"evidence\": \"32-38.5s chainsaw cutting into round log lying on its side in snow with sawdust, repositioning round while cutting.\", \"observed_end_s\": 38.5, \"observed_start_s\": 32.0, \"other_moments\": [], \"reference_step\": 6, \"status\": \"observed\"}, {\"cannot_see\": \"stability of assembled stool\", \"evidence\": \"39.5-42.5s round top lifted by both hands, turned and set onto two-legged base, briefly forming stool shape.\", \"observed_end_s\": 42.5, \"observed_start_s\": 39.5, \"other_moments\": [], \"reference_step\": 7, \"status\": \"observed\"}], \"extra_actions\": [{\"action\": \"pushes assembled round off base back onto snow, disassembling stool\", \"end_s\": 44.0, \"start_s\": 43.0}, {\"action\": \"re-handles fallen round on snow, turning and lifting it by hand\", \"end_s\": 51.4, \"start_s\": 44.5}], \"notes\": \"Video begins mid-procedure with side-slot cuts for steps 0-1 already completed; steps 2-7 are performed in reference order.\", \"same_task\": true}",
+     "type": "output_text",
+     "logprobs": []
+    }
+   ],
+   "role": "assistant",
+   "status": "completed",
+   "type": "message",
+   "phase": null
+  }
+ ],
+ "parallel_tool_calls": true,
+ "temperature": 1.0,
+ "tool_choice": "auto",
+ "tools": [],
+ "top_p": 1.0,
+ "background": false,
+ "completed_at": 1793793164.0,
+ "conversation": null,
+ "max_output_tokens": 12000,
+ "max_tool_calls": null,
+ "moderation": null,
+ "previous_response_id": null,
+ "prompt": null,
+ "prompt_cache_diagnostics": null,
+ "prompt_cache_key": null,
+ "prompt_cache_options": null,
+ "prompt_cache_retention": null,
+ "reasoning": {
+  "context": null,
+  "effort": "medium",
+  "generate_summary": null,
+  "mode": null,
+  "summary": null
+ },
+ "safety_identifier": null,
+ "service_tier": "default",
+ "status": "completed",
+ "text": {
+  "format": {
+   "name": "video_verification",
+   "schema_": {
+    "required": [
+     "same_task",
+     "checks",
+     "extra_actions",
+     "notes"
+    ],
+    "type": "object",
+    "properties": {
+     "checks": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "cannot_see": {
+         "description": "properties of this step the camera cannot verify, or 'none'",
+         "type": "string"
+        },
+        "evidence": {
+         "description": "what is visible that supports the status, with seconds",
+         "type": "string"
+        },
+        "observed_end_s": {
+         "description": "-1 if not observed",
+         "type": "number"
+        },
+        "observed_start_s": {
+         "description": "seconds in the candidate video where the step starts, -1 if not observed",
+         "type": "number"
+        },
+        "other_moments": {
+         "description": "other stretches where this step's checkpoint may also be what is seen (a similar action at another time), besides observed_start_s to observed_end_s; empty if none",
+         "items": {
+          "additionalProperties": false,
+          "properties": {
+           "end_s": {
+            "type": "number"
+           },
+           "start_s": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "start_s",
+           "end_s"
+          ],
+          "type": "object"
+         },
+         "type": "array"
+        },
+        "reference_step": {
+         "type": "integer"
+        },
+        "status": {
+         "description": "observed: the step's observable checkpoint is visible in the video; done_differently: the step's result is visible but reached another way than the reference says (another tool, by hand); not_observed: the video was watched and the checkpoint never appears; unclear: cannot tell",
+         "enum": [
+          "observed",
+          "done_differently",
+          "not_observed",
+          "unclear"
+         ],
+         "type": "string"
+        }
+       },
+       "required": [
+        "reference_step",
+        "status",
+        "observed_start_s",
+        "observed_end_s",
+        "other_moments",
+        "evidence",
+        "cannot_see"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "extra_actions": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "action": {
+         "type": "string"
+        },
+        "end_s": {
+         "type": "number"
+        },
+        "start_s": {
+         "type": "number"
+        }
+       },
+       "required": [
+        "start_s",
+        "end_s",
+        "action"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "notes": {
+      "type": "string"
+     },
+     "same_task": {
+      "type": "boolean"
+     }
+    },
+    "additionalProperties": false
+   },
+   "type": "json_schema",
+   "description": null,
+   "strict": true
+  },
+  "verbosity": null
+ },
+ "top_logprobs": 0,
+ "truncation": "disabled",
+ "usage": {
+  "input_tokens": 16993,
+  "input_tokens_details": {
+   "cache_write_tokens": null,
+   "cached_tokens": 625
+  },
+  "output_tokens": 2524,
+  "output_tokens_details": {
+   "reasoning_tokens": 1686
+  },
+  "total_tokens": 19517
+ },
+ "user": null,
+ "store": true
+}
