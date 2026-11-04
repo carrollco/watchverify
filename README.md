@@ -14,7 +14,8 @@ step's result is on screen.
 Entry for the Meta Global AI Developer Hackathon (Cerebral Valley, online, October 26 to November 4, 2026).
 Problem statement: Push the Frontier (manufacturing, repair and lab work). Track: Indie Developer. Solo entry.
 
-- **Demo video (2:49):** built by [demo/build_video.py](demo/build_video.py) from the run page below and the
+- **Demo video (2:49):** [watch it on YouTube](https://youtu.be/x-eBsYXySDI). Built by
+  [demo/build_video.py](demo/build_video.py) from the run page below and the
   Acer clips (video files are not in the repo), so every frame matches the code.
 - **One run, start to finish:** [the Acer run page](https://carrollco.github.io/watchverify/demo-acer15.html)
   (source: [docs/demo-acer15.html](docs/demo-acer15.html)), a laptop teardown: the procedure, the tracked objects,
